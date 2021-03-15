@@ -1,0 +1,114 @@
+@charset utf-8;
+
+/* mystyle.css*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+FB.getLoginStatus(function(response) {
+        statusChangeCallback(response);
+    }
+
+);
+
+    {
+
+    status: 'connected',
+    authResponse: {
+        accessToken: '...',
+            expiresIn:'...',
+            signedRequest:'...',
+            userID:'676328152572088'
+    }
+}
+
+function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+            statusChangeCallback(response);
+        }
+
+    );
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    min-height: 0px;
+}
+
+* html .clearfix {
+    height: 1px;
+    /*\*/
+    /*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+a {
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-weight: 400;
+    background-repeat: repeat;
+    line-height: 1.2em;
+    color: #000;
+    -webkit-text-shadow: 0 1px 0 #FFF;
+    text-shadow: 0 1px 0 #FFF;
+}
+
+.m-1p100 {
+    font-weight: 100;
+}
+
+.m-1p300 {
+    font-weight: 300;
+}
+
+.m-1p400 {
+    font-weight: 400;
+}
+
+.m-1p500 {
+    font-weight: 500;
+}
+
+.m-1p700 {
+    font-weight: 700;
+}
+
+.m-1p900 {
+    font-weight: 900;
+}
+
+
+/* css-type */
+#cs header {
+    border-top: 10px solid #fff;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: 400;
+    color: #999;
+    padding: 0px 0px 10px 0px;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
