@@ -14,7 +14,7 @@ Toxic varnish liquid　English : varnish　French : vernis　Italian : vernice
 #### The world's oldest lacquer burial objects.  B.C.7000　Japan　　
 B.C.5000　Chaina
 
-The way in which lacquer burial objects are made in Japan is very similar to the way in which paper wasps' nest are made.
+The way in which the world's oldest lacquer burial objects are made in Japan is very similar to the way in which paper wasps' nest are made.
 
 ![paper wasp](images/top/paper-wasp.jpg)
 
