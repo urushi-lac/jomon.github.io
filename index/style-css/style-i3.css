@@ -79,6 +79,8 @@ nav {
     height: 250px;
     padding: 9px 0px 0px 0px;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .inner {
@@ -159,6 +161,18 @@ footer b img {
         height: 135px;
     }
 
+    h1 {
+        font-size: 380%;
+        padding: 70px 0px 25px 0px;
+    }
+
+    p1 {
+        font-size: 100%;
+        font-weight: 400;
+        line-height: 2em;
+    }
+
+
     .photo s1 img {
         width: auto;
         height: 150px;
@@ -215,8 +229,19 @@ footer b img {
         height: 130px;
     }
 
+    h1 {
+        font-size: 350%;
+        padding: 60px 0px 20px 0px;
+    }
+
     h2 {
         font-size: 80%;
+    }
+
+    p1 {
+        font-size: 80%;
+        font-weight: 400;
+        line-height: 2em;
     }
 
     footer b img {
@@ -304,12 +329,23 @@ footer b img {
         height: 100px;
     }
 
+    h1 {
+        font-size: 300%;
+        padding: 30px 0px 15px 0px;
+    }
+
     h2 {
         font-size: 90%;
     }
 
     h3 {
         font-size: 100%;
+    }
+
+    p1 {
+        font-size: 80%;
+        font-weight: 400;
+        line-height: 1.8em;
     }
 
     .photo s1 img {
@@ -344,12 +380,23 @@ footer b img {
         height: 75px;
     }
 
+    h1 {
+        font-size: 200%;
+        padding: 15px 0px 10px 0px;
+    }
+
     h2 {
         font-size: 85%;
     }
 
     h3 {
         font-size: 95%;
+    }
+
+    p1 {
+        font-size: 75%;
+        font-weight: 400;
+        line-height: 1.5em;
     }
 
     .photo s1 img {

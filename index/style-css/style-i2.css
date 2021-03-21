@@ -93,15 +93,17 @@ body {
 
 /* css-type */
 #cs header {
-    border-top: 10px solid #fff;
+    border-top: 10 px solid #fff;
     margin-bottom: 0px;
 }
 
 h1 {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 200%;
+    font-size: 400%;
     font-weight: 400;
-    padding: 50px 0px 30px 0px;
+    padding: 80px 0px 30px 0px;
+    position: relative;
+    z-index: 2;
 }
 
 
@@ -120,4 +122,13 @@ h3 {
     margin: 0;
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
+}
+
+p1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 2em;
+    position: relative;
+    z-index: 2;
 }
