@@ -5,7 +5,7 @@
 
 #### ***Toxicodendron urushi lac*** Hiroyuki Watanabe
 ```
-lac : Latin : milk latex. lacquer.  French : laque.　Italian : lacca.
+Latin : lac.  Engrish : milk latex. lacquer.  French : laque.　Italian : lacca.
 ```
 
 #### ***Toxicodendron vernicifluum***  (Stokes) F.A. Barkley
