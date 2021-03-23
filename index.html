@@ -39,6 +39,29 @@ HTML5タグのIE8以前のブラウザ対応
 </head>
 
 <body id="cs">
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '{676328152572088}',
+                cookie: true,
+                xfbml: true,
+                version: '{latest-api-version}'
+            });
+            FB.AppEvents.logPageView();
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/ja_JP/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    </script>
     <header>
         <div id="home">
             <b class="m-1p300">Since1987 </b>
@@ -128,34 +151,6 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
         });
 
     </script>
-
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                appId: '{your-app-id}',
-                cookie: true,
-                xfbml: true,
-                version: '{latest-api-version}'
-            });
-            FB.AppEvents.logPageView();
-        };
-
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-
-    </script>
-
-    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-    </fb:login-button>
-
 
 </body>
 

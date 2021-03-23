@@ -2,7 +2,7 @@
 
 /* CSS Document */
 
-< !-- #home {
+#home {
     font-size: 100%;
     font-weight: 100;
     color: #000;
@@ -121,7 +121,7 @@ footer b {
 
 @media only screen and (max-width: 880px) {
 
-    < !-- #home {
+     #home {
         font-size: 80%;
         font-weight: 100;
         color: #000;

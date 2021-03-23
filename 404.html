@@ -69,7 +69,7 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
                 <li><a href="sorry/sorry.html">Gallery Shop</a></li>
             </h2>
             <h2>
-                <li><a href="/index/blog/blog%20-%20e.html">Blog</a></li>
+                <li><a href="index/blog/blog%20-%20e.html">Blog</a></li>
             </h2>
             <h2>
                 <li><a href="index/contact/e-address-urawa .html">Contact</a></li>
@@ -79,8 +79,9 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
 
      <div id="box1">
       <center>
-          <h1>404  Not Found
-          </h1><br>
+
+          <h1>404 Not Found</h1><br>
+
         </center>
       </div>
 
@@ -89,9 +90,8 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
         <div class="inner">
             <div class="content">
                 <div class="photo">
-                    <s1><img src="images/top/jomon.jpg" alt="jomon/picture-yumi" /></s1>
-                    <center><p1>すみません<br>
-                        Sorry.</p1></center>
+                    <s1><img src="images/top/jomon.png" alt="jomon/picture-yumi" /></s1>
+                    <center><p1> Sorry.</p1></center>
                 </div>
             </div>
         </div>
@@ -140,34 +140,6 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
         });
 
     </script>
-
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                appId: '{your-app-id}',
-                cookie: true,
-                xfbml: true,
-                version: '{latest-api-version}'
-            });
-            FB.AppEvents.logPageView();
-        };
-
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-
-    </script>
-
-    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-    </fb:login-button>
-
 
 </body>
 
