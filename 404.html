@@ -10,7 +10,7 @@
     <meta property="og:title" content="Urushi report at Hiroyuki Watanabe workroom.|e-top" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://urushi-watanabe.com/index.html" />
-    <meta property="og:image" content="https://urushi-watanabe.com/images/top/red-wan-og.jpg" />
+    <meta property="og:image" content="https://urushi-watanabe.com/images/top/red-wan-og.png" />
     <meta property="og:image:secure_url" content="https://urushi-watanabe.com/images/exhibition/e-2-og.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -45,7 +45,7 @@ HTML5タグのIE8以前のブラウザ対応
             <p class="m-1p300"><a href="index.html">/ 日本語</a></p>
             <div class="photo">
                 <center>
-                    <s><a href="index-e.html"><img src="images/top/top.jpg" width="245" height="40" border="0" alt="渡辺博之漆部屋便り｜logo" /></a></s>
+                    <s><a href="index-e.html"><img src="images/top/top.png" width="245" height="40" border="0" alt="渡辺博之漆部屋便り｜logo" /></a></s>
                 </center>
             </div>
         </div>
@@ -78,13 +78,13 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
         </ul>
     </nav>
 
-     <div id="box1">
-      <center>
+    <div id="box1">
+        <center>
 
-          <h1>404 Not Found</h1><br>
+            <h1>404 Not Found</h1><br>
 
         </center>
-      </div>
+    </div>
 
 
     <div class="box">
@@ -92,11 +92,14 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
             <div class="content">
                 <div class="photo">
                     <s1><img src="images/top/jomon.png" alt="jomon/picture-yumi" /></s1>
-                    <center><p1> Sorry.</p1></center>
+                    <center>
+                        <p1> Sorry.</p1>
+                    </center>
                 </div>
             </div>
         </div>
     </div>
+
 
     <footer>
 
@@ -104,7 +107,7 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
             <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank"><img src="images/top/a.png" alt="amebloimage" width="20" height="20" border="0" /></a></s2>
             <s3><a href="https://twitter.com/hiro_w2011" target="_blank"><img src="images/top/Twitter.png" alt="twitterlogo" width="20" height="20" border="0" /></a>
                 <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank"><img src="images/top/facebook.png" alt="facebooklogo" width="20" height="20" border="0" /></a></s3>
-            <b><img src="images/top/c.jpg" width="auto" height="18" alt="hiroyuki-yumicopyright(c)" /></b>
+            <b><img src="images/top/c.png" width="auto" height="18" alt="hiroyuki-yumicopyright(c)" /></b>
         </div>
     </footer>
     <!--[if lt IE 9]>
@@ -113,12 +116,12 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="jquery.smoothScroll.js"></script>
     <script type="text/javascript">
-        $(function() {
-            $("#toggle").click(function() {
+        $(function () {
+            $("#toggle").click(function () {
                 $("#menu").slideToggle();
                 return false;
             });
-            $(window).resize(function() {
+            $(window).resize(function () {
                 var win = $(window).width();
                 var p = 480;
                 if (win > p) {
@@ -129,16 +132,15 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
             });
         });
         /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-        $(function() {
+        $(function () {
             var win = $(window).width();
             var p = 480;
-            if (win < p) $(function() {
-                $("#menu li a").click(function() {
+            if (win < p) $(function () {
+                $("#menu li a").click(function () {
                     $("#menu").hide();
                 });
             });
         });
-
     </script>
 
 </body>
