@@ -36,6 +36,8 @@ HTML5タグのIE8以前のブラウザ対応
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 
+
+
 </head>
 
 <body id="cs">
@@ -91,7 +93,7 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
         <div class="inner">
             <div class="content">
                 <div class="photo">
-                    <s1><img src="/images/top/jomon.png" alt="jomon/picture-yumi" /></s1>
+                    <s1><img src="images/top/jomon.png" alt="jomon/picture-yumi" /></s1>
                     <center>
                         <p1> Sorry.</p1>
                     </center>
@@ -116,12 +118,12 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="jquery.smoothScroll.js"></script>
     <script type="text/javascript">
-        $(function () {
-            $("#toggle").click(function () {
+        $(function() {
+            $("#toggle").click(function() {
                 $("#menu").slideToggle();
                 return false;
             });
-            $(window).resize(function () {
+            $(window).resize(function() {
                 var win = $(window).width();
                 var p = 480;
                 if (win > p) {
@@ -132,15 +134,16 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
             });
         });
         /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-        $(function () {
+        $(function() {
             var win = $(window).width();
             var p = 480;
-            if (win < p) $(function () {
-                $("#menu li a").click(function () {
+            if (win < p) $(function() {
+                $("#menu li a").click(function() {
                     $("#menu").hide();
                 });
             });
         });
+
     </script>
 
 </body>
