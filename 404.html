@@ -47,11 +47,7 @@ HTML5タグのIE8以前のブラウザ対応
             <p class="m-1p300"><a href="index.html">/ 日本語</a></p>
             <div class="photo">
                 <center>
-<<<<<<< HEAD
-                    <s><a href="index-e.html"><img src="images/top/top.png" width="245" height="40" border="0" alt="渡辺博之漆部屋便り｜logo" /></a></s>
-=======
                     <s><a href="index-e.html"><img src="images/top//top.png" width="245" height="40" border="0" alt="渡辺博之漆部屋便り｜logo" /></a></s>
->>>>>>> b5b72ced7e9611c9f58a3465f78f02416ddee092
                 </center>
             </div>
         </div>
@@ -115,39 +111,6 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
             <b><img src="images/top/c.png" width="auto" height="18" alt="hiroyuki-yumicopyright(c)" /></b>
         </div>
     </footer>
-    <!--[if lt IE 9]>
-<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="jquery.smoothScroll.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $("#toggle").click(function() {
-                $("#menu").slideToggle();
-                return false;
-            });
-            $(window).resize(function() {
-                var win = $(window).width();
-                var p = 480;
-                if (win > p) {
-                    $("#menu").show();
-                } else {
-                    $("#menu").hide();
-                }
-            });
-        });
-        /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-        $(function() {
-            var win = $(window).width();
-            var p = 480;
-            if (win < p) $(function() {
-                $("#menu li a").click(function() {
-                    $("#menu").hide();
-                });
-            });
-        });
-
-    </script>
 
 </body>
 
