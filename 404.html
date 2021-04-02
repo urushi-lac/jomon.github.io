@@ -28,6 +28,24 @@
     <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/index/style-css/style-i3.css">
     <link rel="shortcut icon" type="image/png" href="https://urushi-lac.github.io/jomon.github.io/images/top/misowanicon.png" />
     <link rel="apple-touch-icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/apple-touch-icon-precomposed.png" />
+    <script type="text/javascript">
+        var now = new Date();
+
+        function LoadProc() {
+            var target = document.getElementById("DateTimeDisp");
+
+            var Year = now.getFullYear();
+            var Month = now.getMonth() + 1;
+            var Date = now.getDate();
+            var Hour = now.getHours();
+            var Min = now.getMinutes();
+            var Sec = now.getSeconds();
+
+            target.innerHTML = Year + "-" + Month + "-" + Date + " / " + Hour + ":" + Min + ":" + Sec;
+        }
+
+    </script>
+
 </head>
 
 <body id="cs">
@@ -88,6 +106,8 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
     </div>
 
 
+
+
     <footer>
 
         <div id="footer">
@@ -96,6 +116,10 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
                 <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/facebook.png" alt="facebooklogo" width="20" height="20" border="0" /></a></s3>
             <b><img src="https://urushi-lac.github.io/jomon.github.io/images/top/c.png" width="auto" height="18" alt="hiroyuki-yumicopyright(c)" /></b>
         </div>
+        <body onload="LoadProc();">
+
+            <div id="DateTimeDisp"></div>
+        </body>
     </footer>
 
   <!--[if lt IE 9]>
