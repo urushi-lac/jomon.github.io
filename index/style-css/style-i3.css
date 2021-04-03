@@ -83,6 +83,15 @@ nav {
     z-index: 1;
 }
 
+.photo s0 img {
+    width: auto;
+    height: 250px;
+    padding: 9px 0px 0px 0px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
 .inner {
     position: absolute;
     top: 0;
