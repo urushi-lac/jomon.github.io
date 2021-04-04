@@ -1,7 +1,6 @@
 @charset "utf-8";
 
-/* mystyle.css*/
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
 
 .clearfix:after {
     content: ".";
