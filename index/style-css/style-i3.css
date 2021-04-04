@@ -183,6 +183,10 @@ footer b img {
         padding: 20px 0px 0px 0px;
     }
 
+    .photo s0 img {
+        height: 150px;
+        padding: 0px 0px 0px 0px;
+    }
 
     .photo s1 img {
         width: auto;
@@ -234,6 +238,10 @@ footer b img {
     .inner {
         width: 160px;
         height: 135px;
+    }
+
+    .photo s0 img {
+        height: 130px;
     }
 
     .photo s1 img {
@@ -361,6 +369,10 @@ footer b img {
         line-height: 1.8em;
     }
 
+    .photo s0 img {
+        height: 110px;
+    }
+
     .photo s1 img {
         width: auto;
         height: 110px;
@@ -411,6 +423,10 @@ footer b img {
         font-size: 75%;
         font-weight: 400;
         line-height: 1.5em;
+    }
+
+    .photo s0 img {
+        height: 100px;
     }
 
     .photo s1 img {
