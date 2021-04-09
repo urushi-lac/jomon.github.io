@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+/* mystyle.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
 .clearfix:after {
     content: ".";
     display: block;
