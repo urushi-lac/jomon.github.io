@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -26,7 +27,7 @@
   /**/
 }
 
-font-family： 'Noto Sans'、sans-serif;
+
 
 a {
     -webkit-text-shadow: none;
@@ -37,7 +38,7 @@ a {
 }
 
 body {
-    font-family： 'Noto Sans'、sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
     background-repeat: repeat;
     line-height: 1.2em;
@@ -96,7 +97,7 @@ h2 {
 }
 
 h3 {
-    font-family： 'Noto Sans'、sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 100%;
     font-weight: 400;
     color: #999;
