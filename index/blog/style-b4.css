@@ -1,0 +1,144 @@
+@charset utf-8;
+
+/* mystyle.css*/
+@font-face {
+  font-family: 'MyFont6';
+  src: local('Hiragino Sans GB W6');
+  src: url("/Library/Fonts/Hiragino Sans GB W6.otf")format('opentype');
+}
+@font-face {
+  font-family: 'MyFont3';
+  src: local('Hiragino Sans GB W3');
+  src: url("/Library/Fonts/Hiragino Sans GB W3.otf")format('opentype');
+}
+.clearfix:after {
+  content: ".";  
+  display: block;  
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+	min-height: 0px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+a {
+	-webkit-text-shadow: none;
+	text-shadow: none;
+	list-style-type:none;
+	text-decoration:none;
+	color:#000;
+	
+}
+
+body {
+	font-weight: 400;
+	background-repeat: repeat;
+	line-height: 1.2em;
+	color: #000;
+	-webkit-text-shadow: 0 1px 0 #FFF;
+	text-shadow: 0 1px 0 #FFF;
+}
+
+#cs h1 {
+	font-size: 200%;
+	
+	line-height: 2;
+	font-family: 'MyFont6';
+}
+h2 {
+	font-size: 200%;
+	
+	background-color:#FFF;
+	border-left: 5px solid #FFF;
+	color: #000;
+	line-height: 2;
+	font-family: 'MyFont3';
+}
+h3 {
+	font-size: 200%;
+	font-weight: 700;
+	color:#000;
+	line-height: 2;
+	font-family: 'Mplus 1p';
+}
+h4 {
+	font-size: 200%;
+	font-weight: 500;
+	line-height: 2;
+	padding: 30px 0px 0px 0px;
+	font-family: 'Mplus 1p';
+}
+h5 {
+	font-size: 200%;
+	font-weight: 400;
+	line-height: 2;
+	font-family: 'Mplus 1p';
+}
+h6 {
+	font-size: 200%;
+	font-weight: 300;
+	background-color: #FFF;
+	color: #000;
+	padding: 10px 0;
+	line-height: 2;
+	font-family: 'Mplus 1p';
+}
+h7 {
+	font-size: 200%;
+	font-family: 'Mplus 1p';
+  font-weight: 100;
+  line-height: 2;
+}
+m1 {
+	font-family: 'Mplus 1p';
+	font-size: 200%;
+	font-weight: 900;
+	line-height: 2;
+	
+}
+m2 {
+	font-family: 'Mplus 1p';
+	font-size: 200%;
+	font-weight: 800;
+	line-height: 2;
+}
+m3 {
+	font-family: 'Mplus 1p';
+	font-size: 200%;
+	font-weight: 700;
+	line-height: 2;
+}
+m4 {
+	font-family: 'Mplus 1p';
+	font-size: 200%;
+	font-weight: 500;
+	line-height: 2;
+}
+m5 {
+	font-family: 'Mplus 1p';
+	font-size: 200%;
+	font-weight: 400;
+	line-height: 2;
+}
+m6 {
+	font-family: 'Mplus 1p';
+	font-size: 200%;
+	font-weight: 300;
+	line-height: 2;
+}
+m7 {
+	font-family: 'Mplus 1p';
+	font-size: 200%;
+    font-weight: 100;
+    line-height: 2;
+}

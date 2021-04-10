@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+.wf-roundedmplus1p { font-family: "Rounded Mplus 1p"; }
+#home{
+	font-size:80%;
+	font-weight:100;
+	color:#000;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px 10px 25px 10px;	
+}
+#home p {
+	float:right;
+}
+#home s {
+	padding:30px 0px 25px 0px;
+}
+nav {
+	margin-bottom:5px;
+	background: #FFF;
+	padding:0;
+}
+#menu {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+#menu li{
+	display: block;
+	float: left;
+	width: 10%;
+	margin: 0;
+	padding: 0;
+}
+#menu li a {
+	display: block;
+	padding: 10px 0 10px;
+	background-color: #FFF;
+
+	text-align: center;
+	text-decoration: none;
+}
+#menu li:last-child a{
+	border: none;
+}
+#menu li a:hover{
+	background: #FFF;
+	font-size: 100%;
+	color:#999;
+}
+#toggle {
+	display: none;
+}
+.photo s img {
+	padding: 11px 0px 0px 0px;
+}
+.photo s1 img {
+	width: auto;
+	height: 230px;
+	padding: 35px 20px 20px 20px;
+}
+.photo s2 img {
+	width: 100%;
+	height: auto;
+	padding: 35px 0px 35px 0px;
+	}
+.side p{
+ width: auto;
+ height: 375px;	
+ display:inline-block;
+ vertical-align:top;
+ line-height:66px;/*画像の高さ÷テキストの行数*/
+ margin-left:auto;
+ margin-right:auto;
+}
+.side p1{
+	display:inline-block;
+	vertical-align:top;
+	line-height:30px;/*画像の高さ÷テキストの行数*/
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:20px;
+	padding-top:5px;
+	text-align: left;
+}	
+.info-box-tan {
+padding: 0px 0px 0px;
+}
+.info-box-dark {
+	padding: 50px 20px 10px 65px;
+	text-align: left;
+	line-height: 2;
+	left: 493px;
+}
+.col-md-one-half {
+		display:inline-block;
+}
+.col {
+	float: left;
+	padding: 0px 0px 0px;
+}
+#footer {
+	background-color:#FFF;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	margin-top: 40px;
+	padding-top:5px;
+}
+footer s2 img{
+	padding:0px 0px 0px 10px;
+}
+#footer b {
+	float: right;
+	padding:0px 15px 0px 0px;
+	}
+	
+@media only screen and (max-width: 768px) {
+#section {
+		max-width:768px;
+		min-height:480px;
+}
+nav {	
+	padding:0px 0px 0px 0px;
+}
+#menu li {
+		width: 20%;	
+}
+#menu {
+		display: none;
+}
+
+#toggle {
+		display: block;
+		position: relative;
+		width: 100%;
+		background: #FFF;
+}
+#toggle a{
+		display: block;
+		position: relative;
+		padding: 20px 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		font-size:120%;
+}
+#toggle:before {
+		display: block;
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 10px;
+		width: 30px;
+		height: 30px;
+		margin-top: -15px;
+		background: #FFF;
+}
+#toggle a:before, #toggle a:after {
+		display: block;
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 10px;
+		width: 30px;
+		height: 6px;
+		background: #FFF;
+}
+#toggle a:before {
+		margin-top:-9px;
+}
+#toggle a:after {
+		margin-top: 3px;
+}	
+.photo s1 img {
+	width: auto;
+	height: 230px;
+	padding:30px 0px 0px 0px;
+	text-align:center;
+}
+.photo s2 img {
+    width: 100%;
+	height: auto;
+	padding: 10px 0px 5px 0px;
+	}
+.side p1{
+	display:inline-block;
+	vertical-align:top;
+	line-height:30px;/*画像の高さ÷テキストの行数*/
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;	
+}	
+#cs p1 {
+	padding: 20px 0px 0px 0px;
+}
+
+.col-md-one-half {
+	width: 100%;
+}
+.col col-md-one-half {
+	width: 100%;	
+}
+.info-box-tan {
+	text-align:center;
+	width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+.info-box-dark {
+	width: 80%;
+	padding: 270px 0px 20px 0px;
+	line-height: 2;
+}	
+.col {
+
+	padding: 0px 0px 0px 0px;
+}
+
+}
+@media only screen and (max-width: 480px) {
+#section {
+		max-width:480px;
+		min-height:480px;
+}
+#home　b　p　{
+		padding:0px 5px 0px 5px;	
+}	
+#home　s{
+		padding:5px 5px 0px 5px;	
+}	
+nav {	
+	padding:0px 0px 0px 0px;
+}
+#menu li {
+		width: 100%;
+}
+#toggle a{
+		padding: 0px 0 20px;
+		font-weight:500;
+		font-size: 130%;
+}
+.photo s1 img {
+	width: 100%;
+	height: auto;
+	padding: 20px 0px 20px 0px;
+}
+.side p1{
+	display:inline-block;
+	vertical-align:top;
+	line-height:30px;/*画像の高さ÷テキストの行数*/
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5px;
+	}
+.side {
+	padding: 0px 20px 0px 20px;
+}
+.col-md-one-half {
+	width: 100%;
+}
+.info-box-tan {
+	width:90%;
+    padding: 0px 0px 0px 0px;
+}	
+.info-box-dark {
+	width:85%;
+	padding: 0px 20px 20px 20px;
+	line-height: 2;
+}
+.col {
+		padding: 0px 0px 0px 0px;		
+}
+.col col-md-one-half {
+	width: 100%;
+	}
+footer s2 img{
+	padding:0px 0px 0px 10px;
+}
+footer s3 img{
+	padding:0px 0px 0px 5px;
+}
+#footer b {
+	float: right;
+	padding:1px 10px 0px 0px;
+}
+}
+
+section {
+	width: 100%;
+	min-height:350px;
+	text-shadow:none;
+	padding: 10px 0px 10px 0px;
+}
+#葉書 {
+	background:#FFF;
+	max-width:960px;
+	padding: 20px 0px 0px 0px;
+}
+#中国漆木 {
+	background:#FFF;
+    max-width:960px;
+}
+#修理2 {
+	background:#FFF;
+
+max-width:960px;
+
+}
+#修理1 {
+	background:#FFF;
+	max-width:960px;
+}
+#乾漆椀 {
+	background:#FFF;
+	max-width:960px;
+}
+#box6 {
+	background:#FFF;
+	max-width:960px;
+}
+#box7 {
+	background:#FFF;
+	max-width:960px;
+}
+#box8 {
+	background:#FFF;
+	max-width:960px;
+}
+#box9 {
+	background:#FFF;
+	max-width:960px;
+}
+#box10 {
+	background:#FFF;
+	max-width:960px;
+	text-align:center;
+	
+}
+#リンク {
+	background:#FFF;
+	max-width:960px;
+	min-height:100px;
+}
+.col-md-one-half {
+	display:inline-block;
+}
+#page-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 77%;
+}
+#page-top a {
+    background: rgba(220,220,220,0.6);
+    text-decoration: none;
+	font-weight:300;
+    color:#666;
+    width: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+}
+#page-top a:hover {
+    text-decoration: none;
+	background: rgba(150,150,150,0.4);
+}
+.pred {
+	color: #F00;
+}
