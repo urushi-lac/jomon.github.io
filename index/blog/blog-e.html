@@ -62,7 +62,7 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
                 <h2>Date</h2>
             </a></div>
         <ul id="menu" class="">
-            <li><a href="#Authenticity">03-02</a></li>
+            <li><a href="#authenticity">03-02</a></li>
             <li><a href="#world intangible cultural heritage">01-11</a></li>
             <li><a href="#Memory of the World Programme">02-15</a></li>
             <li><a href="#box4">-</a></li>
@@ -76,7 +76,7 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
     </nav>
 
     <section id="authenticity">
-        <h1>authenticity</h1>
+        <h1>Authenticity</h1>
         <h5>2021-03-01-20:55</h5>
         <div class="row">
             <div class="photo">
@@ -180,12 +180,12 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://morobrand.net/mororeco/demo/jquery/responsive-menu2/jquery.smoothScroll.js"></script>
     <script type="text/javascript">
-        $(function() {
-            $("#toggle").click(function() {
+        $(function () {
+            $("#toggle").click(function () {
                 $("#menu").slideToggle();
                 return false;
             });
-            $(window).resize(function() {
+            $(window).resize(function () {
                 var win = $(window).width();
                 var p = 768;
                 if (win > p) {
@@ -196,26 +196,25 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
             });
         });
         /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-        $(function() {
+        $(function () {
             var win = $(window).width();
             var p = 768;
-            if (win < p) $(function() {
-                $("#menu li a").click(function() {
+            if (win < p) $(function () {
+                $("#menu li a").click(function () {
                     $("#menu").hide();
                 });
             });
         });
-
     </script>
 
     <script>
-        $(function() {
+        $(function () {
             var showFlag = false;
             var topBtn = $('#page-top');
             topBtn.css('bottom', '-100px');
             var showFlag = false;
             //スクロールが100に達したらボタン表示
-            $(window).scroll(function() {
+            $(window).scroll(function () {
                 if ($(this).scrollTop() > 200) {
                     if (showFlag == false) {
                         showFlag = true;
@@ -233,14 +232,13 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
                 }
             });
             //スクロールしてトップ
-            topBtn.click(function() {
+            topBtn.click(function () {
                 $('body,html').animate({
                     scrollTop: 0
                 }, 500);
                 return false;
             });
         });
-
     </script>
 
 </body>
