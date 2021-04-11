@@ -85,10 +85,10 @@ body {
 }
 
 #cs h1 {
-	font-size: 130%;
-	font-weight: 500;
+	font-size: 160%;
+	font-weight: 700;
 	line-height: 120%;
-	background-color: #efefef;
+	background-color: #f8f8f8;
 	background-repeat: no-repeat;
 	background-position: left 0px center;
 	color:#111;
@@ -153,7 +153,7 @@ h5 {
 	font-size: 90%;
 	font-weight: 400;
 	line-height: 120%;
-	background-color: #efefef;
+	background-color: #f8f8f8;
 	background-repeat: no-repeat;
 	background-position: left 0px center;
 	color: #555;
