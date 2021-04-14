@@ -4,28 +4,38 @@
 #home {
     font-size: 100%;
     font-weight: 300;
-    color: #000;
+    color: #666666;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 10px 25px 10px;
 }
 
 #home p {
-    font-weight: 100;
     font-size: 90%;
+    font-weight: 300;
+    color: #666666;
     float: right;
     padding: 0px 20px 0px 0px;
 }
 
 #home b {
     font-size: 90%;
+    font-weight: 300;
+    color: #666666;
+    padding: 0px 0px 0px 20px;
+}
+
+#home a {
+    font-size: 90%;
+    font-weight: 300;
+    color: #666666;
     padding: 0px 0px 0px 20px;
 }
 
 #home s img {
     width: 306px;
     height: 50px;
-    padding: 30px 0px 25px 0px;
+    padding: 29px 0px 25px 0px;
 }
 
 nav {
