@@ -165,6 +165,11 @@ footer b img {
         padding: 15px 8px 20px 8px;
     }
 
+    #home404 {
+        font-size: 80%;
+        padding: 15px 8px 20px 8px;
+    }
+
     #home p {
         font-size: 80%;
         padding: 0px 10px 0px 0px;
@@ -297,6 +302,11 @@ footer b img {
 @media only screen and (max-width: 480px) {
 
     #home {
+        font-size: 75%;
+        padding: 10px 0px 15px 0px;
+    }
+
+    #home404 {
         font-size: 75%;
         padding: 10px 0px 15px 0px;
     }
