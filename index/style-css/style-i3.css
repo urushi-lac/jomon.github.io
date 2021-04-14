@@ -47,6 +47,34 @@
     padding: 9px 10px 25px 10px;
 }
 
+#home404 p {
+    font-size: 90%;
+    font-weight: 300;
+    color: #666666;
+    float: right;
+    padding: 0px 20px 0px 0px;
+}
+
+#home404 b {
+    font-size: 90%;
+    font-weight: 300;
+    color: #666666;
+    padding: 0px 0px 0px 20px;
+}
+
+#home404 a {
+    font-size: 90%;
+    font-weight: 300;
+    color: #666666;
+    padding: 0px 0px 0px 20px;
+}
+
+#home404 s img {
+    width: 306px;
+    height: 50px;
+    padding: 30px 0px 25px 0px;
+}
+
 nav {
     margin-bottom: 5px;
     background: #FFF;
@@ -183,6 +211,22 @@ footer b img {
         padding: 11px 0px 25px 0px;
     }
 
+    #home404 p {
+        font-size: 80%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    #home404 b {
+        font-size: 80%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home404 s img {
+        width: 245px;
+        height: 40px;
+        padding: 11px 0px 25px 0px;
+    }
+
     nav {
         padding: 0px 0px 0px 0px;
     }
@@ -247,6 +291,12 @@ footer b img {
 @media only screen and (max-width: 768px) {
 
     #home s img {
+        width: 214px;
+        height: 35px;
+        padding: 11px 0px 20px 0px;
+    }
+
+    #home404 s img {
         width: 214px;
         height: 35px;
         padding: 11px 0px 20px 0px;
