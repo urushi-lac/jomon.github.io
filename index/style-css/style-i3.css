@@ -312,7 +312,17 @@ footer b img {
         padding: 0px 5px 0px 5px;
     }
 
+    #home404 b p {
+        padding: 0px 5px 0px 5px;
+    }
+
     #home s img {
+        width: 183px;
+        height: 30px;
+        padding: 5px 5px 0px 0px;
+    }
+
+    #home404 s img {
         width: 183px;
         height: 30px;
         padding: 5px 5px 0px 0px;
