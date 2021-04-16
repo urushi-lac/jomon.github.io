@@ -37,12 +37,6 @@ body {
 	-webkit-text-shadow: 0 1px 0 #FFF;
 	text-shadow: 0 1px 0 #FFF;
 }
-.m-1p100 {font-weight:100;}
-.m-1p300 {font-weight:300;}
-.m-1p400 {font-weight:400;}
-.m-1p500 {font-weight:500;}
-.m-1p700 {font-weight:700;}
-.m-1p900 {font-weight:900;}
 
 /* javascript-type */
 #jq header {
@@ -86,6 +80,7 @@ h2 {
 	margin:0;
 	font-family: 'Noto Sans JP', sans-serif;
 }
+
 h3 {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 400;
@@ -94,6 +89,7 @@ h3 {
 	text-align: center;
 	line-height:2em;
 }
+
 h4 {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 300;
@@ -103,6 +99,7 @@ h4 {
 	text-align: center;
 	line-height:2em;
 }
+
 h5 {
 	font-family:'Noto Sans JP', sans-serif;
 	font-size: 90%;
@@ -118,6 +115,7 @@ h5 {
 	-webkit-text-shadow: none;
 	text-shadow: none;
 }
+
 h6 {
 	font-family:'Noto Sans JP', sans-serif;
 	font-size: 100%;
@@ -126,6 +124,7 @@ h6 {
 	color: #000;
 	padding: 0px 20px 0px 20px;
 }
+
 #cs p1 {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 100%;
@@ -134,6 +133,7 @@ h6 {
 	padding: 0px 0px 0px 0px;
 	line-height:1.5em;;
 }
+
 #cs p2 {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 110%;
@@ -156,6 +156,7 @@ footer {
 	font-weight:bold;
 	clear:both;
 }
+
 pre {
 	background-color: #fff;
 	border: 1px solid #ccc;
