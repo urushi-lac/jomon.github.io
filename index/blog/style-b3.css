@@ -1,4 +1,7 @@
 @charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
 /* CSS Document */
 
 #home {
@@ -11,7 +14,7 @@
 }
 
 #home p {
-    font-size: 90%;
+    font-size: 100%;
     font-weight: 300;
     color: #666666;
     float: right;
@@ -19,14 +22,14 @@
 }
 
 #home b {
-    font-size: 90%;
+    font-size: 100%;
     font-weight: 300;
     color: #666666;
     padding: 0px 0px 0px 20px;
 }
 
 #home a {
-    font-size: 90%;
+    font-size: 100%;
     font-weight: 300;
     color: #666666;
     padding: 0px 0px 0px 20px;
@@ -157,18 +160,24 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        font-size: 80%;
+        font-size: 95%;
     }
 
     #home p {
-        font-size: 80%;
-        padding: 0px 10px 0px 0px;
+        font-size: 95%;
+        padding: 0px 15px 0px 0px;
     }
 
     #home b {
-        font-size: 80%;
-        padding: 0px 0px 0px 10px;
+        font-size: 95%;
+        padding: 0px 0px 0px 15px;
     }
+
+    #home a {
+        font-size: 95%;
+        padding: 0px 0px 0px 15px;
+    }
+
 
     #home s img {
         width: 245px;
@@ -329,14 +338,30 @@ footer b img {
         min-height: 480px;
     }
 
+    #home {
+        font-size: 90%;
+    }
+
+    #home p {
+        font-size: 90%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    #home b {
+        font-size: 90%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home a {
+        font-size: 90%;
+        padding: 0px 0px 0px 10px;
+    }
+
+
     #home s img {
         width: 214px;
         height: 35px;
         padding: 11px 0px 20px 0px;
-    }
-
-    nav {
-        padding: 0px 0px 0px 0px;
     }
 
     #menu li {
@@ -345,62 +370,6 @@ footer b img {
 
     #menu li a {
         padding: 7px 0 7px;
-    }
-
-    #menu {
-        display: none;
-    }
-
-    #toggle {
-        display: block;
-        position: relative;
-        width: 100%;
-        background: #FFF;
-
-    }
-
-    #toggle a {
-        display: block;
-        position: relative;
-        padding: 0px 0px 20px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 130%;
-        font-weight: 500;
-
-
-    }
-
-    #toggle:before {
-        display: block;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 30px;
-        margin-top: -15px;
-        background: #FFF;
-    }
-
-    #toggle a:before,
-    #toggle a:after {
-        display: block;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 6px;
-        background: #FFF;
-    }
-
-    #toggle a:before {
-        margin-top: -9px;
-    }
-
-    #toggle a:after {
-        margin-top: 3px;
     }
 
     .photo s1 img {
@@ -482,18 +451,29 @@ footer b img {
 }
 
 @media only screen and (max-width: 480px) {
-    #home {
-        font-size: 75%;
-        padding: 0px 0px 15px 0px;
-    }
 
     #section {
         max-width: 480px;
         min-height: 480px;
     }
 
-    #home b p {
-        padding: 0px 0px 0px 0px;
+    #home {
+        font-size: 80%;
+    }
+
+    #home p {
+        font-size: 80%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    #home b {
+        font-size: 80%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home a {
+        font-size: 80%;
+        padding: 0px 10px 0px 0px;
     }
 
     #home s img {
