@@ -186,8 +186,6 @@ footer b img {
     }
 
     nav {
-        margin-bottom: 5px;
-        background: #FFF;
         padding: 0px 0px 0px 0px;
     }
 
@@ -208,26 +206,6 @@ footer b img {
 
     #menu li a {
         font-size: 100%;
-        display: block;
-        padding: 10px 0 10px;
-        background-color: #FFF;
-
-        text-align: center;
-        text-decoration: none;
-    }
-
-    #menu li:last-child a {
-        border: none;
-    }
-
-    #menu li a:hover {
-        background: #FFF;
-        font-size: 100%;
-        color: #999;
-    }
-
-    #toggle {
-        display: none;
     }
 
     .photo s1 img {
@@ -458,22 +436,22 @@ footer b img {
     }
 
     #home {
-        font-size: 80%;
+        font-size: 85%;
     }
 
     #home p {
-        font-size: 80%;
-        padding: 0px 10px 0px 0px;
+        font-size: 85%;
+        padding: 0px 0px 0px 0px;
     }
 
     #home b {
-        font-size: 80%;
-        padding: 0px 0px 0px 10px;
+        font-size: 85%;
+        padding: 0px 0px 0px 0px;
     }
 
     #home a {
-        font-size: 80%;
-        padding: 0px 10px 0px 0px;
+        font-size: 85%;
+        padding: 0px 0px 0px 0px;
     }
 
     #home s img {
@@ -482,18 +460,61 @@ footer b img {
         padding: 5px 5px 0px 0px;
     }
 
-    nav {
-        padding: 0px 0px 0px 0px;
+ #menu {
+        display: none;
     }
 
     #menu li {
         width: 100%;
     }
 
+    #menu li a {
+        padding: 12px 0px 12px;
+    }
+
+    #toggle {
+        display: block;
+        position: relative;
+        width: 100%;
+        background: #FFF;
+    }
+
     #toggle a {
         padding: 0px 0 10px;
         font-weight: 300;
         font-size: 110%;
+    }
+
+    #toggle:before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        background: #FFF;
+    }
+
+    #toggle a:before,
+    #toggle a:after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 6px;
+        background: #FFF;
+    }
+
+    #toggle a:before {
+        margin-top: -9px;
+    }
+
+    #toggle a:after {
+        margin-top: 3px;
     }
 
     .photo s1 img {
