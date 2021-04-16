@@ -5,7 +5,7 @@
 /* CSS Document */
 
 #home {
-    font-size: 100%;
+    font-size: 95%;
     font-weight: 300;
     color: #666666;
     margin-left: auto;
@@ -14,7 +14,7 @@
 }
 
 #home p {
-    font-size: 100%;
+    font-size: 95%;
     font-weight: 300;
     color: #666666;
     float: right;
@@ -22,14 +22,14 @@
 }
 
 #home b {
-    font-size: 100%;
+    font-size: 95%;
     font-weight: 300;
     color: #666666;
     padding: 0px 0px 0px 20px;
 }
 
 #home a {
-    font-size: 100%;
+    font-size: 95%;
     font-weight: 300;
     color: #666666;
     padding: 0px 0px 0px 20px;
