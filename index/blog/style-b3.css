@@ -18,21 +18,21 @@
     font-weight: 300;
     color: #666666;
     float: right;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
 
 #home b {
     font-size: 95%;
     font-weight: 300;
     color: #666666;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 10px;
 }
 
 #home a {
     font-size: 95%;
     font-weight: 300;
     color: #666666;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 10px;
 }
 
 #home s img {
@@ -161,21 +161,22 @@ footer b img {
 
     #home {
         font-size: 95%;
+        padding: 0px 0px 20px 0px;
     }
 
     #home p {
         font-size: 95%;
-        padding: 0px 15px 0px 0px;
+        padding: 0px 10px 0px 0px;
     }
 
     #home b {
         font-size: 95%;
-        padding: 0px 0px 0px 15px;
+        padding: 0px 0px 0px 10px;
     }
 
     #home a {
         font-size: 95%;
-        padding: 0px 0px 0px 15px;
+        padding: 0px 0px 0px 10px;
     }
 
 
@@ -318,6 +319,7 @@ footer b img {
 
     #home {
         font-size: 90%;
+        padding: 0px 0px 0px 0px;
     }
 
     #home p {
@@ -335,11 +337,18 @@ footer b img {
         padding: 0px 0px 0px 10px;
     }
 
-
     #home s img {
         width: 214px;
         height: 35px;
         padding: 11px 0px 20px 0px;
+    }
+
+    nav {
+        padding: 0px 0px 20px 0px;
+    }
+
+    #menu {
+        display: none;
     }
 
     #menu li {
@@ -347,7 +356,52 @@ footer b img {
     }
 
     #menu li a {
-        padding: 7px 0 7px;
+        padding: 10px 0 10px;
+    }
+
+    #toggle {
+        display: block;
+        position: relative;
+        width: 100%;
+        background: #FFF;
+    }
+
+    #toggle a {
+        padding: 0px 0 10px;
+        font-weight: 300;
+        font-size: 110%;
+    }
+
+    #toggle:before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        background: #FFF;
+    }
+
+    #toggle a:before,
+    #toggle a:after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 6px;
+        background: #FFF;
+    }
+
+    #toggle a:before {
+        margin-top: -9px;
+    }
+
+    #toggle a:after {
+        margin-top: 3px;
     }
 
     .photo s1 img {
@@ -441,23 +495,27 @@ footer b img {
 
     #home p {
         font-size: 85%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 10px 0px 0px;
     }
 
     #home b {
         font-size: 85%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 10px;
     }
 
     #home a {
         font-size: 85%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 10px;
     }
 
     #home s img {
         width: 183px;
         height: 30px;
         padding: 5px 5px 0px 0px;
+    }
+
+    nav {
+        padding: 0px 0px 0px 0px;
     }
 
  #menu {
