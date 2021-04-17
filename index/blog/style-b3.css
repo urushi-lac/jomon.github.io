@@ -32,7 +32,7 @@
     font-size: 95%;
     font-weight: 300;
     color: #666666;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
 }
 
 #home s img {
@@ -110,9 +110,11 @@ nav {
 }
 
 .info-box-dark p3 a {
+    font-weight: 300;
     font-size: 70%;
     float: right;
     color: #005698;
+    padding: 10px 0px 0px 0px;
 }
 
 .col-md-one-half {
@@ -176,7 +178,7 @@ footer b img {
 
     #home a {
         font-size: 95%;
-        padding: 0px 0px 0px 10px;
+        padding: 0px 0px 0px 0px;
     }
 
 
@@ -318,22 +320,22 @@ footer b img {
     }
 
     #home {
-        font-size: 90%;
+        font-size: 88%;
         padding: 0px 0px 0px 0px;
     }
 
     #home p {
-        font-size: 90%;
+        font-size: 88%;
         padding: 0px 10px 0px 0px;
     }
 
     #home b {
-        font-size: 90%;
+        font-size: 88%;
         padding: 0px 0px 0px 10px;
     }
 
     #home a {
-        font-size: 90%;
+        font-size: 88%;
         padding: 0px 0px 0px 10px;
     }
 
@@ -486,25 +488,25 @@ footer b img {
 
     #section {
         max-width: 480px;
-        min-height: 480px;
+        min-height: 500px;
     }
 
     #home {
-        font-size: 85%;
+        font-size: 75%;
     }
 
     #home p {
-        font-size: 85%;
+        font-size: 75%;
         padding: 0px 10px 0px 0px;
     }
 
     #home b {
-        font-size: 85%;
+        font-size: 75%;
         padding: 0px 0px 0px 10px;
     }
 
     #home a {
-        font-size: 85%;
+        font-size: 75%;
         padding: 0px 0px 0px 10px;
     }
 
