@@ -7,7 +7,7 @@
 #home {
     font-size: 95%;
     font-weight: 300;
-    color: #666666;
+    color: #4d4d4d;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 10px 25px 10px;
@@ -16,7 +16,7 @@
 #home p {
     font-size: 95%;
     font-weight: 300;
-    color: #666666;
+    color: #4d4d4d;
     float: right;
     padding: 0px 10px 0px 0px;
 }
@@ -24,14 +24,14 @@
 #home b {
     font-size: 95%;
     font-weight: 300;
-    color: #666666;
+    color: #4d4d4d;
     padding: 0px 0px 0px 10px;
 }
 
 #home a {
     font-size: 95%;
     font-weight: 300;
-    color: #666666;
+    color: #4d4d4d;
     padding: 0px 0px 0px 0px;
 }
 
