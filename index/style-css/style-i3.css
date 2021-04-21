@@ -1,78 +1,36 @@
 @charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
 /* CSS Document */
 
 #home {
-    font-size: 100%;
     font-weight: 300;
-    color: #666666;
+    color: #4d4d4d;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 10px 25px 10px;
-}
-
-#home p {
-    font-size: 90%;
-    font-weight: 300;
-    color: #666666;
-    float: right;
-    padding: 0px 20px 0px 0px;
+    padding: 11px 10px 25px 10px;
 }
 
 #home b {
     font-size: 90%;
     font-weight: 300;
-    color: #666666;
-    padding: 0px 0px 0px 20px;
+    color: #4d4d4d;
+    padding: 0px 0px 0px 10px;
 }
 
-#home a {
-    font-size: 90%;
+#home p {
+    font-size: 95%;
     font-weight: 300;
-    color: #666666;
-    padding: 0px 0px 0px 20px;
+    color: #4d4d4d;
+    float: right;
+    padding: 0px 10px 0px 0px;
 }
 
 #home s img {
     width: 306px;
-    height: 50px;
-    padding: 30px 0px 25px 0px;
-}
-
-#home404 {
-    font-size: 100%;
-    font-weight: 300;
-    color: #666666;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 9px 10px 25px 10px;
-}
-
-#home404 p {
-    font-size: 90%;
-    font-weight: 300;
-    color: #666666;
-    float: right;
-    padding: 0px 20px 0px 0px;
-}
-
-#home404 b {
-    font-size: 90%;
-    font-weight: 300;
-    color: #666666;
-    padding: 0px 0px 0px 20px;
-}
-
-#home404 a {
-    font-size: 90%;
-    font-weight: 300;
-    color: #666666;
-    padding: 0px 0px 0px 20px;
-}
-
-#home404 s img {
-    width: 306px;
-    height: 50px;
-    padding: 30px 0px 25px 0px;
+    height: auto;
+    padding: 9px 0px 25px 0px;
 }
 
 nav {
@@ -131,15 +89,6 @@ nav {
     z-index: 1;
 }
 
-.photo s0 img {
-    width: auto;
-    height: 250px;
-    padding: 9px 0px 0px 0px;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-}
-
 .inner {
     position: absolute;
     top: 0;
@@ -186,45 +135,23 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        font-size: 80%;
-        padding: 15px 8px 20px 8px;
-    }
-
-    #home404 {
-        font-size: 80%;
-        padding: 15px 8px 20px 8px;
-    }
-
-    #home p {
-        font-size: 80%;
-        padding: 0px 10px 0px 0px;
+        padding: 11px 0px 20px 0px;
     }
 
     #home b {
-        font-size: 80%;
+        font-size: 95%;
         padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 95%;
+        padding: 0px 10px 0px 0px;
     }
 
     #home s img {
         width: 245px;
-        height: 40px;
-        padding: 11px 0px 25px 0px;
-    }
-
-    #home404 p {
-        font-size: 80%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home404 b {
-        font-size: 80%;
-        padding: 0px 0px 0px 10px;
-    }
-
-    #home404 s img {
-        width: 245px;
-        height: 40px;
-        padding: 11px 0px 25px 0px;
+        height: auto;
+        padding: 10px 0px 25px 0px;
     }
 
     nav {
@@ -250,11 +177,6 @@ footer b img {
         font-weight: 400;
         line-height: 2em;
         padding: 20px 0px 0px 0px;
-    }
-
-    .photo s0 img {
-        height: 150px;
-        padding: 0px 0px 0px 0px;
     }
 
     .photo s1 img {
@@ -290,17 +212,29 @@ footer b img {
 
 @media only screen and (max-width: 768px) {
 
+    #home {
+        padding: 10px 0px 0px 0px;
+    }
+
+    #home b {
+        font-size: 81%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 85%;
+        padding: 0px 10px 0px 0px;
+    }
+
     #home s img {
         width: 214px;
-        height: 35px;
+        height: auto;
         padding: 11px 0px 20px 0px;
     }
 
-    #home404 s img {
-        width: 214px;
-        height: 35px;
-        padding: 11px 0px 20px 0px;
-    }
+    nav {
+padding: 0px 0px 20px 0px;
+}
 
     #menu li {
         width: 20%;
@@ -313,10 +247,6 @@ footer b img {
     .inner {
         width: 160px;
         height: 135px;
-    }
-
-    .photo s0 img {
-        height: 130px;
     }
 
     .photo s1 img {
@@ -349,34 +279,28 @@ footer b img {
 @media only screen and (max-width: 480px) {
 
     #home {
-        font-size: 75%;
         padding: 10px 0px 15px 0px;
     }
 
-    #home404 {
-        font-size: 75%;
-        padding: 10px 0px 15px 0px;
+    #home b {
+        font-size: 100%;
+        padding: 0px 0px 0px 10px;
     }
 
-    #home b p {
-        padding: 0px 5px 0px 5px;
-    }
-
-    #home404 b p {
-        padding: 0px 5px 0px 5px;
+    #home p {
+        font-size: 100%;
+        padding: 0px 10px 0px 0px;
     }
 
     #home s img {
         width: 183px;
-        height: 30px;
-        padding: 5px 5px 0px 0px;
+        height: auto;
+        padding: 5px 0px 0px 0px;
     }
 
-    #home404 s img {
-        width: 183px;
-        height: 30px;
-        padding: 5px 5px 0px 0px;
-    }
+    nav {
+padding: 5px 0px 10px 0px;
+}
 
     #menu {
         display: none;
@@ -459,10 +383,6 @@ footer b img {
         line-height: 1.8em;
     }
 
-    .photo s0 img {
-        height: 110px;
-    }
-
     .photo s1 img {
         width: auto;
         height: 110px;
@@ -483,8 +403,8 @@ footer b img {
 
     #home s img {
         width: 153px;
-        height: 25px;
-        padding: 5px 5px 0px 0px;
+        height: auto;
+        padding: 5px 0px 0px 0px;
     }
 
     #menu li a {
@@ -513,10 +433,6 @@ footer b img {
         font-size: 75%;
         font-weight: 400;
         line-height: 1.5em;
-    }
-
-    .photo s0 img {
-        height: 100px;
     }
 
     .photo s1 img {

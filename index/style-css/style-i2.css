@@ -1,41 +1,5 @@
 @charset "utf-8";
 
-@font-face {
-	font-family: 'Noto Sans JP';
-	font-style: normal;
-	font-weight: 300;
-	font-display: swap;
-	src: local("Noto Sans CJK JP"),
-		local("Noto Sans JP"),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
-}
-
-@font-face {
-	font-family: 'Noto Sans JP';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: local("Noto Sans CJK JP"),
-		local("Noto Sans JP"),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
-}
-
-@font-face {
-	font-family: 'Noto Sans JP';
-	font-style: normal;
-	font-weight: 700;
-	font-display: swap;
-	src: local("Noto Sans CJK JP"),
-		local("Noto Sans JP"),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
-		url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
-}
-
 .clearfix:after {
     content: ".";
     display: block;
@@ -73,30 +37,6 @@ body {
     color: #000;
     -webkit-text-shadow: 0 1px 0 #FFF;
     text-shadow: 01px 0 #FFF;
-}
-
-.m-1p100 {
-    font-weight: 100;
-}
-
-.m-1p300 {
-    font-weight: 300;
-}
-
-.m-1p400 {
-    font-weight: 400;
-}
-
-.m-1p500 {
-    font-weight: 500;
-}
-
-.m-1p700 {
-    font-weight: 700;
-}
-
-.m-1p900 {
-    font-weight: 900;
 }
 
 

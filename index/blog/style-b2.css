@@ -30,18 +30,13 @@ a {
 }
 
 body {
+	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 400;
 	background-repeat: repeat;
 	line-height: 1.2em;
 	color: #000;
 	-webkit-text-shadow: 0 1px 0 #FFF;
 	text-shadow: 0 1px 0 #FFF;
-}
-
-/* javascript-type */
-#jq header {
-	border-top: 10px solid #5654a2;
-	margin-bottom: 5px;
 }
 
 /* css-type */
@@ -80,7 +75,7 @@ h2 {
 
 h3 {
 	font-family: 'Noto Sans JP', sans-serif;
-    font-size: 100%;
+	font-size: 100%;
     font-weight: 400;
     color: #999;
     padding: 0px 0px 10px 0px;
@@ -165,3 +160,4 @@ pre {
 	color:#993366;
 	margin-bottom: 5px;
 }
+
