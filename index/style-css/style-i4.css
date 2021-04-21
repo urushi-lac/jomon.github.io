@@ -29,7 +29,7 @@
 
 #home s img {
   width: 306px;
-  height: 50px;
+  height: auto;
   padding: 30px 0px 25px 0px;
 }
 
@@ -150,7 +150,7 @@ footer b img {
 
   #home s img {
     width: 245px;
-    height: 40px;
+    height: auto;
     padding: 10px 0px 25px 0px;
   }
 
@@ -227,7 +227,7 @@ footer b img {
 
   #home s img {
     width: 214px;
-    height: 35px;
+    height: auto;
     padding: 10px 0px 20px 0px;
   }
 
@@ -282,7 +282,7 @@ footer b img {
 
   #home s img {
     width: 183px;
-    height: 30px;
+    height: auto;
     padding: 5px 0px 0px 0px;
   }
 
@@ -368,6 +368,7 @@ footer b img {
   }
 
   .photo s1 img {
+    width: auto;
     height: 110px;
     padding: 0px 0px 10px 0px ;
   }
@@ -385,7 +386,7 @@ footer b img {
 @media only screen and (max-width: 320px) {
   #home s img {
     width: 153px;
-    height: 25px;
+    height: auto;;
     padding: 5px px 0px 0px;
   }
 
