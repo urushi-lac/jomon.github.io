@@ -4,79 +4,6 @@
 
 /* CSS Document */
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  height: 0;
-  visibility: hidden;
-}
-
-.clearfix {
-  min-height: 0px;
-}
-
-* html .clearfix {
-  height: 1px;
-  /*\*/
-  /*/
-height: auto;
-overflow: hidden;
-/**/
-}
-
-a {
-  -webkit-text-shadow: none;
-  text-shadow: none;
-  list-style-type: none;
-  text-decoration: none;
-  color: #000;
-}
-
-body {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 400;
-  background-repeat: repeat;
-  line-height: 1.2em;
-  color: #000;
-  -webkit-text-shadow: 0 1px 0 #fff;
-  text-shadow: 01px 0 #fff;
-}
-
-/* css-type */
-#cs header {
-  border-top: 10 px solid #fff;
-  margin-bottom: 0px;
-}
-
-h1 {
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 400%;
-  font-weight: 400;
-  color: #c3c3c3;
-  padding: 100px 0px 30px 0px;
-  position: relative;
-  z-index: 1;
-}
-
-h2 {
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 100%;
-  font-weight: 400;
-}
-
-h3 {
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 100%;
-  font-weight: 400;
-  color: #999;
-  padding: 0px 0px 10px 0px;
-  margin: 0;
-  text-align: center;
-}
-
-/* CSS Document */
-
 #home {
   font-size: 100%;
   font-weight: 300;
@@ -86,19 +13,19 @@ h3 {
   padding: 10px 10px 25px 10px;
 }
 
-#home p {
-  font-size: 90%;
-  font-weight: 300;
-  color: #666666;
-  float: right;
-  padding: 0px 20px 0px 0px;
-}
-
 #home b {
   font-size: 90%;
   font-weight: 300;
   color: #666666;
   padding: 0px 0px 0px 20px;
+}
+
+#home p {
+  font-size: 93%;
+  font-weight: 300;
+  color: #666666;
+  float: right;
+  padding: 0px 20px 0px 0px;
 }
 
 #home s img {
@@ -157,7 +84,7 @@ nav {
 .photo s1 img {
   width: 240px;
   height: auto;
-  padding: 250px 0px 0px 140px;
+  padding: 9px 0px 50px 0px;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -209,7 +136,7 @@ footer b img {
 @media only screen and (max-width: 2000px) {
   #home {
     font-size: 80%;
-    padding: 15px 8px 20px 8px;
+    padding: 10px 0px 20px 0px;
   }
 
   #home p {
@@ -225,7 +152,7 @@ footer b img {
   #home s img {
     width: 245px;
     height: 40px;
-    padding: 11px 0px 25px 0px;
+    padding: 10px 0px 25px 0px;
   }
 
   nav {
@@ -284,10 +211,25 @@ footer b img {
 }
 
 @media only screen and (max-width: 768px) {
+
+  #home {
+    padding: 10px 0px 0px 0px;
+}
+
+#home b {
+    font-size: 80%;
+    padding: 0px 0px 0px 10px;
+}
+
+#home p {
+    font-size: 82%;
+    padding: 0px 10px 0px 0px;
+}
+
   #home s img {
     width: 214px;
     height: 35px;
-    padding: 11px 0px 20px 0px;
+    padding: 10px 0px 20px 0px;
   }
 
   #menu li {
@@ -306,7 +248,7 @@ footer b img {
   .photo s1 img {
     width: auto;
     height: 130px;
-    padding: 140px 0px 0px 60px;
+    padding: 0px 0px 30px 0px;
   }
 
   h1 {
@@ -428,7 +370,7 @@ footer b img {
 
   .photo s1 img {
     height: 110px;
-    padding: 110px 0px 0px 50px;
+    padding: 0px 0px 10px ;
   }
 
   footer s3 img {
@@ -445,7 +387,7 @@ footer b img {
   #home s img {
     width: 153px;
     height: 25px;
-    padding: 5px 5px 0px 0px;
+    padding: 5px px 0px 0px;
   }
 
   #menu li a {
@@ -479,7 +421,6 @@ footer b img {
   .photo s1 img {
     width: auto;
     height: 100px;
-    padding: 100px 0px 0px 40px;
   }
 
   footer s2 img {

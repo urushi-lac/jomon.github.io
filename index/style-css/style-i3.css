@@ -16,21 +16,21 @@
     font-size: 90%;
     font-weight: 300;
     color: #4d4d4d;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
 }
 
 #home p {
-    font-size: 95%;
+    font-size: 93%;
     font-weight: 300;
     color: #4d4d4d;
     float: right;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 20px 0px 0px;
 }
 
 #home s img {
     width: 306px;
     height: auto;
-    padding: 9px 0px 25px 0px;
+    padding: 30px 0px 25px 0px;
 }
 
 nav {
@@ -135,16 +135,16 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        padding: 11px 0px 20px 0px;
+        padding: 10px 0px 20px 0px;
     }
 
     #home b {
-        font-size: 95%;
+        font-size: 80%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 95%;
+        font-size: 82%;
         padding: 0px 10px 0px 0px;
     }
 
@@ -217,19 +217,19 @@ footer b img {
     }
 
     #home b {
-        font-size: 81%;
+        font-size: 80%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 85%;
+        font-size: 82%;
         padding: 0px 10px 0px 0px;
     }
 
     #home s img {
         width: 214px;
         height: auto;
-        padding: 11px 0px 20px 0px;
+        padding: 10px 0px 20px 0px;
     }
 
     nav {
@@ -279,17 +279,18 @@ padding: 0px 0px 20px 0px;
 @media only screen and (max-width: 480px) {
 
     #home {
+        font-size: 75%;
         padding: 10px 0px 15px 0px;
-    }
+      }
 
     #home b {
         font-size: 100%;
-        padding: 0px 0px 0px 10px;
+        padding: 0px 0px 0px 5px;
     }
 
     #home p {
         font-size: 100%;
-        padding: 0px 10px 0px 0px;
+        padding: 0px 5px 0px 0px;
     }
 
     #home s img {
@@ -297,10 +298,6 @@ padding: 0px 0px 20px 0px;
         height: auto;
         padding: 5px 0px 0px 0px;
     }
-
-    nav {
-padding: 5px 0px 10px 0px;
-}
 
     #menu {
         display: none;
