@@ -83,7 +83,7 @@ nav {
 .photo s1 img {
   width: 240px;
   height: auto;
-  padding: 0px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -134,17 +134,17 @@ footer b img {
 
 @media only screen and (max-width: 2000px) {
   #home {
-    font-size: 80%;
+    font-size: 85%;
     padding: 10px 0px 20px 0px;
   }
 
   #home p {
-    font-size: 80%;
+    font-size: 85%;
     padding: 0px 10px 0px 0px;
   }
 
   #home b {
-    font-size: 80%;
+    font-size: 85%;
     padding: 0px 0px 0px 10px;
   }
 
@@ -182,7 +182,7 @@ footer b img {
   .photo s1 img {
     width: auto;
     height: 150px;
-    padding: 150px 0px 0px 80px;
+    padding: 40px 0px 0px 0px;
   }
 
   #footer {
@@ -369,7 +369,7 @@ footer b img {
 
   .photo s1 img {
     height: 110px;
-    padding: 0px 0px 10px ;
+    padding: 0px 0px 10px 0px ;
   }
 
   footer s3 img {
