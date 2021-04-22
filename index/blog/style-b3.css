@@ -11,14 +11,14 @@
     color: #4d4d4d;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 10px 25px 10px;
+    padding: 10px 10px 25px 10px;
 }
 
 #home b {
     font-size: 95%;
     font-weight: 300;
     color: #4d4d4d;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
 }
 
 #home p {
@@ -26,13 +26,13 @@
     font-weight: 300;
     color: #4d4d4d;
     float: right;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 20px 0px 0px;
 }
 
 #home s img {
     width: 306px;
     height: auto;
-    padding: 29px 0px 25px 0px;
+    padding: 30px 0px 25px 0px;
 }
 
 nav {
@@ -156,24 +156,23 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        font-size: 95%;
-        padding: 0px 0px 20px 0px;
+        padding: 10px 0px 20px 0px;
     }
 
     #home b {
-        font-size: 95%;
+        font-size: 85%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 95%;
+        font-size: 85%;
         padding: 0px 10px 0px 0px;
     }
 
     #home s img {
         width: 245px;
         height: auto;
-        padding: 11px 0px 25px 0px;
+        padding: 10px 0px 25px 0px;
     }
 
     nav {
@@ -308,23 +307,23 @@ footer b img {
     }
 
     #home {
-        padding: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #home b {
-        font-size: 88%;
+        font-size: 80%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 88%;
+        font-size: 82%;
         padding: 0px 10px 0px 0px;
     }
 
     #home s img {
         width: 214px;
         height: auto;
-        padding: 11px 0px 20px 0px;
+        padding: 10px 0px 20px 0px;
     }
 
     nav {
@@ -474,27 +473,24 @@ footer b img {
     }
 
     #home {
-        padding: 0px 0px 15px 0px;
+        font-size: 75%;
+        padding: 10px 0px 15px 0px;
     }
 
     #home b {
-        font-size: 80%;
-        padding: 0px 0px 0px 10px;
+        font-size: 75%;
+        padding: 0px 0px 0px 5px;
     }
 
     #home p {
-        font-size: 83%;
-        padding: 0px 10px 0px 0px;
+        font-size: 75%;
+        padding: 0px 5px 0px 0px;
     }
 
     #home s img {
         width: 183px;
         height: auto;
         padding: 5px 0px 0px 0px;
-    }
-
-    nav {
-        padding: 5px 0px 10px 0px;
     }
 
     #menu {
