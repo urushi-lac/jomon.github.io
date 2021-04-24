@@ -13,18 +13,18 @@
 }
 
 #home b {
-    font-size: 90%;
+    font-size: 100%;
     font-weight: 300;
     color: #4d4d4d;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 10px;
 }
 
 #home p {
-    font-size: 93%;
+    font-size: 100%;
     font-weight: 300;
     color: #4d4d4d;
     float: right;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
 
 #home s img {
@@ -89,6 +89,10 @@ nav {
     z-index: 1;
 }
 
+h2 {
+    font-size: 120%;
+}
+
 .inner {
     position: absolute;
     top: 0;
@@ -135,16 +139,16 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0px 20px 10px;
     }
 
     #home b {
-        font-size: 72%;
+        font-size: 90%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 72%;
+        font-size: 90%;
         padding: 0px 10px 0px 0px;
     }
 
@@ -167,9 +171,8 @@ footer b img {
         height: 135px;
     }
 
-    h1 {
-        font-size: 380%;
-        padding: 90px 0px 0px 0px;
+    h2 {
+        font-size: 115%;
     }
 
     p1 {
@@ -217,12 +220,12 @@ footer b img {
     }
 
     #home b {
-        font-size: 68%;
+        font-size: 80%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 68%;
+        font-size: 80%;
         padding: 0px 10px 0px 0px;
     }
 
@@ -233,8 +236,8 @@ footer b img {
     }
 
     nav {
-padding: 5px 0px 0px 0px;
-}
+        padding: 0px 0px 20px 0px;
+    }
 
     #menu li {
         width: 20%;
@@ -255,13 +258,8 @@ padding: 5px 0px 0px 0px;
         padding: 0px 0px 30px 0px;
     }
 
-    h1 {
-        font-size: 300%;
-        padding: 100px 0px 0px 0px;
-    }
-
     h2 {
-        font-size: 80%;
+        font-size: 110%;
     }
 
     p1 {
@@ -279,13 +277,18 @@ padding: 5px 0px 0px 0px;
 @media only screen and (max-width: 480px) {
 
     #home {
-        font-size: 75%;
-        padding: 10px 0px 15px 0px;
-      }
+        padding: 10px 0px 0px 0px;
+    }
 
-      #home b p {
-        padding: 0px 5px 0px 5px;
-      }
+    #home b {
+        font-size: 85%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 85%;
+        padding: 0px 10px 0px 0px;
+    }
 
     #home s img {
         width: 183px;
@@ -294,7 +297,7 @@ padding: 5px 0px 0px 0px;
     }
 
     nav {
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #menu {
@@ -359,11 +362,6 @@ padding: 5px 0px 0px 0px;
         height: 100px;
     }
 
-    h1 {
-        font-size: 200%;
-        padding: 50px 0px 0px 0px;
-    }
-
     h2 {
         font-size: 90%;
     }
@@ -409,11 +407,6 @@ padding: 5px 0px 0px 0px;
     .inner {
         width: 120px;
         height: 75px;
-    }
-
-    h1 {
-        font-size: 200%;
-        padding: 30px 0px 0px 0px;
     }
 
     h2 {
