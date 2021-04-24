@@ -231,6 +231,10 @@ footer b img {
     padding: 10px 0px 20px 0px;
   }
 
+  nav {
+    padding: 5px 0px 0px 0px;
+}
+
   #menu li {
     width: 20%;
   }
