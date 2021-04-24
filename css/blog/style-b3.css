@@ -15,10 +15,10 @@
 }
 
 #home b {
-    font-size: 95%;
+    font-size: 92%;
     font-weight: 300;
     color: #4d4d4d;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 10px 0px 0px;
 }
 
 #home p {
@@ -26,7 +26,7 @@
     font-weight: 300;
     color: #4d4d4d;
     float: right;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 10px;
 }
 
 #home s img {
@@ -156,17 +156,17 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        padding: 10px 0px 20px 0px;
+        padding: 0px 0px 20px 0px;
     }
 
     #home b {
         font-size: 85%;
-        padding: 0px 0px 0px 10px;
+        padding: 0px 0px 0px 20px;
     }
 
     #home p {
         font-size: 85%;
-        padding: 0px 10px 0px 0px;
+        padding: 0px 20px 0px 0px;
     }
 
     #home s img {
@@ -307,7 +307,7 @@ footer b img {
     }
 
     #home {
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #home b {
@@ -474,17 +474,17 @@ footer b img {
 
     #home {
         font-size: 75%;
-        padding: 10px 0px 15px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #home b {
         font-size: 75%;
-        padding: 0px 0px 0px 5px;
+        padding: 0px 5px 0px 0px;
     }
 
     #home p {
         font-size: 75%;
-        padding: 0px 5px 0px 0px;
+        padding: 0px 0px 0px 5px;
     }
 
     #home s img {
