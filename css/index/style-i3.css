@@ -135,16 +135,16 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        padding: 10px 0px 20px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #home b {
-        font-size: 85%;
+        font-size: 72%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 85%;
+        font-size: 72%;
         padding: 0px 10px 0px 0px;
     }
 
@@ -155,7 +155,7 @@ footer b img {
     }
 
     nav {
-        padding: 0px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
 
     #menu li a {
@@ -217,12 +217,12 @@ footer b img {
     }
 
     #home b {
-        font-size: 80%;
+        font-size: 68%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 82%;
+        font-size: 68%;
         padding: 0px 10px 0px 0px;
     }
 
@@ -233,7 +233,7 @@ footer b img {
     }
 
     nav {
-padding: 0px 0px 20px 0px;
+padding: 5px 0px 0px 0px;
 }
 
     #menu li {
@@ -283,19 +283,17 @@ padding: 0px 0px 20px 0px;
         padding: 10px 0px 15px 0px;
       }
 
-    #home b {
-        font-size: 75%;
-        padding: 0px 0px 0px 5px;
-    }
-
-    #home p {
-        font-size: 75%;
-        padding: 0px 5px 0px 0px;
-    }
+      #home b p {
+        padding: 0px 5px 0px 5px;
+      }
 
     #home s img {
         width: 183px;
         height: auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+    nav {
         padding: 5px 0px 0px 0px;
     }
 
