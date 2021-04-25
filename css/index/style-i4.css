@@ -5,26 +5,27 @@
 /* CSS Document */
 
 #home {
-  font-weight: 300;
-  color: #666666;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 10px 25px 10px;
 }
 
 #home b {
-  font-size: 90%;
+  font-size: 100%;
   font-weight: 300;
-  color: #666666;
-  padding: 0px 0px 0px 20px;
+  color: #535353;
+  padding: 0px 0px 0px 10px;
 }
 
 #home p {
-  font-size: 93%;
+  font-size: 100%;
   font-weight: 300;
-  color: #666666;
   float: right;
-  padding: 0px 20px 0px 0px;
+  padding: 0px 10px 0px 0px;
+}
+
+#cs header a {
+  color: #666666;
 }
 
 #home s img {
@@ -60,7 +61,7 @@ nav {
 #menu li a {
   font-size: 120%;
   display: block;
-  padding: 10px 0 10px;
+  padding: 10px 0px 10px 0px;
   background-color: #fff;
   text-align: center;
   text-decoration: none;
@@ -87,6 +88,10 @@ nav {
   text-align: center;
   position: relative;
   z-index: 1;
+}
+
+h2 {
+  font-size: 120%;
 }
 
 .inner {
@@ -134,18 +139,17 @@ footer b img {
 
 @media only screen and (max-width: 2000px) {
   #home {
-    font-size: 85%;
     padding: 10px 0px 20px 0px;
   }
 
-  #home p {
-    font-size: 85%;
-    padding: 0px 10px 0px 0px;
+  #home b {
+    font-size: 90%;
+    padding: 0px 0px 0px 10px;
   }
 
-  #home b {
-    font-size: 85%;
-    padding: 0px 0px 0px 10px;
+  #home p {
+    font-size: 90%;
+    padding: 0px 10px 0px 0px;
   }
 
   #home s img {
@@ -155,7 +159,7 @@ footer b img {
   }
 
   nav {
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
   }
 
   #menu li a {
@@ -171,6 +175,10 @@ footer b img {
     font-size: 380%;
     padding: 90px 0px 0px 0px;
   }
+
+  h2 {
+    font-size: 115%;
+}
 
   p1 {
     font-size: 100%;
@@ -216,12 +224,12 @@ footer b img {
 }
 
 #home b {
-    font-size: 80%;
+    font-size: 75%;
     padding: 0px 0px 0px 10px;
 }
 
 #home p {
-    font-size: 82%;
+    font-size: 75%;
     padding: 0px 10px 0px 0px;
 }
 
@@ -232,7 +240,7 @@ footer b img {
   }
 
   nav {
-    padding: 5px 0px 0px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
   #menu li {
@@ -260,7 +268,7 @@ footer b img {
   }
 
   h2 {
-    font-size: 80%;
+    font-size: 100%;
   }
 
   p1 {
@@ -276,19 +284,28 @@ footer b img {
 
 @media only screen and (max-width: 480px) {
   #home {
-    font-size: 75%;
     padding: 10px 0px 15px 0px;
   }
 
-  #home b p {
-    padding: 0px 5px 0px 5px;
-  }
+  #home b {
+    font-size: 70%;
+    padding: 0px 0px 0px 10px;
+}
+
+#home p {
+    font-size: 70%;
+    padding: 0px 10px 0px 0px;
+}
 
   #home s img {
     width: 183px;
     height: auto;
     padding: 5px 0px 0px 0px;
   }
+
+  nav {
+    padding: 10px 0px 0px 0px;
+}
 
   #menu {
     display: none;
