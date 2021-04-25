@@ -7,7 +7,7 @@
 #home {
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 10px 25px 10px;
+    padding: 10px 10px 25px 10px;
 }
 
 #home b {
@@ -159,7 +159,7 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        padding: 0px 0px 20px 0px;
+        padding: 10px 10px 20px 10px;
     }
 
     #home b {
@@ -488,12 +488,12 @@ footer b img {
     }
 
     #home b {
-        font-size: 70%;
+        font-size: 66%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 70%;
+        font-size: 65%;
         padding: 0px 10px 0px 0px;
     }
 
