@@ -4,29 +4,28 @@
 
 /* CSS Document */
 
-/* CSS Document */
-
 #home {
-    font-weight: 300;
-    color: #4d4d4d;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 10px 25px 10px;
 }
 
 #home b {
-    font-size: 92%;
+    font-size: 100%;
     font-weight: 300;
-    color: #4d4d4d;
-    padding: 0px 10px 0px 0px;
+    color: #535353;
+    padding: 0px 0px 0px 10px;
 }
 
 #home p {
-    font-size: 95%;
+    font-size: 100%;
     font-weight: 300;
-    color: #4d4d4d;
     float: right;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 10px 0px 0px;
+}
+
+#cs header a {
+    color: #666666;
 }
 
 #home s img {
@@ -62,7 +61,7 @@ nav {
 #menu li a {
     font-size: 120%;
     display: block;
-    padding: 10px 0 10px;
+    padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
     text-decoration: none;
@@ -80,6 +79,10 @@ nav {
 
 #toggle {
     display: none;
+}
+
+h2 {
+    font-size: 120%;
 }
 
 .photo s img {
@@ -160,13 +163,13 @@ footer b img {
     }
 
     #home b {
-        font-size: 85%;
-        padding: 0px 0px 0px 20px;
+        font-size: 90%;
+        padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 85%;
-        padding: 0px 20px 0px 0px;
+        font-size: 90%;
+        padding: 0px 10px 0px 0px;
     }
 
     #home s img {
@@ -176,7 +179,7 @@ footer b img {
     }
 
     nav {
-        padding: 0px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
 
     #menu {
@@ -196,6 +199,10 @@ footer b img {
 
     #menu li a {
         font-size: 100%;
+    }
+
+    h2 {
+        font-size: 115%;
     }
 
     .photo s1 img {
@@ -307,16 +314,16 @@ footer b img {
     }
 
     #home {
-        padding: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #home b {
-        font-size: 80%;
+        font-size: 75%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 82%;
+        font-size: 75%;
         padding: 0px 10px 0px 0px;
     }
 
@@ -385,6 +392,10 @@ footer b img {
 
     #toggle a:after {
         margin-top: 3px;
+    }
+
+    h2 {
+        font-size: 100%;
     }
 
     .photo s1 img {
@@ -473,17 +484,16 @@ footer b img {
     }
 
     #home {
-        font-size: 75%;
-        padding: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #home b {
-        font-size: 75%;
+        font-size: 70%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 75%;
+        font-size: 70%;
         padding: 0px 10px 0px 0px;
     }
 
@@ -494,9 +504,8 @@ footer b img {
     }
 
     nav {
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
-
 
     #menu {
         display: none;
@@ -597,6 +606,14 @@ footer b img {
 
     #cs h1 {
         font-size: 140%;
+    }
+
+    h2 {
+        font-size: 90%;
+    }
+
+    h3 {
+        font-size: 100%;
     }
 
     h5 {
@@ -718,3 +735,5 @@ section {
 .pred {
     color: #690;
 }
+
+a {}
