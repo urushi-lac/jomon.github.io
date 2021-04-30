@@ -25,9 +25,8 @@ time, mark, audio, video {
 	margin-right:auto;
 	text-decoration: none;
 	font-family: 'Noto Sans JP', sans-serif;
+	color: #000;
 }
-
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {

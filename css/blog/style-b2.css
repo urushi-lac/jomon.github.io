@@ -14,7 +14,8 @@
 
 * html .clearfix {
   height: 1px;
-  /*\*//*/
+    /*\*/
+    /*/
   height: auto;
   overflow: hidden;
   /**/
@@ -26,7 +27,6 @@ a {
 	list-style-type:none;
 	text-decoration:none;
 	color:#000;
-
 }
 
 body {
@@ -160,4 +160,3 @@ pre {
 	color:#993366;
 	margin-bottom: 5px;
 }
-

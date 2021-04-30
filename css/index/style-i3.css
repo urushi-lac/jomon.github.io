@@ -7,7 +7,7 @@
 #home {
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 10px 25px 10px;
+    padding: 0px 10px 25px 10px;
 }
 
 #home b {
@@ -140,7 +140,7 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        padding: 10px 10px 20px 10px;
+        padding: 0px 10px 20px 10px;
     }
 
     #home b {
@@ -217,7 +217,7 @@ footer b img {
 @media only screen and (max-width: 768px) {
 
     #home {
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #home b {
@@ -278,7 +278,7 @@ footer b img {
 @media only screen and (max-width: 480px) {
 
     #home {
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #home b {
