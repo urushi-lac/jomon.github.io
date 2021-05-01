@@ -23,8 +23,8 @@
     padding: 0px 10px 0px 0px;
 }
 
-#cs header a{
-   color: #535353;
+#cs header a {
+    color: #535353;
 }
 
 #home s img {
@@ -82,7 +82,7 @@ nav {
 
 h2 {
     font-size: 120%;
-    }
+}
 
 .photo s img {
     padding: 11px 0px 0px 0px;
@@ -163,7 +163,7 @@ footer b img {
 
     h2 {
         font-size: 115%;
-        }
+    }
 
     #footer {
         padding: 5px 0px 0px 0px;
@@ -202,12 +202,12 @@ footer b img {
     }
 
     #home b {
-        font-size: 80%;
+        font-size: 75%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 80%;　　　75
+        font-size: 75%;
         padding: 0px 10px 0px 0px;
     }
 
@@ -255,12 +255,11 @@ footer b img {
     }
 
     #home {
-       padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #home b {
- font-size: 66%;
-
+        font-size: 66%;
         padding: 0px 0px 0px 10px;
     }
 
