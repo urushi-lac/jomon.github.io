@@ -5,6 +5,7 @@
 /* CSS Document */
 
 #home {
+    float: center;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 10px 25px 10px;
