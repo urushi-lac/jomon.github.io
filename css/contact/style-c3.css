@@ -149,8 +149,8 @@ footer b img {
 
     #home s img {
         width: 245px;
-        height: 40px;
-        padding: 11px 0px 25px 0px;
+        height: auto;
+        padding: 10px 0px 25px 0px;
     }
 
     nav {
@@ -217,8 +217,8 @@ footer b img {
 
     #home s img {
         width: 214px;
-        height: 35px;
-        padding: 11px 0px 20px 0px;
+        height: auto;
+        padding: 10px 0px 20px 0px;
     }
 
     #menu li {
@@ -271,7 +271,7 @@ footer b img {
 
     #home s img {
         width: 183px;
-        height: 30px;
+        height: auto;
         padding: 5px 5px 0px 0px;
     }
 
@@ -374,7 +374,7 @@ footer b img {
 
     #home s img {
         width: 153px;
-        height: 25px;
+        height: auto;
         padding: 5px 5px 0px 0px;
     }
 
