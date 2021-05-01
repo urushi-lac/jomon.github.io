@@ -1,25 +1,30 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
 /* CSS Document */
 
-< !-- #home {
-    font-size: 100%;
-    font-weight: 100;
-    color: #000;
+#home {
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 10px 25px 10px;
-}
-
-#home p {
-    font-size: 90%;
-    float: right;
-    padding: 0px 20px 0px 0px;
+    padding: 0ppx 10px 25px 10px;
 }
 
 #home b {
-    font-size: 90%;
-    padding: 0px 0px 0px 20px;
+    font-size: 100%;
+    font-weight: 300;
+    padding: 0px 0px 0px 10px;
+}
+
+#home p {
+    font-size: 100%;
+    font-weight: 300;
+    float: right;
+    padding: 0px 10px 0px 0px;
+}
+
+#cs header a{
+   color: #535353;
 }
 
 #home s img {
@@ -75,6 +80,10 @@ nav {
     display: none;
 }
 
+h2 {
+    font-size: 120%;
+    }
+
 .photo s img {
     padding: 11px 0px 0px 0px;
 }
@@ -124,18 +133,18 @@ footer b img {
 
 @media only screen and (max-width: 2000px) {
 
-    < !-- #home {
-        font-size: 80%;
-    }
-
-    #home p {
-        font-size: 80%;
-        padding: 0px 10px 0px 0px;
+    #home {
+        padding: 0px 10px 20px 10px;
     }
 
     #home b {
-        font-size: 80%;
+        font-size: 90%;
         padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 90%;
+        padding: 0px 10px 0px 0px;
     }
 
     #home s img {
@@ -145,12 +154,16 @@ footer b img {
     }
 
     nav {
-        padding: 0px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
 
     #menu li a {
         font-size: 100%;
     }
+
+    h2 {
+        font-size: 115%;
+        }
 
     #footer {
         padding: 5px 0px 0px 0px;
@@ -179,6 +192,28 @@ footer b img {
 
 @media only screen and (max-width: 768px) {
 
+    #section {
+        max-width: 768px;
+        min-height: 480px;
+    }
+
+    #home {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #home b {
+        font-size: 80%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 80%;　　　75
+        padding: 0px 10px 0px 0px;
+    }
+
+    nav {
+        padding: 0px 0px 20px 0px;
+    }
 
     #home s img {
         width: 214px;
@@ -199,7 +234,7 @@ footer b img {
     }
 
     h2 {
-        font-size: 80%;
+        font-size: 100%;
     }
 
     h4 {
@@ -214,19 +249,34 @@ footer b img {
 
 @media only screen and (max-width: 480px) {
 
-    #home {
-        font-size: 75%;
-        padding: 0px 0px 15px 0px;
+    #section {
+        max-width: 480px;
+        min-height: 500px;
     }
 
-    #home b p {
-        padding: 0px 5px 0px 5px;
+    #home {
+       padding: 0px 0px 0px 0px;
+    }
+
+    #home b {
+ font-size: 66%;
+
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 65%;
+        padding: 0px 10px 0px 0px;
     }
 
     #home s img {
         width: 183px;
         height: 30px;
         padding: 5px 5px 0px 0px;
+    }
+
+    nav {
+        padding: 10px 0px 0px 0px;
     }
 
     #menu {
@@ -293,7 +343,7 @@ footer b img {
     }
 
     h2 {
-        font-size: 85%;
+        font-size: 90%;
     }
 
     h3 {
