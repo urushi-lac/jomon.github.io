@@ -249,11 +249,6 @@ footer b img {
 
 @media only screen and (max-width: 480px) {
 
-    #section {
-        max-width: 480px;
-        min-height: 500px;
-    }
-
     #home {
         padding: 0px 0px 0px 0px;
     }
@@ -287,7 +282,7 @@ footer b img {
     }
 
     #menu li a {
-        padding: 8px 0 8px;
+        padding: 12px 0 12px;
     }
 
     #toggle {
