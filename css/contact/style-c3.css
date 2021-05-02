@@ -80,9 +80,23 @@ nav {
     display: none;
 }
 
+h1 {
+    font-size: 130%;
+    line-height: 2;
+    color: #000;
+    padding: 0px 0px 40px 0px;
+    text-align: center;
+}
+
 h2 {
     font-size: 120%;
 }
+
+h4 {
+    font-size: 90%;
+    line-height: 2;
+}
+
 
 .photo s img {
     padding: 11px 0px 0px 0px;
