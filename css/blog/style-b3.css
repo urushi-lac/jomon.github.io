@@ -86,14 +86,10 @@ h1 {
     font-size: 160%;
     line-height: 120%;
 	background-color: #f3f3f3;
-	background-repeat: no-repeat;
-	background-position: left 0px center;
 	color:#111;
 	padding: 15px 15px 5px 20px;
-	-webkit-box-shadow: 0 5px 5px #FFF;
-	box-shadow: 0 2px 2px #FFF;
-	-webkit-text-shadow: none;
-	text-shadow: none;
+	-webkit-box-shadow: 0 5px 0px #f3f3f3;
+	box-shadow: 0 2px 0px #f3f3f3;
 }
 
 h2 {
@@ -101,18 +97,16 @@ h2 {
 }
 
 h5 {
-    font-size: 90%;
     line-height: 120%;
 	background-color: #f3f3f3;
 	background-repeat: no-repeat;
 	background-position: left 0px center;
 	color: #555;
 	padding: 0px 15px 10px 20px;
-	-webkit-box-shadow: 0 5px 5px #FFF;
+	-webkit-box-shadow:  0 5px 5px #FFF;
 	box-shadow: 0 2px 2px #FFF;
 	-webkit-text-shadow: none;
 	text-shadow: none;
-}
 }
 
 .photo s img {
