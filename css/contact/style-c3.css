@@ -13,6 +13,7 @@
 #home b {
     font-size: 100%;
     font-weight: 300;
+    color: #535353;
     padding: 0px 0px 0px 10px;
 }
 
@@ -24,7 +25,7 @@
 }
 
 #cs header a {
-    color: #535353;
+    color: #666666;
 }
 
 #home s img {
@@ -98,7 +99,6 @@ h4 {
     line-height: 2;
 }
 
-
 .photo s img {
     padding: 11px 0px 0px 0px;
 }
@@ -110,7 +110,7 @@ h4 {
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 350px;
+    width: 324px;
     height: 100px;
 }
 
