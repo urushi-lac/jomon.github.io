@@ -387,6 +387,10 @@ footer b img {
         padding: 5px 5px 0px 0px;
     }
 
+    #menu li a {
+        padding: 10px 0px 10px;
+    }
+
     #cs h1 {
         font-weight: 600;
         font-size: 66%;
@@ -394,7 +398,7 @@ footer b img {
     }
 
     h2 {
-        font-size: 90%;
+        font-size: 85%;
     }
 
     h4 {
