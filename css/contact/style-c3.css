@@ -221,14 +221,14 @@ footer b img {
         padding: 0px 10px 0px 0px;
     }
 
-    nav {
-        padding: 0px 0px 20px 0px;
-    }
-
     #home s img {
         width: 214px;
         height: auto;
         padding: 10px 0px 20px 0px;
+    }
+
+    nav {
+        padding: 0px 0px 20px 0px;
     }
 
     #menu li {
