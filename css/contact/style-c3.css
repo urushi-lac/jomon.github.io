@@ -81,6 +81,10 @@ nav {
     display: none;
 }
 
+.photo s img {
+    padding: 11px 0px 0px 0px;
+}
+
 h1 {
     font-size: 130%;
     line-height: 2;
@@ -97,10 +101,6 @@ h2 {
 h4 {
     font-size: 90%;
     line-height: 2;
-}
-
-.photo s img {
-    padding: 11px 0px 0px 0px;
 }
 
 .inner {
