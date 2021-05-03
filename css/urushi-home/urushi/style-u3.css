@@ -348,7 +348,6 @@ footer b img {
     }
 
     #cs h1 {
-        font-weight: 600;
         font-size: 80%;
         padding: 0px 0px 25px 0px;
     }
@@ -380,8 +379,12 @@ footer b img {
 
     #home s img {
         width: 153px;
-        height: 25px;
-        padding: 5px 5px 0px 0px;
+        height: auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+    #menu li a {
+        padding: 10px 0px 10px;
     }
 
     .inner {
@@ -390,7 +393,6 @@ footer b img {
     }
 
     #cs h1 {
-        font-weight: 600;
         font-size: 66%;
         padding: 0px 0px 20px 0px;
     }
