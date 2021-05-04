@@ -97,7 +97,8 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
     <footer>
         <div id="footer">
             <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank"><img src="images/top/a.png" alt="amebloimage" width="20" height="20" border="0" /></a></s2>
-            <s3><a href="https://twitter.com/hiro_w2011" target="_blank"><img src="images/top/Twitter.png" alt="twitterlogo" width="20" height="20" border="0" /></a> <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank"><img src="images/top/facebook.png" alt="facebooklogo" width="20" height="20" border="0" /></a></s3>
+            <s3><a href="https://twitter.com/hiro_w2011" target="_blank"><img src="images/top/Twitter.png" alt="twitterlogo" width="20" height="20" border="0" /></a>
+                <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank"><img src="images/top/facebook.png" alt="facebooklogo" width="20" height="20" border="0" /></a></s3>
             <b><img src="images/top/c.png" width="auto" height="18" alt="hiroyuki-yumicopyright(c)" /></b>
         </div>
     </footer>
@@ -106,12 +107,12 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
     <![endif]-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript">
-        $(function() {
-            $("#toggle").click(function() {
+        $(function () {
+            $("#toggle").click(function () {
                 $("#menu").slideToggle();
                 return false;
             });
-            $(window).resize(function() {
+            $(window).resize(function () {
                 var win = $(window).width();
                 var p = 480;
                 if (win > p) {
@@ -122,17 +123,16 @@ memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 
             });
         });
         /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-        $(function() {
+        $(function () {
             var win = $(window).width();
             var p = 480;
             if (win < p)
-                $(function() {
-                    $("#menu li a").click(function() {
+                $(function () {
+                    $("#menu li a").click(function () {
                         $("#menu").hide();
                     });
                 });
         });
-
     </script>
 </body>
 
