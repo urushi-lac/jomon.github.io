@@ -235,16 +235,18 @@ footer b img {
         padding: 0px 0px 20px 0px;
     }
 
+    #menu li {
+        width: 20%;
+    }
+
     #menu li a {
         padding: 7px 0 7px;
     }
-
 
     .inner {
         width: 140px;
         height: 200px;
     }
-
 
     .photo s1 img {
         width: auto;
