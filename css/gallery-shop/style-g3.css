@@ -1,0 +1,487 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+
+/* CSS Document */
+
+#home {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px 25px 10px;
+}
+
+#home b {
+    font-size: 100%;
+    font-weight: 300;
+    color: #535353;
+    padding: 0px 0px 0px 10px;
+}
+
+#home p {
+    font-size: 100%;
+    font-weight: 300;
+    float: right;
+    padding: 0px 10px 0px 0px;
+}
+
+#cs header a {
+    color: #666666;
+}
+
+#home s img {
+    width: 306px;
+    height: auto;
+    padding: 30px 0px 25px 0px;
+}
+
+nav {
+    margin-bottom: 5px;
+    background: #FFF;
+    padding: 20px 0px 0px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+#menu {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+#menu li a {
+    font-size: 120%;
+    display: block;
+    padding: 10px 0 10px;
+    background-color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu li:last-child a {
+    border: none;
+}
+
+#menu li a:hover {
+    background: #FFF;
+    font-size: 100%;
+    color: #999;
+}
+
+#toggle {
+    display: none;
+}
+
+.photo s img {
+    padding: 11px 0px 0px 0px;
+}
+
+.photo s1 img {
+    width: auto;
+    height: 250px;
+    padding: 9px 0px 0px 0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+h5 {
+    font-size: 120%;
+    padding: 0px 0px 0px 15px;
+}
+
+.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 280px;
+    height: 270px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 80％;
+    text-align: left;
+    margin-top: 40px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    background-color: #FFF;
+}
+
+footer s2 img {
+    width: auto;
+    height: 25px;
+    padding: 0px 0px 0px 20px;
+}
+
+footer s3 img {
+    width: auto;
+    height: 25px;
+    padding: 0px 0px 0px 20px;
+}
+
+footer b img {
+    width: auto;
+    height: 22px;
+    float: right;
+    padding: 0px 20px 0px 0px;
+}
+
+@media only screen and (max-width: 2000px) {
+
+    #home {
+        padding: 0px 10px 20px 10px;
+    }
+
+    #home b {
+        font-size: 90%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 90%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    #home s img {
+        width: 245px;
+        height: auto;
+        padding: 10px 0px 25px 0px;
+    }
+
+    nav {
+        padding: 20px 0px 0px 0px;
+    }
+
+    #menu li a {
+        font-size: 100%;
+    }
+
+    .inner {
+        width: 160px;
+        height: 180px;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 115%;
+    }
+
+    h5 {
+        font-size: 100%;
+        padding: 5px 0px 0px 15px;
+    }
+
+    #footer {
+        padding: 5px 0px 0px 0px;
+    }
+
+    footer s2 img {
+        width: auto;
+        height: 20px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    footer s3 img {
+        width: auto;
+        height: 20px;
+        padding: 0px 0px 0px 5px;
+    }
+
+    footer b img {
+        width: auto;
+        height: 18px;
+        float: right;
+        padding: 0px 15px 0px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #home {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #home b {
+        font-size: 75%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 75%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    #home s img {
+        width: 214px;
+        height: auto;
+        padding: 10px 0px 20px 0px;
+    }
+
+    nav {
+        padding: 0px 0px 20px 0px;
+    }
+
+    #menu li {
+        width: 20%;
+    }
+
+    #menu li a {
+        padding: 7px 0 7px;
+    }
+
+    .inner {
+        width: 150px;
+        height: 180px;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 130px;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    h4 {
+        font-size: 70%;
+    }
+
+
+    footer b img {
+        padding: 0px 10px 0px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    #home {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #home b {
+        font-size: 66%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 65%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    #home s img {
+        width: 183px;
+        height: auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+    nav {
+        padding: 10px 0px 0px 0px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu li {
+        width: 100%;
+    }
+
+    #menu li a {
+        padding: 12px 0px 12px;
+    }
+
+    #toggle {
+        display: block;
+        position: relative;
+        width: 100%;
+        background: #FFF;
+    }
+
+    #toggle a {
+        padding: 0px 0 10px;
+        font-weight: 300;
+        font-size: 110%;
+    }
+
+    #toggle:before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        background: #FFF;
+    }
+
+    #toggle a:before,
+    #toggle a:after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 6px;
+        background: #FFF;
+    }
+
+    #toggle a:before {
+        margin-top: -9px;
+    }
+
+    #toggle a:after {
+        margin-top: 3px;
+    }
+
+    .inner {
+        width: 130px;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 90%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    h4 {
+        font-size: 70%;
+    }
+
+    h5 {
+        font-size: 85%;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .photo s img {
+        width: 55%;
+        height: auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 110px;
+    }
+
+    footer s3 img {
+        padding: 0px 0px 0px 5px;
+    }
+
+    footer b img {
+        float: right;
+        padding: 1px 10px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    #home s img {
+        width: 153px;
+        height: auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+    #menu li a {
+        padding: 10px 0px 10px;
+    }
+
+    .inner {
+        width: 120px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 85%;
+    }
+
+    h3 {
+        font-size: 95%;
+    }
+
+    h4 {
+        font-size: 58%;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 100px;
+    }
+
+    footer s2 img {
+        width: auto;
+        height: 16px;
+        padding: 0px 0px 0px 6px;
+    }
+
+    footer s3 img {
+        width: auto;
+        height: 16px;
+        padding: 0px 0px 0px 2px;
+    }
+
+    footer b img {
+        width: auto;
+        height: 15px;
+        float: right;
+        padding: 0px 5px 0px 0px;
+    }
+}
+
+#page-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 77%;
+}
+
+#page-top a {
+    background: rgba(220, 220, 220, 0.6);
+    text-decoration: none;
+    font-weight: 300;
+    color: #666;
+    width: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+}
+
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(150, 150, 150, 0.4);
+}
+
+.pred {
+    color: #690;
+}
