@@ -87,10 +87,11 @@ nav {
 }
 
 .photo s1 img {
-    width: auto;
-    height: 250px;
-    padding: 9px 0px 0px 0px;
+    width: 280px;
+    height: auto;
+    padding: 9px 0px 40px 0px;
     text-align: center;
+    z-index: 1;
 }
 
 h2 {
@@ -99,7 +100,8 @@ h2 {
 
 h5 {
     font-size: 120%;
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
 }
 
 .inner {
@@ -110,7 +112,7 @@ h5 {
     bottom: 0;
     margin: auto;
     width: 280px;
-    height: 270px;
+    height: 240px;
 }
 
 #footer {
@@ -176,13 +178,14 @@ footer b img {
     }
 
     .inner {
-        width: 160px;
-        height: 180px;
+        width: 180px;
+        height: 135px;
     }
 
     .photo s1 img {
         width: auto;
         height: 150px;
+        padding: 0px 0px 30px 0px;
     }
 
     h2 {
@@ -191,7 +194,7 @@ footer b img {
 
     h5 {
         font-size: 100%;
-        padding: 5px 0px 0px 15px;
+        padding: 0px 0px 0px 0px;
     }
 
     #footer {
@@ -254,13 +257,14 @@ footer b img {
     }
 
     .inner {
-        width: 150px;
-        height: 180px;
+        width: 160px;
+        height: 135px;
     }
 
     .photo s1 img {
         width: auto;
         height: 130px;
+        padding: 0px 0px 20px 0px;
     }
 
     h2 {
@@ -363,7 +367,7 @@ footer b img {
 
     .inner {
         width: 130px;
-        height: 150px;
+        height: 100px;
     }
 
     h2 {
@@ -380,7 +384,7 @@ footer b img {
 
     h5 {
         font-size: 85%;
-        padding: 5px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .photo s img {
@@ -392,6 +396,7 @@ footer b img {
     .photo s1 img {
         width: auto;
         height: 110px;
+        padding: 0px 0px 10px 0px;
     }
 
     footer s3 img {
@@ -418,7 +423,7 @@ footer b img {
 
     .inner {
         width: 120px;
-        height: 120px;
+        height: 100px;
     }
 
     h2 {
@@ -485,3 +490,4 @@ footer b img {
 .pred {
     color: #690;
 }
+
