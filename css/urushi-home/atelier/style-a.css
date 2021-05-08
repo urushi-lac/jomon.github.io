@@ -96,14 +96,14 @@ nav {
 .photo s3 img {
     width: auto;
     height: 40px;
-    padding: 10px 0px 0px 0px;
+    padding: 4px 0px 0px 0px;
     float: right;
 }
 
 .photo s4 img {
     width: auto;
     height: 35px;
-    padding: 10px 10px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 h1 {
@@ -352,14 +352,14 @@ footer b img {
     .photo s3 img {
         width: auto;
         height: 35px;
-        padding: 10px 10px 0px 0px;
+        padding: 5px 0px 0px 0px;
         float: right;
     }
 
     .photo s4 img {
         width: auto;
         height: 30px;
-        padding: 10px 10px 0px 10px;
+        padding: 8px 0px 0px 0px;
     }
 
 
