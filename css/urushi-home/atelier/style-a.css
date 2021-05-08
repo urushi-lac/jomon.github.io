@@ -293,11 +293,11 @@ footer b img {
     }
 
     #menu li {
-        width: 10%;
+        width: 100%;
     }
 
     #menu li a {
-        padding: 7px 0 7px;
+        padding: 12px 0 12px;
     }
 
     #toggle {
@@ -309,8 +309,8 @@ footer b img {
 
     #toggle a {
         padding: 0px 0 10px;
-        font-weight: 300;
-        font-size: 110%;
+        font-weight: 400;
+        font-size: 100%;
     }
 
     #toggle:before {
@@ -422,7 +422,7 @@ footer b img {
     }
 
     #menu li a {
-        padding: 12px 0 12px;
+        padding: 7px 0 7px;
     }
 
     .photo s2 img {
