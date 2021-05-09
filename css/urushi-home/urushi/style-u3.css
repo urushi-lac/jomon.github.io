@@ -1,431 +1,534 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
-/* CSS Document */
-
-#home {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 10px 25px 10px;
-}
-
-#home b {
-    font-size: 100%;
-    font-weight: 300;
-    color: #535353;
-    padding: 0px 0px 0px 10px;
-}
-
-#home p {
-    font-size: 100%;
-    font-weight: 300;
-    float: right;
-    padding: 0px 10px 0px 0px;
-}
-
-#cs header a {
-    color: #666666;
-}
-
-#home s img {
-    width: 306px;
-    height: auto;
-    padding: 30px 0px 25px 0px;
-}
-
-nav {
-    margin-bottom: 5px;
-    background: #FFF;
-    padding: 20px 0px 0px 0px;
-    position: relative;
-    z-index: 2;
-}
-
-#menu {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0px 0px 0px 0px;
-}
-
-#menu li {
-    display: block;
-    float: left;
-    width: 20%;
-    margin: 0;
-    padding: 0;
-    color: #000;
-}
-
-#menu li a {
-    font-size: 120%;
-    display: block;
-    padding: 10px 0px 10px 0px;
-    background-color: #FFF;
-    text-align: center;
-    text-decoration: none;
-}
-
-#menu li:last-child a {
-    border: none;
-}
-
-#menu li a:hover {
-    background: #FFF;
-    font-size: 100%;
-    color: #999;
-}
-
-#toggle {
-    display: none;
-}
-
-.photo s1 img {
-    width: auto;
-    height: 340px;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
-    z-index: 1;
-}
-
-h2 {
-    font-size: 120%;
-}
-
-.inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 220px;
-    height: 330px;
-}
-
-#footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-    font-size: 80％;
-    text-align: left;
-    margin-top: 40px;
-    list-style-type: none;
-    padding: 5px 0px 5px 0px;
-    background-color: #FFF;
-}
-
-footer s2 img {
-    width: auto;
-    height: 25px;
-    padding: 0px 0px 0px 20px;
-}
-
-footer s3 img {
-    width: auto;
-    height: 25px;
-    padding: 0px 0px 0px 20px;
-}
-
-footer b img {
-    width: auto;
-    height: 22px;
-    float: right;
-    padding: 0px 20px 0px 0px;
-}
-
-@media only screen and (max-width: 2000px) {
+    /* CSS Document */
 
     #home {
-        padding: 0px 10px 20px 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 10px 25px 10px;
     }
 
     #home b {
-        font-size: 90%;
+        font-size: 100%;
+        font-weight: 300;
+        color: #535353;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 90%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
-        width: 245px;
-        height: auto;
-        padding: 10px 0px 25px 0px;
-    }
-
-    nav {
-        padding: 20px 0px 0px 0px;
-    }
-
-    #menu li a {
         font-size: 100%;
-    }
-
-    .inner {
-        width: 240px;
-        height: 350px;
-    }
-
-    h2 {
-        font-size: 115%;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 350px;
-    }
-
-    #footer {
-        padding: 5px 0px 0px 0px;
-    }
-
-    footer s2 img {
-        width: auto;
-        height: 20px;
-        padding: 0px 0px 0px 10px;
-    }
-
-    footer s3 img {
-        width: auto;
-        height: 20px;
-        padding: 0px 0px 0px 5px;
-    }
-
-    footer b img {
-        width: auto;
-        height: 18px;
+        font-weight: 300;
         float: right;
-        padding: 0px 15px 0px 0px;
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-
-    #home {
-        padding: 0px 0px 0px 0px;
-    }
-
-    #home b {
-        font-size: 75%;
-        padding: 0px 0px 0px 10px;
-    }
-
-    #home p {
-        font-size: 75%;
         padding: 0px 10px 0px 0px;
+    }
+
+    #cs header a {
+        color: #666666;
     }
 
     #home s img {
-        width: 214px;
+        width: 306px;
         height: auto;
-        padding: 10px 0px 20px 0px;
+        padding: 30px 0px 25px 0px;
     }
 
     nav {
-        padding: 0px 0px 20px 0px;
-    }
-
-    #menu li {
-        width: 20%;
-    }
-
-    #menu li a {
-        padding: 7px 0 7px;
-    }
-
-    .inner {
-        width: 200px;
-        height: 280px;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 280px;
-    }
-
-    h2 {
-        font-size: 100%;
-    }
-
-    footer b img {
-        padding: 0px 10px 0px 0px;
-    }
-
-}
-
-@media only screen and (max-width: 480px) {
-
-    #home {
-        padding: 0px 0px 0px 0px;
-    }
-
-    #home b {
-        font-size: 66%;
-        padding: 0px 0px 0px 10px;
-    }
-
-    #home p {
-        font-size: 65%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
-        width: 183px;
-        height: auto;
-        padding: 5px 0px 0px 0px;
-    }
-
-    nav {
-        padding: 10px 0px 0px 0px;
+        margin-bottom: 5px;
+        background: #FFF;
+        padding: 20px 0px 0px 0px;
+        position: relative;
+        z-index: 2;
     }
 
     #menu {
-        display: none;
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0px 0px 0px 0px;
     }
 
     #menu li {
-        width: 100%;
+        display: block;
+        float: left;
+        width: 20%;
+        margin: 0;
+        padding: 0;
+        color: #000;
     }
 
     #menu li a {
-        padding: 12px 0 12px;
+        font-size: 120%;
+        display: block;
+        padding: 10px 0px 10px 0px;
+        background-color: #FFF;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #menu li:last-child a {
+        border: none;
+    }
+
+    #menu li a:hover {
+        background: #FFF;
+        font-size: 100%;
+        color: #999;
     }
 
     #toggle {
-        display: block;
-        position: relative;
-        width: 100%;
-        background: #FFF;
+        display: none;
     }
 
-    #toggle a {
-        padding: 0px 0 10px;
-        font-weight: 300;
+    .photo s1 img {
+        width: auto;
+        height: 340px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    h1 {
+        font-size: 200%;
+        line-height: 120%;
+        background-color: #f3f3f3;
+        color:#111;
+        padding: 20px 0px 20px 20px;
+        -webkit-box-shadow: 0 0px 0px none;
+        box-shadow: 0 0px 0px none;
+        }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    h4 {
         font-size: 110%;
+        line-height: 140%;
+        color:#000;
+        text-align: left;
+        padding: 20px 0px 20px 20px;
     }
 
-    #toggle:before {
-        display: block;
-        content: "";
+    table {
+        text-align:left;
+        font-size: 110%;
+        line-height: 140%;
+        margin-left:0px
+        ;margin-right:auto;
+        border-collapse: separate;
+        border-spacing: 5px;
+        padding: 10px 0px 0px 20px;
+    }
+
+    .inner {
         position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 220px;
+        height: 330px;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
         height: 30px;
-        margin-top: -15px;
-        background: #FFF;
-    }
-
-    #toggle a:before,
-    #toggle a:after {
-        display: block;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 6px;
-        background: #FFF;
-    }
-
-    #toggle a:before {
-        margin-top: -9px;
-    }
-
-    #toggle a:after {
-        margin-top: 3px;
-    }
-
-    .inner {
-        width: 140px;
-        height: 210px;
-    }
-
-    #cs h1 {
-        font-size: 80%;
-        padding: 0px 0px 25px 0px;
-    }
-
-    h2 {
-        font-size: 90%;
-    }
-
-    h3 {
-        font-size: 100%;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 220px;
-    }
-
-    footer s3 img {
-        padding: 0px 0px 0px 5px;
-    }
-
-    footer b img {
-        float: right;
-        padding: 1px 10px 0px 0px;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-
-    #home s img {
-        width: 153px;
-        height: auto;
-        padding: 5px 0px 0px 0px;
-    }
-
-    #menu li a {
-        padding: 10px 0px 10px;
-    }
-
-    .inner {
-        width: 120px;
-        height: 180px;
-    }
-
-    #cs h1 {
-        font-size: 66%;
-        padding: 0px 0px 20px 0px;
-    }
-
-    h2 {
-        font-size: 85%;
-    }
-
-    h3 {
-        font-size: 95%;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 180px;
+        font-size: 80％;
+        text-align: left;
+        margin-top: 40px;
+        list-style-type: none;
+        padding: 5px 0px 5px 0px;
+        background-color: #FFF;
     }
 
     footer s2 img {
         width: auto;
-        height: 16px;
-        padding: 0px 0px 0px 6px;
+        height: 25px;
+        padding: 0px 0px 0px 20px;
     }
 
     footer s3 img {
         width: auto;
-        height: 16px;
-        padding: 0px 0px 0px 2px;
+        height: 25px;
+        padding: 0px 0px 0px 20px;
     }
 
     footer b img {
         width: auto;
-        height: 15px;
+        height: 22px;
         float: right;
-        padding: 0px 5px 0px 0px;
+        padding: 0px 20px 0px 0px;
     }
-}
+
+    @media only screen and (max-width: 2000px) {
+
+        #home {
+            padding: 0px 10px 20px 10px;
+        }
+
+        #home b {
+            font-size: 90%;
+            padding: 0px 0px 0px 10px;
+        }
+
+        #home p {
+            font-size: 90%;
+            padding: 0px 10px 0px 0px;
+        }
+
+        #home s img {
+            width: 245px;
+            height: auto;
+            padding: 10px 0px 25px 0px;
+        }
+
+        nav {
+            padding: 20px 0px 0px 0px;
+        }
+
+        #menu li a {
+            font-size: 100%;
+        }
+
+        .inner {
+            width: 240px;
+            height: 350px;
+        }
+
+        h1 {
+            font-size: 180%;
+        }
+
+        h2 {
+            font-size: 115%;
+        }
+
+        .photo s1 img {
+            width: auto;
+            height: 350px;
+        }
+
+        #footer {
+            padding: 5px 0px 0px 0px;
+        }
+
+        footer s2 img {
+            width: auto;
+            height: 20px;
+            padding: 0px 0px 0px 10px;
+        }
+
+        footer s3 img {
+            width: auto;
+            height: 20px;
+            padding: 0px 0px 0px 5px;
+        }
+
+        footer b img {
+            width: auto;
+            height: 18px;
+            float: right;
+            padding: 0px 15px 0px 0px;
+        }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        #home {
+            padding: 0px 0px 0px 0px;
+        }
+
+        #home b {
+            font-size: 75%;
+            padding: 0px 0px 0px 10px;
+        }
+
+        #home p {
+            font-size: 75%;
+            padding: 0px 10px 0px 0px;
+        }
+
+        #home s img {
+            width: 214px;
+            height: auto;
+            padding: 10px 0px 10px 0px;
+        }
+
+        nav {
+            padding: 0px 0px 10px 0px;
+        }
+
+        #menu li {
+            width: 20%;
+        }
+
+        #menu li a {
+            padding: 12px 0 12px;
+        }
+
+        .inner {
+            width: 200px;
+            height: 280px;
+        }
+
+        .photo s1 img {
+            width: auto;
+            height: 280px;
+        }
+
+        h1 {
+            font-size: 150%;
+            padding: 15px 10px 15px 10px;
+        }
+
+        h2 {
+            font-size: 100%;
+        }
+
+        h3 {
+            font-size: 120%;
+        }
+
+        h4 {
+            font-size: 90%;
+            padding: 10px 10px 10px 10px;
+        }
+
+        table {
+        font-size: 90%;
+        line-height: 140%;
+        border-spacing: 3px;
+        padding: 10px 0px 0px 10px;
+    }
+
+        footer b img {
+            padding: 0px 10px 0px 0px;
+        }
+
+    }
+
+    @media only screen and (max-width: 480px) {
+
+        #home {
+            padding: 0px 0px 0px 0px;
+        }
+
+        #home b {
+            font-size: 66%;
+            padding: 0px 0px 0px 10px;
+        }
+
+        #home p {
+            font-size: 65%;
+            padding: 0px 10px 0px 0px;
+        }
+
+        #home s img {
+            width: 183px;
+            height: auto;
+            padding: 5px 0px 0px 0px;
+        }
+
+        nav {
+            padding: 10px 0px 0px 0px;
+        }
+
+        #menu {
+            display: none;
+        }
+
+        #menu li {
+            width: 100%;
+        }
+
+        #menu li a {
+            padding: 12px 0 12px;
+        }
+
+        #toggle {
+            display: block;
+            position: relative;
+            width: 100%;
+            background: #FFF;
+        }
+
+        #toggle a {
+            padding: 0px 0 10px;
+            font-weight: 300;
+            font-size: 110%;
+        }
+
+        #toggle:before {
+            display: block;
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            width: 30px;
+            height: 30px;
+            margin-top: -15px;
+            background: #FFF;
+        }
+
+        #toggle a:before,
+        #toggle a:after {
+            display: block;
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            width: 30px;
+            height: 6px;
+            background: #FFF;
+        }
+
+        #toggle a:before {
+            margin-top: -9px;
+        }
+
+        #toggle a:after {
+            margin-top: 3px;
+        }
+
+        .inner {
+            width: 140px;
+            height: 210px;
+        }
+
+        table {
+        font-size: 80%;
+        line-height: 140%;
+        border-spacing: 3px;
+        padding: 10px 0px 0px 10px;
+    }
+
+        h1 {
+            font-size: 140%;
+            padding: 10px 0px 10px 10px;
+        }
+
+        h2 {
+            font-size: 90%;
+        }
+
+        h3 {
+            font-size: 90%;
+            padding: 0px 0px 3px 0px;
+        }
+
+        h4 {
+            font-size: 80%;
+            padding: 10px 10px 10px 10px;
+        }
+
+
+        .photo s1 img {
+            width: auto;
+            height: 220px;
+        }
+
+        footer s3 img {
+            padding: 0px 0px 0px 5px;
+        }
+
+        footer b img {
+            float: right;
+            padding: 1px 10px 0px 0px;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+
+        #home s img {
+            width: 153px;
+            height: auto;
+            padding: 5px 0px 0px 0px;
+        }
+
+        #menu li a {
+            padding: 10px 0px 10px;
+        }
+
+        .inner {
+            width: 120px;
+            height: 180px;
+        }
+
+        h1 {
+            font-size: 130%;
+            padding: 10px 0px 10px 10px;
+        }
+
+        h2 {
+            font-size: 85%;
+        }
+
+        h3 {
+            font-size: 95%;
+        }
+
+        .photo s1 img {
+            width: auto;
+            height: 180px;
+        }
+
+        footer s2 img {
+            width: auto;
+            height: 16px;
+            padding: 0px 0px 0px 6px;
+        }
+
+        footer s3 img {
+            width: auto;
+            height: 16px;
+            padding: 0px 0px 0px 2px;
+        }
+
+        footer b img {
+            width: auto;
+            height: 15px;
+            float: right;
+            padding: 0px 5px 0px 0px;
+        }
+    }
+
+    section {
+        max-width: 1200px;
+        text-shadow: none;
+        padding: 10px 0px 15px 0px;
+        background: #FFF;
+    }
+
+
+
+    #page-top {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 77%;
+    }
+
+    #page-top a {
+        background: rgba(220, 220, 220, 0.6);
+        text-decoration: none;
+        color: #666;
+        font-weight: 300;
+        width: 50px;
+        padding: 20px 0;
+        text-align: center;
+        display: block;
+        border-radius: 25px;
+    }
+
+    #page-top a:hover {
+        text-decoration: none;
+        background: rgba(150, 150, 150, 0.4);
+    }
+
+
