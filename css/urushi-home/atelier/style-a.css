@@ -308,7 +308,7 @@ footer b img {
     }
 
     #toggle a {
-        padding: 0px 0 10px;
+        padding: 0px 0px 10px 0px;
         font-weight: 400;
         font-size: 100%;
     }
@@ -418,11 +418,11 @@ footer b img {
     }
 
     nav {
-        padding: 10px 0px 0px 0px;
+        padding: 5px 0px 0px 0px;
     }
 
     #menu li a {
-        padding: 5px 0px 5px 0px;
+        padding: 3px 0px 3px 0px;
     }
 
     .photo s2 img {
@@ -454,6 +454,7 @@ footer b img {
 
     h3 {
         font-size: 90%;
+        padding: 0px 0px 3px 0px;
     }
 
     h4 {
