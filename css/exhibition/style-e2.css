@@ -81,23 +81,40 @@ nav {
     display: none;
 }
 
+h2 {
+    font-size: 120%;
+}
 
+.slick-dots {
+     bottom: 0px;
+ }
 
 .photo s1 img {
     width: auto;
-    height: 520px;
+    height: 530px;
     padding: 0px 0px 0px 0px;
 }
 
-.single-item {
-    width: 600px;
-    height: 550px;
+.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 580px;
+    height: 580px;
+    padding: 120px 0px 0px 0px;
+}
 
+.single-item {
+    width: 580px;
+    height: 580px;
 }
 
 .container {
-    width: 90%;
-    padding: 60px 0px 0px 0px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
 }
 
 /*slick setting*/
@@ -108,7 +125,7 @@ nav {
 
 .row container {
     margin: 0 auto;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     width: 60%;
     color: #333;
     background: #FFF;
@@ -190,16 +207,24 @@ footer b img {
     .photo s1 img {
         width: auto;
         height: 480px;
-        padding: 30px 0px 30px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .inner {
+        width: 480px;
+    height: 480px;
+    padding: 120px 0px 0px 0px;
+
     }
 
     .single-item {
-        width: 600px;
+        width: 480px;
+    height: 480px;
     }
 
     .container {
-        width: 90%;
-        padding: 60px 0px 0px 0px;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
     }
 
     /*slick setting*/
@@ -210,7 +235,7 @@ footer b img {
 
     .row container {
         margin: 0 auto;
-        padding: 20px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
         width: 60%;
         color: #333;
         background: white;
@@ -225,6 +250,14 @@ footer b img {
     row img {
         width: auto;
         height: 180px;
+    }
+
+    .slick-dots {
+     bottom: -50px;
+ }
+
+    h2 {
+        font-size: 115%;
     }
 
     #footer {
@@ -276,7 +309,6 @@ footer b img {
 
     nav {
         padding: 0px 0px 20px 0px;
-        z-index: 2;
     }
 
     #menu {
@@ -319,32 +351,29 @@ footer b img {
         display: none;
     }
 
-
-
-
-
-
-
     h2 {
-        font-size: 80%;
-        line-height: 2;
+        font-size: 100%;
     }
 
-    .container {
-        width: 90%;
-        padding: 60px 0px 0px 0px;
+    .inner {
+        width: 380px;
+    height: 380px;
+    padding: 0px 0px 0px 0px;
     }
 
     .single-item {
-        width: 400px;
-        height: 430px;
-        padding: 0px 0px 0px 0px;
+        width: 380px;
+    height: 380px;
     }
+
+    .slick-dots {
+     bottom: -15px;
+ }
 
     .photo s1 img {
         width: auto;
         height: 350px;
-        padding: 60px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
         text-align: center;
     }
 
@@ -437,25 +466,24 @@ footer b img {
         margin-top: 3px;
     }
 
-    .container {
-
-        padding: 10px 0px 0px 0px;
-    }
-
     .photo s1 img {
         max-width: auto;
         height: 280px;
-        padding: 10px 0px 0px 0px;
-    }
-
-    .single-item {
-        width: 290px;
-        height: 310px;
         padding: 0px 0px 0px 0px;
     }
 
+    .inner {
+        width: 300px;
+    height: 300px;
+    }
+
+    .single-item {
+        width: 300px;
+    height: 300px;
+    }
+
     h2 {
-        font-size: 75%;
+        font-size: 90%;
     }
 
     h3 {
@@ -480,10 +508,6 @@ footer b img {
         padding: 5px 0px 0px 0px;
     }
 
-    .container {
-
-        padding: 0px 0px 0px 0px;
-    }
 
     .photo s1 img {
         max-width: auto;
@@ -495,11 +519,14 @@ footer b img {
         width: 220px;
         height: 250px;
         padding: 0px 0px 0px 0px;
-
     }
 
     h2 {
-        font-size: 75%;
+        font-size: 85%;
+    }
+
+    h3 {
+        font-size: 95%;
     }
 
     footer s2 img {
@@ -526,8 +553,6 @@ footer b img {
 .photo {
     text-align: center;
 }
-
-
 
 section {
     padding: 50px 0px 0px 0px;
