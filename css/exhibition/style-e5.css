@@ -37,7 +37,7 @@
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 120px 0px;
     position: relative;
     z-index: 2;
 }
@@ -81,44 +81,51 @@ nav {
     display: none;
 }
 
-.photo s img {
-    padding: 11px 0px 0px 0px;
-}
-
-.photo s1 img {
-    width: auto;
-    height: 250px;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
-}
-
-#cs h1 {
-    font-size: 180%;
-    padding: 10px 10px 10px 10px;
-}
-
 h2 {
     font-size: 120%;
 }
 
-#cs h4 {
-    font-size: 110%;
-    text-align: left;
-    line-height: 2;
-    padding: 15px 10px 15px 10px;
+.photo s1 img {
+    width: auto;
+    height: 520px;
+    padding: 0px 0px 0px 0px;
 }
 
-.inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 50%;
-    height: 350px;
+.single-item {
+    width: 600px;
+    height: 550px;
+
 }
 
+.container {
+    width: 90%;
+    padding: 60px 0px 0px 0px;
+}
+
+/*slick setting*/
+.row slick-prev:before,
+.slick-next:before {
+    color: #d8d8d8;
+}
+
+.row container {
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+    width: 60%;
+    color: #333;
+    background: #FFF;
+}
+
+.row slick-slide {
+    text-align: center;
+    color: white;
+    background: white;
+}
+
+row img {
+    width: auto;
+    height: 180px;
+}
 
 #footer {
     position: fixed;
@@ -182,25 +189,48 @@ footer b img {
         font-size: 100%;
     }
 
-    .inner {
-        width: 62%;
+    .photo s1 img {
+        width: auto;
+        height: 480px;
+        padding: 30px 0px 30px 0px;
     }
 
-    #cs h1 {
-        font-size: 150%;
+    .single-item {
+        width: 600px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 60px 0px 0px 0px;
+    }
+
+    /*slick setting*/
+    .row slick-prev:before,
+    .slick-next:before {
+        color: #d8d8d8;
+    }
+
+    .row container {
+        margin: 0 auto;
+        padding: 20px 0px 0px 0px;
+        width: 60%;
+        color: #333;
+        background: white;
+    }
+
+    .row slick-slide {
+        text-align: center;
+        color: white;
+        background: white;
+    }
+
+    row img {
+        width: auto;
+        height: 180px;
     }
 
     h2 {
         font-size: 115%;
-    }
-
-    #cs h4 {
-        font-size: 100%;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 220px;
     }
 
     #footer {
@@ -254,34 +284,66 @@ footer b img {
         padding: 0px 0px 20px 0px;
     }
 
-    #menu li {
-        width: 25%;
+    #menu {
+        width: 100%;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 0px 0px 0px 0px;
     }
+
+    #menu li {
+        display: block;
+        float: left;
+        width: 25%;
+        margin: 0;
+        padding: 0;
+        color: #000;
+    }
+
 
     #menu li a {
-        padding: 7px 0 7px;
+        font-size: 90%;
+        display: block;
+        padding: 10px 0 10px;
+        background-color: #FFF;
+        text-align: center;
+        text-decoration: none;
     }
 
-    .inner {
-        width: 85%;
-                height: 300px;
+    #menu li:last-child a {
+        border: none;
     }
 
-    .photo s1 img {
-        width: auto;
-        height: 200px;
+    #menu li a:hover {
+        background: #FFF;
+        font-size: 100%;
+        color: #999;
     }
 
-    #cs h1 {
-        font-size: 120%;
+    #toggle {
+        display: none;
     }
 
     h2 {
         font-size: 100%;
     }
 
-    #cs h4 {
-        font-size: 90%;
+    .container {
+        width: 90%;
+        padding: 60px 0px 0px 0px;
+    }
+
+    .single-item {
+        width: 400px;
+        height: 430px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 350px;
+        padding: 60px 0px 0px 0px;
+        text-align: center;
     }
 
     footer b img {
@@ -290,8 +352,8 @@ footer b img {
 
 }
 
-@media only screen and (max-width: 480px) {
 
+@media only screen and (max-width: 480px) {
     #home {
         padding: 0px 0px 0px 0px;
     }
@@ -325,7 +387,7 @@ footer b img {
     }
 
     #menu li a {
-        padding: 12px 0 12px;
+        padding: 8px 0 8px;
     }
 
     #toggle {
@@ -373,12 +435,21 @@ footer b img {
         margin-top: 3px;
     }
 
-    .inner {
-        width: 100%;
+    .container {
+
+        padding: 10px 0px 0px 0px;
     }
 
-    #cs h1 {
-        font-size: 110%;
+    .photo s1 img {
+        max-width: auto;
+        height: 280px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .single-item {
+        width: 290px;
+        height: 310px;
+        padding: 0px 0px 0px 0px;
     }
 
     h2 {
@@ -387,22 +458,6 @@ footer b img {
 
     h3 {
         font-size: 100%;
-    }
-
-    #cs h4 {
-        font-size: 80%;
-        line-height: 1.8;
-    }
-
-    .photo s img {
-        width: 55%;
-        height: auto;
-        padding: 5px 0px 0px 0px;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 150px;
     }
 
     footer s3 img {
@@ -423,17 +478,30 @@ footer b img {
         padding: 5px 0px 0px 0px;
     }
 
+    .container {
+
+        padding: 0px 0px 0px 0px;
+    }
+
+    .photo s1 img {
+        max-width: auto;
+        height: 220px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .single-item {
+        width: 220px;
+        height: 250px;
+        padding: 0px 0px 0px 0px;
+
+    }
+
     h2 {
         font-size: 85%;
     }
 
     h3 {
         font-size: 95%;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 120px;
     }
 
     footer s2 img {
@@ -454,4 +522,15 @@ footer b img {
         float: right;
         padding: 0px 5px 0px 0px;
     }
+
+}
+
+.photo {
+    text-align: center;
+}
+
+
+
+section {
+    padding: 50px 0px 0px 0px;
 }
