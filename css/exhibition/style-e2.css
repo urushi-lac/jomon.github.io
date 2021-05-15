@@ -5,9 +5,17 @@
 /* CSS Document */
 
 #home {
+    position: fixed;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 10px 25px 10px;
+    padding: 10px 10px 25px 10px;
+    background-color: #fff;
+    z-index: 2;
+    width: 100%;
+}
+
+#cs header {
+    border-top: 0px;
 }
 
 #home b {
@@ -21,7 +29,7 @@
     font-size: 100%;
     font-weight: 300;
     float: right;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 20px 0px 0px;
 }
 
 #cs header a {
@@ -32,14 +40,15 @@
     width: 306px;
     height: auto;
     padding: 30px 0px 25px 0px;
+    z-index: 1;
 }
 
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding: 20px 0px 0px 0px;
+    padding: 180px 0px 0px 0px;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 #menu {
@@ -298,17 +307,17 @@ footer b img {
 
     #home p {
         font-size: 75%;
-        padding: 0px 10px 0px 0px;
+        padding: 0px 30px 0px 0px;
     }
 
     #home s img {
         width: 214px;
         height: auto;
-        padding: 10px 0px 20px 0px;
+        padding: 10px 0px 5px 0px;
     }
 
     nav {
-        padding: 0px 0px 20px 0px;
+        padding: 100px 0px 0px 0px;
     }
 
     #menu {
@@ -386,7 +395,7 @@ footer b img {
 
 @media only screen and (max-width: 480px) {
     #home {
-        padding: 0px 0px 0px 0px;
+        padding: 10px 10px 10px 10px;
     }
 
     #home b {
@@ -396,7 +405,7 @@ footer b img {
 
     #home p {
         font-size: 65%;
-        padding: 0px 10px 0px 0px;
+        padding: 0px 30px 0px 0px;
     }
 
     #home s img {
@@ -406,7 +415,7 @@ footer b img {
     }
 
     nav {
-        padding: 10px 0px 0px 0px;
+        padding: 80px 0px 0px 0px;
     }
 
     #menu {
@@ -475,6 +484,7 @@ footer b img {
     .inner {
         width: 300px;
     height: 300px;
+    padding: 40px 0px 0px 0px;
     }
 
     .single-item {
