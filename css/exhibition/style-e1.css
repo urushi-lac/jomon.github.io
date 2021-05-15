@@ -375,11 +375,12 @@ footer b img {
 
     .inner {
         width: 100%;
+        padding: 50px 0px 0px 0px;
     }
 
     #cs h1 {
-        font-size: 100%;
-        padding: 5px 5px 5px 5px;
+        font-size: 90%;
+        padding: 5px 10px 5px 10px;
     }
 
     h2 {
@@ -392,7 +393,8 @@ footer b img {
 
     #cs h4 {
         font-size: 70%;
-        line-height: 1;
+        line-height: 1.2;
+        padding: 10px 10px 10px 10px;
     }
 
     .photo s img {
