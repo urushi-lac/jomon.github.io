@@ -4,35 +4,32 @@
 
 /* CSS Document */
 
-#home {
-    position: fixed;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 10px 25px 10px;
-    background-color: #fff;
-    z-index: 2;
-    width: 100%;
-}
-
 #cs header {
     border-top: 0px;
-    z-index: 1;
-    position: fixed;
+    background-color: #fff;
     width: 100%;
+    position: fixed;
+    padding: 10px 0px 0px 0px;
+    z-index: 1;
+}
+
+#cs home {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #home b {
     font-size: 100%;
     font-weight: 300;
     color: #535353;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
 }
 
 #home p {
     font-size: 100%;
     font-weight: 300;
     float: right;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 20px 0px 0px;
 }
 
 #cs header a {
@@ -43,16 +40,13 @@
     width: 306px;
     height: auto;
     padding: 30px 0px 25px 0px;
-    z-index: 1;
 }
 
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding: 180px 0px 0px 0px;
-    position:fixed;;
-    z-index: 1;
-    width: 100%;
+    padding: 20px 0px 0px 0px;
+    position: relative;
 }
 
 #menu {
@@ -74,7 +68,7 @@ nav {
 #menu li a {
     font-size: 120%;
     display: block;
-    padding: 10px 0 10px;
+    padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
     text-decoration: none;
@@ -99,8 +93,8 @@ h2 {
 }
 
 .slick-dots {
-     bottom: 0px;
- }
+    bottom: 0px;
+}
 
 .photo s1 img {
     width: auto;
@@ -117,7 +111,7 @@ h2 {
     margin: auto;
     width: 580px;
     height: 580px;
-    padding: 120px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 .single-item {
@@ -190,7 +184,7 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        padding: 10px 10px 20px 10px;
+        padding: 0px 10px 20px 10px;
     }
 
     #home b {
@@ -210,7 +204,7 @@ footer b img {
     }
 
     nav {
-        padding: 150px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
 
     #menu li a {
@@ -225,14 +219,12 @@ footer b img {
 
     .inner {
         width: 480px;
-    height: 480px;
-    padding: 120px 0px 0px 0px;
-
+        height: 480px;
     }
 
     .single-item {
         width: 480px;
-    height: 480px;
+        height: 480px;
     }
 
     .container {
@@ -266,8 +258,8 @@ footer b img {
     }
 
     .slick-dots {
-     bottom: -50px;
- }
+        bottom: -50px;
+    }
 
     h2 {
         font-size: 115%;
@@ -301,7 +293,7 @@ footer b img {
 @media only screen and (max-width: 768px) {
 
     #home {
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #home b {
@@ -317,29 +309,69 @@ footer b img {
     #home s img {
         width: 214px;
         height: auto;
-        padding: 10px 0px 5px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     nav {
-        padding: 100px 0px 0px 0px;
+        padding: 30px 0px 0px 0px;
     }
 
-
+    #menu {
+        display: none;
+    }
 
     #menu li {
-
-        width: 25%;
-
+        width: 100%;
     }
-
 
     #menu li a {
-
-        padding: 10px 0 10px;
-
+        padding: 40px 0px 40px;
     }
 
+    #toggle {
+        display: block;
+        position: relative;
+        width: 100%;
+        background: #FFF;
+    }
 
+    #toggle a {
+        padding: 0px 0 10px;
+        font-weight: 400;
+        font-size: 110%;
+    }
+
+    #toggle:before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        background: #FFF;
+    }
+
+    #toggle a:before,
+    #toggle a:after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 6px;
+        background: #FFF;
+    }
+
+    #toggle a:before {
+        margin-top: -9px;
+    }
+
+    #toggle a:after {
+        margin-top: 3px;
+    }
 
     h2 {
         font-size: 100%;
@@ -347,18 +379,18 @@ footer b img {
 
     .inner {
         width: 380px;
-    height: 380px;
-    padding: 150px 0px 0px 0px;
+        height: 380px;
+        padding: 50px 0px 0px 0px;
     }
 
     .single-item {
         width: 380px;
-    height: 380px;
+        height: 380px;
     }
 
     .slick-dots {
-     bottom: -15px;
- }
+        bottom: -15px;
+    }
 
     .photo s1 img {
         width: auto;
@@ -376,7 +408,7 @@ footer b img {
 
 @media only screen and (max-width: 480px) {
     #home {
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #home b {
@@ -384,7 +416,7 @@ footer b img {
         padding: 0px 0px 0px 10px;
     }
 
-    #home p {
+    #home p a {
         font-size: 65%;
         padding: 0px 10px 0px 0px;
     }
@@ -464,13 +496,13 @@ footer b img {
 
     .inner {
         width: 300px;
-    height: 300px;
-    padding: 80px 0px 0px 0px;
+        height: 300px;
+        padding: 0px 0px 0px 0px;
     }
 
     .single-item {
         width: 300px;
-    height: 300px;
+        height: 300px;
     }
 
     h2 {
@@ -499,16 +531,18 @@ footer b img {
         padding: 5px 0px 0px 0px;
     }
 
+    #menu li a {
+        padding: 10px 0px 10px;
+    }
+
+    .inner {
+        width: 300px;
+        height: 300px;
+    }
 
     .photo s1 img {
         max-width: auto;
         height: 220px;
-        padding: 0px 0px 0px 0px;
-    }
-
-    .single-item {
-        width: 220px;
-        height: 250px;
         padding: 0px 0px 0px 0px;
     }
 
@@ -546,5 +580,5 @@ footer b img {
 }
 
 section {
-    padding: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
