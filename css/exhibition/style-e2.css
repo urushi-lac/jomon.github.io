@@ -17,6 +17,8 @@
 #cs header {
     border-top: 0px;
     z-index: 1;
+    position: fixed;
+    width: 100%;
 }
 
 #home b {
@@ -30,7 +32,7 @@
     font-size: 100%;
     font-weight: 300;
     float: right;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
 
 #cs header a {
@@ -48,8 +50,9 @@ nav {
     margin-bottom: 5px;
     background: #FFF;
     padding: 180px 0px 0px 0px;
-    position: relative;
+    position:fixed;;
     z-index: 1;
+    width: 100%;
 }
 
 #menu {
@@ -187,7 +190,7 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     #home {
-        padding: 0px 10px 20px 10px;
+        padding: 10px 10px 20px 10px;
     }
 
     #home b {
@@ -207,7 +210,7 @@ footer b img {
     }
 
     nav {
-        padding: 20px 0px 0px 0px;
+        padding: 150px 0px 0px 0px;
     }
 
     #menu li a {
@@ -298,7 +301,7 @@ footer b img {
 @media only screen and (max-width: 768px) {
 
     #home {
-        padding: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #home b {
@@ -308,7 +311,7 @@ footer b img {
 
     #home p {
         font-size: 75%;
-        padding: 0px 30px 0px 0px;
+        padding: 0px 10px 0px 0px;
     }
 
     #home s img {
@@ -321,45 +324,22 @@ footer b img {
         padding: 100px 0px 0px 0px;
     }
 
-    #menu {
-        width: 100%;
-        max-width: 760px;
-        margin: 0 auto;
-        padding: 0px 0px 0px 0px;
-    }
+
 
     #menu li {
-        display: block;
-        float: left;
+
         width: 25%;
-        margin: 0;
-        padding: 0;
-        color: #000;
+
     }
 
 
     #menu li a {
-        font-size: 90%;
-        display: block;
+
         padding: 10px 0 10px;
-        background-color: #FFF;
-        text-align: center;
-        text-decoration: none;
+
     }
 
-    #menu li:last-child a {
-        border: none;
-    }
 
-    #menu li a:hover {
-        background: #FFF;
-        font-size: 100%;
-        color: #999;
-    }
-
-    #toggle {
-        display: none;
-    }
 
     h2 {
         font-size: 100%;
@@ -368,7 +348,7 @@ footer b img {
     .inner {
         width: 380px;
     height: 380px;
-    padding: 0px 0px 0px 0px;
+    padding: 150px 0px 0px 0px;
     }
 
     .single-item {
@@ -396,7 +376,7 @@ footer b img {
 
 @media only screen and (max-width: 480px) {
     #home {
-        padding: 10px 10px 10px 10px;
+        padding: 10px 0px 0px 0px;
     }
 
     #home b {
@@ -406,7 +386,7 @@ footer b img {
 
     #home p {
         font-size: 65%;
-        padding: 0px 30px 0px 0px;
+        padding: 0px 10px 0px 0px;
     }
 
     #home s img {
@@ -416,7 +396,7 @@ footer b img {
     }
 
     nav {
-        padding: 80px 0px 0px 0px;
+        padding: 80px 0px 10px 0px;
     }
 
     #menu {
@@ -485,7 +465,7 @@ footer b img {
     .inner {
         width: 300px;
     height: 300px;
-    padding: 40px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
     }
 
     .single-item {
