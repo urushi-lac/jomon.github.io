@@ -16,6 +16,7 @@
 #cs home {
     margin-left: auto;
     margin-right: auto;
+
 }
 
 #home b {
@@ -32,6 +33,7 @@
     padding: 0px 20px 0px 0px;
 }
 
+
 #cs header a {
     color: #666666;
 }
@@ -40,6 +42,7 @@
     width: 306px;
     height: auto;
     padding: 30px 0px 25px 0px;
+
 }
 
 nav {
@@ -47,6 +50,7 @@ nav {
     background: #FFF;
     padding: 20px 0px 0px 0px;
     position: relative;
+
 }
 
 #menu {
@@ -88,18 +92,18 @@ nav {
     display: none;
 }
 
+.photo s1 img {
+    width: auto;
+    height: 530px;
+    padding: 0px 0px 0px 0px;
+}
+
 h2 {
     font-size: 120%;
 }
 
 .slick-dots {
     bottom: 0px;
-}
-
-.photo s1 img {
-    width: auto;
-    height: 530px;
-    padding: 0px 0px 0px 0px;
 }
 
 .inner {
@@ -211,12 +215,6 @@ footer b img {
         font-size: 100%;
     }
 
-    .photo s1 img {
-        width: auto;
-        height: 480px;
-        padding: 0px 0px 0px 0px;
-    }
-
     .inner {
         width: 480px;
         height: 480px;
@@ -265,6 +263,19 @@ footer b img {
         font-size: 115%;
     }
 
+    p1 {
+        font-size: 100%;
+        font-weight: 400;
+        line-height: 2em;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 480px;
+        padding: 0px 0px 0px 0px;
+    }
+
     #footer {
         padding: 5px 0px 0px 0px;
     }
@@ -309,11 +320,83 @@ footer b img {
     #home s img {
         width: 214px;
         height: auto;
-        padding: 10px 0px 0px 0px;
+        padding: 10px 0px 20px 0px;
     }
 
     nav {
-        padding: 30px 0px 0px 0px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    #menu li {
+        width: 25%;
+    }
+
+    #menu li a {
+        padding: 40px 0 40px;
+    }
+
+    .inner {
+        width: 380px;
+        height: 380px;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .single-item {
+        width: 380px;
+        height: 380px;
+    }
+
+    .slick-dots {
+        bottom: -15px;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 350px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    p1 {
+        font-size: 80%;
+        font-weight: 400;
+        line-height: 2em;
+    }
+
+    footer b img {
+        padding: 0px 10px 0px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    #home {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #home b {
+        font-size: 66%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 65%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    #home s img {
+        width: 183px;
+        height: auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+    nav {
+        padding: 10px 0px 0px 0px;
     }
 
     #menu {
@@ -325,7 +408,7 @@ footer b img {
     }
 
     #menu li a {
-        padding: 40px 0px 40px;
+        padding: 12px 0px 12px;
     }
 
     #toggle {
@@ -373,126 +456,6 @@ footer b img {
         margin-top: 3px;
     }
 
-    h2 {
-        font-size: 100%;
-    }
-
-    .inner {
-        width: 380px;
-        height: 380px;
-        padding: 50px 0px 0px 0px;
-    }
-
-    .single-item {
-        width: 380px;
-        height: 380px;
-    }
-
-    .slick-dots {
-        bottom: -15px;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 350px;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
-    }
-
-    footer b img {
-        padding: 0px 10px 0px 0px;
-    }
-
-}
-
-@media only screen and (max-width: 480px) {
-    #home {
-        padding: 0px 0px 0px 0px;
-    }
-
-    #home b {
-        font-size: 66%;
-        padding: 0px 0px 0px 10px;
-    }
-
-    #home p a {
-        font-size: 65%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
-        width: 183px;
-        height: auto;
-        padding: 5px 0px 0px 0px;
-    }
-
-    nav {
-        padding: 80px 0px 10px 0px;
-    }
-
-    #menu {
-        display: none;
-    }
-
-    #menu li {
-        width: 100%;
-    }
-
-    #menu li a {
-        padding: 8px 0 8px;
-    }
-
-    #toggle {
-        display: block;
-        position: relative;
-        width: 100%;
-        background: #FFF;
-    }
-
-    #toggle a {
-        padding: 0px 0 10px;
-        font-weight: 300;
-        font-size: 110%;
-    }
-
-    #toggle:before {
-        display: block;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 30px;
-        margin-top: -15px;
-        background: #FFF;
-    }
-
-    #toggle a:before,
-    #toggle a:after {
-        display: block;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 6px;
-        background: #FFF;
-    }
-
-    #toggle a:before {
-        margin-top: -9px;
-    }
-
-    #toggle a:after {
-        margin-top: 3px;
-    }
-
-    .photo s1 img {
-        max-width: auto;
-        height: 280px;
-        padding: 0px 0px 0px 0px;
-    }
-
     .inner {
         width: 300px;
         height: 300px;
@@ -511,6 +474,19 @@ footer b img {
     h3 {
         font-size: 100%;
     }
+
+    p1 {
+        font-size: 80%;
+        font-weight: 400;
+        line-height: 1.8em;
+    }
+
+    .photo s1 img {
+        max-width: auto;
+        height: 280px;
+        padding: 0px 0px 0px 0px;
+    }
+
 
     footer s3 img {
         padding: 0px 0px 0px 5px;
@@ -539,12 +515,6 @@ footer b img {
         height: 300px;
     }
 
-    .photo s1 img {
-        max-width: auto;
-        height: 220px;
-        padding: 0px 0px 0px 0px;
-    }
-
     h2 {
         font-size: 85%;
     }
@@ -553,6 +523,17 @@ footer b img {
         font-size: 95%;
     }
 
+    p1 {
+        font-size: 75%;
+        font-weight: 400;
+        line-height: 1.5em;
+    }
+
+    .photo s1 img {
+        max-width: auto;
+        height: 220px;
+        padding: 0px 0px 0px 0px;
+    }
     footer s2 img {
         width: auto;
         height: 16px;
@@ -571,13 +552,4 @@ footer b img {
         float: right;
         padding: 0px 5px 0px 0px;
     }
-
-}
-
-.photo {
-    text-align: center;
-}
-
-section {
-    padding: 0px 0px 0px 0px;
 }
