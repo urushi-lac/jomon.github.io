@@ -16,7 +16,6 @@
 #cs home {
     margin-left: auto;
     margin-right: auto;
-
 }
 
 #home b {
@@ -33,7 +32,6 @@
     padding: 0px 20px 0px 0px;
 }
 
-
 #cs header a {
     color: #666666;
 }
@@ -42,15 +40,13 @@
     width: 306px;
     height: auto;
     padding: 30px 0px 25px 0px;
-
 }
 
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding: 170px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     position: relative;
-
 }
 
 #menu {
