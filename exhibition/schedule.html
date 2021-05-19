@@ -30,16 +30,84 @@
     <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/exhibition/style-e.css">
     <link rel="shortcut icon" type="image/png" href="https://urushi-lac.github.io/jomon.github.io/images/top/misowanicon.png" />
     <link rel="apple-touch-icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/apple-touch-icon-precomposed.png" />
-    <!----------------------------
-HTML5タグのIE8以前のブラウザ対応
-------------------------------->
+
     <!--[if lt IE 9]>
 <script src="dist/html5shiv.js"></script>
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
+
+<style>
+
+
+
+nav {
+    margin-bottom: 5px;
+    background: #FFF;
+    padding: 20px 0px 0px 0px;
+    position: relative;
+}
+
+    .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 180px;
+    height: 200px;
+}
+@media only screen and (max-width: 2000px) {
+    #home s img {
+        padding: 20px 0px 20px 0px;
+    }
+    nav {
+    padding: 10px 0px 0px 0px;
+}
+
+    .inner {
+    width: 150px;
+    height: 180px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    #home s img {
+        padding: 10px 0px 10px 0px;
+    }
+    nav {
+    padding: 15px 0px 0px 0px;
+}
+
+    .inner {
+    width: 140px;
+    height: 170px;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+    #home s img {
+        padding: 5px 0px 0px 0px;
+    }
+    nav {
+    padding: 15px 0px 0px 0px;
+}
+
+    .inner {
+    width: 100px;
+    height: 140px;
+}
+}
+
+
+
+</style>
+
 </head>
 
 <body id="cs">
+
     <header>
         <div id="home">
             <b>Since1987 </b>
@@ -50,34 +118,29 @@ HTML5タグのIE8以前のブラウザ対応
                     </a></s>
             </div>
         </div>
-    </header>
 
-    <!----------------------------
-memo box10  --- style-b3 #menu li weght 10%  @media only screen and (max-width: 768px) #menu li {	width: 20%;
-------------------------------->
-
-<nav id="menu-box" class="clearfix">
-    <div id="toggle">
-        <a href="#">
-                <h3>Menu</h3>
-            </a></div>
-        <ul id="menu" class="">
-            <h2>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/this-year.html">This year</a></li>
-            </h2>
-            <h2>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/takashimaya.html">Takashimaya</a></li>
-            </h2>
-
-            <h2>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/kawatoku.html">Kawatoku</a></li>
-            </h2>
-
-            <h2>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/galley.html">Art-Gallery</a></li>
-            </h2>
-        </ul>
-    </nav>
+        <nav id="menu-box" class="clearfix">
+            <div id="toggle">
+                <a href="#">
+                    <h3>Menu</h3>
+                </a>
+            </div>
+            <ul id="menu" class="">
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/this-year.html">This Year</a></li>
+                </h2>
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/takashimaya.html">Takashimaya</a></li>
+                </h2>
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/kawatoku.html">Kawatoku</a></li>
+                </h2>
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/galley.html">Art-Gallery</a></li>
+                </h2>
+            </ul>
+        </nav>
+</header>
 
     <div class="box">
         <div class="inner">
