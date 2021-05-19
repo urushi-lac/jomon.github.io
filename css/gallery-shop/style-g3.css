@@ -5,24 +5,33 @@
 
 /* CSS Document */
 
-#home {
+#cs header {
+    border-top: 0px;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    padding: 10px 0px 0px 0px;
+    z-index: 1;
+}
+
+#cs home {
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 10px 25px 10px;
+
 }
 
 #home b {
     font-size: 100%;
     font-weight: 300;
     color: #535353;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
 }
 
 #home p {
     font-size: 100%;
     font-weight: 300;
     float: right;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 20px 0px 0px;
 }
 
 #cs header a {
@@ -40,7 +49,6 @@ nav {
     background: #FFF;
     padding: 20px 0px 0px 0px;
     position: relative;
-    z-index: 2;
 }
 
 #menu {
@@ -490,4 +498,3 @@ footer b img {
 .pred {
     color: #690;
 }
-

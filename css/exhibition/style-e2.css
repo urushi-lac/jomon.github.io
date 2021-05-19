@@ -50,7 +50,6 @@ nav {
     background: #FFF;
     padding: 20px 0px 0px 0px;
     position: relative;
-
 }
 
 #menu {
@@ -336,18 +335,18 @@ footer b img {
     }
 
     .inner {
-        width: 380px;
-        height: 380px;
+        width: 350px;
+        height: 350px;
         padding: 50px 0px 0px 0px;
     }
 
     .single-item {
-        width: 380px;
-        height: 380px;
+        width: 350px;
+        height: 350px;
     }
 
     .slick-dots {
-        bottom: -15px;
+        bottom: -40px;
     }
 
     .photo s1 img {
@@ -371,9 +370,9 @@ footer b img {
         padding: 0px 10px 0px 0px;
     }
 
-}
+    }
 
-@media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
 
     #home {
         padding: 0px 0px 0px 0px;
@@ -457,15 +456,21 @@ footer b img {
     }
 
     .inner {
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
         padding: 0px 0px 0px 0px;
     }
 
     .single-item {
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
     }
+
+    .slick-dots {
+            bottom: -30px;
+            left:   -10px;
+        }
+
 
     h2 {
         font-size: 90%;
@@ -496,9 +501,9 @@ footer b img {
         float: right;
         padding: 1px 10px 0px 0px;
     }
-}
+    }
 
-@media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 320px) {
 
     #home s img {
         width: 153px;
@@ -511,9 +516,20 @@ footer b img {
     }
 
     .inner {
-        width: 300px;
-        height: 300px;
+        width: 220px;
+        height: 220px;
     }
+
+    .single-item {
+        width: 220px;
+        height: 220px;
+    }
+
+    .slick-dots {
+        bottom: -30px;
+        left:   -10px;
+        }
+
 
     h2 {
         font-size: 85%;
@@ -552,4 +568,4 @@ footer b img {
         float: right;
         padding: 0px 5px 0px 0px;
     }
-}
+    }
