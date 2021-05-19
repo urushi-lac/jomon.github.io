@@ -33,6 +33,7 @@
     padding: 0px 20px 0px 0px;
 }
 
+
 #cs header a {
     color: #666666;
 }
@@ -41,13 +42,15 @@
     width: 306px;
     height: auto;
     padding: 30px 0px 25px 0px;
+
 }
 
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding: 20px 0px 0px 0px;
+    padding: 170px 0px 0px 0px;
     position: relative;
+
 }
 
 #menu {
@@ -69,7 +72,7 @@ nav {
 #menu li a {
     font-size: 120%;
     display: block;
-    padding: 10px 0 10px;
+    padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
     text-decoration: none;
@@ -87,10 +90,6 @@ nav {
 
 #toggle {
     display: none;
-}
-
-.photo s img {
-    padding: 11px 0px 0px 0px;
 }
 
 .photo s1 img {
@@ -114,7 +113,6 @@ h2 {
     width: 190px;
     height: 200px;
 }
-
 
 #footer {
     position: fixed;
@@ -171,7 +169,7 @@ footer b img {
     }
 
     nav {
-        padding: 20px 0px 0px 0px;
+        padding: 120px 0px 0px 0px;
     }
 
     #menu li a {
@@ -240,7 +238,7 @@ footer b img {
     }
 
     nav {
-        padding: 0px 0px 20px 0px;
+        padding: 100px 0px 0px 0px;
     }
 
     #menu li {
@@ -261,16 +259,14 @@ footer b img {
         height: 200px;
     }
 
-    #cs h1 {
-        font-size: 93%;
-    }
-
     h2 {
         font-size: 100%;
     }
 
-    h4 {
-        font-size: 70%;
+    p1 {
+        font-size: 80%;
+        font-weight: 400;
+        line-height: 2em;
     }
 
     footer b img {
@@ -302,7 +298,7 @@ footer b img {
     }
 
     nav {
-        padding: 10px 0px 0px 0px;
+        padding: 100px 0px 0px 0px;
     }
 
     #menu {
@@ -314,7 +310,7 @@ footer b img {
     }
 
     #menu li a {
-        padding: 12px 0 12px;
+        padding: 12px 0px 12px;
     }
 
     #toggle {
@@ -326,7 +322,7 @@ footer b img {
 
     #toggle a {
         padding: 0px 0 10px;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 110%;
     }
 
@@ -366,12 +362,6 @@ footer b img {
         width: 100px;
         height: 140px;
     }
-
-    #cs h1 {
-        font-size: 90%;
-        padding: 5px 0px 5px 0px;
-    }
-
     h2 {
         font-size: 90%;
     }
@@ -380,14 +370,10 @@ footer b img {
         font-size: 100%;
     }
 
-    h4 {
-        font-size: 70%;
-    }
-
-    .photo s img {
-        width: 55%;
-        height: auto;
-        padding: 5px 0px 0px 0px;
+    p1 {
+        font-size: 80%;
+        font-weight: 400;
+        line-height: 1.8em;
     }
 
     .photo s1 img {
@@ -413,14 +399,13 @@ footer b img {
         padding: 5px 0px 0px 0px;
     }
 
+    #menu li a {
+        padding: 10px 0px 10px;
+    }
+
     .inner {
         width: 85px;
         height: 120px;
-    }
-
-    #cs h1 {
-        font-size: 80%;
-        padding: 5px 0px 5px 0px;
     }
 
     h2 {
@@ -431,8 +416,10 @@ footer b img {
         font-size: 95%;
     }
 
-    h4 {
-        font-size: 58%;
+    p1 {
+        font-size: 75%;
+        font-weight: 400;
+        line-height: 1.5em;
     }
 
     .photo s1 img {
