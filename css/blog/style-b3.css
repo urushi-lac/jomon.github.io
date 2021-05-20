@@ -4,25 +4,32 @@
 
 /* CSS Document */
 
-#home {
-    float: center;
+#cs header {
+    border-top: 0px;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    padding: 10px 0px 0px 0px;
+    z-index: 1;
+}
+
+#cs home {
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 10px 25px 10px;
 }
 
 #home b {
     font-size: 100%;
     font-weight: 300;
     color: #535353;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
 }
 
 #home p {
     font-size: 100%;
     font-weight: 300;
     float: right;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 20px 0px 0px;
 }
 
 #cs header a {
@@ -40,7 +47,6 @@ nav {
     background: #FFF;
     padding: 20px 0px 0px 0px;
     position: relative;
-    z-index: 2;
 }
 
 #menu {
@@ -80,6 +86,10 @@ nav {
 
 #toggle {
     display: none;
+}
+
+#box0 {
+    min-height: 220px;
 }
 
 h1 {
@@ -223,6 +233,10 @@ footer b img {
 
     #menu li a {
         font-size: 100%;
+    }
+
+    #box0 {
+        min-height: 180px;
     }
 
     h2 {
@@ -418,6 +432,10 @@ footer b img {
         margin-top: 3px;
     }
 
+    #box0 {
+        min-height: 100px;
+    }
+
     h2 {
         font-size: 100%;
     }
@@ -528,7 +546,7 @@ footer b img {
     }
 
     nav {
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #menu li a {
@@ -578,6 +596,10 @@ footer b img {
 
     #toggle a:after {
         margin-top: 3px;
+    }
+
+    #box0 {
+        min-height: 80px;
     }
 
     .photo s1 img {
