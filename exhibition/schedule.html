@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="https://www.w3.org/1999/xhtml">
 
-<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# website: https://ogp.me/ns/website#">
+    <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# website: https://ogp.me/ns/website#">
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width">
@@ -24,21 +24,61 @@
     <meta name="twitter:description" content="展覧会情報" />
     <title>渡辺博之漆部屋便り|Exhibition-schedule</title>
     <!--* css *-->
-    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/index/style-i.css">
-    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/index/style-i1.css">
-    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/index/style-i2.css">
-    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/exhibition/style-e.css">
+    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/index/style-i.css" />
+    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/index/style-i1.css" />
+    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/index/style-i2.css" />
+    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/exhibition/style-e2copy.css" />
     <link rel="shortcut icon" type="image/png" href="https://urushi-lac.github.io/jomon.github.io/images/top/misowanicon.png" />
     <link rel="apple-touch-icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/apple-touch-icon-precomposed.png" />
 
     <!--[if lt IE 9]>
 <script src="dist/html5shiv.js"></script>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
-
 <style>
+    @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
+/* CSS Document */
+
+#cs header {
+    border-top: 0px;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    padding: 10px 0px 0px 0px;
+    z-index: 1;
+}
+
+#cs home {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home b {
+    font-size: 100%;
+    font-weight: 300;
+    color: #535353;
+    padding: 0px 0px 0px 20px;
+}
+
+#home p {
+    font-size: 100%;
+    font-weight: 300;
+    float: right;
+    padding: 0px 20px 0px 0px;
+}
+
+#cs header a {
+    color: #666666;
+}
+
+#home s img {
+    width: 306px;
+    height: auto;
+    padding: 30px 0px 25px 0px;
+}
 
 nav {
     margin-bottom: 5px;
@@ -47,7 +87,57 @@ nav {
     position: relative;
 }
 
-    .inner {
+#menu {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+#menu li a {
+    font-size: 120%;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    background-color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu li:last-child a {
+    border: none;
+}
+
+#menu li a:hover {
+    background: #FFF;
+    font-size: 100%;
+    color: #999;
+}
+
+#toggle {
+    display: none;
+}
+
+.photo s1 img {
+    width: auto;
+    height: 250px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+.inner {
     position: absolute;
     top: 0;
     left: 0;
@@ -57,50 +147,339 @@ nav {
     width: 180px;
     height: 200px;
 }
-@media only screen and (max-width: 2000px) {
-    #home s img {
-        padding: 20px 0px 20px 0px;
-    }
-    nav {
-    padding: 10px 0px 0px 0px;
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 80％;
+    text-align: left;
+    margin-top: 40px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    background-color: #FFF;
 }
 
-    .inner {
-    width: 150px;
-    height: 180px;
+footer s2 img {
+    width: auto;
+    height: 25px;
+    padding: 0px 0px 0px 20px;
 }
+
+footer s3 img {
+    width: auto;
+    height: 25px;
+    padding: 0px 0px 0px 20px;
+}
+
+footer b img {
+    width: auto;
+    height: 22px;
+    float: right;
+    padding: 0px 20px 0px 0px;
+}
+
+@media only screen and (max-width: 2000px) {
+
+    #home {
+        padding: 0px 10px 20px 10px;
+    }
+
+    #home b {
+        font-size: 90%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 90%;
+        padding: 0px 10px 0px 0px;
+    }
+
+    #home s img {
+        width: 245px;
+        height: auto;
+        padding: 20px 0px 20px 0px;
+    }
+
+    nav {
+        padding: 10px 0px 0px 0px;
+    }
+
+    #menu li a {
+        font-size: 100%;
+    }
+
+    .inner {
+        width: 150px;
+        height: 180px;
+    }
+
+    h2 {
+        font-size: 115%;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 220px;
+    }
+
+    #footer {
+        padding: 5px 0px 0px 0px;
+    }
+
+    footer s2 img {
+        width: auto;
+        height: 20px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    footer s3 img {
+        width: auto;
+        height: 20px;
+        padding: 0px 0px 0px 5px;
+    }
+
+    footer b img {
+        width: auto;
+        height: 18px;
+        float: right;
+        padding: 0px 15px 0px 0px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
+
+    #home {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #home b {
+        font-size: 75%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 75%;
+        padding: 0px 10px 0px 0px;
+    }
+
     #home s img {
+        width: 214px;
+        height: auto;
         padding: 10px 0px 10px 0px;
     }
+
     nav {
-    padding: 15px 0px 0px 0px;
-}
+        padding: 15px 0px 0px 0px;
+    }
+
+    #menu li {
+        width: 25%;
+    }
+
+    #menu li a {
+        padding: 7px 0 7px;
+    }
 
     .inner {
-    width: 140px;
-    height: 170px;
-}
-}
+        width: 140px;
+        height: 170px;
+    }
 
+    .photo s1 img {
+        width: auto;
+        height: 200px;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    p1 {
+        font-size: 80%;
+        font-weight: 400;
+        line-height: 2em;
+    }
+
+    footer b img {
+        padding: 0px 10px 0px 0px;
+    }
+
+}
 
 @media only screen and (max-width: 480px) {
+
+    #home {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #home b {
+        font-size: 66%;
+        padding: 0px 0px 0px 10px;
+    }
+
+    #home p {
+        font-size: 65%;
+        padding: 0px 10px 0px 0px;
+    }
+
     #home s img {
+        width: 183px;
+        height: auto;
         padding: 5px 0px 0px 0px;
     }
+
     nav {
-    padding: 15px 0px 0px 0px;
-}
+        padding: 15px 0px 0px 0px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu li {
+        width: 100%;
+    }
+
+    #menu li a {
+        padding: 12px 0px 12px;
+    }
+
+    #toggle {
+        display: block;
+        position: relative;
+        width: 100%;
+        background: #FFF;
+    }
+
+    #toggle a {
+        padding: 0px 0 10px;
+        font-weight: 400;
+        font-size: 110%;
+    }
+
+    #toggle:before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        background: #FFF;
+    }
+
+    #toggle a:before,
+    #toggle a:after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 30px;
+        height: 6px;
+        background: #FFF;
+    }
+
+    #toggle a:before {
+        margin-top: -9px;
+    }
+
+    #toggle a:after {
+        margin-top: 3px;
+    }
 
     .inner {
-    width: 100px;
-    height: 140px;
-}
+        width: 100px;
+        height: 140px;
+    }
+    h2 {
+        font-size: 90%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    p1 {
+        font-size: 80%;
+        font-weight: 400;
+        line-height: 1.8em;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 150px;
+    }
+
+    footer s3 img {
+        padding: 0px 0px 0px 5px;
+    }
+
+    footer b img {
+        float: right;
+        padding: 1px 10px 0px 0px;
+    }
 }
 
+@media only screen and (max-width: 320px) {
 
+    #home s img {
+        width: 153px;
+        height: auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+    #menu li a {
+        padding: 10px 0px 10px;
+    }
+
+    .inner {
+        width: 85px;
+        height: 120px;
+    }
+
+    h2 {
+        font-size: 85%;
+    }
+
+    h3 {
+        font-size: 95%;
+    }
+
+    p1 {
+        font-size: 75%;
+        font-weight: 400;
+        line-height: 1.5em;
+    }
+
+    .photo s1 img {
+        width: auto;
+        height: 120px;
+    }
+
+    footer s2 img {
+        width: auto;
+        height: 16px;
+        padding: 0px 0px 0px 6px;
+    }
+
+    footer s3 img {
+        width: auto;
+        height: 16px;
+        padding: 0px 0px 0px 2px;
+    }
+
+    footer b img {
+        width: auto;
+        height: 15px;
+        float: right;
+        padding: 0px 5px 0px 0px;
+    }
+}
 
 </style>
 
@@ -119,38 +498,38 @@ nav {
             </div>
         </div>
 
-        <nav id="menu-box" class="clearfix">
-            <div id="toggle">
-                <a href="#">
-                    <h3>Menu</h3>
-                </a>
-            </div>
-            <ul id="menu" class="">
-                <h2>
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/this-year.html">This Year</a></li>
-                </h2>
-                <h2>
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/takashimaya.html">Takashimaya</a></li>
-                </h2>
-                <h2>
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/kawatoku.html">Kawatoku</a></li>
-                </h2>
-                <h2>
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/galley.html">Art-Gallery</a></li>
-                </h2>
-            </ul>
-        </nav>
+    <nav id="menu-box" class="clearfix">
+        <div id="toggle">
+            <a href="#">
+                <h3>Menu</h3>
+            </a>
+        </div>
+        <ul id="menu" class="">
+            <h2>
+                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/this-year.html">This Year</a></li>
+            </h2>
+            <h2>
+                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/takashimaya.html">Takashimaya</a></li>
+            </h2>
+            <h2>
+                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/kawatoku.html">Kawatoku</a></li>
+            </h2>
+            <h2>
+                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/galley.htm">Art-Gallery</a></li>
+            </h2>
+        </ul>
+    </nav>
 </header>
 
-    <div class="box">
-        <div class="inner">
-            <div class="content">
-                <div class="photo">
-                    <s1><img src="https://urushi-lac.github.io/jomon.github.io/images/exhibition/exhibition-top.png" alt="urushi-teabowl" /></s1>
-                </div>
+<div class="box">
+    <div class="inner">
+        <div class="content">
+            <div class="photo">
+                <s1><img src="https://urushi-lac.github.io/jomon.github.io/images/exhibition/exhibition-top.png" alt="urushi-teabowl" /></s1>
             </div>
         </div>
     </div>
+</div>
 
     <footer>
         <div id="footer">
@@ -161,10 +540,9 @@ nav {
         </div>
     </footer>
     <!--[if lt IE 9]>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="https://morobrand.net/mororeco/demo/jquery/responsive-menu2/jquery.smoothScroll.js"></script>
     <script type="text/javascript">
         $(function() {
             $("#toggle").click(function() {
@@ -173,7 +551,7 @@ nav {
             });
             $(window).resize(function() {
                 var win = $(window).width();
-                var p = 768;
+                var p = 480;
                 if (win > p) {
                     $("#menu").show();
                 } else {
@@ -184,7 +562,7 @@ nav {
         /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
         $(function() {
             var win = $(window).width();
-            var p = 768;
+            var p = 480;
             if (win < p) $(function() {
                 $("#menu li a").click(function() {
                     $("#menu").hide();
@@ -194,40 +572,24 @@ nav {
 
     </script>
 
-    <script>
-        $(function() {
-            var showFlag = false;
-            var topBtn = $('#page-top');
-            topBtn.css('bottom', '-100px');
-            var showFlag = false;
-            //スクロールが100に達したらボタン表示
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 200) {
-                    if (showFlag == false) {
-                        showFlag = true;
-                        topBtn.stop().animate({
-                            'bottom': '40px'
-                        }, 200);
-                    }
-                } else {
-                    if (showFlag) {
-                        showFlag = false;
-                        topBtn.stop().animate({
-                            'bottom': '-100px'
-                        }, 200);
-                    }
-                }
-            });
-            //スクロールしてトップ
-            topBtn.click(function() {
-                $('body,html').animate({
-                    scrollTop: 0
-                }, 500);
-                return false;
-            });
-        });
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/slick.min.js"></script>
 
-    </script>
+<script type="text/javascript">
+ $(document).ready(function(){
+    $(".single-item").slick({
+        accessibility: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        fade: true,
+        fadeSpeed: 4000,
+        cssEase: 'linear'
+    });
+});
+
+</script>
 
 </body>
 
