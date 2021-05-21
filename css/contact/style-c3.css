@@ -40,13 +40,13 @@
 #home s img {
     width: 306px;
     height: auto;
-    padding: 30px 0px 25px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding: 20px 0px 0px 0px;
+    padding: 45px 0px 0px 0px;
     position: relative;
 }
 
@@ -87,6 +87,10 @@ nav {
 
 #toggle {
     display: none;
+}
+
+#box0  {
+    min-height: 280px;
 }
 
 .photo s img {
@@ -184,6 +188,10 @@ footer b img {
         font-size: 100%;
     }
 
+    #box0  {
+        min-height: 240px;
+    }
+
     h2 {
         font-size: 115%;
     }
@@ -245,6 +253,10 @@ footer b img {
 
     #menu li a {
         padding: 7px 0 7px;
+    }
+
+    #box0  {
+        min-height: 160px;
     }
 
     #cs h1 {
@@ -346,6 +358,10 @@ footer b img {
 
     #toggle a:after {
         margin-top: 3px;
+    }
+
+    #box0  {
+        min-height: 120px;
     }
 
     #cs h1 {

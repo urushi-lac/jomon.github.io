@@ -41,13 +41,13 @@
 #home s img {
     width: 306px;
     height: auto;
-    padding: 30px 0px 25px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding: 20px 0px 0px 0px;
+    padding: 45px 0px 0px 0px;
     position: relative;
 }
 
@@ -89,6 +89,11 @@ nav {
 #toggle {
     display: none;
 }
+
+#box0  {
+    min-height: 280px;
+}
+
 
 .photo s img {
     padding: 11px 0px 0px 0px;
@@ -185,6 +190,11 @@ footer b img {
         font-size: 100%;
     }
 
+    #box0  {
+        min-height: 240px;
+    }
+
+
     .inner {
         width: 180px;
         height: 135px;
@@ -264,6 +274,11 @@ footer b img {
         padding: 7px 0 7px;
     }
 
+    #box0  {
+        min-height: 160px;
+    }
+
+
     .inner {
         width: 160px;
         height: 135px;
@@ -303,7 +318,7 @@ footer b img {
 
     #home p {
         font-size: 65%;
-        padding: 0px 10px 0px 0px;
+        padding: 0px 10px -30px 0px;
     }
 
     #home s img {
@@ -372,6 +387,11 @@ footer b img {
     #toggle a:after {
         margin-top: 3px;
     }
+
+    #box0  {
+        min-height: 120px;
+    }
+
 
     .inner {
         width: 130px;
