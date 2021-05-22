@@ -223,6 +223,9 @@ footer b img {
         min-height: 240px;
     }
 
+    .slick-dots {
+        bottom: -30px;
+    }
 
     .inner {
         width: 480px;
