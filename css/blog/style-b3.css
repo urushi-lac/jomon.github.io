@@ -4,6 +4,14 @@
 
 /* CSS Document */
 
+section {
+    background: #FFF;
+    max-width: 1200px;
+    min-height: 440px;
+    text-shadow: none;
+    padding: 10px 0px 10px 0px;
+}
+
 #cs header {
     border-top: 0px;
     background-color: #fff;
@@ -119,21 +127,44 @@ h5 {
 	text-shadow: none;
 }
 
-.photo s img {
-    padding: 11px 0px 0px 0px;
+.photo s1 img {
+      width: 400px;
+      height: auto;
+      padding: 20px 0px 20px 0px;
+  }
+
+  .photo s2 img {
+  width: 100%;
+  height: auto;
+  padding: 35px 0px 35px 0px;
 }
 
-.photo s3 img {
-    width: 230px;
-    height: auto;
-    padding: 35px 20px 20px 20px;
-}
+  .photo s3 img {
+      width: auto;
+      height: 400px;
+      padding: 20px 20px 20px 0px;
+  }
 
-.info-box-tan {
+  .info-box-tan {
+      width: 440px;
+      height: 440px;
+      float: left;
+      padding: 20px 0px 20px 0px;
+  }
+
+.info-box-tan1 {
     padding: 0px 0px 0px;
 }
 
 .info-box-dark {
+      height: 440px;
+      padding: 40px 20px 0px 0px;
+      text-align: left;
+      line-height: 2;
+      left: 493px;
+  }
+
+.info-box-dark1 {
     padding: 30px 20px 10px 20px;
     text-align: left;
     line-height: 2;
@@ -192,6 +223,12 @@ footer b img {
 
 @media only screen and (max-width: 2000px) {
 
+    section {
+        max-width: 980px;
+        min-height: 300px;
+    }
+
+
     #home {
         padding: 0px 10px 20px 10px;
     }
@@ -244,8 +281,8 @@ footer b img {
     }
 
     .photo s1 img {
-        width: auto;
-        height: 230px;
+      width: 230px;
+        height: auto;
         padding: 35px 20px 20px 20px;
     }
 
@@ -256,8 +293,8 @@ footer b img {
     }
 
     .photo s3 img {
-        width: 230px;
-        height: auto;
+      width: auto;
+        height: 230px;
         padding: 35px 20px 20px 20px;
     }
 
@@ -301,10 +338,25 @@ footer b img {
     }
 
     .info-box-tan {
+      width: 280px;
+      height: 280px;
+      float: left;
+      padding: 20px 0px 20px 0px;
+  }
+
+  .info-box-dark {
+      height: 280px;
+      padding: 50px 20px 0px 0px;
+      text-align: left;
+      line-height: 2;
+      left: 493px;
+  }
+
+    .info-box-tan1 {
         padding: 0px 0px 0px;
     }
 
-    .info-box-dark {
+    .info-box-dark1 {
         padding: 30px 20px 10px 20px;
         text-align: left;
         line-height: 2;
@@ -441,10 +493,12 @@ footer b img {
     }
 
     .photo s1 img {
-        width: auto;
-        height: 230px;
-        padding: 30px 0px 0px 0px;
-        text-align: center;
+      width: 250px;
+        height: auto;
+        padding: 30px 0px 10px 0px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto
     }
 
     .photo s2 img {
@@ -454,9 +508,9 @@ footer b img {
     }
 
     .photo s3 img {
-        width: 230px;
-        height: auto;
-        padding: 35px 0px 20px 0px;
+      width: auto;
+        height: 300px;
+        padding: 30px 0px 10px 0px;
     }
 
     .photo s5 img {
@@ -478,12 +532,18 @@ footer b img {
         /*画像の高さ÷テキストの行数*/
         margin-left: auto;
         margin-right: auto;
-        padding-top: 5px;
+        padding-top: 50px;
     }
 
     #cs p1 {
-        font-size: 110%;
+        font-size: 90%;
+        line-height: 1.8;
         padding: 20px 0px 0px 0px;
+    }
+
+    #cs p2 {
+        font-size: 90%;
+        line-height: 1.8;
     }
 
     .col-md-one-half {
@@ -495,12 +555,25 @@ footer b img {
     }
 
     .info-box-tan {
+      width: 100%;
+      float: left;
+      padding: 0px 0px 0px 0px;
+  }
+
+  .info-box-dark {
+    width: 80%;
+      padding: 350px 10px 0px 10px;
+      text-align: left;
+      line-height: 2;
+  }
+
+    .info-box-tan1 {
         text-align: center;
         width: 100%;
         padding: 0px 0px 0px 0px;
     }
 
-    .info-box-dark {
+    .info-box-dark1 {
         width: 80%;
         padding: 270px 0px 20px 0px;
         line-height: 2;
@@ -522,7 +595,7 @@ footer b img {
 
     #section {
         max-width: 480px;
-        min-height: 500px;
+        min-height: 600px;
     }
 
     #home {
@@ -603,7 +676,7 @@ footer b img {
     }
 
     .photo s1 img {
-        width: 100%;
+        width: 80%;
         height: auto;
         padding: 20px 0px 20px 0px;
     }
@@ -615,9 +688,12 @@ footer b img {
     }
 
     .photo s3 img {
-        width: 100%;
-        height: auto;
-        padding: 35px 0px 35px 0px;
+        width: auto;
+        height: 120%;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 0px 35px 0px;
     }
 
     .photo s5 img {
@@ -674,11 +750,23 @@ footer b img {
     }
 
     .info-box-tan {
+      width: 100%;
+      padding: 0px 0px 0px 0px;
+  }
+
+  .info-box-dark {
+    width: 80%;
+    height: auto;
+      padding: 400px 0px 0px 0px;
+      line-height: 2;
+  }
+
+    .info-box-tan1 {
         width: 90%;
-        padding: 0px 0px 0px 0px;
+        padding: 100px 0px 0px 0px;
     }
 
-    .info-box-dark {
+    .info-box-dark1 {
         width: 85%;
         padding: 0px 0px 20px 0px;
         line-height: 2;
@@ -709,11 +797,73 @@ footer b img {
 
 @media only screen and (max-width: 320px) {
 
+  #section {
+        max-width: 320px;
+        min-height: 320px;
+    }
+
+
     #home s img {
         width: 153px;
         height: auto;
         padding: 5px 0px 0px 0px;
     }
+
+    .photo s1 img {
+        width: 280px;
+        height: auto;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .photo s2 img {
+        width: 100%;
+        height: auto;
+        padding: 10px 0px 5px 0px;
+    }
+
+    .photo s3 img {
+        width: auto;
+        height: 280px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 10px 0px;
+    }
+
+    .info-box-tan {
+      width: 100%;
+      padding: 0px 0px 0px 0px;
+  }
+
+  .info-box-dark {
+    width: 90%;
+    height: auto;
+      padding: 300px 10px 0px 10px;
+      line-height: 2;
+  }
+
+  .info-box-tan1 {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark1 {
+        width: 90%;
+        height: auto;
+        padding: 0px 10px 0px 10px;
+        line-height: 2;
+    }
+
+    #cs p1 {
+        font-size: 90%;
+        line-height: 1.5;
+    }
+
+    #cs p2 {
+        font-size: 90%;
+        line-height: 1.5;
+    }
+
 
     footer s2 img {
         width: auto;
@@ -735,13 +885,7 @@ footer b img {
     }
 }
 
-section {
-    background: #FFF;
-    max-width: 960px;
-    min-height: 350px;
-    text-shadow: none;
-    padding: 10px 0px 10px 0px;
-}
+
 
 .col-md-one-half {
     display: inline-block;
@@ -775,4 +919,3 @@ section {
     color: #690;
 }
 
-a {}

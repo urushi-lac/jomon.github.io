@@ -48,7 +48,7 @@
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding:45px 0px 0px 0px;
+    padding: 45px 0px 0px 0px;
     position: relative;
 }
 
@@ -91,7 +91,7 @@ nav {
     display: none;
 }
 
-#box0  {
+#box0 {
     min-height: 280px;
 }
 
@@ -219,7 +219,7 @@ footer b img {
         font-size: 100%;
     }
 
-    #box0  {
+    #box0 {
         min-height: 240px;
     }
 
@@ -347,7 +347,7 @@ footer b img {
         padding: 40px 0 40px;
     }
 
-    #box0  {
+    #box0 {
         min-height: 160px;
     }
 
@@ -388,9 +388,9 @@ footer b img {
         padding: 0px 10px 0px 0px;
     }
 
-    }
+}
 
-    @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
     #home {
         padding: 0px 0px 0px 0px;
@@ -473,7 +473,7 @@ footer b img {
         margin-top: 3px;
     }
 
-    #box0  {
+    #box0 {
         min-height: 120px;
     }
 
@@ -490,9 +490,9 @@ footer b img {
     }
 
     .slick-dots {
-            bottom: -30px;
-            left:   -10px;
-        }
+        bottom: -30px;
+        left: -10px;
+    }
 
 
     h2 {
@@ -524,9 +524,9 @@ footer b img {
         float: right;
         padding: 1px 10px 0px 0px;
     }
-    }
+}
 
-    @media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 
     #home s img {
         width: 153px;
@@ -550,8 +550,8 @@ footer b img {
 
     .slick-dots {
         bottom: -30px;
-        left:   -10px;
-        }
+        left: -10px;
+    }
 
 
     h2 {
@@ -573,6 +573,7 @@ footer b img {
         height: 220px;
         padding: 0px 0px 0px 0px;
     }
+
     footer s2 img {
         width: auto;
         height: 16px;
@@ -591,4 +592,4 @@ footer b img {
         float: right;
         padding: 0px 5px 0px 0px;
     }
-    }
+}
