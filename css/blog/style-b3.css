@@ -511,6 +511,9 @@ footer b img {
       width: auto;
         height: 300px;
         padding: 30px 0px 10px 0px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto
     }
 
     .photo s5 img {
@@ -556,12 +559,13 @@ footer b img {
 
     .info-box-tan {
       width: 100%;
-      float: left;
+      height: auto;
       padding: 0px 0px 0px 0px;
   }
 
   .info-box-dark {
     width: 80%;
+    height: auto;
       padding: 350px 10px 0px 10px;
       text-align: left;
       line-height: 2;
@@ -587,7 +591,6 @@ footer b img {
     footer b img {
         padding: 0px 10px 0px 0px;
     }
-
 
 }
 
@@ -727,9 +730,9 @@ footer b img {
     }
 
     h3 {
-        font-size: 90%;
-        padding: 0px 0px 3px 0px;
-    }
+        font-size: 100%;
+        }
+
 
     h5 {
         font-size: 80%;
@@ -918,4 +921,3 @@ footer b img {
 .pred {
     color: #690;
 }
-
