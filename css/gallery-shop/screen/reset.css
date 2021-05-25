@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+/* =======================================
+
+	 CSS BrowserReset BaseElements
+	
+	 (C)BLACKFLAG.NET ALL RIGHTS RESERVED.
+	 http://black-flag.net/
+
+ ======================================= */
+
+
+img {
+	vertical-align: text-bottom;
+	-ms-interpolation-mode: bicubic;
+}
+
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
+strong {
+	font-weight: bold;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+/*	border-collapse: separate;*/
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+option {
+	padding-right: 10px;
+}
+
+/* ------------------------------
+	HTML5 ELEMENTS
+------------------------------ */
