@@ -44,15 +44,15 @@
 }
 
 #home s1 img {
-    width: 70px;
+    width: 80px;
     height: auto;
-    padding: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 nav {
     margin-bottom: 5px;
     background: #FFF;
-    padding: 45px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
     position: relative;
 }
 
@@ -95,15 +95,15 @@ nav {
     display: none;
 }
 
-#box0  {
-    min-height: 280px;
+.row1 {
+    padding: 200px 0px 50px 0px;
 }
 
 
 .photo s2 img {
     width: 100%;
     height: auto;
-    padding: 10px 0px 10px 0px;
+    padding: 200px 0px 50px 0px;
 }
 
 .photo s3 img {
@@ -122,12 +122,12 @@ nav {
 h1 {
     font-size: 200%;
     line-height: 120%;
-	background-color: #f3f3f3;
-	color:#111;
-	padding: 20px 0px 20px 20px;
-	-webkit-box-shadow: 0 0px 0px none;
-	box-shadow: 0 0px 0px none;
-    }
+    background-color: #f3f3f3;
+    color: #111;
+    padding: 20px 0px 20px 20px;
+    -webkit-box-shadow: 0 0px 0px none;
+    box-shadow: 0 0px 0px none;
+}
 
 h2 {
     font-size: 110%;
@@ -135,10 +135,10 @@ h2 {
 
 h4 {
     font-size: 110%;
-    line-height: 140%;
-	color:#000;
+    line-height: 1.8;
+    color: #000;
     text-align: left;
-	padding: 20px 0px 20px 20px;
+    padding: 30px 0px 30px 20px;
 }
 
 h6 {
@@ -186,9 +186,9 @@ footer b img {
 @media only screen and (max-width: 2000px) {
 
     section {
-    max-width: 980px;
-    padding: 10px 0px 10px 0px;
-}
+        max-width: 980px;
+        padding: 40px 0px 40px 0px;
+    }
 
     #home {
         padding: 0px 10px 20px 10px;
@@ -211,12 +211,13 @@ footer b img {
     }
 
     #home s1 img {
-        width: 80px;
+        width: 70px;
         height: auto;
         padding: 10px 0px 20px 0px;
     }
 
     nav {
+        max-width: 980px;
         padding: 20px 0px 0px 0px;
     }
 
@@ -224,10 +225,9 @@ footer b img {
         font-size: 100%;
     }
 
-    #box0  {
+    #box0 {
         min-height: 240px;
     }
-
 
     h1 {
         font-size: 180%;
@@ -246,7 +246,6 @@ footer b img {
         height: auto;
         padding: 10px 0px 10px 0px;
     }
-
 
     #footer {
         padding: 5px 0px 0px 0px;
@@ -275,6 +274,10 @@ footer b img {
 
 @media only screen and (max-width: 768px) {
 
+    section {
+        padding: 40px 0px 0px 0px;
+    }
+
     #home {
         padding: 0px 0px 0px 0px;
     }
@@ -298,12 +301,12 @@ footer b img {
     #home s1 img {
         width: 50px;
         height: auto;
-        padding: 0px 20px 20px 20px;
+        padding: 0px 20px 0px 20px;
         text-align: center;
     }
 
     nav {
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #menu {
@@ -363,13 +366,12 @@ footer b img {
         margin-top: 3px;
     }
 
-    #box0  {
-        min-height: 160px;
+    .row1 {
+        padding: 110px 0px 0px 0px;
     }
 
-
     .photo s2 img {
-        padding: 10px 0px 0px 0px;
+        padding: 30px 0px 0px 0px;
     }
 
     .photo s3 img {
@@ -384,7 +386,6 @@ footer b img {
         height: 30px;
         padding: 8px 0px 0px 0px;
     }
-
 
     h1 {
         font-size: 150%;
@@ -448,13 +449,12 @@ footer b img {
         padding: 3px 0px 3px 0px;
     }
 
-    #box0  {
-        min-height: 120px;
+    .row1 {
+        padding: 100px 0px 0px 0px;
     }
 
-
     .photo s2 img {
-        padding: 0px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
 
     .photo s3 img {
@@ -469,7 +469,6 @@ footer b img {
         width: 25%;
         height: auto;
     }
-
 
     h1 {
         font-size: 100%;
@@ -515,6 +514,10 @@ footer b img {
 
     #menu li a {
         padding: 10px 0px 10px;
+    }
+
+    .row1 {
+        padding: 100px 0px 0px 0px;
     }
 
     .photo s3 img {
@@ -571,11 +574,9 @@ footer b img {
 section {
     max-width: 1200px;
     text-shadow: none;
-    padding: 10px 0px 15px 0px;
+    padding: 50px 0px 50px 0px;
     background: #FFF;
 }
-
-
 
 #page-top {
     position: fixed;
