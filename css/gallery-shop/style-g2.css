@@ -1,17 +1,9 @@
 @charset "utf-8";
 
-@import url("https://urushi-lac.github.io/jomon.github.io/css/gallery-shop/screen/common.css");
-@import url("https://urushi-lac.github.io/jomon.github.io/css/gallery-shop/screen/reset.css");
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
 
 /* CSS Document */
-
-.slideShow .mainView .btnPrev,
-.slideShow .mainView .btnNext {
-	z-index: 1;
-}
 
 #cs header {
     border-top: 0px;
@@ -19,7 +11,7 @@
     width: 100%;
     position: fixed;
     padding: 10px 0px 0px 0px;
-    z-index: 100;
+    z-index: 1;
 }
 
 #cs home {
@@ -98,12 +90,12 @@ nav {
     display: none;
 }
 
-#box0  {
+#box0 {
     min-height: 280px;
 }
 
 .info-box-left {
-    padding: 80px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .info-box-right {
@@ -121,6 +113,39 @@ nav {
     float: left;
     padding: 0px 0px 0px 0px;
 }
+
+.works {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 0px 0px 50px 0px;
+}
+
+.works .item {
+    flex: none;
+    width: 330px;
+    margin: 10px;
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+
+.works img {
+    width: 330px;
+}
+
+.photo s1 img {
+    width: 350px;
+    height: auto;
+    padding: 80px 0px 0px 20px;
+}
+
+.photo s2 img {
+    width: 372px;
+    height: auto;
+    padding: 80px 0px 50px 20px;
+}
+
 
 h1 {
     font-size: 100%;
@@ -200,12 +225,21 @@ section {
         font-size: 100%;
     }
 
-    #box0  {
-        min-height: 240px;
+    #box0 {
+        min-height: 150px;
+    }
+
+    #box3 {
+        min-height: 800px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .row1 {
+        padding: 100px 0px 0px 0px;
     }
 
     .info-box-left {
-        padding: 80px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .info-box-right {
@@ -222,6 +256,37 @@ section {
     .col {
         float: left;
         padding: 0px 0px 0px 0px;
+    }
+
+    section 漆修復 {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .works {
+
+        padding: 0px 0px 40px 0px;
+    }
+
+    .works .item {
+        width: 30%;
+        margin: 10px;
+        padding: 80px 0px 0px 0px;
+    }
+
+    .works img {
+        width: 100%;
+    }
+
+    .photo s1 img {
+        width: 350px;
+        height: auto;
+        padding: 80px 0px 0px 20px;
+    }
+
+    .photo s2 img {
+        width: 372px;
+        height: auto;
+        padding: 80px 0px 0px 20px;
     }
 
     h2 {
@@ -304,13 +369,17 @@ section {
         text-decoration: none;
     }
 
-    #box0  {
+    #box0 {
         min-height: 160px;
+    }
+
+    .row1 {
+        padding: 0px 0px 0px 0px;
     }
 
     .info-box-left {
         max-width: 768px;
-        height: 480px;
+        height: auto;
         padding: 0px 0px 0px 0px;
     }
 
@@ -321,7 +390,33 @@ section {
 
     .col-md-one-half {
         width: 100%;
-        padding: 0px 0px 50px 0px;
+        height: auto;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .works {
+        max-width: 768px;
+        padding: 0px 0px 40px 0px;
+    }
+
+    .works .item {
+        width: 30%;
+        margin: 5px;
+        padding: 80px 0px 0px 0px;
+    }
+
+    .works img {
+        width: 100%;
+    }
+
+    .photo s1 img {
+        width: 60%;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .photo s2 img {
+        width: 60%;
+        padding: 0px 0px 0px 0px;
     }
 
     h2 {
@@ -417,25 +512,48 @@ section {
         margin-top: 3px;
     }
 
-    #box0  {
+    #box0 {
         min-height: 120px;
+    }
+
+    #box3 {
+        height: 500px;
     }
 
     .info-box-left {
         width: 90%;
         height: auto;
-        padding: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     .info-box-right {
         width: 85%;
-        height: auto;
-        padding: 0px 20px 0px 20px;
+
+        padding: 20px 20px 0px 20px;
         line-height: 1.2;
     }
 
     .col-md-one-half {
         width: 100%;
+        height: auto;
+    }
+
+    .works {
+        display: block;
+        width: auto;
+        padding: 0px 0px 20px 0px;
+    }
+
+    .works .item {
+        padding: 0px 0px 0px 0px;
+        width: 97.8%;
+        height: auto;
+        margin: 5px;
+    }
+
+    .works img {
+        width: 90%;
+        padding: 10px 0px 0px 0px;
     }
 
     h2 {
@@ -462,6 +580,14 @@ section {
         width: 153px;
         height: auto;
         padding: 5px 0px 0px 0px;
+    }
+
+    .works .item {
+        width: 310px;
+    }
+
+    .works img {
+        width: 280px;
     }
 
     h2 {
@@ -495,4 +621,3 @@ section {
 #cs #box1 .row .col.col-md-one-half .info-box-right u p a {
     color: #F00;
 }
-

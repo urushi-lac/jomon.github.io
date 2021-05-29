@@ -128,6 +128,8 @@ h4 {
     padding: 20px 0px 20px 20px;
 }
 
+
+
 table {
     text-align:left;
     font-size: 110%;
@@ -235,6 +237,10 @@ footer b img {
         font-size: 115%;
     }
 
+    p {
+    padding: 0px 30px 0px 30px;
+}
+
     .photo s1 img {
         width: auto;
         height: 350px;
@@ -310,6 +316,10 @@ footer b img {
     min-height: 160px;
 }
 
+#box-space  {
+    min-height: 80px;
+}
+
     .inner {
         width: 200px;
         height: 280px;
@@ -337,6 +347,10 @@ footer b img {
         font-size: 90%;
         padding: 10px 10px 10px 10px;
     }
+
+    p {
+    padding: 0px 30px 0px 30px;
+}
 
     table {
     font-size: 90%;
@@ -439,7 +453,15 @@ footer b img {
     }
 
     #box0  {
-    min-height: 120px;
+    min-height: 30px;
+}
+
+#box0  {
+        min-height: 120px;
+    }
+
+#box-space  {
+    min-height: 30px;
 }
 
     .inner {
