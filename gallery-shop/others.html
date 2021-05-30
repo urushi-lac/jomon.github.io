@@ -57,29 +57,29 @@ HTML5タグのIE8以前のブラウザ対応
             </div>
         </div>
 
-    <nav id="menu-box" class="clearfix">
-        <div id="toggle"><a href="#">
-                <h3>Item</h3>
-            </a></div>
-        <ul id="menu" class="">
-            <h2>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/top.html">Shop</a></li>
-            </h2>
-            <h2>
-                <li><a href="../../sorry/sorry-gallery.html">おわん</a></li>
-            </h2>
-            <h2>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/guinomi.html">ぐいのみ</a></li>
-            </h2>
-            <h2>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/baby-bowl.html">赤ちゃんわん</a></li>
-            </h2>
-            <h2>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/pictuer-book.html">えほん</a></li>
-            </h2>
-        </ul>
-    </nav>
- </header>
+        <nav id="menu-box" class="clearfix">
+            <div id="toggle"><a href="#">
+                    <h3>Item</h3>
+                </a></div>
+            <ul id="menu" class="">
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/top.html">Shop</a></li>
+                </h2>
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/sorry-gallery.html">おわん</a></li>
+                </h2>
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/guinomi.html">ぐいのみ</a></li>
+                </h2>
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/baby-bowl.html">赤ちゃんわん</a></li>
+                </h2>
+                <h2>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/pictuer-book.html">えほん</a></li>
+                </h2>
+            </ul>
+        </nav>
+    </header>
 
     <section id="box0">
     </section>
@@ -126,12 +126,12 @@ HTML5タグのIE8以前のブラウザ対応
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://morobrand.net/mororeco/demo/jquery/responsive-menu2/jquery.smoothScroll.js"></script>
     <script type="text/javascript">
-        $(function() {
-            $("#toggle").click(function() {
+        $(function () {
+            $("#toggle").click(function () {
                 $("#menu").slideToggle();
                 return false;
             });
-            $(window).resize(function() {
+            $(window).resize(function () {
                 var win = $(window).width();
                 var p = 768;
                 if (win > p) {
@@ -142,16 +142,15 @@ HTML5タグのIE8以前のブラウザ対応
             });
         });
         /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-        $(function() {
+        $(function () {
             var win = $(window).width();
             var p = 768;
-            if (win < p) $(function() {
-                $("#menu li a").click(function() {
+            if (win < p) $(function () {
+                $("#menu li a").click(function () {
                     $("#menu").hide();
                 });
             });
         });
-
     </script>
 
 

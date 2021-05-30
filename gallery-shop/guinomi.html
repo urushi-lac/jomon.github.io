@@ -54,7 +54,7 @@ HTML5タグのIE8以前のブラウザ対応
 
 <body id="cs">
     <header>
-       <div id="home">
+        <div id="home">
             <b>Since1987 </b>
             <p><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/top-e0.html">/ English</a></p>
             <div class="photo">
@@ -73,7 +73,7 @@ HTML5タグのIE8以前のブラウザ対応
                     <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/top.html">Shop</a></li>
                 </h2>
                 <h2>
-                    <li><a href="../../sorry/sorry-gallery.html">おわん</a></li>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/sorry-gallery.html">おわん</a></li>
                 </h2>
                 <h2>
                     <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/guinomi.html">ぐいのみ</a></li>
@@ -86,10 +86,10 @@ HTML5タグのIE8以前のブラウザ対応
                 </h2>
             </ul>
         </nav>
-</header>
+    </header>
 
-<section id="box0">
-</section>
+    <section id="box0">
+    </section>
 
     <section id="box1">
         <div class="row">
@@ -181,12 +181,12 @@ HTML5タグのIE8以前のブラウザ対応
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://morobrand.net/mororeco/demo/jquery/responsive-menu2/jquery.smoothScroll.js"></script>
     <script type="text/javascript">
-        $(function() {
-            $("#toggle").click(function() {
+        $(function () {
+            $("#toggle").click(function () {
                 $("#menu").slideToggle();
                 return false;
             });
-            $(window).resize(function() {
+            $(window).resize(function () {
                 var win = $(window).width();
                 var p = 768;
                 if (win > p) {
@@ -197,16 +197,15 @@ HTML5タグのIE8以前のブラウザ対応
             });
         });
         /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-        $(function() {
+        $(function () {
             var win = $(window).width();
             var p = 768;
-            if (win < p) $(function() {
-                $("#menu li a").click(function() {
+            if (win < p) $(function () {
+                $("#menu li a").click(function () {
                     $("#menu").hide();
                 });
             });
         });
-
     </script>
 
 
@@ -216,8 +215,8 @@ HTML5タグのIE8以前のブラウザ対応
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>
-        $(function() {
-            $(window).load(function() {
+        $(function () {
+            $(window).load(function () {
                 var setWrap = $('.slideShow'),
                     setMainView = $('.mainView'),
                     setThumbNail = $('.thumbNail'),
@@ -230,7 +229,7 @@ HTML5タグのIE8以前のブラウザ対応
                     sideNavi = 'off', // 'on' or 'off'
                     autoPlay = 'off'; // 'on' or 'off'
 
-                setWrap.each(function() {
+                setWrap.each(function () {
                     var thisObj = $(this),
                         childMain = thisObj.find(setMainView),
                         mainUl = childMain.find('ul'),
@@ -247,7 +246,7 @@ HTML5タグのIE8以前のブラウザ対応
                         display: 'block'
                     });
 
-                    mainLi.each(function(i) {
+                    mainLi.each(function (i) {
                         $(this).attr('class', 'view' + (i + 1).toString()).css({
                             zIndex: '98',
                             opacity: '0'
@@ -259,7 +258,7 @@ HTML5タグのIE8以前のブラウザ対応
                         }, fadeTime);
                     });
 
-                    thumbLi.click(function() {
+                    thumbLi.click(function () {
                         if (autoPlay == 'on') {
                             clearInterval(setTimer);
                         }
@@ -268,14 +267,14 @@ HTML5タグのIE8以前のブラウザ対応
                         var showCont = connectCont + 1;
                         mainUl.find('.view' + (showCont)).siblings().stop().animate({
                             opacity: '0'
-                        }, fadeTime, function() {
+                        }, fadeTime, function () {
                             $(this).css({
                                 zIndex: '98'
                             });
                         });
                         mainUl.find('.view' + (showCont)).stop().animate({
                             opacity: '1'
-                        }, fadeTime, function() {
+                        }, fadeTime, function () {
                             $(this).css({
                                 zIndex: '99'
                             });
@@ -368,7 +367,7 @@ HTML5タグのIE8以前のブラウザ対応
                             });
                         }
                     }
-                    $(window).resize(function() {
+                    $(window).resize(function () {
                         imgSize();
                     });
                     imgSize();
@@ -376,11 +375,11 @@ HTML5タグのIE8以前のブラウザ対応
                     // サムネイルマウスオーバー
                     var agent = navigator.userAgent;
                     if (!(agent.search(/iPhone/) != -1 || agent.search(/iPad/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1)) {
-                        thumbLi.hover(function() {
+                        thumbLi.hover(function () {
                             $(this).stop().animate({
                                 opacity: '1'
                             }, 200);
-                        }, function() {
+                        }, function () {
                             $(this).stop().animate({
                                 opacity: thumbOpc
                             }, 200);
@@ -390,7 +389,7 @@ HTML5タグのIE8以前のブラウザ対応
                     // ボタン移動動作
                     function switchNext() {
                         var setActive = thumbUl.find('.active');
-                        setActive.each(function() {
+                        setActive.each(function () {
                             var listLengh = thumbLi.length,
                                 listIndex = thumbLi.index(this),
                                 listCount = listIndex + 1;
@@ -405,7 +404,7 @@ HTML5タグのIE8以前のブラウザ対応
 
                     function switchPrev() {
                         var setActive = thumbUl.find('.active');
-                        setActive.each(function() {
+                        setActive.each(function () {
                             var listLengh = thumbLi.length,
                                 listIndex = thumbLi.index(this),
                                 listCount = listIndex + 1;
@@ -427,11 +426,11 @@ HTML5タグのIE8以前のブラウザ対応
                         if (!(agent.search(/iPhone/) != -1 || agent.search(/iPad/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1)) {
                             btnPrevNext.css({
                                 opacity: thumbOpc
-                            }).hover(function() {
+                            }).hover(function () {
                                 $(this).stop().animate({
                                     opacity: '0.9'
                                 }, 200);
-                            }, function() {
+                            }, function () {
                                 $(this).stop().animate({
                                     opacity: thumbOpc
                                 }, 200);
@@ -441,10 +440,10 @@ HTML5タグのIE8以前のブラウザ対応
                                 opacity: thumbOpc
                             });
                         }
-                        btnPrev.click(function() {
+                        btnPrev.click(function () {
                             switchPrev();
                         });
-                        btnNext.click(function() {
+                        btnNext.click(function () {
                             switchNext();
                         });
                     }
@@ -452,7 +451,7 @@ HTML5タグのIE8以前のブラウザ対応
                     // 自動再生（有り無し）
                     if (autoPlay == 'on') {
                         function timer() {
-                            setTimer = setInterval(function() {
+                            setTimer = setInterval(function () {
                                 switchNext();
                             }, delayTime);
                         }
@@ -461,7 +460,6 @@ HTML5タグのIE8以前のブラウザ対応
                 });
             });
         });
-
     </script>
 </body>
 
