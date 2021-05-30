@@ -101,13 +101,13 @@ nav {
 }
 
 h1 {
-    font-size: 160%;
+    font-size: 200%;
     line-height: 120%;
-	background-color: #f3f3f3;
-	color:#111;
-	padding: 15px 15px 5px 20px;
-	-webkit-box-shadow: 0 5px 0px #f3f3f3;
-	box-shadow: 0 2px 0px #f3f3f3;
+    background-color: #f3f3f3;
+    color: #111;
+    padding: 20px 0px 20px 20px;
+    -webkit-box-shadow: 0 0px 0px none;
+    box-shadow: 0 0px 0px none;
 }
 
 h2 {
@@ -115,6 +115,7 @@ h2 {
 }
 
 h5 {
+    font-weight: 300;
     line-height: 120%;
 	background-color: #f3f3f3;
 	background-repeat: no-repeat;
@@ -274,6 +275,10 @@ footer b img {
 
     #box0 {
         min-height: 240px;
+    }
+
+    h1 {
+        font-size: 180%;
     }
 
     h2 {
@@ -488,8 +493,17 @@ footer b img {
         min-height: 160px;
     }
 
+    h1 {
+        font-size: 150%;
+        padding: 15px 10px 15px 10px;
+    }
+
     h2 {
         font-size: 100%;
+    }
+
+    h5 {
+        padding: 0px 0px 10px 10px;
     }
 
     .photo s1 img {
@@ -691,8 +705,6 @@ footer b img {
     }
 
     .photo s3 img {
-        width: auto;
-        height: 120%;
         display: block;
     margin-left: auto;
     margin-right: auto;
@@ -722,7 +734,8 @@ footer b img {
     }
 
     #cs h1 {
-        font-size: 140%;
+        font-size: 100%;
+        padding: 10px 0px 10px 10px;
     }
 
     h2 {
@@ -733,13 +746,18 @@ footer b img {
         font-size: 100%;
         }
 
-
     h5 {
         font-size: 80%;
     }
 
+    #cs h6 {
+        font-size: 75%;
+
+    }
+
+
     #cs p1 {
-        font-size: 100%;
+        font-size: 90%;
         line-height: 1.5;
     }
 
@@ -760,7 +778,7 @@ footer b img {
   .info-box-dark {
     width: 80%;
     height: auto;
-      padding: 400px 0px 0px 0px;
+      padding: 360px 0px 20px 0px;
       line-height: 2;
   }
 
@@ -921,3 +939,4 @@ footer b img {
 .pred {
     color: #690;
 }
+
