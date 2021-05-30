@@ -9,7 +9,7 @@ section {
     max-width: 1200px;
     min-height: 440px;
     text-shadow: none;
-    padding: 10px 0px 10px 0px;
+    padding: 250px 0px 0px 0px;
 }
 
 #cs header {
@@ -96,8 +96,8 @@ nav {
     display: none;
 }
 
-#box0 {
-    min-height: 280px;
+.row1 {
+    padding: 200px 0px 50px 0px;
 }
 
 h1 {
@@ -106,8 +106,8 @@ h1 {
     background-color: #f3f3f3;
     color: #111;
     padding: 20px 0px 10px 20px;
-    -webkit-box-shadow: 0px 0px 0px 0px ;
-    box-shadow: 0px 0px 0px 0px ;
+    -webkit-box-shadow: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 0px 0px;
 }
 
 h2 {
@@ -117,53 +117,62 @@ h2 {
 h5 {
     font-weight: 300;
     line-height: 120%;
-	background-color: #f3f3f3;
-	background-repeat: no-repeat;
-	background-position: left 0px center;
-	color: #555;
-	padding: 0px 15px 10px 20px;
-	-webkit-box-shadow:  0 5px 5px #FFF;
-	box-shadow: 0 2px 2px #FFF;
-	-webkit-text-shadow: none;
-	text-shadow: none;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    color: #555;
+    padding: 0px 15px 10px 20px;
+    -webkit-box-shadow: 0 5px 5px #FFF;
+    box-shadow: 0 2px 2px #FFF;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+#cs p1 {
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+.photo {
+    padding: 100px 0px 0px 0px;
 }
 
 .photo s1 img {
-      width: 400px;
-      height: auto;
-      padding: 20px 0px 20px 0px;
-  }
-
-  .photo s2 img {
-  width: 100%;
-  height: auto;
-  padding: 35px 0px 35px 0px;
+    width: 400px;
+    height: auto;
+    padding: 20px 0px 20px 0px;
 }
 
-  .photo s3 img {
-      width: auto;
-      height: 400px;
-      padding: 20px 20px 20px 0px;
-  }
+.photo s2 img {
+    width: 100%;
+    height: auto;
+    padding: 35px 0px 35px 0px;
+}
 
-  .info-box-tan {
-      width: 440px;
-      height: 440px;
-      float: left;
-      padding: 20px 0px 20px 0px;
-  }
+.photo s3 img {
+    width: auto;
+    height: 400px;
+    padding: 20px 20px 20px 0px;
+}
+
+.info-box-tan {
+    width: 440px;
+    height: 440px;
+    float: left;
+    padding: 20px 0px 20px 0px;
+}
 
 .info-box-tan1 {
     padding: 0px 0px 0px;
 }
 
 .info-box-dark {
-      height: 440px;
-      padding: 40px 20px 0px 0px;
-      text-align: left;
-      line-height: 2;
-      left: 493px;
-  }
+    height: 440px;
+    padding: 40px 20px 0px 0px;
+    text-align: left;
+    line-height: 2;
+    left: 493px;
+}
 
 .info-box-dark1 {
     padding: 30px 20px 10px 20px;
@@ -221,14 +230,13 @@ footer b img {
     padding: 0px 20px 0px 0px;
 }
 
-
 @media only screen and (max-width: 2000px) {
 
     section {
         max-width: 980px;
         min-height: 300px;
+        padding: 230px 0px 0px 0px;
     }
-
 
     #home {
         padding: 0px 10px 20px 10px;
@@ -273,8 +281,8 @@ footer b img {
         font-size: 100%;
     }
 
-    #box0 {
-        min-height: 240px;
+    .row1 {
+        padding: 180px 0px 50px 0px;
     }
 
     h1 {
@@ -285,8 +293,16 @@ footer b img {
         font-size: 115%;
     }
 
+    #cs p1 {
+        font-size: 110%;
+    }
+
+    .photo {
+        padding: 80px 0px 0px 0px;
+    }
+
     .photo s1 img {
-      width: 230px;
+        width: 230px;
         height: auto;
         padding: 35px 20px 20px 20px;
     }
@@ -298,8 +314,8 @@ footer b img {
     }
 
     .photo s3 img {
-      width: auto;
-        height: 230px;
+        width: auto;
+        height: 350px;
         padding: 35px 20px 20px 20px;
     }
 
@@ -343,19 +359,19 @@ footer b img {
     }
 
     .info-box-tan {
-      width: 280px;
-      height: 280px;
-      float: left;
-      padding: 20px 0px 20px 0px;
-  }
+        width: 380px;
+        height: 380px;
+        float: left;
+        padding: 20px 20px 20px 0px;
+    }
 
-  .info-box-dark {
-      height: 280px;
-      padding: 50px 20px 0px 0px;
-      text-align: left;
-      line-height: 2;
-      left: 493px;
-  }
+    .info-box-dark {
+        height: 380px;
+        padding: 50px 20px 0px 0px;
+        text-align: left;
+        line-height: 2;
+        left: 493px;
+    }
 
     .info-box-tan1 {
         padding: 0px 0px 0px;
@@ -403,9 +419,10 @@ footer b img {
 }
 
 @media only screen and (max-width: 768px) {
-    #section {
+    section {
         max-width: 768px;
         min-height: 480px;
+        padding: 150px 0px 0px 0px;
     }
 
     #home {
@@ -489,8 +506,8 @@ footer b img {
         margin-top: 3px;
     }
 
-    #box0 {
-        min-height: 160px;
+    .row1 {
+        padding: 120px 0px 50px 0px;
     }
 
     h1 {
@@ -506,13 +523,21 @@ footer b img {
         padding: 0px 0px 10px 10px;
     }
 
+    #cs p1 {
+        font-size: 110%;
+    }
+
+    .photo {
+        padding: 50px 0px 0px 0px;
+    }
+
     .photo s1 img {
-      width: 250px;
+        width: 250px;
         height: auto;
         padding: 30px 0px 10px 0px;
         display: block;
-    margin-left: auto;
-    margin-right: auto
+        margin-left: auto;
+        margin-right: auto
     }
 
     .photo s2 img {
@@ -522,12 +547,12 @@ footer b img {
     }
 
     .photo s3 img {
-      width: auto;
-        height: 300px;
-        padding: 30px 0px 10px 0px;
+        width: auto;
+        height: 350px;
+        padding: 30px 0px 50px 0px;
         display: block;
-    margin-left: auto;
-    margin-right: auto
+        margin-left: auto;
+        margin-right: auto
     }
 
     .photo s5 img {
@@ -553,8 +578,7 @@ footer b img {
     }
 
     #cs p1 {
-        font-size: 90%;
-        line-height: 1.8;
+        font-size: 110%;
         padding: 20px 0px 0px 0px;
     }
 
@@ -572,18 +596,18 @@ footer b img {
     }
 
     .info-box-tan {
-      width: 100%;
-      height: auto;
-      padding: 0px 0px 0px 0px;
-  }
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
 
-  .info-box-dark {
-    width: 80%;
-    height: auto;
-      padding: 350px 10px 0px 10px;
-      text-align: left;
-      line-height: 2;
-  }
+    .info-box-dark {
+        width: 80%;
+        height: auto;
+        padding: 350px 10px 0px 10px;
+        text-align: left;
+        line-height: 2;
+    }
 
     .info-box-tan1 {
         text-align: center;
@@ -610,9 +634,10 @@ footer b img {
 
 @media only screen and (max-width: 480px) {
 
-    #section {
+    section {
         max-width: 480px;
         min-height: 600px;
+        padding: 120px 0px 0px 0px;
     }
 
     #home {
@@ -688,8 +713,12 @@ footer b img {
         margin-top: 3px;
     }
 
-    #box0 {
-        min-height: 120px;
+    .row1 {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .photo {
+        padding: 30px 0px 0px 0px;
     }
 
     .photo s1 img {
@@ -706,9 +735,9 @@ footer b img {
 
     .photo s3 img {
         display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 35px 0px 35px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 35px 0px 35px 0px;
     }
 
     .photo s5 img {
@@ -744,7 +773,7 @@ footer b img {
 
     h3 {
         font-size: 100%;
-        }
+    }
 
     h5 {
         font-size: 80%;
@@ -754,7 +783,6 @@ footer b img {
         font-size: 75%;
 
     }
-
 
     #cs p1 {
         font-size: 90%;
@@ -771,16 +799,16 @@ footer b img {
     }
 
     .info-box-tan {
-      width: 100%;
-      padding: 0px 0px 0px 0px;
-  }
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
 
-  .info-box-dark {
-    width: 80%;
-    height: auto;
-      padding: 360px 0px 20px 0px;
-      line-height: 2;
-  }
+    .info-box-dark {
+        width: 80%;
+        height: auto;
+        padding: 360px 0px 20px 0px;
+        line-height: 2;
+    }
 
     .info-box-tan1 {
         width: 90%;
@@ -818,11 +846,10 @@ footer b img {
 
 @media only screen and (max-width: 320px) {
 
-  #section {
+    #section {
         max-width: 320px;
         min-height: 320px;
     }
-
 
     #home s img {
         width: 153px;
@@ -846,24 +873,24 @@ footer b img {
         width: auto;
         height: 280px;
         display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 0px 10px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px 10px 0px;
     }
 
     .info-box-tan {
-      width: 100%;
-      padding: 0px 0px 0px 0px;
-  }
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
 
-  .info-box-dark {
-    width: 90%;
-    height: auto;
-      padding: 300px 10px 0px 10px;
-      line-height: 2;
-  }
+    .info-box-dark {
+        width: 90%;
+        height: auto;
+        padding: 300px 10px 0px 10px;
+        line-height: 2;
+    }
 
-  .info-box-tan1 {
+    .info-box-tan1 {
         width: 100%;
         padding: 0px 0px 0px 0px;
     }
@@ -885,7 +912,6 @@ footer b img {
         line-height: 1.5;
     }
 
-
     footer s2 img {
         width: auto;
         height: 16px;
@@ -905,8 +931,6 @@ footer b img {
         padding: 0px 5px 0px 0px;
     }
 }
-
-
 
 .col-md-one-half {
     display: inline-block;
