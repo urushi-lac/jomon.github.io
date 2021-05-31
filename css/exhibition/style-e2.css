@@ -493,7 +493,7 @@ footer b img {
     .single-item {
         width: 280px;
         height: 280px;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 30px 0px;
     }
 
     .slick-dots {
