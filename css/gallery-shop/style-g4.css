@@ -353,11 +353,11 @@ section {
     #home s img {
         width: 183px;
         height: auto;
-        padding: 5px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     nav {
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #menu {
@@ -492,7 +492,6 @@ section {
     }
 }
 
-#cs #box1 .row .col.col-md-one-half .info-box-right u p a {
+#cs #box1 .row .col col-md-one-half .info-box-right u p a {
     color: #F00;
 }
-

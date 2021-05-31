@@ -224,7 +224,7 @@ footer b img {
     }
 
     .slick-dots {
-        bottom: -30px;
+        bottom: 0px;
     }
 
     .inner {
@@ -336,7 +336,7 @@ footer b img {
     }
 
     nav {
-        padding: 0px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #menu li {
@@ -351,6 +351,9 @@ footer b img {
         min-height: 160px;
     }
 
+    #box1 {
+        padding: 120px 0px 0px 0px;
+    }
 
     .inner {
         width: 350px;
@@ -359,17 +362,17 @@ footer b img {
     }
 
     .single-item {
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 400px;
     }
 
     .slick-dots {
-        bottom: -40px;
+        bottom: -20px;
     }
 
     .photo s1 img {
         width: auto;
-        height: 350px;
+        height: 400px;
         padding: 0px 0px 0px 0px;
         text-align: center;
     }
@@ -409,11 +412,11 @@ footer b img {
     #home s img {
         width: 183px;
         height: auto;
-        padding: 5px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     nav {
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #menu {
@@ -477,6 +480,9 @@ footer b img {
         min-height: 120px;
     }
 
+    #box1 {
+        padding: 0px 0px 0px 0px;
+    }
 
     .inner {
         width: 280px;
@@ -493,7 +499,6 @@ footer b img {
         bottom: -30px;
         left: -10px;
     }
-
 
     h2 {
         font-size: 90%;
@@ -514,7 +519,6 @@ footer b img {
         height: 280px;
         padding: 0px 0px 0px 0px;
     }
-
 
     footer s3 img {
         padding: 0px 0px 0px 5px;
@@ -552,7 +556,6 @@ footer b img {
         bottom: -30px;
         left: -10px;
     }
-
 
     h2 {
         font-size: 85%;
