@@ -497,7 +497,7 @@ footer b img {
 
     .slick-dots {
         bottom: -30px;
-        left: -10px;
+        left: 0px;
     }
 
     h2 {
@@ -550,11 +550,6 @@ footer b img {
     .single-item {
         width: 220px;
         height: 220px;
-    }
-
-    .slick-dots {
-        bottom: -30px;
-        left: -10px;
     }
 
     h2 {
