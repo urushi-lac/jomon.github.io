@@ -434,7 +434,7 @@ footer b img {
     #home s img {
         width: 183px;
         height: auto;
-        padding: 5px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #home s1 img {
@@ -442,7 +442,7 @@ footer b img {
     }
 
     nav {
-        padding: 5px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #menu li a {

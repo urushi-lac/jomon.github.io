@@ -313,11 +313,11 @@ footer b img {
     #home s img {
         width: 183px;
         height: auto;
-        padding: 5px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     nav {
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #menu {
