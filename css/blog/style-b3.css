@@ -9,7 +9,7 @@ section {
     max-width: 1200px;
     min-height: 440px;
     text-shadow: none;
-    padding: 250px 0px 0px 0px;
+    padding: 300px 0px 0px 0px;
 }
 
 #cs header {
@@ -235,7 +235,7 @@ footer b img {
     section {
         max-width: 980px;
         min-height: 300px;
-        padding: 230px 0px 0px 0px;
+        padding: 260px 0px 0px 0px;
     }
 
     #home {
