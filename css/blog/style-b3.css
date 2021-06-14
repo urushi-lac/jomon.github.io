@@ -794,6 +794,10 @@ footer b img {
         line-height: 1.5;
     }
 
+    .info-box-dark p3 a {
+        padding: 10px 0px 20px 0px;
+    }
+
     .col-md-one-half {
         width: 100%;
     }
