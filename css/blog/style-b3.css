@@ -717,6 +717,10 @@ footer b img {
         padding: 50px 0px 50px 0px;
     }
 
+    .row2 {
+        padding: 0px 0px 20px 0px;
+    }
+
     .photo {
         padding: 0px 0px 0px 0px;
     }
@@ -795,6 +799,7 @@ footer b img {
     }
 
     .info-box-dark p3 a {
+        line-height: 1.2;
         padding: 10px 0px 20px 0px;
     }
 
