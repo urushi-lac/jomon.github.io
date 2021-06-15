@@ -636,7 +636,7 @@ footer b img {
 
     section {
         max-width: 480px;
-        min-height: 600px;
+        min-height: auto;
         padding: 90px 0px 20px 0px;
     }
 
@@ -852,7 +852,7 @@ footer b img {
 
     #section {
         max-width: 320px;
-        min-height: 320px;
+        min-height: auto;
     }
 
     #home s img {
