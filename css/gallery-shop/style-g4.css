@@ -132,6 +132,11 @@ h2 {
     font-size: 120%;
 }
 
+h6 {
+    font-size: 85%;
+text-align: left ;
+}
+
 #footer {
     position: fixed;
     bottom: 0;
