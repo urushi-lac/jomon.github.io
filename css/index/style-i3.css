@@ -386,6 +386,10 @@ footer b img {
         padding: 0px 0px 10px 0px;
     }
 
+    #footer {
+        padding: 5px 0px 15px 10px;
+    }
+
     footer s1 img {
         display: none;
     }
