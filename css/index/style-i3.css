@@ -125,7 +125,7 @@ h2 {
     text-align: left;
     margin-top: 40px;
     list-style-type: none;
-    padding: 5px 0px 15px 10px;
+    padding: 5px 0px 30px 10px;
     background-color: #FFF;
 }
 
@@ -149,7 +149,7 @@ footer s3 img {
 
 footer b img {
     width: auto;
-    height: 18px;
+    height: 25px;
     float: right;
     padding: 15px 20px 0px 0px;
 }
