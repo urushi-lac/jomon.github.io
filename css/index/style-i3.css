@@ -437,8 +437,9 @@ ul.gmenu {
         height: auto;
         position: absolute;
         background-color: #ffffff;
-        padding: 5px 5px 50px 5px;
+        padding: 5px;
         color: #c0c0c0;
+        margin-left: -5px;
     }
 
     ul.gmenu>li:hover ul a {
@@ -447,7 +448,7 @@ ul.gmenu {
 
     ul.gmenu ul>li {
         display: block;
-        padding: 5px 0px 0px 0px;
+        padding: 5px;
     }
 
     ul.gmenu li:hover {
