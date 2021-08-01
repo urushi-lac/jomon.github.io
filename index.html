@@ -38,7 +38,7 @@
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
     <style>
- #footer-mobile {
+        #footer-mobile {
             display: none;
         }
 
@@ -82,13 +82,14 @@
             }
 
             .js-modal__main a {
+                width: 100%;
                 padding: 10px 15px 0px 15px;
             }
 
             .js-modal__btn {
-
+                color: #cccccc;
+                width: 100%;
                 cursor: pointer;
-                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
             }
 
@@ -96,9 +97,43 @@
                 font-size: 150%;
                 margin-top: 0px;
                 text-align: center;
-
+                color: #cccccc;
             }
 
+            .js-modal__btn--close--fix {
+                width: 30px;
+                height: 30px;
+                background:  #fff;
+                border-radius: 50%;
+                position: absolute;
+                top: -50px;
+                right: 5px;
+                z-index: 101;
+                cursor: pointer;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            }
+
+            .js-modal__btn--close--fix:before {
+                content: "";
+                width: 20px;
+                height: 20px;
+                border-right: 3px solid #fff;
+                transform: rotate(-45deg);
+                position: absolute;
+                top: 12px;
+                left: -3px;
+            }
+
+            .js-modal__btn--close--fix:after {
+                content: "";
+                width: 20px;
+                height: 20px;
+                border-right: 3px solid #fff;
+                transform: rotate(45deg);
+                position: absolute;
+                top: -2px;
+                left: -3px;
+            }
 
 
             /*下から上*/
@@ -202,6 +237,7 @@
             <b><img src="images/top/c.png" width="auto" height="25" alt="hiroyuki-yumicopyright(c)" /></b>
 
             <div id="footer-mobile">
+
                 <div class="js-modal__btn"><img src="images/top/symbol.png" alt="snsimage" width="auto" height="18" border="0" /><img style=float:right; "  src=" images/top/c.png" alt="hiroyuki-yumicopyright(c)" width="auto" height="15" border="0" /></div>
 
                 <div class="js-modal__bg"></div>
@@ -214,8 +250,8 @@
                         <a href="https://www.instagram.com/yumi_turezurelife/" target="_blank"><img src="images/top/glyph-logo_May2016.png" alt="instaimage" width="30" height="auto" border="0" /></a>
                     </p>
 
-                    <p style=color:#cccccc; " class="js-modal__btn--close">✖</p>
-
+                    <p style=color:#cccccc; " class=" js-modal__btn--close">✕</p>
+                    <p class="js-modal__btn--close--fix"></p>
                 </div>
 
             </div>
@@ -260,7 +296,7 @@
         });
     </script>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
     <script>
         $(function () {
             var modalBtn = $('.js-modal__btn');
