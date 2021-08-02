@@ -430,6 +430,13 @@ footer b {
         padding: 0px 10px 0px 10px;
     }
 
+    #footer-mobile p {
+        font-size: 100%;
+        font-weight: 700;
+        color: #b3b3b3;
+        padding: 0px 0px 0px 0px;
+    }
+
     .js-modal__bg {
         width: 100%;
         height: 100%;
