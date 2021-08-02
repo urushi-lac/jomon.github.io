@@ -147,11 +147,12 @@ footer s3 img {
     padding: 0px 10px 0px 10px;
 }
 
-footer b img {
-    width: auto;
-    height: 25px;
+footer b {
+    font-size: 90%;
+    font-weight: 300;
+    color: #999999;
     float: right;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 30px 0px 0px;
 }
 
 #footer-mobile {
@@ -408,9 +409,17 @@ footer b img {
         display: none;
     }
 
-    footer b img {
+    footer b {
         display: none;
     }
+
+    footer b1 {
+        font-size: 60%;
+        font-weight: 300;
+        color: #999999;
+        float: right;
+        padding: 0px 0px 0px 0px;
+        }
 
     #footer {
         padding: 0px 0px 0px 0px;
