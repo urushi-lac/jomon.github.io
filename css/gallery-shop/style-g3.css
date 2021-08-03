@@ -137,28 +137,40 @@ h5 {
     text-align: left;
     margin-top: 40px;
     list-style-type: none;
-    padding: 5px 0px 5px 0px;
+    padding: 0px 10px 15px 10px;
     background-color: #FFF;
 }
 
-footer s2 img {
-    width: auto;
-    height: 25px;
+footer s1 img {
+    width: 30px;
+    height: auto;
     padding: 0px 0px 0px 20px;
+}
+
+footer s2 img {
+    width: 30px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
 }
 
 footer s3 img {
-    width: auto;
-    height: 25px;
-    padding: 0px 0px 0px 20px;
+    width: 30px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
 }
 
-footer b img {
-    width: auto;
-    height: 22px;
+footer b {
+    font-size: 90%;
+    font-weight: 300;
+    color: #999999;
     float: right;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 30px 0px 0px;
 }
+
+#footer-mobile {
+    display: none;
+}
+
 
 @media only screen and (max-width: 2000px) {
 
@@ -426,13 +438,156 @@ footer b img {
         padding: 0px 0px 10px 0px;
     }
 
-    footer s3 img {
-        padding: 0px 0px 0px 5px;
+    #footer {
+        margin-top: 0px;
+        padding: 5px 0px 15px 0px;
     }
 
-    footer b img {
+    footer s1 img {
+        display: none;
+    }
+
+    footer s2 img {
+        display: none;
+    }
+
+    footer s3 img {
+        display: none;
+    }
+
+    footer b {
+        display: none;
+    }
+
+    footer b1 {
+        font-size: 7px;
+        font-weight: 300;
+        color: #999999;
         float: right;
-        padding: 1px 10px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        }
+
+    #footer {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #footer-mobile {
+        display: block;
+        padding: 0px 10px 0px 10px;
+    }
+
+    #footer-mobile p {
+        font-size: 100%;
+        font-weight: 700;
+        color: #bbb;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .js-modal__bg {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
+    }
+
+    .js-modal__main {
+        width: calc(100%);
+        height: 80%;
+        padding: 16px 0px 0px 0px;
+        bottom: -81%;
+        left: 0;
+        background: #fff;
+        border-radius: 4px 4px 0 0;
+        position: fixed;
+        z-index: 11;
+        opacity: 0;
+    }
+
+    .js-modal__main a {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .js-modal__btn {
+        color: #cccccc;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .js-modal__btn--close {
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .js-modal__btn--close--fix {
+        width: 30px;
+        height: 30px;
+        background: #333;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        right: 5px;
+        z-index: 101;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+
+    .js-modal__btn--close--fix:before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-right: 3px solid #cccccc;
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 12px;
+        left: -3px;
+    }
+
+    .js-modal__btn--close--fix:after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-right: 3px solid #cccccc;
+        transform: rotate(45deg);
+        position: absolute;
+        top: -2px;
+        left: -3px;
+    }
+
+    @keyframes SlideUp {
+        0% {
+            opacity: 0;
+            transform: translateY(-1%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(-20%);
+        }
+    }
+
+    @keyframes SlideDown {
+        0% {
+            opacity: 1;
+            transform: translateY(-20%);
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateY(-1%);
+        }
+    }
+
+    .js-modal__main._slideUp {
+        animation: SlideUp .5s ease-in-out forwards;
+    }
+
+    .js-modal__main._slideDown {
+        animation: SlideDown .5s ease-in-out forwards;
     }
 }
 
@@ -470,24 +625,6 @@ footer b img {
         height: 100px;
     }
 
-    footer s2 img {
-        width: auto;
-        height: 16px;
-        padding: 0px 0px 0px 6px;
-    }
-
-    footer s3 img {
-        width: auto;
-        height: 16px;
-        padding: 0px 0px 0px 2px;
-    }
-
-    footer b img {
-        width: auto;
-        height: 15px;
-        float: right;
-        padding: 0px 5px 0px 0px;
-    }
 }
 
 #page-top {
