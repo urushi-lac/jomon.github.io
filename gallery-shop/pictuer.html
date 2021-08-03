@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="https://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="ja">
 
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# website: https://ogp.me/ns/website#">
     <meta charset="UTF-8">
@@ -164,10 +164,29 @@ HTML5タグのIE8以前のブラウザ対応
 
     <footer>
         <div id="footer">
-            <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/a.png" alt="amebloimage" width="20" height="20" border="0" /></a></s2>
-            <s3><a href="https://twitter.com/hiro_w2011" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/Twitter.png" alt="twitterlogo" width="20" height="20" border="0" /></a>
-                <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/facebook.png" alt="facebooklogo" width="20" height="20" border="0" /></a></s3>
-            <b><img src="https://urushi-lac.github.io/jomon.github.io/images/top/c.png" width="auto" height="18" alt="hiroyuki-yumicopyright(c)" /></b>
+            <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/a.png" alt="amebloimage" width="30" height="auto" border="0" /></a></s2>
+            <s3><a href="https://twitter.com/hiro_w2011" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/Twitter.png" alt="twitterlogo" width="30" height="auto" border="0" /></a></s3>
+            <s3> <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/facebook.png" alt="facebooklogo" width="30" height="auto" border="0" /></a></s3>
+            <s1><a href="https://www.instagram.com/yumi_turezurelife/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/glyph-logo_May2016.png" alt="instaimage" width="30" height="auto" border="0" /></a></s1>
+            <b>Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b>
+
+            <div id="footer-mobile">
+                <div class="js-modal__btn"><p><img src="https://urushi-lac.github.io/jomon.github.io/images/top/symbol.png" alt="snsimage" width="auto" height="18" border="0" /> SNS
+                    <b1 style=font:size7px;">Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b1></p></div>
+
+                <div class="js-modal__bg"></div>
+                <div class="js-modal__main">
+
+                    <p style=text-align:center;>
+                        <a href="https://ameblo.jp/urushi-watanabe/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/a.png" alt="amebloimage" width="30" height="auto" border="0" padding="0px 0px 0px 20px" /></a>
+                        <a href="https://twitter.com/hiro_w2011" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/Twitter.png" alt="twitterlogo" width="30" height="auto" border="0" /></a>
+                        <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/facebook.png" alt="facebooklogo" width="30" height="auto" border="0" /></a>
+                        <a href="https://www.instagram.com/yumi_turezurelife/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/glyph-logo_May2016.png" alt="instaimage" width="30" height="auto" border="0" /></a>
+                    </p>
+
+                    <p style=color:#cccccc; " class=" js-modal__btn--close">✕</p>
+                </div>
+            </div>
         </div>
     </footer>
     <!--[if lt IE 9]>
@@ -202,6 +221,40 @@ HTML5タグのIE8以前のブラウザ対応
         });
 
     </script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+<script>
+    $(function () {
+        var modalBtn = $('.js-modal__btn');
+        var modalBtnClose = $('.js-modal__btn--close');
+        var modalBtnCloseFix = $('.js-modal__btn--close--fix');
+        var modalBg = $('.js-modal__bg');
+        var modalMain = $('.js-modal__main');
+        modalBtn.on('click', function (e) {
+            $(this).next(modalBg).fadeIn();
+            $(this).next(modalBg).next(modalMain).removeClass("_slideDown");
+            $(this).next(modalBg).next(modalMain).addClass("_slideUp");
+        });
+        modalBtnClose.on('click', function (e) {
+            modalBg.fadeOut();
+            modalMain.removeClass("_slideUp");
+            modalMain.addClass("_slideDown");
+        });
+        modalBtnCloseFix.on('click', function (e) {
+            modalBg.fadeOut();
+            modalMain.removeClass("_slideUp");
+            modalMain.addClass("_slideDown");
+        });
+        modalMain.on('click', function (e) {
+            e.stopPropagation();
+        });
+        modalBg.on('click', function () {
+            $(this).fadeOut();
+            $(this).next(modalMain).removeClass("_slideUp");
+            $(this).next(modalMain).addClass("_slideDown");
+        });
+    });
+</script>
 
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
