@@ -465,6 +465,7 @@ section {
         }
 
     #footer {
+        height: 35px;
         padding: 0px 0px 0px 0px;
     }
 
@@ -512,6 +513,7 @@ section {
         color: #cccccc;
         cursor: pointer;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        padding: 10px 0px 0px 0px;
     }
 
     .js-modal__btn--close {

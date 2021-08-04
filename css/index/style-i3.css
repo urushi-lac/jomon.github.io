@@ -422,6 +422,7 @@ footer b {
         }
 
     #footer {
+        height: 35px;
         padding: 0px 0px 0px 0px;
     }
 
@@ -469,6 +470,7 @@ footer b {
         color: #cccccc;
         cursor: pointer;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        padding: 10px 0px 0px 0px;
     }
 
     .js-modal__btn--close {
