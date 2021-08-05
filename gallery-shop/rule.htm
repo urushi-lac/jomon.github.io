@@ -36,7 +36,17 @@
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
     <style>
+ #footer {
+    padding: 10px 10px 15px 10px;
+}
 
+        @media only screen and (max-width: 768px) {
+
+#page-top {
+    bottom: 60px;
+    right: 20px;
+}
+}
     </style>
 
 </head>
@@ -193,7 +203,8 @@
         <p>&nbsp;</p>
     </section>
 
-    <p id="page-top"><a href="#wrap">TOP</a></p>
+    <p1 id="page-top"><a href="#wrap">TOP</a></p1>
+
     <footer>
         <div id="footer">
             <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/a.png" alt="amebloimage" width="30" height="auto" border="0" /></a></s2>
@@ -268,7 +279,7 @@
                     if (showFlag == false) {
                         showFlag = true;
                         topBtn.stop().animate({
-                            'bottom': '40px'
+                            'bottom': '80px'
                         }, 200);
                     }
                 } else {
