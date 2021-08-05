@@ -233,6 +233,11 @@ footer b {
         font-size: 100%;
     }
 
+    #box-space {
+        min-height: 200px;
+    }
+
+
     #box0  {
     min-height: 240px;
 }
@@ -306,9 +311,15 @@ footer b {
     min-height: 160px;
 }
 
-#box-space  {
-    min-height: 80px;
+#box-space {
+    min-height: 150px;
 }
+
+#page-top {
+    bottom: 60px;
+    right: 20px;
+}
+
 
     .inner {
         width: 200px;
@@ -446,9 +457,14 @@ footer b {
         min-height: 120px;
     }
 
-#box-space  {
-    min-height: 30px;
-}
+    #box-space {
+        min-height: 100px;
+    }
+
+    #page-top {
+        bottom: 40px;
+        right: 0px;
+    }
 
     .inner {
         width: 140px;
@@ -689,10 +705,14 @@ section {
 
 
 
+    #box-space {
+        min-height: 250px;
+    }
+
     #page-top {
         position: fixed;
-        bottom: 10px;
-        right: 10px;
+        bottom: 80px;
+        right: 50px;
         font-size: 77%;
     }
 
