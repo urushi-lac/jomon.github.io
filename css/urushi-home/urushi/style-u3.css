@@ -128,8 +128,6 @@ h4 {
     padding: 20px 0px 20px 20px;
 }
 
-
-
 table {
     text-align:left;
     font-size: 110%;
@@ -152,6 +150,33 @@ table {
     height: 330px;
 }
 
+#box-space {
+        min-height: 250px;
+    }
+
+    #page-top {
+        position: fixed;
+        bottom: 80px;
+        right: 50px;
+        font-size: 77%;
+    }
+
+    #page-top a {
+        background: rgba(220, 220, 220, 0.6);
+        text-decoration: none;
+        color: #666;
+        font-weight: 300;
+        width: 50px;
+        padding: 20px 0;
+        text-align: center;
+        display: block;
+        border-radius: 25px;
+    }
+
+    #page-top a:hover {
+        text-decoration: none;
+        background: rgba(150, 150, 150, 0.4);
+    }
 
 #footer {
     position: fixed;
@@ -237,7 +262,6 @@ footer b {
         min-height: 200px;
     }
 
-
     #box0  {
     min-height: 240px;
 }
@@ -319,7 +343,6 @@ footer b {
     bottom: 60px;
     right: 20px;
 }
-
 
     .inner {
         width: 200px;
@@ -701,34 +724,4 @@ section {
         text-shadow: none;
         padding: 10px 0px 15px 0px;
         background: #FFF;
-    }
-
-
-
-    #box-space {
-        min-height: 250px;
-    }
-
-    #page-top {
-        position: fixed;
-        bottom: 80px;
-        right: 50px;
-        font-size: 77%;
-    }
-
-    #page-top a {
-        background: rgba(220, 220, 220, 0.6);
-        text-decoration: none;
-        color: #666;
-        font-weight: 300;
-        width: 50px;
-        padding: 20px 0;
-        text-align: center;
-        display: block;
-        border-radius: 25px;
-    }
-
-    #page-top a:hover {
-        text-decoration: none;
-        background: rgba(150, 150, 150, 0.4);
     }
