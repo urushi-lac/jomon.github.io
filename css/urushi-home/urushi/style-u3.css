@@ -94,7 +94,7 @@ nav {
     display: none;
 }
 
-#box0  {
+#box0 {
     min-height: 280px;
 }
 
@@ -110,11 +110,11 @@ h1 {
     font-size: 200%;
     line-height: 120%;
     background-color: #f3f3f3;
-    color:#111;
+    color: #111;
     padding: 20px 0px 20px 20px;
     -webkit-box-shadow: 0 0px 0px none;
     box-shadow: 0 0px 0px none;
-    }
+}
 
 h2 {
     font-size: 120%;
@@ -123,17 +123,17 @@ h2 {
 h4 {
     font-size: 110%;
     line-height: 140%;
-    color:#000;
+    color: #000;
     text-align: left;
     padding: 20px 0px 20px 20px;
 }
 
 table {
-    text-align:left;
+    text-align: left;
     font-size: 110%;
     line-height: 140%;
-    margin-left:0px;
-    margin-right:auto;
+    margin-left: 0px;
+    margin-right: auto;
     border-collapse: separate;
     border-spacing: 5px;
     padding: 10px 0px 0px 20px;
@@ -155,43 +155,43 @@ table {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-  }
+}
 
-  .gmap iframe {
+.gmap iframe {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-  }
+}
 
 #box-space {
-        min-height: 250px;
-    }
+    min-height: 250px;
+}
 
-    #page-top {
-        position: fixed;
-        bottom: 80px;
-        right: 50px;
-        font-size: 77%;
-    }
+#page-top {
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    font-size: 77%;
+}
 
-    #page-top a {
-        background: rgba(220, 220, 220, 0.6);
-        text-decoration: none;
-        color: #666;
-        font-weight: 300;
-        width: 50px;
-        padding: 20px 0;
-        text-align: center;
-        display: block;
-        border-radius: 25px;
-    }
+#page-top a {
+    background: rgba(220, 220, 220, 0.6);
+    text-decoration: none;
+    color: #666;
+    font-weight: 300;
+    width: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+}
 
-    #page-top a:hover {
-        text-decoration: none;
-        background: rgba(150, 150, 150, 0.4);
-    }
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(150, 150, 150, 0.4);
+}
 
 #footer {
     position: fixed;
@@ -277,9 +277,9 @@ footer b {
         min-height: 200px;
     }
 
-    #box0  {
-    min-height: 240px;
-}
+    #box0 {
+        min-height: 240px;
+    }
 
     .inner {
         width: 240px;
@@ -295,8 +295,8 @@ footer b {
     }
 
     p {
-    padding: 0px 30px 0px 30px;
-}
+        padding: 0px 30px 0px 30px;
+    }
 
     .photo s1 img {
         width: auto;
@@ -346,18 +346,18 @@ footer b {
         padding: 12px 0 12px;
     }
 
-    #box0  {
-    min-height: 160px;
-}
+    #box0 {
+        min-height: 160px;
+    }
 
-#box-space {
-    min-height: 150px;
-}
+    #box-space {
+        min-height: 150px;
+    }
 
-#page-top {
-    bottom: 60px;
-    right: 20px;
-}
+    #page-top {
+        bottom: 60px;
+        right: 20px;
+    }
 
     .inner {
         width: 200px;
@@ -388,15 +388,15 @@ footer b {
     }
 
     p {
-    padding: 0px 30px 0px 30px;
-}
+        padding: 0px 30px 0px 30px;
+    }
 
     table {
-    font-size: 90%;
-    line-height: 140%;
-    border-spacing: 3px;
-    padding: 10px 10px 0px 10px;
-}
+        font-size: 90%;
+        line-height: 140%;
+        border-spacing: 3px;
+        padding: 10px 10px 0px 10px;
+    }
 
 }
 
@@ -487,16 +487,16 @@ footer b {
         margin-top: 3px;
     }
 
-    #box0  {
-    min-height: 30px;
-}
+    #box0 {
+        min-height: 30px;
+    }
 
-#box0  {
+    #box0 {
         min-height: 120px;
     }
 
     #box-space {
-        min-height: 100px;
+        min-height: 80px;
     }
 
     #page-top {
@@ -510,11 +510,11 @@ footer b {
     }
 
     table {
-    font-size: 80%;
-    line-height: 140%;
-    border-spacing: 3px;
-    padding: 10px 10px 0px 10px;
-}
+        font-size: 80%;
+        line-height: 140%;
+        border-spacing: 3px;
+        padding: 10px 10px 0px 10px;
+    }
 
     h1 {
         font-size: 100%;
@@ -567,7 +567,7 @@ footer b {
         color: #999999;
         float: right;
         padding: 0px 0px 0px 0px;
-        }
+    }
 
     #footer {
         height: 35px;
@@ -734,9 +734,9 @@ footer b {
 }
 
 section {
-        max-width: 1200px;
-        min-height: 100px;
-        text-shadow: none;
-        padding: 10px 0px 15px 0px;
-        background: #FFF;
-    }
+    max-width: 1200px;
+    min-height: 100px;
+    text-shadow: none;
+    padding: 10px 0px 15px 0px;
+    background: #FFF;
+}
