@@ -150,6 +150,21 @@ table {
     height: 330px;
 }
 
+.gmap {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+  }
+
+  .gmap iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+
 #box-space {
         min-height: 250px;
     }
@@ -187,7 +202,7 @@ table {
     text-align: left;
     margin-top: 40px;
     list-style-type: none;
-    padding: 0px 10px 15px 10px;
+    padding: 10px 10px 15px 10px;
     background-color: #FFF;
 }
 
