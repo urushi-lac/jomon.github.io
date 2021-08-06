@@ -409,7 +409,7 @@ footer b {
 
 @media only screen and (max-width: 1200px) {
     section {
-        max-width: 768px;
+        max-width: 1200px;
         min-height: 480px;
         padding: 150px 0px 0px 0px;
     }
