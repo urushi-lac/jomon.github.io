@@ -231,29 +231,6 @@ footer b {
         height: 220px;
     }
 
-    #footer {
-        padding: 5px 0px 0px 0px;
-    }
-
-    footer s2 img {
-        width: auto;
-        height: 20px;
-        padding: 0px 0px 0px 10px;
-    }
-
-    footer s3 img {
-        width: auto;
-        height: 20px;
-        padding: 0px 0px 0px 5px;
-    }
-
-    footer b img {
-        width: auto;
-        height: 18px;
-        float: right;
-        padding: 0px 15px 0px 0px;
-    }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -315,10 +292,6 @@ footer b {
 
     #cs h4 {
         font-size: 90%;
-    }
-
-    footer b img {
-        padding: 0px 10px 0px 0px;
     }
 
 }
