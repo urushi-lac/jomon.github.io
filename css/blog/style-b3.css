@@ -415,16 +415,16 @@ footer b {
     }
 
     #home {
-        padding: 0px 0px 0px 0px;
+        padding: 0px 10px 20px 10px;
     }
 
     #home b {
-        font-size: 75%;
+        font-size: 90%;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 75%;
+        font-size: 90%;
         padding: 0px 10px 0px 0px;
     }
 
