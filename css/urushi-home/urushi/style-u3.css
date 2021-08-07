@@ -305,6 +305,24 @@ footer b {
 
 }
 
+@media only screen and (max-width: 1200px) {
+
+    #home s img {
+        padding: 10px 0px 10px 0px;
+    }
+
+    #home s1 img {
+            width: 70px;
+            height: auto;
+            padding: 0px 0px 0px 0px;
+        }
+
+    nav {
+        padding: 0px 0px 0px 0px;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
 
     #home {
