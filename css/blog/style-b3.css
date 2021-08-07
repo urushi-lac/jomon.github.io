@@ -409,7 +409,7 @@ footer b {
 
 @media only screen and (max-width: 1200px) {
     section {
-        max-width: 1200px;
+        max-width: 980px;
         min-height: 480px;
         padding: 150px 0px 0px 0px;
     }
@@ -429,7 +429,7 @@ footer b {
     }
 
     #home s img {
-        width: 214px;
+        width: 245px;
         height: auto;
         padding: 10px 0px 20px 0px;
     }
