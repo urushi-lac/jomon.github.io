@@ -1,0 +1,22 @@
+{
+  "connector": {...},
+  "formatters": [...],
+  "hints": {
+      "http-cache": ["error", {
+          "revvingPatterns": ["\\/\\d+\\/\\w+\\.\\w{1,3}"]
+      }],
+      ...
+  },
+  ...
+}
+
+{
+  "connector": {...},
+  "formatters": [...],
+  "hints": {
+      "http-cache": "error",
+      ...
+  },
+  "parsers": [...],
+  ...
+}
