@@ -23,11 +23,7 @@
     <meta name="twitter:title" content="渡辺博之漆部屋便り|top" />
     <meta name="twitter:description" content="国産漆（浄法寺盛漆）を100％使った、お手入れの楽な丈夫なお椀を、作家(渡邊博之)だけで一貫制作しております。このサイトでいろいろな情報をお届けいたします。" />
 
-    <meta http-equiv="content-security-policy" content="script-src 'self'; object-src 'none'">
-    <meta http-equiv="Content-Script-Type" content="text/javascriptt; charset=utf-8">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Cache-Control" content= "no-cache">
-
+  
 
     <title>渡辺博之漆部屋便り|top</title>
     <!--* css *-->
@@ -128,15 +124,11 @@
     </footer>
 
     <!--[if lt IE 9]>
-<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
+      <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"
-     Integrity = "sha256-I9amhNKLWE6DBtPMqmMNMFgGYuz1/Qfnl08DOzTWW0M="  crossorigin = "anonymous" ></script>
-
-
-
-    <script type="text/javascript"Integrity = "sha256-I9amhNKLWE6DBtPMqmMNMFgGYuz1/Qfnl08DOzTWW0M="  crossorigin = "anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
         $(function () {
             $("#toggle").click(function () {
                 $("#menu").slideToggle();
@@ -156,22 +148,17 @@
         $(function () {
             var win = $(window).width();
             var p = 480;
-            if (win < p) $(function () {
-                $("#menu li a").click(function () {
-                    $("#menu").hide();
+            if (win < p)
+                $(function () {
+                    $("#menu li a").click(function () {
+                        $("#menu").hide();
+                    });
                 });
-            });
         });
     </script>
 
-
-
-    <script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/js/jquery.min.js"  Integrity = 'sha256-BLkWLV7nO7OWi4dIkjX7IYq+yJYHDmoZS2WJcUWL8pQ=' crossorigin = "anonymous"></script>
-
-
-
-    <script type="text/javascript">
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <script>
         $(function () {
             var modalBtn = $('.js-modal__btn');
             var modalBtnClose = $('.js-modal__btn--close');
