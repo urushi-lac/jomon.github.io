@@ -359,8 +359,8 @@ footer b {
         padding: 15px 0px 15px 0px;
     }
 
-    h3 {
-        font-size: 120%;
+    .toggle_switch h3 {
+        font-size: 110%;
     }
 
     p1 {
