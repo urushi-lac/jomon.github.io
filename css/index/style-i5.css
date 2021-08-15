@@ -360,7 +360,7 @@ footer b {
     }
 
     h3 {
-        font-size: 110%;
+        font-size: 120%;
     }
 
     p1 {
@@ -505,14 +505,14 @@ footer b {
 
         100% {
             opacity: 1;
-            transform: translateY(-20%);
+            transform: translateY(-30%);
         }
     }
 
     @keyframes SlideDown {
         0% {
             opacity: 1;
-            transform: translateY(-20%);
+            transform: translateY(-30%);
         }
 
         100% {
