@@ -90,7 +90,7 @@ nav {
 
 .toggle_wrap {
     display: none;
-  }
+}
 
 #box0 {
     min-height: 280px;
@@ -162,8 +162,6 @@ footer b {
 #footer-mobile {
     display: none;
 }
-
-
 
 @media only screen and (max-width: 2000px) {
 
@@ -307,42 +305,42 @@ footer b {
     }
 
     .toggle_wrap {
-      display: block;
+        display: block;
     }
 
     .toggle_switch {
-      position: relative;
-      cursor: pointer;
-      padding: 5px 0px 0px 0px;
+        position: relative;
+        cursor: pointer;
+        padding: 5px 0px 0px 0px;
     }
 
     .toggle_switch::after {
-      content: "";
-      display: inline-block;
-      width: 18px;
-      height: 11px;
-      background: no-repeat center center;
-      background-size: contain;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 20px;
-      transition: transform .2s;
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 11px;
+        background: no-repeat center center;
+        background-size: contain;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        transition: transform .2s;
     }
 
     .toggle_switch.open::after {
-      transform: rotateZ(180deg);
-      top: 46%;
+        transform: rotateZ(180deg);
+        top: 46%;
     }
 
     .toggle_contents {
-      display: none;
-      text-align: center;
-      padding: 20px 0px 0px 0px;
+        display: none;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
     }
 
     #menu-box {
-      display: none;
+        display: none;
     }
 
     #box0 {
@@ -402,7 +400,7 @@ footer b {
         color: #999999;
         float: right;
         padding: 0px 0px 0px 0px;
-        }
+    }
 
     #footer {
         height: 35px;
@@ -412,13 +410,9 @@ footer b {
     #footer-mobile {
         display: block;
         padding: 0px 10px 0px 10px;
-    }
-
-    #footer-mobile p {
-        font-size: 100%;
-        font-weight: 700;
-        color: #bbb;
-        padding: 0px 0px 0px 0px;
+        font-size: 10px;
+        font-weight: 300;
+        color: #999999;
     }
 
     .js-modal__bg {
@@ -450,7 +444,7 @@ footer b {
     }
 
     .js-modal__btn {
-        color: #cccccc;
+        color: #999999;
         cursor: pointer;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         padding: 10px 0px 0px 0px;
@@ -527,6 +521,14 @@ footer b {
 
     .js-modal__main._slideDown {
         animation: SlideDown .5s ease-in-out forwards;
+    }
+
+    .material-icons {
+        font-size: 15px
+    }
+
+    .material-icons {
+        color: #999999;
     }
 
 }
