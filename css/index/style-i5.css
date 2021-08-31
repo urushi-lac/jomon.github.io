@@ -289,12 +289,12 @@ footer b {
     }
 
     #home b {
-        font-size: 12px;
+        font-size: 10px;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 12px;
+        font-size: 10px;
         padding: 0px 10px -30px 0px;
     }
 
@@ -408,7 +408,7 @@ footer b {
     }
 
     .material-icons {
-        font-size: 12px
+        font-size: 10px
     }
 
     .material-icons {
