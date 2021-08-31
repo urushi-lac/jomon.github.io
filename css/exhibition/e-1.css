@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* Slider */
 
 .slick-slider {
@@ -23,7 +25,7 @@
     display: block;
     margin: 0;
     padding: 0px 0px 30px 0px;
-
+    
     &:focus {
         outline: none;
     }

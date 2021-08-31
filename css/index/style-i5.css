@@ -289,12 +289,12 @@ footer b {
     }
 
     #home b {
-        font-size: 66%;
+        font-size: 12px;
         padding: 0px 0px 0px 10px;
     }
 
     #home p {
-        font-size: 65%;
+        font-size: 12px;
         padding: 0px 10px -30px 0px;
     }
 
@@ -407,10 +407,18 @@ footer b {
         padding: 0px 0px 0px 0px;
     }
 
+    .material-icons {
+        font-size: 12px
+    }
+
+    .material-icons {
+        color: #999999;
+    }
+
     #footer-mobile {
         display: block;
         padding: 0px 10px 0px 10px;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 300;
         color: #999999;
     }
@@ -523,13 +531,7 @@ footer b {
         animation: SlideDown .5s ease-in-out forwards;
     }
 
-    .material-icons {
-        font-size: 15px
-    }
 
-    .material-icons {
-        color: #999999;
-    }
 
 }
 
