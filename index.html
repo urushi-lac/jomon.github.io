@@ -24,8 +24,7 @@
   <meta name="twitter:description" content="国産漆（浄法寺盛漆）を100％使った、お手入れの楽な丈夫なお椀を、作家(渡邊博之)だけで一貫制作しております。このサイトでいろいろな情報をお届けいたします。" />
   <meta http-equiv="content-security-policy:script-src 'self' https://apis.google.com;">
   <meta http-equiv="Content-Script-Type" content="text/javascriptt; charset=utf-8">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Cache-Control" content="no-cache">
+
   <title>渡辺博之漆部屋便り|top</title>
   <!--* css *-->
   <link rel="stylesheet" href="css/index/style-i.css" />
@@ -33,6 +32,7 @@
   <link rel="stylesheet" href="css/index/style-i2.css" />
   <link rel="stylesheet" href="css/index/style-i5.css" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"　rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="https://urushi-lac.github.io/jomon.github.io/images/top/misowanicon.png" />
   <link rel="apple-touch-icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/apple-touch-icon-precomposed.png" />
 
@@ -41,7 +41,8 @@
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
   <style>
-
+.material-icons-outlined { font-size: 70%; }
+.material-icons-outlined { color:#999999; }
   </style>
 
 </head>
@@ -110,7 +111,9 @@
 
       <div id="footer-mobile">
         <div class="js-modal__btn">
-          <p><img src="images/top/symbol.webp" alt="snsimage" width="auto" height="18" border="0" /> SNS
+          <p><p><span class="material-icons-outlined">
+            public
+             </span>S.N.S.
             <b1 style=font-size:7px;">Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b1>
           </p>
         </div>
@@ -145,7 +148,7 @@
       $(this).next('.toggle_contents').slideToggle();
     });
     //# sourceURL=pen.js
-  
+
     $(function () {
       var modalBtn = $('.js-modal__btn');
       var modalBtnClose = $('.js-modal__btn--close');
