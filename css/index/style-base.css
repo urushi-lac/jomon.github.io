@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+img {
+    border: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000;
+    font-display: swap;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+a {
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+    background: transparent;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    background-repeat: repeat;
+    line-height: 1.2em;
+    color: #000;
+    -webkit-text-shadow: 0 1px 0 #FFF;
+    text-shadow: 01px 0 #FFF;
+    line-height: 1;
+}
+
+#cs header {
+    border-top: 10px solid #fff;
+    margin-bottom: 0px;
+}

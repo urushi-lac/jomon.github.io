@@ -1,8 +1,5 @@
 @charset "utf-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
-
-/* CSS Document */
 
 #cs header {
     border-top: 0px;
@@ -11,11 +8,6 @@
     position: fixed;
     padding: 10px 0px 0px 0px;
     z-index: 1;
-}
-
-#cs home {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #home b {
@@ -42,18 +34,11 @@
     padding: 30px 0px 0px 0px;
 }
 
-nav {
-    margin-bottom: 5px;
-    background: #FFF;
-    padding: 45px 0px 0px 0px;
-    position: relative;
-}
-
 #menu {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 #menu li {
@@ -78,16 +63,6 @@ nav {
     border: none;
 }
 
-#menu li a:hover {
-    background: #FFF;
-    font-size: 100%;
-    color: #999;
-}
-
-#toggle {
-    display: none;
-}
-
 .toggle_wrap {
     display: none;
 }
@@ -95,7 +70,6 @@ nav {
 #box0 {
     min-height: 280px;
 }
-
 
 .photo s1 img {
     width: 280px;
@@ -105,8 +79,21 @@ nav {
     position: relative;
 }
 
+
 h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 120%;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #999;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    text-align: center;
 }
 
 .inner {
@@ -185,10 +172,6 @@ footer b {
         padding: 10px 0px 25px 0px;
     }
 
-    nav {
-        padding: 20px 0px 0px 0px;
-    }
-
     #menu li a {
         font-size: 100%;
     }
@@ -204,13 +187,6 @@ footer b {
 
     h2 {
         font-size: 115%;
-    }
-
-    p1 {
-        font-size: 100%;
-        font-weight: 400;
-        line-height: 2em;
-        padding: 20px 0px 0px 0px;
     }
 
     .photo s1 img {
@@ -243,10 +219,6 @@ footer b {
         padding: 10px 0px 20px 0px;
     }
 
-    nav {
-        padding: 0px 0px 20px 0px;
-    }
-
     #menu li {
         width: 20%;
     }
@@ -272,12 +244,6 @@ footer b {
 
     h2 {
         font-size: 100%;
-    }
-
-    p1 {
-        font-size: 80%;
-        font-weight: 400;
-        line-height: 2em;
     }
 
 }
@@ -361,12 +327,6 @@ footer b {
         font-size: 110%;
     }
 
-    p1 {
-        font-size: 80%;
-        font-weight: 400;
-        line-height: 1.8em;
-    }
-
     .photo s1 img {
         width: auto;
         height: 110px;
@@ -374,6 +334,7 @@ footer b {
     }
 
     #footer {
+        height: 35px;
         margin-top: 0px;
         padding: 5px 0px 15px 0px;
     }
@@ -399,18 +360,13 @@ footer b {
         font-weight: 300;
         color: #999999;
         float: right;
-        padding: 5px 0px 0px 0px;
-    }
-
-    #footer {
-        height: 35px;
-        padding: 0px 0px 0px 0px;
+        padding: 15px 0px 0px 0px;
     }
 
     .material-icons {
         font-size: 18px;
         position: relative;
-        top: 5px;
+        top: 7px;
     }
 
     .material-icons {
@@ -533,8 +489,6 @@ footer b {
         animation: SlideDown .5s ease-in-out forwards;
     }
 
-
-
 }
 
 @media only screen and (max-width: 320px) {
@@ -562,15 +516,12 @@ footer b {
         font-size: 95%;
     }
 
-    p1 {
-        font-size: 75%;
-        font-weight: 400;
-        line-height: 1.5em;
-    }
-
     .photo s1 img {
         width: auto;
         height: 100px;
     }
+
+}
+
 
 }
