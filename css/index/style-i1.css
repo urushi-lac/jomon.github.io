@@ -28,6 +28,7 @@ time, mark, audio, video {
 	text-decoration: none;
 	font-family: 'Noto Sans JP', sans-serif;
 	color: #000;
+	font-display: swap;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
