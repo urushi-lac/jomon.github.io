@@ -4,9 +4,11 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 300;
-    src: url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.woff2') format('woff2'),
+    src: local('Noto Sans JP'), local('Noto Sans JP-Light '),
+     url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.woff2') format('woff2'),
         url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.woff') format('woff'),
         url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.eot') format('eot');
+
     font-display: swap;
 }
 
@@ -14,9 +16,10 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 400;
-    src: url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.woff2') format('woff2'),
-    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.woff') format('woff'),
-    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.eot') format('eot');
+    src: local('Noto Sans JP'), local('Noto Sans JP-Regular'),
+    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-400.woff2') format('woff2'),
+    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-400.woff') format('woff'),
+    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-400.eot') format('eot');
     font-display: swap;
 }
 
@@ -24,9 +27,10 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 700;
-    src: url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.woff2') format('woff2'),
-    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.woff') format('woff'),
-    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.eot') format('eot');
+    src: local('Noto Sans JP'), local('Noto Sans JP-Bold'),
+    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-700.woff2') format('woff2'),
+    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-700.woff') format('woff'),
+    url('file:///C:/Users/user/Documents/GitHub/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-700.eot') format('eot');
 }
 
 
