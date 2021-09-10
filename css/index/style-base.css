@@ -4,9 +4,9 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 300;
-    src: url('font/noto-sans-jp-v28-latin_japanese-300.woff2') format('woff2'),
-        url('font/noto-sans-jp-v28-latin_japanese-300.woff') format('woff'),
-        url('font/noto-sans-jp-v28-latin_japanese-300.eot') format('eot');
+    src: url('fonts/noto-sans-jp-v28-latin_japanese-300.woff2') format('woff2'),
+        url('fonts/noto-sans-jp-v28-latin_japanese-300.woff') format('woff'),
+        url('fonts/noto-sans-jp-v28-latin_japanese-300.eot') format('eot');
     font-display: swap;
 }
 
@@ -14,9 +14,9 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 400;
-    src: url('font/noto-sans-jp-v28-latin_japanese-regular.woff2') format('woff2'),
-        url('font/noto-sans-jp-v28-latin_japanese-regular.woff') format('woff'),
-        url('font/noto-sans-jp-v28-latin_japanese-regular.eot') format('eot');
+    src: url('fonts/noto-sans-jp-v28-latin_japanese-regular.woff2') format('woff2'),
+        url('fonts/noto-sans-jp-v28-latin_japanese-regular.woff') format('woff'),
+        url('fonts/noto-sans-jp-v28-latin_japanese-regular.eot') format('eot');
     font-display: swap;
 }
 
@@ -24,9 +24,9 @@
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 700;
-    src: url('font/noto-sans-jp-v28-latin_japanese-700.woff2') format('woff2'),
-        url('font/noto-sans-jp-v28-latin_japanese-700.woff') format('woff'),
-        url('font/noto-sans-jp-v28-latin_japanese-700.eot') format('eot');
+    src: url('fonts/noto-sans-jp-v28-latin_japanese-700.woff2') format('woff2'),
+        url('fonts/noto-sans-jp-v28-latin_japanese-700.woff') format('woff'),
+        url('fonts/noto-sans-jp-v28-latin_japanese-700.eot') format('eot');
     font-display: swap;
 }
 
