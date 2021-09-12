@@ -71,18 +71,8 @@ ul.home_menu {
     border: none;
 }
 
-#menu li a:hover {
-    background: #FFF;
-    font-size: 100%;
-    color: #999;
-}
-
 .toggle_wrap {
     display: none;
-}
-
-.row1 {
-    padding: 200px 0px 50px 0px;
 }
 
 h1 {
@@ -122,18 +112,6 @@ h5 {
     padding: 100px 0px 0px 0px;
 }
 
-.photo s1 img {
-    width: 400px;
-    height: auto;
-    padding: 20px 0px 20px 0px;
-}
-
-.photo s2 img {
-    width: 100%;
-    height: auto;
-    padding: 35px 0px 35px 0px;
-}
-
 .photo s3 img {
     width: auto;
     height: 400px;
@@ -147,31 +125,12 @@ h5 {
     padding: 20px 0px 20px 0px;
 }
 
-.info-box-tan1 {
-    padding: 0px 0px 0px;
-}
-
 .info-box-dark {
     height: 440px;
     padding: 40px 20px 0px 20px;
     text-align: left;
     line-height: 2;
     left: 493px;
-}
-
-.info-box-dark1 {
-    padding: 30px 20px 10px 20px;
-    text-align: left;
-    line-height: 2;
-    left: 493px;
-}
-
-.info-box-dark p3 a {
-    font-weight: 300;
-    font-size: 70%;
-    float: right;
-    color: #005698;
-    padding: 10px 0px 0px 0px;
 }
 
 .col-md-one-half {
@@ -264,10 +223,6 @@ footer b {
         font-size: 100%;
     }
 
-    .row1 {
-        padding: 180px 0px 50px 0px;
-    }
-
     h1 {
         font-size: 180%;
     }
@@ -285,61 +240,10 @@ footer b {
         padding: 80px 0px 0px 0px;
     }
 
-    .photo s1 img {
-        width: 230px;
-        height: auto;
-        padding: 35px 20px 20px 20px;
-    }
-
-    .photo s2 img {
-        width: 100%;
-        height: auto;
-        padding: 35px 0px 35px 0px;
-    }
-
     .photo s3 img {
         width: auto;
         height: 350px;
         padding: 35px 20px 20px 20px;
-    }
-
-    .photo s4 img {
-
-        padding: 35px 20px 20px 20px;
-    }
-
-    .photo s5 img {
-        width: auto;
-        height: 230px;
-        padding: 35px 0px 35px 0px;
-    }
-
-    .side {
-        padding: 20px 20px 20px 20px;
-    }
-
-    .side p {
-        width: auto;
-        height: 375px;
-        display: inline-block;
-        vertical-align: top;
-        line-height: 66px;
-        /*画像の高さ÷テキストの行数*/
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .side p1 {
-        display: inline-block;
-        vertical-align: top;
-        line-height: 30px;
-        /*画像の高さ÷テキストの行数*/
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 20px;
-        padding-top: 5px;
-        text-align: left;
-        font-family: 'Noto Sans JP', sans-serif;
     }
 
     .info-box-tan {
@@ -352,17 +256,6 @@ footer b {
     .info-box-dark {
         height: 380px;
         padding: 50px 20px 0px 0px;
-        text-align: left;
-        line-height: 2;
-        left: 493px;
-    }
-
-    .info-box-tan1 {
-        padding: 0px 0px 0px;
-    }
-
-    .info-box-dark1 {
-        padding: 30px 20px 10px 20px;
         text-align: left;
         line-height: 2;
         left: 493px;
@@ -440,11 +333,6 @@ footer b {
         display: none;
     }
 
-
-    .row1 {
-        padding: 120px 0px 50px 0px;
-    }
-
     h1 {
         font-size: 150%;
         padding: 15px 10px 15px 20px;
@@ -474,28 +362,8 @@ footer b {
         padding: 20px 0px 0px 0px;
     }
 
-    #cs p2 {
-        font-size: 90%;
-        line-height: 1.8;
-    }
-
     .photo {
         padding: 50px 0px 0px 0px;
-    }
-
-    .photo s1 img {
-        width: 250px;
-        height: auto;
-        padding: 30px 0px 10px 0px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto
-    }
-
-    .photo s2 img {
-        width: 100%;
-        height: auto;
-        padding: 30px 0px 20px 0px;
     }
 
     .photo s3 img {
@@ -507,33 +375,7 @@ footer b {
         margin-right: auto
     }
 
-    .photo s5 img {
-        width: 100%;
-        height: auto;
-        padding: 35px 0px 20px 0px;
-    }
-
-    .side {
-        width: 80%;
-        line-height: 30px;
-        /*画像の高さ÷テキストの行数*/
-    }
-
-    .side p1 {
-        display: inline-block;
-        vertical-align: top;
-        line-height: 30px;
-        /*画像の高さ÷テキストの行数*/
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 50px;
-    }
-
     .col-md-one-half {
-        width: 100%;
-    }
-
-    .col col-md-one-half {
         width: 100%;
     }
 
@@ -548,18 +390,6 @@ footer b {
         height: auto;
         padding: 350px 10px 0px 10px;
         text-align: left;
-        line-height: 2;
-    }
-
-    .info-box-tan1 {
-        text-align: center;
-        width: 100%;
-        padding: 0px 0px 0px 0px;
-    }
-
-    .info-box-dark1 {
-        width: 80%;
-        padding: 270px 0px 20px 0px;
         line-height: 2;
     }
 
@@ -594,28 +424,8 @@ footer b {
         padding: 0px 0px 0px 0px;
     }
 
-    .row1 {
-        padding: 50px 0px 50px 0px;
-    }
-
-    .row2 {
-        padding: 0px 0px 30px 0px;
-    }
-
     .photo {
         padding: 0px 0px 0px 0px;
-    }
-
-    .photo s1 img {
-        width: 80%;
-        height: auto;
-        padding: 20px 0px 20px 0px;
-    }
-
-    .photo s2 img {
-        width: 100%;
-        height: auto;
-        padding: 20px 0px 5px 0px;
     }
 
     .photo s3 img {
@@ -623,28 +433,6 @@ footer b {
         margin-left: auto;
         margin-right: auto;
         padding: 35px 0px 35px 0px;
-    }
-
-    .photo s5 img {
-        width: 90%;
-        height: auto;
-        padding: 35px 0px 35px 0px;
-    }
-
-    .side p1 {
-        display: inline-block;
-        vertical-align: top;
-        line-height: 30px;
-        /*画像の高さ÷テキストの行数*/
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 5px;
-    }
-
-    .side {
-        width: 85%;
-        line-height: 30px;
-        /*画像の高さ÷テキストの行数*/
     }
 
     #cs h1 {
@@ -664,23 +452,8 @@ footer b {
         font-size: 80%;
     }
 
-    #cs h6 {
-        font-size: 75%;
-
-    }
-
     #cs p1 {
         font-size: 90%;
-    }
-
-    #cs p2 {
-        font-size: 100%;
-        line-height: 1.5;
-    }
-
-    .info-box-dark p3 a {
-        line-height: 1.2;
-        padding: 10px 0px 20px 0px;
     }
 
     .col-md-one-half {
@@ -699,23 +472,8 @@ footer b {
         line-height: 1.2;
     }
 
-    .info-box-tan1 {
-        width: 90%;
-        padding: 100px 0px 0px 0px;
-    }
-
-    .info-box-dark1 {
-        width: 85%;
-        padding: 0px 0px 20px 0px;
-        line-height: 2;
-    }
-
     .col {
         padding: 0px 0px 0px 0px;
-    }
-
-    .col col-md-one-half {
-        width: 100%;
     }
 
     #footer {
@@ -889,18 +647,6 @@ footer b {
         padding: 10px 0px 0px 0px;
     }
 
-    .photo s1 img {
-        width: 280px;
-        height: auto;
-        padding: 10px 0px 10px 0px;
-    }
-
-    .photo s2 img {
-        width: 100%;
-        height: auto;
-        padding: 10px 0px 5px 0px;
-    }
-
     .photo s3 img {
         width: auto;
         height: 280px;
@@ -922,24 +668,7 @@ footer b {
         line-height: 2;
     }
 
-    .info-box-tan1 {
-        width: 100%;
-        padding: 0px 0px 0px 0px;
-    }
-
-    .info-box-dark1 {
-        width: 90%;
-        height: auto;
-        padding: 0px 10px 0px 10px;
-        line-height: 2;
-    }
-
     #cs p1 {
-        font-size: 90%;
-        line-height: 1.5;
-    }
-
-    #cs p2 {
         font-size: 90%;
         line-height: 1.5;
     }
@@ -973,8 +702,3 @@ footer b {
     text-decoration: none;
     background: rgba(150, 150, 150, 0.4);
 }
-
-.pred {
-    color: #690;
-}
-

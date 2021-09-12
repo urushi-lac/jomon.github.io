@@ -303,6 +303,10 @@ footer b {
         padding: 15px 0px 15px 0px;
     }
 
+    h2 a {
+        color: #999;
+    }
+
     .toggle_switch h3 {
         font-size: 110%;
     }
@@ -340,7 +344,7 @@ footer b {
         font-weight: 300;
         color: #595959;
         float: right;
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     .material-icons {
