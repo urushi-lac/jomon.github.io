@@ -231,18 +231,20 @@ footer b {
 
 @media only screen and (max-width: 480px) {
 
+
     ul.home_menu {
-        padding: 0px 0px 0px 0px;
+        padding: 5px 0px 0px 0px;
       }
 
     ul.home_menu a {
         font-size: 70%;
+        padding: 0px 10px 0px 10px;
       }
 
     .home s a img {
         width: 183px;
         height: auto;
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .toggle_wrap {
