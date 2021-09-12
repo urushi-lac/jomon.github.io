@@ -1,41 +1,8 @@
 @charset "UTF-8";
 
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-    display: block;
-}
-
 html {
-    font-family: 'Noto Sans JP', sans-serif;
-    /* 1 */
     -ms-text-size-adjust: 100%;
-    /* 2 */
     -webkit-text-size-adjust: 100%;
-    /* 2 */
-}
-
-body {
-    margin: 0;
-}
-
-b,
-strong {
-    font-weight: bold;
-}
-
-img {
-    border: 0;
 }
 
 html,
@@ -128,11 +95,10 @@ video {
     margin-right: auto;
     text-decoration: none;
     font-family: 'Noto Sans JP',
-        'Hiragino Kaku Gothic ProN',
-        "Hiragino Sans",
-        sans-serif;
+    'Hiragino Kaku Gothic ProN',
+    "Hiragino Sans",
+     sans-serif;
     color: #000;
-    font-display: swap;
 }
 
 article,
@@ -143,9 +109,11 @@ figure,
 footer,
 header,
 hgroup,
+main,
 menu,
 nav,
-section {
+section,
+summary {
     display: block;
 }
 
@@ -158,11 +126,16 @@ a {
     background: transparent;
 }
 
+b,
+strong {
+    font-weight: bold;
+}
+
 body {
     font-family: 'Noto Sans JP',
-        'Hiragino Kaku Gothic ProN',
-        "Hiragino Sans",
-        sans-serif;
+    'Hiragino Kaku Gothic ProN',
+    "Hiragino Sans",
+     sans-serif;
     font-weight: 400;
     background-repeat: repeat;
     line-height: 1.2em;
@@ -170,6 +143,7 @@ body {
     -webkit-text-shadow: 0 1px 0 #FFF;
     text-shadow: 01px 0 #FFF;
     line-height: 1;
+    margin: 0;
 }
 
 #cs header {

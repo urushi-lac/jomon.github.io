@@ -10,29 +10,30 @@
     z-index: 1;
 }
 
-#home b {
-    font-size: 100%;
-    font-weight: 300;
+ul.home_menu {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px 0px 0px 0px;
+  }
+
+  ul.home_menu li {
+    width: 45%;
     color: #535353;
-    padding: 0px 0px 0px 20px;
-}
+  }
 
-#home p {
+  ul.home_menu a {
+    display: block;
     font-size: 100%;
-    font-weight: 300;
-    float: right;
-    padding: 0px 20px 0px 0px;
-}
+  font-weight: 300;
+  }
 
-#cs header a {
-    color: #666666;
-}
-
-#home s img {
+  .home s a img {
     width: 306px;
     height: auto;
-    padding: 30px 0px 0px 0px;
-}
+    padding: 20px 0px 0px 0px;
+  }
+
 
 #menu {
     width: 100%;
@@ -143,7 +144,7 @@ footer b {
     font-weight: 300;
     color: #595959;
     float: right;
-    padding: 0px 30px 0px 0px;
+    padding: 10px 30px 0px 0px;
 }
 
 #footer-mobile {
@@ -152,24 +153,14 @@ footer b {
 
 @media only screen and (max-width: 2000px) {
 
-    #home {
-        padding: 0px 10px 20px 10px;
-    }
-
-    #home b {
+    ul.home_menu a {
         font-size: 90%;
-        padding: 0px 0px 0px 10px;
-    }
+      }
 
-    #home p {
-        font-size: 90%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 245px;
         height: auto;
-        padding: 10px 0px 25px 0px;
+        padding: 15px 0px 0px 0px;
     }
 
     #menu li a {
@@ -199,24 +190,14 @@ footer b {
 
 @media only screen and (max-width: 768px) {
 
-    #home {
-        padding: 0px 0px 0px 0px;
-    }
-
-    #home b {
+    ul.home_menu a {
         font-size: 75%;
-        padding: 0px 0px 0px 10px;
-    }
+      }
 
-    #home p {
-        font-size: 75%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 214px;
         height: auto;
-        padding: 10px 0px 20px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #menu li {
@@ -250,24 +231,14 @@ footer b {
 
 @media only screen and (max-width: 480px) {
 
-    #home {
-        padding: 0px 0px 0px 0px;
-    }
+    ul.home_menu a {
+        font-size: 70%;
+      }
 
-    #home b {
-        font-size: 10px;
-        padding: 0px 0px 0px 10px;
-    }
-
-    #home p {
-        font-size: 10px;
-        padding: 0px 10px -30px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 183px;
         height: auto;
-        padding: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     .toggle_wrap {
@@ -356,17 +327,17 @@ footer b {
     }
 
     footer b1 {
-        font-size: 8px;
+        font-size: 9px;
         font-weight: 300;
         color: #999999;
         float: right;
-        padding: 15px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     .material-icons {
         font-size: 18px;
         position: relative;
-        top: 7px;
+        top: 5px;
     }
 
     .material-icons {
@@ -376,7 +347,7 @@ footer b {
     #footer-mobile {
         display: block;
         padding: 0px 10px 0px 10px;
-        font-size: 10px;
+        font-size: 11px;
         font-weight: 300;
         color: #999999;
     }
@@ -413,7 +384,7 @@ footer b {
         color: #999999;
         cursor: pointer;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        padding: 10px 0px 0px 0px;
+        padding: 18px 0px 0px 0px;
     }
 
     .js-modal__btn--close {
@@ -493,10 +464,10 @@ footer b {
 
 @media only screen and (max-width: 320px) {
 
-    #home s img {
+    .home s a img {
         width: 153px;
         height: auto;
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #menu li a {
