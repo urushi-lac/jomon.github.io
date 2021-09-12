@@ -19,13 +19,14 @@ ul.home_menu {
 
   ul.home_menu li {
     width: 45%;
-    color: #535353;
+
   }
 
   ul.home_menu a {
     display: block;
     font-size: 100%;
   font-weight: 300;
+  color: #999;
   }
 
   .home s a img {
@@ -142,7 +143,8 @@ footer s3 img {
 footer b {
     font-size: 90%;
     font-weight: 300;
-    color: #595959;
+    color: #999;
+
     float: right;
     padding: 10px 30px 0px 0px;
 }
@@ -239,6 +241,7 @@ footer b {
     ul.home_menu a {
         font-size: 70%;
         padding: 0px 10px 0px 10px;
+        color: #595959;
       }
 
     .home s a img {
@@ -335,9 +338,9 @@ footer b {
     footer b1 {
         font-size: 9px;
         font-weight: 300;
-        color: #999999;
+        color: #595959;
         float: right;
-        padding: 10px 0px 0px 0px;
+        padding: 5px 0px 0px 0px;
     }
 
     .material-icons {
@@ -355,7 +358,7 @@ footer b {
         padding: 0px 10px 0px 10px;
         font-size: 11px;
         font-weight: 300;
-        color: #999999;
+        color: #595959;
     }
 
     .js-modal__bg {
@@ -387,7 +390,7 @@ footer b {
     }
 
     .js-modal__btn {
-        color: #999999;
+        color: #595959;;
         cursor: pointer;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         padding: 18px 0px 0px 0px;
