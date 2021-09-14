@@ -5,7 +5,7 @@
 
 ### Urushi lac
 
-#### ***Toxicodendron urushi lac*** Hiroyuki Watanabe(渡辺博之)
+#### ***Toxicodendron urushi lac(mizu-urushi)*** Hiroyuki Watanabe(渡辺博之)
 
 Latin : lac.　Engrish : milk latex. lacquer.　French : laque.　Italian : lacca.
 
