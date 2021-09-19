@@ -5,6 +5,7 @@
     background-color: #fff;
     width: 100%;
     position: fixed;
+    margin-bottom: 0px;
     padding: 10px 0px 0px 0px;
     z-index: 1;
 }
@@ -544,7 +545,6 @@ footer b {
         vertical-align: top;
     }
 
-
     footer b {
         display: none;
     }
@@ -607,8 +607,6 @@ footer b {
     .js-modal__main a {
         padding: 0px 15px 0px 15px;
     }
-
-
 
     .js-modal__btn--close {
         margin-top: 10px;
