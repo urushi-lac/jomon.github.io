@@ -16,25 +16,25 @@ ul.home_menu {
     width: 100%;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-  }
+}
 
-  ul.home_menu li {
+ul.home_menu li {
     width: 45%;
+    color: #999999;
+}
 
-  }
-
-  ul.home_menu a {
+ul.home_menu a {
     display: block;
     font-size: 100%;
-  font-weight: 300;
-  color: #999;
-  }
+    font-weight: 300;
+    color: #999999;
+}
 
-  .home s a img {
+.home s a img {
     width: 306px;
     height: auto;
     padding: 20px 0px 0px 0px;
-  }
+}
 
 
 #menu {
@@ -143,7 +143,7 @@ footer s3 img {
 footer b {
     font-size: 90%;
     font-weight: 300;
-    color: #999;
+    color: #999999;
     float: right;
     padding: 10px 30px 0px 0px;
 }
@@ -156,7 +156,7 @@ footer b {
 
     ul.home_menu a {
         font-size: 90%;
-      }
+    }
 
     .home s a img {
         width: 245px;
@@ -193,7 +193,7 @@ footer b {
 
     ul.home_menu a {
         font-size: 75%;
-      }
+    }
 
     .home s a img {
         width: 214px;
@@ -235,13 +235,13 @@ footer b {
 
     ul.home_menu {
         padding: 5px 0px 0px 0px;
-      }
+    }
 
     ul.home_menu a {
         font-size: 70%;
         padding: 0px 10px 0px 10px;
         color: #595959;
-      }
+    }
 
     .home s a img {
         width: 183px;
@@ -317,9 +317,9 @@ footer b {
     }
 
     #footer {
-        height: 35px;
+        height: 15px;
         margin-top: 0px;
-        padding: 5px 0px 15px 0px;
+        padding: 0px 0px 15px 0px;
     }
 
     footer s1 img {
@@ -334,34 +334,48 @@ footer b {
         display: none;
     }
 
+    p.side_text {
+        color: #595959;
+        display: inline-block;
+        width: 50px;
+        margin-left: 10px;
+        vertical-align: top;
+    }
+
     footer b {
         display: none;
     }
 
     footer b1 {
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 300;
         color: #595959;
         float: right;
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #footer-mobile {
+        display: block;
+        padding: 0px 0px 0px 0px;
+        font-size: 70%;
+        font-weight: 300;
+        color: #595959;
+    }
+
+    .js-modal__btn {
+        color: #595959;
+        ;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        padding: 10px 10px 0px 10px;
     }
 
     .material-icons {
         font-size: 18px;
         position: relative;
-        top: 5px;
-    }
-
-    .material-icons {
-        color: #999999;
-    }
-
-    #footer-mobile {
-        display: block;
-        padding: 0px 10px 0px 10px;
-        font-size: 11px;
-        font-weight: 300;
+        top: -3px;
         color: #595959;
+        display: inline-block;
     }
 
     .js-modal__bg {
@@ -390,13 +404,6 @@ footer b {
 
     .js-modal__main a {
         padding: 0px 15px 0px 15px;
-    }
-
-    .js-modal__btn {
-        color: #595959;;
-        cursor: pointer;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        padding: 18px 0px 0px 0px;
     }
 
     .js-modal__btn--close {
