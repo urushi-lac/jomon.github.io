@@ -1,59 +1,45 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
-
-/* CSS Document */
-
 #cs header {
     border-top: 0px;
     background-color: #fff;
     width: 100%;
     position: fixed;
+    margin-bottom: 0px;
     padding: 10px 0px 0px 0px;
     z-index: 1;
 }
 
-#cs home {
-    margin-left: auto;
-    margin-right: auto;
+ul.home_menu {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px 0px 0px 0px;
 }
 
-#home b {
+ul.home_menu li {
+    width: 45%;
+    color: #999999;
+}
+
+ul.home_menu a {
+    display: block;
     font-size: 100%;
     font-weight: 300;
-    color: #535353;
-    padding: 0px 0px 0px 20px;
+    color: #999999;
 }
 
-#home p {
-    font-size: 100%;
-    font-weight: 300;
-    float: right;
-    padding: 0px 20px 0px 0px;
-}
-
-#cs header a {
-    color: #666666;
-}
-
-#home s img {
+.home s a img {
     width: 306px;
     height: auto;
-    padding: 30px 0px 0px 0px;
-}
-
-nav {
-    margin-bottom: 5px;
-    background: #FFF;
-    padding: 45px 0px 0px 0px;
-    position: relative;
+    padding: 20px 0px 0px 0px;
 }
 
 #menu {
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 #menu li {
@@ -78,13 +64,7 @@ nav {
     border: none;
 }
 
-#menu li a:hover {
-    background: #FFF;
-    font-size: 100%;
-    color: #999;
-}
-
-#toggle {
+.toggle_wrap {
     display: none;
 }
 
@@ -92,15 +72,44 @@ nav {
     min-height: 280px;
 }
 
-.photo s1 img {
-    width: auto;
-    height: 250px;
-    padding: 0px 0px 0px 0px;
-    text-align: center;
+h1 {
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 220%;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    position: relative;
+    text-shadow: none;
+    color: #111;
+    padding: 20px 0px 10px 20px;
+    -webkit-box-shadow: none;
+    ;
+    box-shadow: 0px 0px 0px 0px #FFF;
 }
 
 h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 120%;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #999;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+#cs h4 {
+    font-size: 110%;
+    font-weight: 400;
+    text-align: left;
+    line-height: 2;
+    padding: 50px 10px 50px 10px;
 }
 
 .inner {
@@ -112,6 +121,13 @@ h2 {
     margin: auto;
     width: 180px;
     height: 200px;
+}
+
+.photo s1 img {
+    width: auto;
+    height: 250px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
 }
 
 #footer {
@@ -150,7 +166,7 @@ footer b {
     font-weight: 300;
     color: #999999;
     float: right;
-    padding: 0px 30px 0px 0px;
+    padding: 10px 30px 0px 0px;
 }
 
 #footer-mobile {
@@ -159,28 +175,14 @@ footer b {
 
 @media only screen and (max-width: 2000px) {
 
-    #home {
-        padding: 0px 10px 20px 10px;
-    }
-
-    #home b {
+    ul.home_menu a {
         font-size: 90%;
-        padding: 0px 0px 0px 10px;
     }
 
-    #home p {
-        font-size: 90%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 245px;
         height: auto;
-        padding: 10px 0px 20px 0px;
-    }
-
-    nav {
-        padding: 20px 0px 0px 0px;
+        padding: 15px 0px 0px 0px;
     }
 
     #menu li a {
@@ -196,45 +198,35 @@ footer b {
         height: 180px;
     }
 
+    .photo s1 img {
+        width: auto;
+        height: 220px;
+    }
+
+    #cs h1 {
+        font-size: 150%;
+    }
+
     h2 {
         font-size: 115%;
     }
 
-    .photo s1 img {
-        width: auto;
-        height: 220px;
+    #cs h4 {
+        font-size: 100%;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
 
-    #home {
-        padding: 0px 0px 0px 0px;
-    }
-
-    #home b {
+    ul.home_menu a {
         font-size: 75%;
-        padding: 0px 0px 0px 10px;
     }
 
-    #home p {
-        font-size: 75%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 214px;
         height: auto;
-        padding: 10px 0px 10px 0px;
-    }
-
-    nav {
-        padding: 0px 0px 20px 0px;
-    }
-
-    #menu li {
-        width: 25%;
+        padding: 10px 0px 0px 0px;
     }
 
     #menu li a {
@@ -255,99 +247,75 @@ footer b {
         height: 200px;
     }
 
+    #cs h1 {
+        font-size: 120%;
+    }
+
     h2 {
         font-size: 100%;
     }
 
-    p1 {
-        font-size: 80%;
-        font-weight: 400;
-        line-height: 2em;
+    #cs h4 {
+        font-size: 90%;
     }
 
 }
 
 @media only screen and (max-width: 480px) {
 
-    #home {
-        padding: 0px 0px 0px 0px;
+    ul.home_menu {
+        padding: 5px 0px 0px 0px;
     }
 
-    #home b {
-        font-size: 66%;
-        padding: 0px 0px 0px 10px;
+    ul.home_menu a {
+        font-size: 70%;
+        padding: 0px 10px 0px 10px;
+        color: #595959;
     }
 
-    #home p {
-        font-size: 65%;
-        padding: 0px 10px -30px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 183px;
         height: auto;
         padding: 0px 0px 0px 0px;
     }
 
-    nav {
-        padding: 0px 0px 0px 0px;
-    }
-
-    #menu {
-        display: none;
-    }
-
-    #menu li {
-        width: 100%;
-    }
-
-    #menu li a {
-        padding: 12px 0px 12px;
-    }
-
-    #toggle {
+    .toggle_wrap {
         display: block;
+    }
+
+    .toggle_switch {
         position: relative;
-        width: 100%;
-        background: #FFF;
+        cursor: pointer;
+        padding: 5px 0px 0px 0px;
     }
 
-    #toggle a {
-        padding: 0px 0 10px;
-        font-weight: 400;
-        font-size: 110%;
-    }
-
-    #toggle:before {
-        display: block;
+    .toggle_switch::after {
         content: "";
+        display: inline-block;
+        width: 18px;
+        height: 11px;
+        background: no-repeat center center;
+        background-size: contain;
         position: absolute;
         top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 30px;
-        margin-top: -15px;
-        background: #FFF;
+        transform: translateY(-50%);
+        right: 20px;
+        transition: transform .2s;
     }
 
-    #toggle a:before,
-    #toggle a:after {
-        display: block;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 6px;
-        background: #FFF;
+    .toggle_switch.open::after {
+        transform: rotateZ(180deg);
+        top: 46%;
     }
 
-    #toggle a:before {
-        margin-top: -9px;
+    .toggle_contents {
+        display: none;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
     }
 
-    #toggle a:after {
-        margin-top: 3px;
+    #menu-box {
+        display: none;
     }
 
     #box0  {
@@ -358,28 +326,40 @@ footer b {
         width: 100px;
         height: 140px;
     }
-    h2 {
-        font-size: 90%;
-    }
-
-    h3 {
-        font-size: 100%;
-    }
-
-    p1 {
-        font-size: 80%;
-        font-weight: 400;
-        line-height: 1.8em;
-    }
 
     .photo s1 img {
         width: auto;
         height: 150px;
     }
 
+    #cs h1 {
+        font-size: 90%;
+        padding: 5px 10px 5px 10px;
+    }
+
+    h2 {
+        font-size: 90%;
+        padding: 15px 0px 15px 0px;
+    }
+
+    h2 a {
+        color: #999;
+    }
+
+    .toggle_switch h3 {
+        font-size: 110%;
+    }
+
+    #cs h4 {
+        font-size: 70%;
+        line-height: 2;
+        padding: 10px 10px 10px 10px;
+    }
+
     #footer {
+        height: 15px;
         margin-top: 0px;
-        padding: 5px 0px 15px 0px;
+        padding: 0px 0px 15px 0px;
     }
 
     footer s1 img {
@@ -394,33 +374,48 @@ footer b {
         display: none;
     }
 
+    p.side_text {
+        color: #595959;
+        display: inline-block;
+        width: 50px;
+        margin-left: 10px;
+        vertical-align: top;
+    }
+
     footer b {
         display: none;
     }
 
     footer b1 {
-        font-size: 7px;
+        font-size: 10px;
         font-weight: 300;
-        color: #999999;
+        color: #595959;
         float: right;
-        padding: 0px 0px 0px 0px;
-        }
-
-    #footer {
-        height: 35px;
         padding: 0px 0px 0px 0px;
     }
 
     #footer-mobile {
         display: block;
-        padding: 0px 10px 0px 10px;
+        padding: 0px 0px 0px 0px;
+        font-size: 70%;
+        font-weight: 300;
+        color: #595959;
     }
 
-    #footer-mobile p {
-        font-size: 100%;
-        font-weight: 700;
-        color: #bbb;
-        padding: 0px 0px 0px 0px;
+    .js-modal__btn {
+        color: #595959;
+        ;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        padding: 10px 10px 0px 10px;
+    }
+
+    .material-icons {
+        font-size: 18px;
+        position: relative;
+        top: -3px;
+        color: #595959;
+        display: inline-block;
     }
 
     .js-modal__bg {
@@ -449,13 +444,6 @@ footer b {
 
     .js-modal__main a {
         padding: 0px 15px 0px 15px;
-    }
-
-    .js-modal__btn {
-        color: #cccccc;
-        cursor: pointer;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        padding: 10px 0px 0px 0px;
     }
 
     .js-modal__btn--close {
@@ -507,14 +495,14 @@ footer b {
 
         100% {
             opacity: 1;
-            transform: translateY(-20%);
+            transform: translateY(-30%);
         }
     }
 
     @keyframes SlideDown {
         0% {
             opacity: 1;
-            transform: translateY(-20%);
+            transform: translateY(-30%);
         }
 
         100% {
@@ -534,10 +522,10 @@ footer b {
 
 @media only screen and (max-width: 320px) {
 
-    #home s img {
+    .home s a img {
         width: 153px;
         height: auto;
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     #menu li a {
@@ -549,23 +537,17 @@ footer b {
         height: 120px;
     }
 
+    .photo s1 img {
+        width: auto;
+        height: 120px;
+    }
+
     h2 {
         font-size: 85%;
     }
 
     h3 {
         font-size: 95%;
-    }
-
-    p1 {
-        font-size: 75%;
-        font-weight: 400;
-        line-height: 1.5em;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 120px;
     }
 
 }
