@@ -69,7 +69,7 @@ ul.home_menu a {
     display: none;
 }
 
-#box0  {
+#box0 {
     min-height: 280px;
 }
 
@@ -179,7 +179,7 @@ footer b {
         font-size: 100%;
     }
 
-    #box0  {
+    #box0 {
         min-height: 240px;
     }
 
@@ -226,7 +226,7 @@ footer b {
         padding: 7px 0 7px;
     }
 
-    #box0  {
+    #box0 {
         min-height: 160px;
     }
 
@@ -308,7 +308,7 @@ footer b {
         display: none;
     }
 
-    #box0  {
+    #box0 {
         min-height: 120px;
     }
 
