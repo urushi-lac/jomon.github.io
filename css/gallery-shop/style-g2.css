@@ -191,6 +191,11 @@ footer b {
     display: none;
 }
 
+section {
+    max-width: 980px;
+    height: auto;
+}
+
 @media only screen and (max-width: 2000px) {
 
     section {

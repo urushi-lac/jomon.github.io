@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+.slideShow .mainView .btnPrev,
+.slideShow .mainView .btnNext {
+	z-index: 1;
+}
+
 #cs header {
     border-top: 0px;
     background-color: #fff;
@@ -67,11 +72,6 @@ ul.home_menu a {
 
 .toggle_wrap {
     display: none;
-}
-
-.slideShow .mainView .btnPrev,
-.slideShow .mainView .btnNext {
-	z-index: 1;
 }
 
 #box0  {
