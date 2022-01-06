@@ -411,7 +411,7 @@ footer b {
         color: #999;
     }
 
-    h3 {
+    .toggle_switch h3 {
         font-size: 110%;
     }
 
@@ -443,7 +443,7 @@ footer b {
         color: #595959;
         display: inline-block;
         width: 50px;
-        margin-left: 0px;
+        margin-left: 10px;
         vertical-align: top;
     }
 
@@ -452,26 +452,34 @@ footer b {
     }
 
     footer b1 {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 300;
         color: #595959;
         float: right;
-        padding: 2px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     #footer-mobile {
         display: block;
-        padding: 6px 10px 0px 10px;
-        font-size: 11px;
+        padding: 0px 0px 0px 0px;
+        font-size: 70%;
         font-weight: 300;
         color: #595959;
+    }
+
+    .js-modal__btn {
+        color: #595959;
+        ;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        padding: 10px 10px 0px 10px;
     }
 
     .material-icons {
         font-size: 18px;
         position: relative;
         top: -3px;
-        color: #999999;
+        color: #595959;
         display: inline-block;
     }
 
@@ -501,13 +509,6 @@ footer b {
 
     .js-modal__main a {
         padding: 0px 15px 0px 15px;
-    }
-
-    .js-modal__btn {
-        color: #595959;
-        cursor: pointer;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        padding: 0px 0px 0px 0px;
     }
 
     .js-modal__btn--close {
