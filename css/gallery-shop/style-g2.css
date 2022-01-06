@@ -191,12 +191,6 @@ footer b {
     display: none;
 }
 
-section {
-    width: 980px;
-    height: auto;
-}
-
-
 @media only screen and (max-width: 2000px) {
 
     section {
@@ -370,11 +364,6 @@ section {
 }
 
 @media only screen and (max-width: 480px) {
-
-    section {
-        max-width: 480px;
-        padding: 0px 0px 20px 0px;
-    }
 
     ul.home_menu {
         padding: 5px 0px 0px 0px;

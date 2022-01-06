@@ -168,12 +168,6 @@ footer b {
     display: none;
 }
 
-section {
-    width: 980px;
-    height: auto;
-}
-
-
 @media only screen and (max-width: 2000px) {
 
     ul.home_menu a {
