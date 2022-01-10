@@ -461,6 +461,10 @@ footer b {
         color: #999;
     }
 
+    .toggle_switch h3 {
+        font-size: 110%;
+    }
+
     h6 {
         font-size: 75%;
         padding: 0px 10px 10px 10px;
