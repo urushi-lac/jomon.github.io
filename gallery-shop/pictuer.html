@@ -271,11 +271,11 @@
 
                     mainLi.each(function (i) {
                         $(this).attr('class', 'view' + (i + 1).toString()).css({
-                            zIndex: '98',
+                            zIndex: '1',
                             opacity: '0'
                         });
                         mainLiFst.css({
-                            zIndex: '99'
+                            zIndex: '2'
                         }).stop().animate({
                             opacity: '1'
                         }, fadeTime);
@@ -292,14 +292,14 @@
                             opacity: '0'
                         }, fadeTime, function () {
                             $(this).css({
-                                zIndex: '98'
+                                zIndex: '1'
                             });
                         });
                         mainUl.find('.view' + (showCont)).stop().animate({
                             opacity: '1'
                         }, fadeTime, function () {
                             $(this).css({
-                                zIndex: '99'
+                                zIndex: '2'
                             });
                         });
 
