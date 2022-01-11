@@ -697,6 +697,14 @@ footer b {
         padding: 10px 0px 0px 0px;
     }
 
+    .toggle_switch {
+        padding: 0px 0px 10px 0px;
+    }
+
+    #menu li a {
+        padding: 10px 0px 10px;
+    }
+
     .photo s3 img {
         width: auto;
         height: 280px;
