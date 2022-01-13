@@ -653,12 +653,12 @@ section {
 
 @media only screen and (max-width: 320px) {
 
-    #home s img {
+    .home s a img {
         width: 153px;
         height: auto;
         padding: 5px 0px 0px 0px;
     }
-    
+
     .toggle_switch {
         padding: 0px 0px 10px 0px;
     }
