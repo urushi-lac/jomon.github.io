@@ -98,6 +98,16 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 400%;
+    font-weight: 400;
+    color: #c3c3c3;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    text-align: center;
+}
+
 .inner {
     position: absolute;
     top: 0;
@@ -181,6 +191,11 @@ footer b {
         font-size: 115%;
     }
 
+    h4 {
+        font-size: 380%;
+        padding: 90px 0px 0px 0px;
+      }
+
     .photo s1 img {
         width: auto;
         height: 150px;
@@ -228,6 +243,11 @@ footer b {
         font-size: 100%;
     }
 
+    h4 {
+        font-size: 300%;
+        padding: 100px 0px 0px 0px;
+      }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -261,7 +281,7 @@ footer b {
     .toggle_switch {
         position: relative;
         cursor: pointer;
-        padding: 5px 0px 15px 0px;
+        padding: 10px 0px 15px 0px;
     }
 
     .toggle_switch::after {
@@ -314,6 +334,11 @@ footer b {
     .toggle_switch h3 {
         font-size: 110%;
     }
+
+    h4 {
+        font-size: 200%;
+        padding: 50px 0px 0px 0px;
+      }
 
     .photo s1 img {
         width: auto;
@@ -495,7 +520,7 @@ footer b {
     }
 
     .toggle_switch {
-        padding: 0px 0px 10px 0px;
+        padding: 5px 0px 10px 0px;
     }
 
     #menu li a {
@@ -514,6 +539,11 @@ footer b {
     h3 {
         font-size: 95%;
     }
+
+    h4 {
+        font-size: 200%;
+        padding: 30px 0px 0px 0px;
+      }
 
     .photo s1 img {
         width: auto;

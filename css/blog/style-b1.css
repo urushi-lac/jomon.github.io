@@ -127,13 +127,8 @@ h6 {
 
 
 #cs p1 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 120%;
-    line-height: 2;
-    font-weight: 400;
-    color:#000;
-    padding: 0px 0px 0px 0px;
-
+    font-size: 100%;
+    line-height: 2em;
 }
 
 .photo {
@@ -258,11 +253,6 @@ footer b {
         font-size: 115%;
     }
 
-    #cs p1 {
-        font-size: 110%;
-        line-height: 1.7;
-    }
-
     .photo {
         padding: 80px 0px 0px 0px;
     }
@@ -384,9 +374,7 @@ footer b {
     }
 
     #cs p1 {
-        font-size: 110%;
-        line-height: 1.6;
-        padding: 20px 0px 0px 0px;
+        line-height: 2em;
     }
 
     .photo {
@@ -457,7 +445,7 @@ footer b {
     }
 
     .toggle_switch {
-        padding: 5px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
     }
 
     .photo {
@@ -496,8 +484,7 @@ footer b {
 
     #cs p1 {
         font-size: 90%;
-        padding: 0px 0px 0px 0px;
-        line-height: 1.8;
+        line-height: 1.8em;
     }
 
     .col-md-one-half {
@@ -698,7 +685,7 @@ footer b {
     }
 
     .toggle_switch {
-        padding: 0px 0px 10px 0px;
+        padding: 5px 0px 10px 0px;
     }
 
     #menu li a {
@@ -727,16 +714,11 @@ footer b {
     }
 
     h2 {
-        padding: 5px 0px 5px 0px;
+        font-size: 85%;
     }
 
-    h2 a {
-        font-size: 80%;
-    }
-
-    #cs p1 {
-        font-size: 90%;
-        line-height: 1.5;
+    h3 {
+        font-size: 95%;
     }
 
 }

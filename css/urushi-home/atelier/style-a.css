@@ -1,66 +1,46 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
-
-/* CSS Document */
-
 #cs header {
     border-top: 0px;
     background-color: #fff;
     width: 100%;
     position: fixed;
+    margin-bottom: 0px;
     padding: 10px 0px 0px 0px;
     z-index: 1;
 }
 
-#cs home {
-    margin-left: auto;
-    margin-right: auto;
-
+ul.home_menu {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px 0px 0px 0px;
 }
 
-#home b {
+ul.home_menu li {
+    width: 45%;
+    color: #999999;
+}
+
+ul.home_menu a {
+    display: block;
     font-size: 100%;
     font-weight: 300;
-    color: #535353;
-    padding: 0px 0px 0px 20px;
+    color: #999999;
 }
 
-#home p {
-    font-size: 100%;
-    font-weight: 300;
-    float: right;
-    padding: 0px 20px 0px 0px;
-}
-
-#cs header a {
-    color: #666666;
-}
-
-#home s img {
+.home s a img {
     width: 306px;
     height: auto;
-    padding: 30px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
-#home s1 img {
-    width: 80px;
-    height: auto;
-    padding: 0px 0px 0px 0px;
-}
-
-nav {
-    margin-bottom: 5px;
-    background: #FFF;
-    padding: 0px 0px 0px 0px;
-    position: relative;
-}
 
 #menu {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 #menu li {
@@ -85,13 +65,7 @@ nav {
     border: none;
 }
 
-#menu li a:hover {
-    background: #FFF;
-    font-size: 100%;
-    color: #999;
-}
-
-#toggle {
+.toggle_wrap {
     display: none;
 }
 
@@ -130,11 +104,24 @@ h1 {
 }
 
 h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 120%;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #999;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    text-align: center;
 }
 
 h4 {
     font-size: 110%;
+    font-weight: 400;
     line-height: 1.8;
     color: #000;
     text-align: left;
@@ -142,9 +129,8 @@ h4 {
 }
 
 h6 {
-    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 90%;
+    font-size: 105%;
     line-height: 2;
     color: #000;
     margin: 0;
@@ -152,6 +138,10 @@ h6 {
     padding: 0px 0px 0px 20px;
 }
 
+#cs p1 {
+    font-size: 100%;
+    line-height: 2em;
+}
 
 #footer {
     position: fixed;
@@ -189,7 +179,7 @@ footer b {
     font-weight: 300;
     color: #999999;
     float: right;
-    padding: 0px 30px 0px 0px;
+    padding: 10px 30px 0px 0px;
 }
 
 #footer-mobile {
@@ -203,35 +193,14 @@ footer b {
         padding: 90px 0px 0px 0px;
     }
 
-    #home {
-        padding: 0px 10px 20px 10px;
-    }
-
-    #home b {
+    ul.home_menu a {
         font-size: 90%;
-        padding: 0px 0px 0px 10px;
     }
 
-    #home p {
-        font-size: 90%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 245px;
         height: auto;
-        padding: 10px 0px 25px 0px;
-    }
-
-    #home s1 img {
-        width: 70px;
-        height: auto;
-        padding: 10px 0px 20px 0px;
-    }
-
-    nav {
-        max-width: 980px;
-        padding: 20px 0px 0px 0px;
+        padding: 15px 0px 0px 0px;
     }
 
     #menu li a {
@@ -262,114 +231,28 @@ footer b {
 
 }
 
-@media only screen and (max-width: 1200px) {
-
-    .row1 {
-        padding: 250px 0px 50px 0px;
-    }
-
-    #home s img {
-        padding: 10px 0px 10px 0px;
-    }
-
-    nav {
-        padding: 0px 0px 0px 0px;
-    }
-
-}
-
 @media only screen and (max-width: 768px) {
 
     section {
         padding: 40px 0px 0px 0px;
     }
 
-    #home {
-        padding: 0px 0px 0px 0px;
-    }
-
-    #home b {
+    ul.home_menu a {
         font-size: 75%;
-        padding: 0px 0px 0px 10px;
     }
 
-    #home p {
-        font-size: 75%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 214px;
         height: auto;
-        padding: 10px 0px 10px 0px;
-    }
-
-    #home s1 img {
-        width: 50px;
-        height: auto;
-        padding: 0px 20px 0px 20px;
-        text-align: center;
-    }
-
-    nav {
-        padding: 0px 0px 0px 0px;
-    }
-
-    #menu {
-        display: none;
+        padding: 10px 0px 0px 0px;
     }
 
     #menu li {
-        width: 100%;
+        width: 20%;
     }
 
     #menu li a {
-        padding: 12px 0 12px;
-    }
-
-    #toggle {
-        display: block;
-        position: relative;
-        width: 100%;
-        background: #FFF;
-    }
-
-    #toggle a {
-        padding: 0px 0px 10px 0px;
-        font-weight: 400;
-        font-size: 100%;
-    }
-
-    #toggle:before {
-        display: block;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 30px;
-        margin-top: -15px;
-        background: #FFF;
-    }
-
-    #toggle a:before,
-    #toggle a:after {
-        display: block;
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        width: 30px;
-        height: 6px;
-        background: #FFF;
-    }
-
-    #toggle a:before {
-        margin-top: -9px;
-    }
-
-    #toggle a:after {
-        margin-top: 3px;
+        padding: 7px 0 7px;
     }
 
     .row1 {
@@ -415,40 +298,72 @@ footer b {
         font-size: 80%;
     }
 
+    #cs p1 {
+        line-height: 2em;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
 
-    #home {
+    ul.home_menu {
+        padding: 5px 0px 0px 0px;
+    }
+
+    ul.home_menu li {
+        width: 45%;
         padding: 0px 0px 0px 0px;
     }
 
-    #home b {
-        font-size: 66%;
-        padding: 0px 0px 0px 10px;
+    ul.home_menu a {
+        font-size: 70%;
+        padding: 0px 10px 0px 10px;
+        color: #595959;
     }
 
-    #home p {
-        font-size: 65%;
-        padding: 0px 10px -30px 0px;
-    }
-
-    #home s img {
+    .home s a img {
         width: 183px;
         height: auto;
         padding: 0px 0px 0px 0px;
     }
 
-    #home s1 img {
-        padding: 0px 0px 0px 0px;
+    .toggle_wrap {
+        display: block;
     }
 
-    nav {
-        padding: 0px 0px 0px 0px;
+    .toggle_switch {
+        position: relative;
+        cursor: pointer;
+        padding: 10px 0px 15px 0px;
     }
 
-    #menu li a {
-        padding: 3px 0px 3px 0px;
+    .toggle_switch::after {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 11px;
+        background: no-repeat center center;
+        background-size: contain;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        transition: transform .2s;
+    }
+
+    .toggle_switch.open::after {
+        transform: rotateZ(180deg);
+        top: 46%;
+    }
+
+    .toggle_contents {
+        display: none;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #menu-box {
+        display: none;
     }
 
     .row1 {
@@ -479,11 +394,15 @@ footer b {
 
     h2 {
         font-size: 90%;
+        padding: 15px 0px 15px 0px;
     }
 
-    h3 {
-        font-size: 90%;
-        padding: 0px 0px 3px 0px;
+    h2 a {
+        color: #999;
+    }
+
+    .toggle_switch h3 {
+        font-size: 110%;
     }
 
     h4 {
@@ -496,9 +415,15 @@ footer b {
         padding: 0px 10px 10px 10px;
     }
 
+    #cs p1 {
+        font-size: 90%;
+        line-height: 1.8em;
+    }
+
     #footer {
+        height: 15px;
         margin-top: 0px;
-        padding: 5px 0px 15px 0px;
+        padding: 0px 0px 15px 0px;
     }
 
     footer s1 img {
@@ -513,33 +438,48 @@ footer b {
         display: none;
     }
 
+    p.side_text {
+        color: #595959;
+        display: inline-block;
+        width: 50px;
+        margin-left: 10px;
+        vertical-align: top;
+    }
+
     footer b {
         display: none;
     }
 
     footer b1 {
-        font-size: 7px;
+        font-size: 10px;
         font-weight: 300;
-        color: #999999;
+        color: #595959;
         float: right;
-        padding: 0px 0px 0px 0px;
-        }
-
-    #footer {
-        height: 35px;
         padding: 0px 0px 0px 0px;
     }
 
     #footer-mobile {
         display: block;
-        padding: 0px 10px 0px 10px;
+        padding: 0px 0px 0px 0px;
+        font-size: 70%;
+        font-weight: 300;
+        color: #595959;
     }
 
-    #footer-mobile p {
-        font-size: 100%;
-        font-weight: 700;
-        color: #bbb;
-        padding: 0px 0px 0px 0px;
+    .js-modal__btn {
+        color: #595959;
+        ;
+        cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        padding: 10px 10px 0px 10px;
+    }
+
+    .material-icons {
+        font-size: 18px;
+        position: relative;
+        top: -3px;
+        color: #595959;
+        display: inline-block;
     }
 
     .js-modal__bg {
@@ -568,14 +508,6 @@ footer b {
 
     .js-modal__main a {
         padding: 0px 15px 0px 15px;
-    }
-
-    .js-modal__btn {
-        color: #cccccc;
-        cursor: pointer;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        padding: 10px 0px 0px 0px;
-
     }
 
     .js-modal__btn--close {
@@ -627,14 +559,14 @@ footer b {
 
         100% {
             opacity: 1;
-            transform: translateY(-20%);
+            transform: translateY(-30%);
         }
     }
 
     @keyframes SlideDown {
         0% {
             opacity: 1;
-            transform: translateY(-20%);
+            transform: translateY(-30%);
         }
 
         100% {
@@ -650,14 +582,19 @@ footer b {
     .js-modal__main._slideDown {
         animation: SlideDown .5s ease-in-out forwards;
     }
+
 }
 
 @media only screen and (max-width: 320px) {
 
-    #home s img {
+    .home s a img {
         width: 153px;
         height: auto;
         padding: 5px 0px 0px 0px;
+    }
+
+    .toggle_switch {
+        padding: 5px 0px 10px 0px;
     }
 
     #menu li a {

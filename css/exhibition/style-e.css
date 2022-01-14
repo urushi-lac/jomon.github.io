@@ -291,7 +291,7 @@ footer b {
     .toggle_switch {
         position: relative;
         cursor: pointer;
-        padding: 5px 0px 15px 0px;
+        padding: 10px 0px 15px 0px;
     }
 
     .toggle_switch::after {
@@ -534,7 +534,7 @@ footer b {
     }
 
     .toggle_switch {
-        padding: 0px 0px 10px 0px;
+        padding: 5px 0px 10px 0px;
     }
 
     #menu li a {
