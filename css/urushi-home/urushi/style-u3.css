@@ -35,6 +35,12 @@ ul.home_menu a {
     padding: 20px 0px 0px 0px;
 }
 
+.home s1 img {
+    width: 80px;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+}
+
 
 #menu {
     width: 100%;
@@ -235,6 +241,12 @@ footer b {
         padding: 15px 0px 0px 0px;
     }
 
+    .home s1 img {
+        width: 70px;
+        height: auto;
+        padding: 10px 0px 20px 0px;
+    }
+
     #menu li a {
         font-size: 100%;
     }
@@ -281,6 +293,13 @@ footer b {
         width: 214px;
         height: auto;
         padding: 10px 0px 0px 0px;
+    }
+
+    .home s1 img {
+        width: 50px;
+        height: auto;
+        padding: 0px 20px 0px 20px;
+        text-align: center;
     }
 
     #menu li {
@@ -365,6 +384,10 @@ footer b {
     .home s a img {
         width: 183px;
         height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .home s1 img {
         padding: 0px 0px 0px 0px;
     }
 
@@ -457,6 +480,10 @@ footer b {
     h4 {
         font-size: 80%;
         padding: 10px 10px 10px 10px;
+    }
+
+    p {
+        padding: 0px 0px 0px 0px;
     }
 
     .photo s1 img {
