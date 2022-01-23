@@ -14,6 +14,7 @@
 ul.home_menu {
     display: flex;
     width: 100%;
+    font-weight: 300;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
     flex-direction:row;
