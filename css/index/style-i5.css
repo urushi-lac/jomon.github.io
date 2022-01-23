@@ -170,10 +170,6 @@ footer b {
         font-size: 90%;
     }
 
-    ul.home_menu a {
-        font-size: 90%;
-    }
-
     .home s a img {
         width: 245px;
         height: auto;
@@ -213,10 +209,6 @@ footer b {
 @media only screen and (max-width: 768px) {
 
     ul.home_menu {
-        font-size: 75%;
-    }
-
-    ul.home_menu a {
         font-size: 75%;
     }
 
@@ -274,7 +266,6 @@ footer b {
     }
 
     ul.home_menu a {
-        font-size: 70%;
         padding: 0px 10px 0px 10px;
         color: #595959;
     }
