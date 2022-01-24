@@ -22,14 +22,14 @@ ul.home_menu {
 
 ul.home_menu li {
     width: 45%;
-    color: #767676;
+    color: #595959;
 }
 
 ul.home_menu a {
     display: block;
     font-size: 100%;
     font-weight: 300;
-    color: #767676;
+    color: #595959;
     float:right;
 }
 
@@ -267,8 +267,8 @@ footer b {
     }
 
     ul.home_menu a {
-        padding: 0px 0px 0px 10px;
-        color: #767676;
+        padding: 0px 5px 0px 15px;
+        color: #595959;
     }
 
     .home s a img {
@@ -331,7 +331,7 @@ footer b {
     }
 
     h2 a {
-        color: #999;
+        color: #767676;
     }
 
     .toggle_switch h3 {
