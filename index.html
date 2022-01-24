@@ -137,42 +137,13 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" Integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4= sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 
   <script id=" rendered-js">
-    $('.toggle_switch').on('click', function () {
-      $(this).toggleClass('open');
-      $(this).next('.toggle_contents').slideToggle();
-    });
-
-
-    $(function () {
-      var modalBtn = $('.js-modal__btn');
-      var modalBtnClose = $('.js-modal__btn--close');
-      var modalBtnCloseFix = $('.js-modal__btn--close--fix');
-      var modalBg = $('.js-modal__bg');
-      var modalMain = $('.js-modal__main');
-      modalBtn.on('click', function (e) {
-        $(this).next(modalBg).fadeIn();
-        $(this).next(modalBg).next(modalMain).removeClass("_slideDown");
-        $(this).next(modalBg).next(modalMain).addClass("_slideUp");
-      });
-      modalBtnClose.on('click', function (e) {
-        modalBg.fadeOut();
-        modalMain.removeClass("_slideUp");
-        modalMain.addClass("_slideDown");
-      });
-      modalBtnCloseFix.on('click', function (e) {
-        modalBg.fadeOut();
-        modalMain.removeClass("_slideUp");
-        modalMain.addClass("_slideDown");
-      });
-      modalMain.on('click', function (e) {
-        e.stopPropagation();
-      });
-      modalBg.on('click', function () {
-        $(this).fadeOut();
-        $(this).next(modalMain).removeClass("_slideUp");
-        $(this).next(modalMain).addClass("_slideDown");
-      });
-    });
+   $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),
+   $(function(){var s=$(".js-modal__btn"),n=$(".js-modal__btn--close"),e=$(".js-modal__btn--close--fix"),o=$(".js-modal__bg"),t=$(".js-modal__main");s.
+   on("click",function(s){$(this).next(o).fadeIn(),$(this).next(o).next(t).removeClass("_slideDown"),$(this).next(o).next(t).addClass("_slideUp")}),n.
+   on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),e.
+   on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),t.
+   on("click",function(s){s.stopPropagation()}),o.
+   on("click",function(){$(this).fadeOut(),$(this).next(t).removeClass("_slideUp"),$(this).next(t).addClass("_slideDown")})});
   </script>
 
 </body>
