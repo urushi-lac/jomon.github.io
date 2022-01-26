@@ -439,10 +439,11 @@ footer b {
     }
 
     .js-modal__btn--close {
-        margin-top: 10px;
+        font-size: 180%;
+        margin-top: 20px;
         text-align: center;
         text-decoration: underline;
-        color: #cccccc;
+        color: #767676;
     }
 
     .js-modal__btn--close--fix {
