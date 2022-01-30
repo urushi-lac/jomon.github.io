@@ -16,7 +16,7 @@ ul.home_menu {
     font-weight: 300;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 ul.home_menu li {
@@ -29,9 +29,9 @@ ul.home_menu a {
     font-size: 100%;
     font-weight: 300;
     color: #595959;
-    float:right;
-        padding: 0px 7px 0px 0px;
-    }
+    float: right;
+    padding: 0px 7px 0px 0px;
+}
 
 .home s a img {
     width: 306px;
@@ -243,8 +243,7 @@ footer b {
     }
 
     ul.home_menu a {
-        font-size: 70%;
-        padding: 0px 10px 0px 10px;
+        padding: 0px 7px 0px 0px;
         color: #595959;
     }
 
