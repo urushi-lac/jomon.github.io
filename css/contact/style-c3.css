@@ -234,6 +234,7 @@ footer b {
 @media only screen and (max-width: 480px) {
 
     ul.home_menu {
+        font-size: 70%;
         padding: 5px 0px 0px 0px;
     }
 
