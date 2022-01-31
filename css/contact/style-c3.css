@@ -61,7 +61,7 @@ ul.home_menu {
 
 ul.home_menu li {
     width: 47%;
-    padding: 0px 0px 0px 7px;
+    color: #595959;
 }
 
 ul.home_menu a {
@@ -70,7 +70,6 @@ ul.home_menu a {
     font-weight: 300;
     color: #595959;
     float: right;
-    padding: 0px 7px 0px 0px;
 }
 
 .home s a img {
