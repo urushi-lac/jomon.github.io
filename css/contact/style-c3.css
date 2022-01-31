@@ -1,18 +1,18 @@
 @charset "utf-8";
 
 @font-face{
-    font-family: 'Font Name';
-    src: url('https://urushi-lac.github.io/jomon.github.io/fonts/NotoSansJP-Regular.otf');
+    font-family: 'Noto Sans JP';
+    src: url('https://urushi-lac.github.io/jomon.github.io/fonts/NotoSansJP-Regular.woff2');
     font-weight:400;
   }
   @font-face{
-    font-family: 'Font Name';
-    src: url('https://urushi-lac.github.io/jomon.github.io/fonts/NotoSansJP-Light.otf');
+    font-family: 'Noto Sans JP';
+    src: url('https://urushi-lac.github.io/jomon.github.io/fonts/NotoSansJP-Light.woff2');
     font-weight:300;
   }
   @font-face{
-    font-family: 'Font Name';
-    src: url('https://urushi-lac.github.io/jomon.github.io/fonts/NotoSansJP-Bold.otf');
+    font-family: 'Noto Sans JP';
+    src: url('https://urushi-lac.github.io/jomon.github.io/fonts/NotoSansJP-Bold.woff2');
     font-weight:700;
   }
 
