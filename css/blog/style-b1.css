@@ -21,20 +21,23 @@ section {
 ul.home_menu {
     display: flex;
     width: 100%;
+    font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
+    flex-direction:row;
 }
 
 ul.home_menu li {
-    width: 45%;
-    color: #999999;
+    width: 47%;
+    color: #595959;
 }
 
 ul.home_menu a {
     display: block;
     font-size: 100%;
-    font-weight: 300;
-    color: #999999;
+    font-weight: 350;
+    color: #595959;
+    float:right;
 }
 
 .home s a img {
@@ -93,16 +96,18 @@ h1 {
 }
 
 #cs h2 {
-    font-weight: 400;
-    font-size: 120%;
+    font-weight: 480;
+    font-size: 125%;
 }
 
 h3 {
+    font-size: 100%;
     font-weight: 400;
-    color: #999;
+    color: #767676;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
     text-align: center;
 }
-
 
 h5 {
     font-weight: 300;
@@ -125,7 +130,6 @@ h6 {
     text-align: center;
 }
 
-
 #cs p1 {
     font-size: 100%;
     line-height: 2em;
@@ -135,8 +139,14 @@ h6 {
     padding: 100px 0px 0px 0px;
 }
 
+.photo s2 img {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+
 .photo s3 img {
-    width: auto;
+  width: auto;
     height: 400px;
     padding: 20px 20px 20px 0px;
 }
@@ -197,9 +207,9 @@ footer s3 img {
 }
 
 footer b {
-    font-size: 90%;
+    font-size: 95%;
     font-weight: 300;
-    color: #999999;
+    color: #595959;
     float: right;
     padding: 10px 30px 0px 0px;
 }
@@ -216,7 +226,7 @@ footer b {
         padding: 260px 0px 0px 0px;
     }
 
-    ul.home_menu a {
+    ul.home_menu {
         font-size: 90%;
     }
 
@@ -250,7 +260,7 @@ footer b {
     }
 
     h2 {
-        font-size: 115%;
+        font-size: 120%;
     }
 
     .photo {
@@ -301,7 +311,7 @@ footer b {
         padding: 150px 0px 0px 0px;
     }
 
-    ul.home_menu a {
+    ul.home_menu {
         font-size: 75%;
     }
 
@@ -357,12 +367,12 @@ footer b {
     }
 
     h2 {
-        font-size: 100%;
+        font-size: 110%;
         padding: 15px 0px 15px 0px;
     }
 
     h2 a {
-        color: #999;
+      color: #767676;
     }
 
     h3 {
@@ -424,17 +434,17 @@ footer b {
     }
 
     ul.home_menu {
+        font-size: 70%;
         padding: 5px 0px 0px 0px;
     }
 
-    ul.home_menu li {
+ul.home_menu li {
         width: 45%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 7px;
     }
 
-    ul.home_menu a {
-        font-size: 70%;
-        padding: 0px 10px 0px 10px;
+  ul.home_menu a {
+        padding: 0px 7px 0px 0px;
         color: #595959;
     }
 
@@ -556,7 +566,6 @@ footer b {
     .js-modal__btn {
         color: #595959;
         cursor: pointer;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         padding: 10px 10px 0px 10px;
     }
 
@@ -582,6 +591,7 @@ footer b {
     .js-modal__main {
         width: calc(100%);
         height: 80%;
+        text-align: center;
         padding: 16px 0px 0px 0px;
         bottom: -81%;
         left: 0;
@@ -597,12 +607,14 @@ footer b {
     }
 
     .js-modal__btn--close {
-        margin-top: 10px;
+        font-size: 180%;
+        margin-top: 20px;
         text-align: center;
         text-decoration: underline;
+        color: #767676;
     }
 
-    .js-modal__btn--close--fix {
+  .js-modal__btn--close--fix {
         width: 30px;
         height: 30px;
         background: #333;
@@ -612,7 +624,6 @@ footer b {
         right: 5px;
         z-index: 101;
         cursor: pointer;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     .js-modal__btn--close--fix:before {
