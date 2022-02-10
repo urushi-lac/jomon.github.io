@@ -13,7 +13,7 @@
 ul.home_menu {
     display: flex;
     width: 100%;
-    font-weight: 300;
+    font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
     flex-direction:row;
@@ -27,7 +27,7 @@ ul.home_menu li {
 ul.home_menu a {
     display: block;
     font-size: 100%;
-    font-weight: 300;
+    font-weight: 350;
     color: #595959;
     float:right;
 }
@@ -83,12 +83,11 @@ ul.home_menu a {
 }
 
 h2 {
-    font-weight: 400;
-    font-size: 120%;
+    font-weight: 480;
+    font-size: 125%;
 }
 
 h3 {
-    font-family: 'Noto Sans JP', sans-serif;
     font-size: 100%;
     font-weight: 400;
     color: #767676;
@@ -176,7 +175,7 @@ footer s3 img {
 }
 
 footer b {
-    font-size: 90%;
+    font-size: 95%;
     font-weight: 300;
     color: #595959;
     float: right;
@@ -248,7 +247,7 @@ footer b {
     }
 
     h2 {
-        font-size: 115%;
+        font-size: 120%;
     }
 
     .photo s1 img {
@@ -307,7 +306,7 @@ footer b {
     }
 
     h2 {
-        font-size: 100%;
+        font-size: 110%;
     }
 
 }
