@@ -24,7 +24,7 @@ ul.home_menu {
     font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 ul.home_menu li {
@@ -37,7 +37,7 @@ ul.home_menu a {
     font-size: 100%;
     font-weight: 350;
     color: #595959;
-    float:right;
+    float: right;
 }
 
 .home s a img {
@@ -90,7 +90,8 @@ h1 {
     text-shadow: none;
     color: #111;
     padding: 20px 0px 10px 20px;
-    -webkit-box-shadow:none;;
+    -webkit-box-shadow: none;
+    ;
     box-shadow: 0px 0px 0px 0px #FFF;
 }
 
@@ -145,7 +146,7 @@ h6 {
 }
 
 .photo s3 img {
-  width: auto;
+    width: auto;
     height: 400px;
     padding: 20px 20px 20px 0px;
 }
@@ -239,7 +240,7 @@ footer b {
         width: 100%;
         max-width: 980px;
         margin: auto;
-        padding:20px 0px 10px 0px;
+        padding: 20px 0px 10px 0px;
     }
 
     #menu li {
@@ -438,12 +439,12 @@ footer b {
         padding: 5px 0px 0px 0px;
     }
 
-ul.home_menu li {
+    ul.home_menu li {
         width: 45%;
         padding: 0px 0px 0px 7px;
     }
 
-  ul.home_menu a {
+    ul.home_menu a {
         padding: 0px 7px 0px 0px;
         color: #595959;
     }
@@ -476,17 +477,16 @@ ul.home_menu li {
         padding: 10px 0px 10px 10px;
     }
 
-    h2 {
-        font-size: 90%;
-        padding: 15px 0px 15px 0px;
-    }
+    h2  {
+        padding: 8px 0px 8px 0px;
+        }
 
-    h2 a {
-        color: #767676;
-    }
+h2 a {
+        font-size: 80%;
+        }
 
     .toggle_switch h3 {
-        font-size: 110%;
+        font-size: 140%;
     }
 
     h5 {
@@ -615,7 +615,7 @@ ul.home_menu li {
         color: #767676;
     }
 
-  .js-modal__btn--close--fix {
+    .js-modal__btn--close--fix {
         width: 30px;
         height: 30px;
         background: #333;
@@ -725,12 +725,8 @@ ul.home_menu li {
         line-height: 2;
     }
 
-    h2 {
-        font-size: 85%;
-    }
-
-    h3 {
-        font-size: 95%;
+    .toggle_switch h3 {
+        font-size: 120%;
     }
 
 }
