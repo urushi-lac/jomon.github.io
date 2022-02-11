@@ -366,16 +366,17 @@ footer b {
     }
 
     h2 {
-        font-size: 110%;
         padding: 15px 0px 15px 0px;
     }
 
     h2 a {
-      color: #767676;
+        font-weight: 400;
+        font-size: 90%;
+        color: #767676;
     }
 
     h3 {
-        font-size: 140%;
+        font-size: 150%;
     }
 
     h5 {
@@ -476,14 +477,15 @@ ul.home_menu li {
     }
 
     h2 {
-        padding: 8px 0px 8px 0px;
+        font-size: 90%;
+        padding: 15px 0px 15px 0px;
     }
 
     h2 a {
-        font-size: 90%;
+        color: #767676;
     }
 
-    h3 {
+    .toggle_switch h3 {
         font-size: 110%;
     }
 
