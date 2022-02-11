@@ -135,6 +135,22 @@ table {
     padding: 10px 0px 0px 20px;
 }
 
+colgroup.area1 {
+    width: 50px;
+}
+
+colgroup.area2 {
+    width: 980px;
+}
+
+colgroup.area3 {
+    width: 450px;
+}
+
+colgroup.area4 {
+    width: 400px;
+}
+
 .inner {
     position: absolute;
     top: 0;
@@ -285,8 +301,8 @@ footer b {
     }
 
     footer b {
-    font-size: 80%;
-}
+        font-size: 80%;
+    }
 
 }
 
@@ -370,8 +386,8 @@ footer b {
     }
 
     footer b {
-    font-size: 70%;
-}
+        font-size: 70%;
+    }
 
 }
 
