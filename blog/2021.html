@@ -9,8 +9,8 @@
     <meta property="og:title" content="渡辺博之漆部屋便り|Blogうるし徒然草" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://urushi-lac.github.io/jomon.github.io/blog/blog.html" />
-    <meta property="og:image" content="https://urushi-lac.github.io/jomon.github.io/images/blog/2020/blog-og1.png" />
-    <meta property="og:image:secure_url" content="https://urushi-lac.github.io/jomon.github.io/images/blog/2020/blog-og1.png" />
+    <meta property="og:image" content="https://urushi-lac.github.io/jomon.github.io/images/blog/2020/blog-og1.webp" />
+    <meta property="og:image:secure_url" content="https://urushi-lac.github.io/jomon.github.io/images/blog/2020/blog-og1.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:description" content="主夫（漆芸家）の視点で漆にまつわる日々の生活のよしなし事を徒然なるままに書きます。" />
@@ -22,18 +22,780 @@
     <meta name="twitter:title" content="渡辺博之漆部屋便り|Blogうるし徒然草">
     <meta name="twitter:description" content="主夫（漆芸家）の視点で漆にまつわる日々の生活のよしなし事を徒然なるままに書きます。">
     <meta http-equiv="content-security-policy:script-src 'self' https://apis.google.com;">
+    <meta http-equiv="Cache-Control" content="no-cache">
     <title>渡辺博之漆部屋便り|Blogうるし徒然草</title>
     <!--* css *-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap">
     <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/index/style-base.css">
-    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/blog/style-b1.css">
+    <link rel="stylesheet" href="https://urushi-lac.github.io/jomon.github.io/css/blog/style-1.css">
     <link rel="shortcut icon" type="image/png" href="https://urushi-lac.github.io/jomon.github.io/images/top/misowanicon.png" />
     <link rel="apple-touch-icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/apple-touch-icon-precomposed.png" />
 
     <style>
+        #cs header {
+    border-top: 0px;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0px;
+    padding: 10px 0px 0px 0px;
+    z-index: 1;
+}
+
+section {
+    background: #FFF;
+    max-width: 1200px;
+    min-height: 440px;
+    text-shadow: none;
+    padding: 300px 0px 0px 0px;
+}
+
+ul.home_menu {
+    display: flex;
+    width: 100%;
+    font-weight: 350;
+    list-style-type: none;
+    padding: 10px 0px 0px 0px;
+    flex-direction:row;
+}
+
+ul.home_menu li {
+    width: 47%;
+    color: #595959;
+}
+
+ul.home_menu a {
+    display: block;
+    font-size: 100%;
+    font-weight: 350;
+    color: #595959;
+    float:right;
+}
+
+.home s a img {
+    width: 306px;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+}
+
+#menu {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+#menu li a {
+    font-size: 120%;
+    color:#666666;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    background-color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu li:last-child a {
+    border: none;
+}
+
+.toggle_wrap {
+    display: none;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 120%;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    position: relative;
+    text-shadow: none;
+    color: #111;
+    padding: 20px 0px 10px 20px;
+    -webkit-box-shadow:none;;
+    box-shadow: 0px 0px 0px 0px #FFF;
+}
+
+#cs h2 {
+    font-weight: 480;
+    font-size: 125%;
+}
+
+h3 {
+    font-size: 100%;
+    font-weight: 400;
+    color: #767676;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    text-align: center;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 90%;
+    line-height: 120%;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    color: #555;
+    padding: 0px 15px 10px 20px;
+    -webkit-box-shadow: 0 5px 5px #FFF;
+    box-shadow: 0 2px 2px #FFF;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+h6 {
+    font-weight: 300;
+    background-color: #FFF;
+    text-align: center;
+}
+
+#cs p1 {
+    font-size: 100%;
+    line-height: 2em;
+}
+
+.photo {
+    padding: 100px 0px 0px 0px;
+}
+
+.photo s2 img {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.photo s3 img {
+  width: auto;
+    height: 400px;
+    padding: 20px 20px 20px 0px;
+}
+
+.info-box-tan {
+    width: 440px;
+    height: 440px;
+    float: left;
+    padding: 20px 0px 20px 0px;
+}
+
+.info-box-dark {
+    height: 440px;
+    padding: 40px 20px 0px 20px;
+    text-align: left;
+    line-height: 2;
+    left: 493px;
+}
+
+.col-md-one-half {
+    display: inline-block;
+}
+
+.col {
+    float: left;
+    padding: 0px 0px 0px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 80％;
+    text-align: left;
+    margin-top: 40px;
+    list-style-type: none;
+    padding: 15px 10px 0px 10px;
+    background-color: #FFF;
+}
+
+footer s1 img {
+    width: 30px;
+    height: auto;
+    padding: 0px 0px 0px 20px;
+}
+
+footer s2 img {
+    width: 30px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+footer s3 img {
+    width: 30px;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+footer b {
+    font-size: 95%;
+    font-weight: 300;
+    color: #595959;
+    float: right;
+    padding: 10px 30px 0px 0px;
+}
+
+#footer-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 2000px) {
+
+    section {
+        max-width: 980px;
+        min-height: 300px;
+        padding: 260px 0px 0px 0px;
+    }
+
+    ul.home_menu {
+        font-size: 90%;
+    }
+
+    .home s a img {
+        width: 245px;
+        height: auto;
+        padding: 15px 0px 0px 0px;
+    }
+
+    #menu {
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+        padding:20px 0px 10px 0px;
+    }
+
+    #menu li {
+        display: block;
+        float: left;
+        width: 10%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu li a {
+        font-size: 100%;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    .photo {
+        padding: 80px 0px 0px 0px;
+    }
+
+    .photo s3 img {
+        width: auto;
+        height: 350px;
+        padding: 35px 20px 20px 20px;
+    }
+
+    .info-box-tan {
+        width: 380px;
+        height: 380px;
+        float: left;
+        padding: 20px 20px 20px 0px;
+    }
+
+    .info-box-dark {
+        height: 380px;
+        padding: 50px 20px 0px 0px;
+        text-align: left;
+        line-height: 2;
+        left: 493px;
+    }
+
+    .col-md-one-half {
+        display: inline-block;
+    }
+
+    .col {
+        float: left;
+        padding: 0px 0px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #cs header {
+        padding: 10px 0px 0px 0px;
+    }
+
+    section {
+        max-width: 768px;
+        min-height: 480px;
+        padding: 150px 0px 0px 0px;
+    }
+
+    ul.home_menu {
+        font-size: 75%;
+    }
+
+    .home s a img {
+        width: 214px;
+        height: auto;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .toggle_wrap {
+        display: block;
+    }
+
+    .toggle_switch {
+        position: relative;
+        cursor: pointer;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .toggle_switch::after {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 11px;
+        background: no-repeat center center;
+        background-size: contain;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        transition: transform .2s;
+    }
+
+    .toggle_switch.open::after {
+        transform: rotateZ(180deg);
+        top: 46%;
+    }
+
+    .toggle_contents {
+        display: none;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #menu-box {
+        display: none;
+    }
+
+    h1 {
+        font-size: 150%;
+        padding: 15px 10px 15px 20px;
+
+    }
+
+    h2 {
+        font-size: 110%;
+        padding: 15px 0px 15px 0px;
+    }
+
+    h2 a {
+      color: #767676;
+    }
+
+    h3 {
+        font-size: 140%;
+    }
+
+    h5 {
+        padding: 0px 0px 10px 20px;
+    }
+
+    #cs p1 {
+        line-height: 2em;
+    }
+
+    .photo {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .photo s3 img {
+        width: auto;
+        height: 350px;
+        padding: 30px 0px 50px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .col-md-one-half {
+        width: 100%;
+    }
+
+    .info-box-tan {
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark {
+        width: 80%;
+        height: auto;
+        padding: 350px 10px 0px 10px;
+        text-align: left;
+        line-height: 2;
+    }
+
+    .col {
+
+        padding: 0px 0px 0px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    section {
+        max-width: 480px;
+        min-height: auto;
+        padding: 120px 0px 20px 0px;
+    }
+
+    ul.home_menu {
+        font-size: 70%;
+        padding: 5px 0px 0px 0px;
+    }
+
+ul.home_menu li {
+        width: 45%;
+        padding: 0px 0px 0px 7px;
+    }
+
+  ul.home_menu a {
+        padding: 0px 7px 0px 0px;
+        color: #595959;
+    }
+
+    .home s a img {
+        width: 183px;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .toggle_switch {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .photo {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .photo s3 img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 35px 0px 35px 0px;
+    }
+
+    #cs h1 {
+        font-size: 100%;
+        padding: 10px 0px 10px 10px;
+    }
+
+    h2 {
+        padding: 8px 0px 8px 0px;
+    }
+
+    h2 a {
+        font-size: 90%;
+    }
+
+    h3 {
+        font-size: 110%;
+    }
+
+    h5 {
+        font-size: 80%;
+    }
+
+    #cs p1 {
+        font-size: 90%;
+        line-height: 1.8em;
+    }
+
+    .col-md-one-half {
+        width: 100%;
+    }
+
+    .info-box-tan {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark {
+        width: 80%;
+        height: auto;
+        padding: 360px 0px 20px 0px;
+        line-height: 1.2;
+    }
+
+    .col {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #footer {
+        height: 15px;
+        margin-top: 0px;
+        padding: 0px 0px 15px 0px;
+    }
+
+    footer s1 img {
+        display: none;
+    }
+
+    footer s2 img {
+        display: none;
+    }
+
+    footer s3 img {
+        display: none;
+    }
+
+    p.side_text {
+        color: #595959;
+        display: inline-block;
+        width: 50px;
+        margin-left: 10px;
+        vertical-align: top;
+    }
+
+    footer b {
+        display: none;
+    }
+
+    footer b1 {
+        font-size: 10px;
+        font-weight: 300;
+        color: #595959;
+        float: right;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #footer-mobile {
+        display: block;
+        padding: 0px 0px 0px 0px;
+        font-size: 70%;
+        font-weight: 300;
+        color: #595959;
+    }
+
+    .js-modal__btn {
+        color: #595959;
+        cursor: pointer;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .material-icons {
+        font-size: 18px;
+        position: relative;
+        top: -3px;
+        color: #595959;
+        display: inline-block;
+    }
+
+    .js-modal__bg {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: none;
+    }
+
+    .js-modal__main {
+        width: calc(100%);
+        height: 80%;
+        text-align: center;
+        padding: 16px 0px 0px 0px;
+        bottom: -81%;
+        left: 0;
+        background: #fff;
+        border-radius: 4px 4px 0 0;
+        position: fixed;
+        z-index: 11;
+        opacity: 0;
+    }
+
+    .js-modal__main a {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .js-modal__btn--close {
+        font-size: 180%;
+        margin-top: 20px;
+        text-align: center;
+        text-decoration: underline;
+        color: #767676;
+    }
+
+  .js-modal__btn--close--fix {
+        width: 30px;
+        height: 30px;
+        background: #333;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        right: 5px;
+        z-index: 101;
+        cursor: pointer;
+    }
+
+    .js-modal__btn--close--fix:before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-right: 3px solid #cccccc;
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 12px;
+        left: -3px;
+    }
+
+    .js-modal__btn--close--fix:after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        border-right: 3px solid #cccccc;
+        transform: rotate(45deg);
+        position: absolute;
+        top: -2px;
+        left: -3px;
+    }
+
+    @keyframes SlideUp {
+        0% {
+            opacity: 0;
+            transform: translateY(-1%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(-30%);
+        }
+    }
+
+    @keyframes SlideDown {
+        0% {
+            opacity: 1;
+            transform: translateY(-30%);
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateY(-1%);
+        }
+    }
+
+    .js-modal__main._slideUp {
+        animation: SlideUp .5s ease-in-out forwards;
+    }
+
+    .js-modal__main._slideDown {
+        animation: SlideDown .5s ease-in-out forwards;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    #section {
+        max-width: 320px;
+        min-height: auto;
+    }
+
+    .home s a img {
+        width: 153px;
+        height: auto;
+        padding: 5px 0px 0px 0px;
+    }
+
+    .toggle_switch {
+        padding: 5px 0px 10px 0px;
+    }
+
+    #menu li a {
+        padding: 10px 0px 10px;
+    }
+
+    .photo s3 img {
+        width: auto;
+        height: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .info-box-tan {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark {
+        width: 90%;
+        height: auto;
+        padding: 300px 10px 0px 10px;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 85%;
+    }
+
+    h3 {
+        font-size: 95%;
+    }
+
+}
+
+.col-md-one-half {
+    display: inline-block;
+}
+
+#page-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 77%;
+}
+
+#page-top a {
+    background: rgba(220, 220, 220, 0.6);
+    text-decoration: none;
+    font-weight: 300;
+    color: #666;
+    width: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+}
+
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(150, 150, 150, 0.4);
+}
 
     </style>
 
@@ -42,9 +804,9 @@
 <body id="cs">
     <header>
         <div class="home">
-            <ul class="home_menu" style="flex-direction:row;">
-                <li><a href="#">Since1987</li>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/blog/blog-e.html" style=float:right;">/ English</a></li>
+            <ul class="home_menu">
+                <li>Since1987</li>
+                <li><a href="https://urushi-lac.github.io/jomon.github.io/blog/2021-e.html">/ English</a></li>
             </ul>
             <s><a href="https://urushi-lac.github.io/jomon.github.io/index.html">
                     <center><img src="https://urushi-lac.github.io/jomon.github.io/images/top/top.webp" alt="typography-yumi watanabe" /></center>
@@ -70,7 +832,7 @@
 
         <div class="toggle_wrap">
             <div class="toggle_switch">
-                <h3>Menu</h3>
+                <h3>Date</h3>
             </div>
             <div class="toggle_contents">
                 <h2><a href="https://urushi-lac.github.io/jomon.github.io/blog/blog.html">new</a></h2>
@@ -96,7 +858,7 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/08.png" alt="a lacquer legacy at kew" /></s3>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/08.webp" alt="a lacquer legacy at kew" /></s3>
                     </div>
                 </div>
             </div>
@@ -120,7 +882,7 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/07.png" alt="quin report" /></s3>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/07.webp" alt="quin report" /></s3>
                     </div>
                 </div>
             </div>
@@ -128,8 +890,8 @@
                 <p1>
                     ジョンJクインが1867年から1882年の間でまとめられた日本の漆に関しての報告書です。<br />
                     疑問点もありますが、大森俊三さんから教えてもらったことと合わせると品質の高い漆樹液の判断基準としては大変勉強になります。<br />
-                    現在の文化庁の生産目標2ｔ。クインレポートには秋田、津軽、南部には樹齢100年から200年の木から樹液を採取と記録されている。<br />
-                    <h6 style="font-size:70%;text-align:left;"><br />浄法寺町史によると　1653年（江戸時代：承応2年）南部藩の生漆生産量はが約1.6ｔ。［南部藩の納漆合計が約700盃（830㎏）。漆の木の場合、当時五公五民であったため］時を経て1884年（明治17年）岩手県勧業博覧会、生漆出品量約750貫（2.8ｔ）</h6><br />
+                    現在の文化庁の生産目標2t。クインレポートには秋田、津軽、南部には樹齢100年から200年の木から樹液を採取と記録されている。<br />
+                    <h6 style="font-size:70%;text-align:left;"><br />浄法寺町史によると&nbsp;1653年（江戸時代:承応2年）南部藩の生漆生産量はが約1.6t。[南部藩の納漆合計が約700盃（830㎏）。漆の木の場合、当時五公五民であったため]時を経て1884年（明治17年）岩手県勧業博覧会、生漆出品量約750貫（2.8t）</h6><br />
                     クインコレクションがもっと再評価されても良いのではと思います。
                 </p1>
             </div>
@@ -145,7 +907,7 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/06.png" alt="日本橋髙島屋" /></s3>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/06.webp" alt="日本橋髙島屋" /></s3>
                     </div>
                 </div>
             </div>
@@ -153,7 +915,7 @@
                 <p1>
                     北海道・北東北の縄文遺跡群が世界遺産登録されました<br />
                     「遺跡群は世界史上まれな農耕を伴わない定住生活と、祭祀（さいし）も営む複雑な精神文化を示すとされ、世界文化遺産として国内最古」という主旨です<br />
-                    約9000年前、漆製品が祭祀（さいし）に使われていました。その後、仏教が伝来しても　漆は、とても重要な素材として受け継がれています<br />お盆には「おがら」（大麻の茎の芯）で迎え火をします。まだ身近にその習慣が残っています。<br /><br />
+                    約9000年前、漆製品が祭祀（さいし）に使われていました。その後、仏教が伝来しても&nbsp;漆は、とても重要な素材として受け継がれています<br />お盆には「おがら」（大麻の茎の芯）で迎え火をします。まだ身近にその習慣が残っています。<br /><br />
                     写真は昨年の日本橋高島屋での展覧会の様子<br />作業台の上に展示している作品は麻と漆で出来た自分自身の骨壷です<br />
                 </p1>
             </div>
@@ -161,7 +923,7 @@
     </section>
 
     <section id="native to Japan">
-        <h1>Plants＋People2001　Royal Botanic Gardens, Kew</h1>
+        <h1>Plants+People2001&nbsp;Royal Botanic Gardens, Kew</h1>
         <div class=update-time">
             <h5>2021-07-23T17:10</h5>
         </div>
@@ -169,7 +931,7 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/05.png" alt="展覧会" /></s3>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/05.webp" alt="展覧会" /></s3>
                     </div>
                 </div>
             </div>
@@ -192,7 +954,7 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/04.png" alt="お菓子" /></s3>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/04.webp" alt="お菓子" /></s3>
                     </div>
                 </div>
             </div>
@@ -215,13 +977,13 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/03.png" alt="皮剥ぎ鎌" /></s3>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/03.webp" alt="皮剥ぎ鎌" /></s3>
                     </div>
                 </div>
             </div>
             <div class="info-box-dark">
                 <p1>
-                    Garden Kew　Quin collection　漆掻き道具のコレクション。樹皮剥ぎの大きな鎌があります。<br />
+                    Garden Kew&nbsp;Quin collection&nbsp;漆掻き道具のコレクション。樹皮剥ぎの大きな鎌があります。<br />
                     前項、新聞記事掲載の漆木。表面を皮剥ぎ鎌で平らにならした跡がある。樹木の特徴と道具が、世界遺産の審査基準のオーセンティシティー【authenticity】を満たすうえで大変大事なことの様に思います。<br />
                     現在は経済的な理由で品種改良された木や異種なども混ざり、日本うるし掻き技術保存会が認定を受けたことはとても意義のあることです。<br />
                 </p1>
@@ -239,14 +1001,14 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/02.png" alt="分布図" /></s3>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/02.webp" alt="分布図" /></s3>
                     </div>
                 </div>
             </div>
             <div class="info-box-dark">
                 <p1>
-                    左：Garden Kew　Quin collection　漆木の分布図。英国函館領事館による日本の漆産業報告書(1882年)の中には当時の漆天然木や漆掻きの様子の記述もある。後世に伝えていきたい資料です。<br />
-                    右：新聞記事は1995年に伐採した樹齢100年の漆木。1895年頃秋田県能代市で発芽したと考えると面白い。
+                    左:Garden Kew&nbsp;Quin collection&nbsp;漆木の分布図。英国函館領事館による日本の漆産業報告書(1882年)の中には当時の漆天然木や漆掻きの様子の記述もある。後世に伝えていきたい資料です。<br />
+                    右:新聞記事は1995年に伐採した樹齢100年の漆木。1895年頃秋田県能代市で発芽したと考えると面白い。
                     1882年の分布図からこの地域は当時漆の天然木地域であることがわかる。日本在来固有種の貴重な漆の木です。<br />
                 </p1>
             </div>
@@ -262,13 +1024,13 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/01.png" alt="合鹿椀" /></s3>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2021/01.webp" alt="合鹿椀" /></s3>
                     </div>
                 </div>
             </div>
             <div class="info-box-dark">
                 <p1>
-                    文化庁の選定技術保存の日本産漆生産・精製（保持団体：日本文化財漆協会と日本うるし掻き技術保存会）がユネスコの世界無形文化遺産に認定されました。
+                    文化庁の選定技術保存の日本産漆生産・精製（保持団体:日本文化財漆協会と日本うるし掻き技術保存会）がユネスコの世界無形文化遺産に認定されました。
                     ウルシ苗栽培では多少の貢献は出来たのではないかと思っています。
                     縄文時代は漆塗り技術の草創期。北海道東北の縄文遺跡群の世界遺産に期待したいです。<br />
                     このお椀は、石川県立美術館でお椀展に出品した作品です。木地は水上隆志さん、日本文化財漆協会で頒布した浄法寺の植栽地で採取された漆だけで制作しました。
@@ -282,10 +1044,10 @@
 
     <footer>
         <div id="footer">
-            <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/a.webp?version=1" alt="amebloimage" /></a></s2>
-            <s3><a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/Twitter.webp?version=1" alt="twitterlogo" width="30" height="auto" border="0" /></a></s3>
-            <s3> <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/facebook.webp?version=1" alt="facebooklogo" width="30" height="auto" border="0" /></a></s3>
-            <s1><a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/glyph-logo_May2016.webp?version=1" alt="instaimage" width="30" height="auto" border="0" /></a></s1>
+            <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer" aria-label="amebloblog"><img src=" https://urushi-lac.github.io/jomon.github.io/images/top/a.webp" alt="amebloimage" /></a></s2>
+            <s3><a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer" aria-label="twitter"><img src=" https://urushi-lac.github.io/jomon.github.io/images/top/Twitter.webp" alt="twitterlogo" width="30" height="auto" border="0" /></a></s3>
+            <s3> <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer" aria-label="facebook"><img src=" https://urushi-lac.github.io/jomon.github.io/images/top/facebook.webp" alt="facebooklogo" width="30" height="auto" border="0" /></a></s3>
+            <s1><a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src=" https://urushi-lac.github.io/jomon.github.io/images/top/glyph-logo_May2016.webp" alt="instaimage" width="30" height="auto" border="0" /></a></s1>
             <b>Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b>
 
             <div id="footer-mobile">
@@ -298,13 +1060,13 @@
                 </div>
                 <div class="js-modal__bg"></div>
                 <div class="js-modal__main">
-                    <p style=text-align:center;>
-                        <a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/a.webp?version=1" alt="amebloimage" width="30" height="auto" border="0" padding="0px 0px 0px 20px" /></a>
-                        <a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/Twitter.webp?version=1" alt="twitterlogo" width="30" height="auto" border="0" /></a>
-                        <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/facebook.webp?version=1" alt="facebooklogo" width="30" height="auto" border="0" /></a>
-                        <a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer"><img src="https://urushi-lac.github.io/jomon.github.io/images/top/glyph-logo_May2016.webp?version=1" alt="instaimage" width="30" height="auto" border="0" /></a>
+                    <p>
+                        <a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer" aria-label="amebloblog"><img src=" https://urushi-lac.github.io/jomon.github.io/images/top/a.webp" alt="amebloimage" width="30" height="auto" border="0" padding="0px 0px 0px 20px" /></a>
+                        <a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer" aria-label="twitter"><img src=" https://urushi-lac.github.io/jomon.github.io/images/top/Twitter.webp" alt="twitterlogo" width="30" height="auto" border="0" /></a>
+                        <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer" aria-label="facebook"><img src=" https://urushi-lac.github.io/jomon.github.io/images/top/facebook.webp" alt="facebooklogo" width="30" height="auto" border="0" /></a>
+                        <a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src=" https://urushi-lac.github.io/jomon.github.io/images/top/glyph-logo_May2016.webp" alt="instaimage" width="30" height="auto" border="0" /></a>
                     </p>
-                    <p style=color:#cccccc; " class=" js-modal__btn--close">✕</p>
+                    <p class=" js-modal__btn--close">✕</p>
                 </div>
             </div>
         </div>
@@ -320,15 +1082,14 @@
         }
     </script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" Integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4= sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/
+js/jquery-3.6.0.min.js"></script>
 
     <script id=" rendered-js">
         $('.toggle_switch').on('click', function () {
             $(this).toggleClass('open');
             $(this).next('.toggle_contents').slideToggle();
         });
-
-
 
         $(function () {
             var showFlag = false;
@@ -362,37 +1123,14 @@
             });
         });
 
+     
+  $(function(){var s=$(".js-modal__btn"),n=$(".js-modal__btn--close"),e=$(".js-modal__btn--close--fix"),o=$(".js-modal__bg"),t=$(".js-modal__main");s.
+  on("click",function(s){$(this).next(o).fadeIn(),$(this).next(o).next(t).removeClass("_slideDown"),$(this).next(o).next(t).addClass("_slideUp")}),n.
+  on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),e.
+  on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),t.
+  on("click",function(s){s.stopPropagation()}),o.
+  on("click",function(){$(this).fadeOut(),$(this).next(t).removeClass("_slideUp"),$(this).next(t).addClass("_slideDown")})});
 
-        $(function () {
-            var modalBtn = $('.js-modal__btn');
-            var modalBtnClose = $('.js-modal__btn--close');
-            var modalBtnCloseFix = $('.js-modal__btn--close--fix');
-            var modalBg = $('.js-modal__bg');
-            var modalMain = $('.js-modal__main');
-            modalBtn.on('click', function (e) {
-                $(this).next(modalBg).fadeIn();
-                $(this).next(modalBg).next(modalMain).removeClass("_slideDown");
-                $(this).next(modalBg).next(modalMain).addClass("_slideUp");
-            });
-            modalBtnClose.on('click', function (e) {
-                modalBg.fadeOut();
-                modalMain.removeClass("_slideUp");
-                modalMain.addClass("_slideDown");
-            });
-            modalBtnCloseFix.on('click', function (e) {
-                modalBg.fadeOut();
-                modalMain.removeClass("_slideUp");
-                modalMain.addClass("_slideDown");
-            });
-            modalMain.on('click', function (e) {
-                e.stopPropagation();
-            });
-            modalBg.on('click', function () {
-                $(this).fadeOut();
-                $(this).next(modalMain).removeClass("_slideUp");
-                $(this).next(modalMain).addClass("_slideDown");
-            });
-        });
     </script>
 
 </body>
