@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 #cs header {
     border-top: 0px;
     background-color: #fff;
@@ -8,6 +7,14 @@
     margin-bottom: 0px;
     padding: 10px 0px 0px 0px;
     z-index: 1;
+}
+
+section {
+    background: #FFF;
+    max-width: 1200px;
+    min-height: 440px;
+    text-shadow: none;
+    padding: 300px 0px 0px 0px;
 }
 
 ul.home_menu {
@@ -62,6 +69,7 @@ ul.home_menu a {
 
 #menu li a {
     font-size: 120%;
+    color: #666666;
     display: block;
     padding: 10px 0px 10px 0px;
     background-color: #FFF;
@@ -77,71 +85,60 @@ ul.home_menu a {
     display: none;
 }
 
-.row1 {
-    padding: 200px 0px 50px 0px;
-}
-
-
-.photo s2 img {
-    width: 100%;
-    height: auto;
-    padding: 200px 0px 50px 0px;
-}
-
-.photo s3 img {
-    width: auto;
-    height: 40px;
-    padding: 4px 0px 0px 0px;
-    float: right;
-}
-
-.photo s4 img {
-    width: auto;
-    height: 35px;
-    padding: 10px 0px 0px 0px;
-}
-
 h1 {
+    font-weight: 650;
     font-size: 200%;
     line-height: 120%;
     background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    position: relative;
+    text-shadow: none;
     color: #111;
     padding: 20px 0px 20px 20px;
-    -webkit-box-shadow: 0 0px 0px none;
-    box-shadow: 0 0px 0px none;
+    -webkit-box-shadow: none;
+    box-shadow: 0px 0px 0px 0px #FFF;
 }
 
-h2 {
-    font-size: 125%;
+#cs h2 {
     font-weight: 480;
+    font-size: 125%;
 }
 
 h3 {
     font-size: 100%;
-    font-weight: 400;
+    font-weight: 480;
     color: #767676;
     padding: 0px 0px 0px 0px;
     margin: 0;
     text-align: center;
 }
 
-h4 {
-    font-size: 110%;
-    font-weight: 400;
-    line-height: 1.8;
-    color: #000;
-    text-align: left;
-    padding: 30px 0px 30px 20px;
+h5 {
+    font-weight: 300;
+    font-size: 90%;
+    line-height: 120%;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    color: #555;
+    padding: 0px 15px 10px 20px;
+    -webkit-box-shadow: 0 5px 5px #FFF;
+    box-shadow: 0 2px 2px #FFF;
+    -webkit-text-shadow: none;
+    text-shadow: none;
 }
 
 h6 {
-    font-weight: 300;
-    font-size: 105%;
-    line-height: 2;
-    color: #000;
-    margin: 0;
-    text-align: left;
-    padding: 0px 0px 0px 20px;
+    font-weight: 350;
+    text-align: right;
+    padding: 10px 20px 0px 0px;
+}
+
+p{
+    font-size: 120%;
+    line-height: 2em;
+    padding: 0px 10px 0px 10px;
 }
 
 #cs p1 {
@@ -149,16 +146,56 @@ h6 {
     line-height: 2em;
 }
 
+.photo {
+    padding: 100px 0px 0px 0px;
+}
+
+.photo s2 img {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.photo s3 img {
+    width: auto;
+    height: 400px;
+    padding: 20px 20px 20px 0px;
+}
+
+.info-box-tan {
+    width: 440px;
+    height: 440px;
+    float: left;
+    padding: 20px 0px 20px 0px;
+}
+
+.info-box-dark {
+    height: 440px;
+    padding: 40px 20px 0px 20px;
+    text-align: left;
+    line-height: 2;
+    left: 493px;
+}
+
+.col-md-one-half {
+    display: inline-block;
+}
+
+.col {
+    float: left;
+    padding: 0px 0px 0px;
+}
+
 #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 30px;
-    font-size: 80%;
+    height: 50px;
+    font-size: 80％;
     text-align: left;
     margin-top: 40px;
     list-style-type: none;
-    padding: 10px 10px 15px 10px;
+    padding: 15px 10px 0px 10px;
     background-color: #FFF;
 }
 
@@ -196,7 +233,8 @@ footer b {
 
     section {
         max-width: 980px;
-        padding: 90px 0px 0px 0px;
+        min-height: 300px;
+        padding: 260px 0px 0px 0px;
     }
 
     ul.home_menu {
@@ -212,15 +250,26 @@ footer b {
     .home s1 img {
         width: 70px;
         height: auto;
-        padding: 10px 0px 20px 0px;
+        padding: 10px 0px 10px 0px;
+    }
+
+    #menu {
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+        padding: 20px 0px 10px 0px;
+    }
+
+    #menu li {
+        display: block;
+        float: left;
+        width: 10%;
+        margin: 0;
+        padding: 0;
     }
 
     #menu li a {
         font-size: 100%;
-    }
-
-    #box0 {
-        min-height: 240px;
     }
 
     h1 {
@@ -228,25 +277,63 @@ footer b {
     }
 
     h2 {
-        font-size: 120%;
+        font-size: 125%;
     }
 
-    h6 {
-        font-size: 85%;
+    p {
+        font-size: 110%;
+        line-height: 1.5em;
+    }
+    .photo {
+        padding: 80px 0px 0px 0px;
     }
 
-    .photo s2 img {
-        width: 100%;
-        height: auto;
-        padding: 10px 0px 10px 0px;
+    .photo s3 img {
+        width: auto;
+        height: 350px;
+        padding: 35px 20px 20px 20px;
+    }
+
+    .info-box-tan {
+        width: 380px;
+        height: 380px;
+        float: left;
+        padding: 20px 20px 20px 0px;
+    }
+
+    .info-box-dark {
+        height: 380px;
+        padding: 50px 20px 0px 0px;
+        text-align: left;
+        line-height: 2;
+        left: 493px;
+    }
+
+    .col-md-one-half {
+        display: inline-block;
+    }
+
+    .col {
+        float: left;
+        padding: 0px 0px 0px;
+    }
+
+    footer b {
+        font-size: 80%;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
 
+    #cs header {
+        padding: 10px 0px 0px 0px;
+    }
+
     section {
-        padding: 40px 0px 0px 0px;
+        max-width: 768px;
+        min-height: 480px;
+        padding: 150px 0px 0px 0px;
     }
 
     ul.home_menu {
@@ -262,93 +349,8 @@ footer b {
     .home s1 img {
         width: 50px;
         height: auto;
-        padding: 0px 20px 0px 20px;
+        padding: 10px 20px 0px 20px;
         text-align: center;
-    }
-
-    #menu li {
-        width: 20%;
-    }
-
-    #menu li a {
-        padding: 7px 0 7px;
-    }
-
-    .row1 {
-        padding: 110px 0px 0px 0px;
-    }
-
-    .photo s2 img {
-        padding: 30px 0px 0px 0px;
-    }
-
-    .photo s3 img {
-        width: auto;
-        height: 35px;
-        padding: 5px 0px 0px 0px;
-        float: right;
-    }
-
-    .photo s4 img {
-        width: auto;
-        height: 30px;
-        padding: 8px 0px 0px 0px;
-    }
-
-    h1 {
-        font-size: 150%;
-        padding: 15px 10px 15px 10px;
-    }
-
-    h2 {
-        font-size: 110%;
-    }
-
-    h3 {
-        font-size: 120%;
-    }
-
-    h4 {
-        font-size: 90%;
-        padding: 10px 10px 10px 10px;
-    }
-
-    h6 {
-        font-size: 80%;
-    }
-
-    #cs p1 {
-        line-height: 2em;
-    }
-
-}
-
-@media only screen and (max-width: 480px) {
-
-    ul.home_menu {
-        font-size: 70%;
-        padding: 5px 0px 0px 0px;
-    }
-
-    ul.home_menu li {
-        width: 45%;
-        padding: 0px 0px 0px 7px;
-    }
-
-    ul.home_menu a {
-        padding: 0px 7px 0px 0px;
-        color: #595959;
-    }
-
-
-    .home s a img {
-        width: 183px;
-        height: auto;
-        padding: 0px 0px 0px 0px;
-    }
-
-    .home s1 img {
-        padding: 0px 0px 0px 0px;
     }
 
     .toggle_wrap {
@@ -358,7 +360,7 @@ footer b {
     .toggle_switch {
         position: relative;
         cursor: pointer;
-        padding: 10px 0px 15px 0px;
+        padding: 20px 0px 20px 0px;
     }
 
     .toggle_switch::after {
@@ -390,58 +392,179 @@ footer b {
         display: none;
     }
 
-    .row1 {
-        padding: 100px 0px 0px 0px;
-    }
-
-    .photo s2 img {
-        padding: 20px 0px 0px 0px;
-    }
-
-    .photo s3 img {
-        width: auto;
-        height: 30px;
-        padding: 5px 5px 0px 0px;
-        float: right;
-    }
-
-    .photo s4 img {
-        padding: 15px 0px 0px 5px;
-        width: 25%;
-        height: auto;
-    }
-
     h1 {
-        font-size: 100%;
-        padding: 10px 0px 10px 10px;
+        font-size: 150%;
+        padding: 15px 10px 15px 20px;
+
     }
 
     h2 {
-        font-size: 90%;
         padding: 15px 0px 15px 0px;
     }
 
     h2 a {
+        font-weight: 400;
+        font-size: 90%;
         color: #767676;
     }
 
-    .toggle_switch h3 {
-        font-size: 110%;
+    h3 {
+        font-size: 150%;
     }
 
-    h4 {
+    h5 {
+        padding: 0px 0px 10px 20px;
+    }
+
+    p {
+        font-size: 100%;
+        line-height: 1.5em;
+    }
+
+    #cs p1 {
+        line-height: 2em;
+    }
+
+    .photo {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .photo s3 img {
+        width: auto;
+        height: 350px;
+        padding: 30px 0px 50px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .col-md-one-half {
+        width: 100%;
+    }
+
+    .info-box-tan {
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark {
+        width: 80%;
+        height: auto;
+        padding: 350px 10px 0px 10px;
+        text-align: left;
+        line-height: 2;
+    }
+
+    .col {
+
+        padding: 0px 0px 0px 0px;
+    }
+
+    footer b {
+        font-size: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    section {
+        max-width: 480px;
+        min-height: auto;
+        padding: 120px 0px 20px 0px;
+    }
+
+    ul.home_menu {
+        font-size: 70%;
+        padding: 5px 0px 0px 0px;
+    }
+
+    ul.home_menu li {
+        width: 45%;
+        padding: 0px 0px 0px 7px;
+    }
+
+    ul.home_menu a {
+        padding: 0px 7px 0px 0px;
+        color: #595959;
+    }
+
+    .home s a img {
+        width: 183px;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .toggle_switch {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .photo {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .photo s3 img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 35px 0px 35px 0px;
+    }
+
+    #cs h1 {
+        font-size: 120%;
+        padding: 10px 0px 10px 10px;
+    }
+
+    h2 {
+        padding: 8px 0px 8px 0px;
+    }
+
+    h2 a {
         font-size: 80%;
-        padding: 10px 10px 10px 10px;
+    }
+
+    h3 {
+        font-size: 140%;
+    }
+
+    h5 {
+        font-size: 80%;
     }
 
     h6 {
-        font-size: 75%;
-        padding: 0px 10px 10px 10px;
+        font-size: 80%;
+    }
+
+    p {
+        font-size: 90%;
     }
 
     #cs p1 {
         font-size: 90%;
         line-height: 1.8em;
+    }
+
+    .col-md-one-half {
+        width: 100%;
+    }
+
+    .info-box-tan {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark {
+        width: 80%;
+        height: auto;
+        padding: 360px 0px 20px 0px;
+        line-height: 1.2;
+    }
+
+    .col {
+        padding: 0px 0px 0px 0px;
     }
 
     #footer {
@@ -492,7 +615,6 @@ footer b {
 
     .js-modal__btn {
         color: #595959;
-        ;
         cursor: pointer;
         padding: 10px 10px 0px 10px;
     }
@@ -612,6 +734,11 @@ footer b {
 
 @media only screen and (max-width: 320px) {
 
+    #section {
+        max-width: 320px;
+        min-height: auto;
+    }
+
     .home s a img {
         width: 153px;
         height: auto;
@@ -626,26 +753,25 @@ footer b {
         padding: 10px 0px 10px;
     }
 
-    .row1 {
-        padding: 100px 0px 0px 0px;
-    }
-
     .photo s3 img {
         width: auto;
-        height: 20px;
-        padding: 5px 5px 0px 0px;
-        float: right;
+        height: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px 10px 0px;
     }
 
-    .photo s4 img {
-        padding: 10px 0px 0px 5px;
-        width: 25%;
+    .info-box-tan {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark {
+        width: 90%;
         height: auto;
-    }
-
-    h1 {
-        font-size: 130%;
-        padding: 10px 0px 10px 10px;
+        padding: 300px 10px 0px 10px;
+        line-height: 2;
     }
 
     h2 {
@@ -656,18 +782,10 @@ footer b {
         font-size: 95%;
     }
 
-    h6 {
-        font-size: 70%;
-        padding: 0px 10px 10px 10px;
-    }
-
 }
 
-section {
-    max-width: 1200px;
-    text-shadow: none;
-    padding: 50px 0px 50px 0px;
-    background: #FFF;
+.col-md-one-half {
+    display: inline-block;
 }
 
 #page-top {
@@ -680,8 +798,8 @@ section {
 #page-top a {
     background: rgba(220, 220, 220, 0.6);
     text-decoration: none;
-    color: #666;
     font-weight: 300;
+    color: #666;
     width: 50px;
     padding: 20px 0;
     text-align: center;
@@ -692,4 +810,37 @@ section {
 #page-top a:hover {
     text-decoration: none;
     background: rgba(150, 150, 150, 0.4);
+}
+
+
+.col-md-one-half {
+    display: inline-block;
+}
+
+#page-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 77%;
+}
+
+#page-top a {
+    background: rgba(220, 220, 220, 0.6);
+    text-decoration: none;
+    font-weight: 300;
+    color: #666;
+    width: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+}
+
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(150, 150, 150, 0.4);
+}
+
+.pred {
+    color: #690;
 }

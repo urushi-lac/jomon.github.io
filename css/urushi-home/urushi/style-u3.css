@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 #cs header {
     border-top: 0px;
     background-color: #fff;
@@ -43,7 +44,6 @@ ul.home_menu a {
     height: auto;
     padding: 0px 0px 0px 0px;
 }
-
 
 #menu {
     width: 100%;
@@ -91,7 +91,8 @@ ul.home_menu a {
 }
 
 h1 {
-    font-size: 200%;
+    font-weight: 650;
+    font-size: 180%;
     line-height: 120%;
     background-color: #f3f3f3;
     color: #111;
@@ -107,7 +108,7 @@ h2 {
 
 h3 {
     font-size: 100%;
-    font-weight: 400;
+    font-weight: 480;
     color: #767676;
     padding: 0px 0px 0px 0px;
     margin: 0;
@@ -246,7 +247,7 @@ footer b {
     .home s1 img {
         width: 70px;
         height: auto;
-        padding: 10px 0px 20px 0px;
+        padding: 10px 0px 10px 0px;
     }
 
     #menu li a {
@@ -271,7 +272,7 @@ footer b {
     }
 
     h2 {
-        font-size: 120%;
+        font-size: 125%;
     }
 
     p {
@@ -282,6 +283,10 @@ footer b {
         width: auto;
         height: 350px;
     }
+
+    footer b {
+    font-size: 80%;
+}
 
 }
 
@@ -300,7 +305,7 @@ footer b {
     .home s1 img {
         width: 50px;
         height: auto;
-        padding: 0px 20px 0px 20px;
+        padding: 10px 20px 0px 20px;
         text-align: center;
     }
 
@@ -363,6 +368,10 @@ footer b {
         border-spacing: 3px;
         padding: 10px 10px 0px 10px;
     }
+
+    footer b {
+    font-size: 70%;
+}
 
 }
 
