@@ -295,7 +295,7 @@ footer b {
     }
 
     #cs h1 {
-        font-size: 80%;
+        font-size: 90%;
         padding: 0px 0px 25px 0px;
     }
 
@@ -314,6 +314,10 @@ footer b {
 
     h4 {
         font-size: 70%;
+    }
+
+    .inner {
+        width: 300px;
     }
 
     .photo s img {
