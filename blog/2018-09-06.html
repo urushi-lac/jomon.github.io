@@ -34,7 +34,7 @@
     <link rel="shortcut icon" type="image/png" href="https://urushi-lac.github.io/jomon.github.io/images/top/misowanicon.png" />
     <link rel="apple-touch-icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/apple-touch-icon-precomposed.png" />
 
-    <style type="text/css">
+    <style>
 
     </style>
 </head>
@@ -175,7 +175,7 @@
                     漆を掻き採った年に塗る事が必須条件。 <br />
                     浄法寺の長く続く冬の間、現地での乾く実験はしていません。<br />
                     この特徴を持つ生漆は、同じ木があれば地域、漆掻き技術は関係ないと思います。
-                    </p1>
+                </p1>
             </div>
         </div>
         </div>
@@ -261,7 +261,7 @@
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-tan">
-                        <s1><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2017/23.webp" alt="AsahiKASEIサラッシュ" /></s1>
+                        <s3><img src="https://urushi-lac.github.io/jomon.github.io/images/blog/2017/23.webp" alt="AsahiKASEIサラッシュ" /></s3>
                     </div>
                 </div>
             </div>
@@ -272,14 +272,6 @@
         </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
 
     <section id="リンク">
         <h1><a href="https://urushi-lac.github.io/jomon.github.io/blog/2017-07-09.html">2017-March-July</a></h1>
@@ -328,96 +320,96 @@
         }
     </script>
 
-<script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/
+    <script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/
 js/jquery-3.6.0.min.js"></script>
 
-<script id=" rendered-js">
-    $(".toggle_switch").on("click", function () {
-        $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-    }),
+    <script id=" rendered-js">
+        $(".toggle_switch").on("click", function () {
+                $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
+            }),
 
-    $(function () {
-        $("#toggle").click(function () {
-            $("#menu").slideToggle();
-            return false;
-        });
-        $(window).resize(function () {
+            $(function () {
+                $("#toggle").click(function () {
+                    $("#menu").slideToggle();
+                    return false;
+                });
+                $(window).resize(function () {
+                    var win = $(window).width();
+                    var p = 480;
+                    if (win > p) {
+                        $("#menu").show();
+                    } else {
+                        $("#menu").hide();
+                    }
+                });
+            });
+        /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
+        $(function () {
             var win = $(window).width();
             var p = 480;
-            if (win > p) {
-                $("#menu").show();
-            } else {
-                $("#menu").hide();
-            }
-        });
-    });
-    /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-    $(function () {
-        var win = $(window).width();
-        var p = 480;
-        if (win < p) $(function () {
-            $("#menu li a").click(function () {
-                $("#menu").hide();
+            if (win < p) $(function () {
+                $("#menu li a").click(function () {
+                    $("#menu").hide();
+                });
             });
         });
-    });
 
-    $(function () {
-        var showFlag = false;
-        var topBtn = $('#page-top');
-        topBtn.css('bottom', '-100px');
-        var showFlag = false;
-        //スクロールが100に達したらボタン表示
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 200) {
-                if (showFlag == false) {
-                    showFlag = true;
-                    topBtn.stop().animate({
-                        'bottom': '80px'
-                    }, 200);
+        $(function () {
+            var showFlag = false;
+            var topBtn = $('#page-top');
+            topBtn.css('bottom', '-100px');
+            var showFlag = false;
+            //スクロールが100に達したらボタン表示
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    if (showFlag == false) {
+                        showFlag = true;
+                        topBtn.stop().animate({
+                            'bottom': '80px'
+                        }, 200);
+                    }
+                } else {
+                    if (showFlag) {
+                        showFlag = false;
+                        topBtn.stop().animate({
+                            'bottom': '-100px'
+                        }, 200);
+                    }
                 }
-            } else {
-                if (showFlag) {
-                    showFlag = false;
-                    topBtn.stop().animate({
-                        'bottom': '-100px'
-                    }, 200);
-                }
-            }
+            });
+            //スクロールしてトップ
+            topBtn.click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500);
+                return false;
+            });
         });
-        //スクロールしてトップ
-        topBtn.click(function () {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 500);
-            return false;
-        });
-    });
 
-    $(function () {
-        var s = $(".js-modal__btn"),
-            n = $(".js-modal__btn--close"),
-            e = $(".js-modal__btn--close--fix"),
-            o = $(".js-modal__bg"),
-            t = $(".js-modal__main");
-        s.
-        on("click", function (s) {
-            $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-        }), n.
-        on("click", function (s) {
-            o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-        }), e.
-        on("click", function (s) {
-            o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-        }), t.
-        on("click", function (s) {
-            s.stopPropagation()
-        }), o.
-        on("click", function () {
-            $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-        })
-    });
-</script>
+        $(function () {
+            var s = $(".js-modal__btn"),
+                n = $(".js-modal__btn--close"),
+                e = $(".js-modal__btn--close--fix"),
+                o = $(".js-modal__bg"),
+                t = $(".js-modal__main");
+            s.
+            on("click", function (s) {
+                $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
+            }), n.
+            on("click", function (s) {
+                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+            }), e.
+            on("click", function (s) {
+                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+            }), t.
+            on("click", function (s) {
+                s.stopPropagation()
+            }), o.
+            on("click", function () {
+                $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
+            })
+        });
+    </script>
 
 </body>
 </html>
