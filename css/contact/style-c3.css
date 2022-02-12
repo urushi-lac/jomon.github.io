@@ -81,7 +81,7 @@ ul.home_menu a {
 }
 
 h1 {
-    font-size: 130%;
+    font-size: 150%;
     line-height: 2;
     background-color: #FFF;
     color: #000;
@@ -104,7 +104,8 @@ h3 {
 }
 
 h4 {
-    font-size: 90%;
+    font-weight: 450;
+    font-size: 120%;
     line-height: 2;
     text-align: center;
 }
@@ -116,7 +117,7 @@ h4 {
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 324px;
+    width: 600px;
     height: 100px;
 }
 
@@ -214,7 +215,7 @@ footer b {
     }
 
     #cs h1 {
-        font-size: 93%;
+        font-size: 130%;
     }
 
     h2 {
