@@ -459,6 +459,10 @@ footer b {
         padding: 10px 0px 10px 0px;
     }
 
+    .toggle_contents {
+        padding: 10px 0px 0px 0px;
+    }
+
     .photo {
         padding: 0px 0px 0px 0px;
     }
@@ -477,13 +481,13 @@ footer b {
         padding: 10px 0px 10px 10px;
     }
 
-    h2  {
-        padding: 8px 0px 8px 0px;
-        }
+    h2 {
+        padding: 7px 0px 7px 0px;
+    }
 
-h2 a {
+    h2 a {
         font-size: 80%;
-        }
+    }
 
     .toggle_switch h3 {
         font-size: 140%;
