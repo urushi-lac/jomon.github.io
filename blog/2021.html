@@ -130,7 +130,7 @@
                     ジョンJクインが1867年から1882年の間でまとめられた日本の漆に関しての報告書です。<br />
                     疑問点もありますが、大森俊三さんから教えてもらったことと合わせると品質の高い漆樹液の判断基準としては大変勉強になります。<br />
                     現在の文化庁の生産目標2t。クインレポートには秋田、津軽、南部には樹齢100年から200年の木から樹液を採取と記録されている。<br />
-                    <h6 style="font-size:70%;text-align:left;"><br />浄法寺町史によると&nbsp;1653年（江戸時代:承応2年）南部藩の生漆生産量はが約1.6t。[南部藩の納漆合計が約700盃（830㎏）。漆の木の場合、当時五公五民であったため]時を経て1884年（明治17年）岩手県勧業博覧会、生漆出品量約750貫（2.8t）</h6><br />
+                    <h6><br />浄法寺町史によると&nbsp;1653年（江戸時代:承応2年）南部藩の生漆生産量はが約1.6t。[南部藩の納漆合計が約700盃（830㎏）。漆の木の場合、当時五公五民であったため]時を経て1884年（明治17年）岩手県勧業博覧会、生漆出品量約750貫（2.8t）</h6><br />
                     クインコレクションがもっと再評価されても良いのではと思います。
                 </p1>
             </div>
@@ -199,7 +199,7 @@
             </div>
             <div class="info-box-dark">
                 <p1>
-                    お菓子を食べながらひと休み。下段のお菓子は浦和の菓匠花見の銘菓白鷺宝の季節の限定品。上の段は妻の手作りお菓子。（子鉢はネットショップで販売しています）。<a href="https://urushi-watanabe.com/gallery-shop/baby-bowl.html" style="color: #F00;">Shopへ</a><br />
+                    お菓子を食べながらひと休み。下段のお菓子は浦和の菓匠花見の銘菓白鷺宝の季節の限定品。上の段は妻の手作りお菓子。（子鉢はネットショップで販売しています）。<a href="https://urushi-watanabe.com/gallery-shop/baby-bowl.html">Shopへ</a><br />
                     画集は故横尾龍彦氏。芸大の日本画出身でありながら枠に捉われない制作に魅力を感じます。世代的には平山先生や加山先生の頃です。今では日本画の抽象表現も普通になりましたが当時を思うと革新的な表現です。新しいことに挑戦をする。自分の表現を模索し続けるのが作家だと思います。<br />
                     Bracketsがこの秋に使えなくなるのでV.S.Codeに変更。サーバーもGitに。HPの移行を行い、自分が死んでも作品の価値を残せる場所になってくれるといいと思っています。<br />
                 </p1>
@@ -321,56 +321,35 @@
         }
     </script>
 
-<script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/
-js/jquery-3.6.0.min.js"></script>
+<script id=" rendered-js">
+    $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),$(function(){$("#toggle").click(function(){return $("#menu").slideToggle(),!1}),$(window).resize(function(){480<$(window).width()?$("#menu").show():$("#menu").hide()})}),$(function(){$(window).width()<480&&$(function(){$("#menu li a").click(function(){$("#menu").hide()})})});
 
-    <script id=" rendered-js">
-        $('.toggle_switch').on('click', function () {
-            $(this).toggleClass('open');
-            $(this).next('.toggle_contents').slideToggle();
-        });
+     $(function(){var o=!1,t=$("#page-top");t.css("bottom","-100px");o=!1;$(window).scroll(function(){200<$(this).scrollTop()?0==o&&(o=!0,t.stop().animate({bottom:"80px"},200)):o&&(o=!1,t.stop().animate({bottom:"-100px"},200))}),t.click(function(){return $("body,html").animate({scrollTop:0},500),!1})});
 
-        $(function () {
-            var showFlag = false;
-            var topBtn = $('#page-top');
-            topBtn.css('bottom', '-100px');
-            var showFlag = false;
-            //スクロールが100に達したらボタン表示
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 200) {
-                    if (showFlag == false) {
-                        showFlag = true;
-                        topBtn.stop().animate({
-                            'bottom': '80px'
-                        }, 200);
-                    }
-                } else {
-                    if (showFlag) {
-                        showFlag = false;
-                        topBtn.stop().animate({
-                            'bottom': '-100px'
-                        }, 200);
-                    }
-                }
-            });
-            //スクロールしてトップ
-            topBtn.click(function () {
-                $('body,html').animate({
-                    scrollTop: 0
-                }, 500);
-                return false;
-            });
-        });
-
-
-  $(function(){var s=$(".js-modal__btn"),n=$(".js-modal__btn--close"),e=$(".js-modal__btn--close--fix"),o=$(".js-modal__bg"),t=$(".js-modal__main");s.
-  on("click",function(s){$(this).next(o).fadeIn(),$(this).next(o).next(t).removeClass("_slideDown"),$(this).next(o).next(t).addClass("_slideUp")}),n.
-  on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),e.
-  on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),t.
-  on("click",function(s){s.stopPropagation()}),o.
-  on("click",function(){$(this).fadeOut(),$(this).next(t).removeClass("_slideUp"),$(this).next(t).addClass("_slideDown")})});
-
-    </script>
+     $(function () {
+         var s = $(".js-modal__btn"),
+             n = $(".js-modal__btn--close"),
+             e = $(".js-modal__btn--close--fix"),
+             o = $(".js-modal__bg"),
+             t = $(".js-modal__main");
+         s.
+         on("click", function (s) {
+             $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
+         }), n.
+         on("click", function (s) {
+             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+         }), e.
+         on("click", function (s) {
+             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+         }), t.
+         on("click", function (s) {
+             s.stopPropagation()
+         }), o.
+         on("click", function () {
+             $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
+         })
+     });
+ </script>
 
 </body>
 </html>

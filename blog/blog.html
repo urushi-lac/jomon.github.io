@@ -36,6 +36,7 @@
 
     <style>
 
+
     </style>
 
 </head>
@@ -141,7 +142,7 @@
                     この時に使用した浄法寺の生漆はたった3.75kg（1貫）。のちに補助金の不正使用が発覚し現在閉館中です。
                     岩山漆芸美術館は、画家&nbsp;橋本八百二（1903-1979）が、資財を投じて建設した盛岡橋本美術館を引き継いだもの。美術館の価値も橋本八百二の作品と時代背景があってこそ保たれると思います。<br />
                     写真作品は発表当時はこんなものと評価は低かったですが、日本の漆に対しての思い入れの深い作品です。<br />
-                    <a href="https://urushi-watanabe.com/urushi-home/works/works-hiage.html" target="_blank" style="color: #F00;">渡辺博之うるし部屋便り:Urushi:Works:樋上:Details </a><br />
+                    <a href="https://urushi-watanabe.com/urushi-home/works/works-hiage.html" target="_blank" rel="noopener">渡辺博之うるし部屋便り:Urushi:Works:樋上:Details </a><br />
                 </p1>
             </div>
         </div>
@@ -167,7 +168,7 @@
                     蜂が巣を作るためは、特に繊維と樹液の植物の種類は決まっていません。<br />
                     浄法寺ではたまに漆で出来た巣に会うことがありました。見分け方は根元から巣を取った時に、取れるか、取れないかです。取れない場合は漆で作られた巣です。他の樹液ではすぐに剥がれるけれど漆の場合は全く取れないのです。<br />
                     大変に勉強になる映像があります。<br />
-                    <a href="https://youtu.be/CMqS2iKywaY" target="_blank" style="color: #F00;">全国こども科学映像祭受賞作品（７２）アシナガバチのくらし</a><br />
+                    <a href="https://youtu.be/CMqS2iKywaY" target="_blank">全国こども科学映像祭受賞作品（72）アシナガバチのくらし</a><br />
                     巣には自然から大切な卵を守るために必要なことがあります。<br />
                     今年はこのような気持ちになって作品作りが出来たらと思いました。
                 </p1>
@@ -246,68 +247,35 @@
     <script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/
 js/jquery-3.6.0.min.js"></script>
 
-    <script id=" rendered-js">
-        $('.toggle_switch').on('click', function () {
-            $(this).toggleClass('open');
-            $(this).next('.toggle_contents').slideToggle();
-        });
+<script id=" rendered-js">
+    $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),$(function(){$("#toggle").click(function(){return $("#menu").slideToggle(),!1}),$(window).resize(function(){480<$(window).width()?$("#menu").show():$("#menu").hide()})}),$(function(){$(window).width()<480&&$(function(){$("#menu li a").click(function(){$("#menu").hide()})})});
 
-        $(function () {
-            var showFlag = false;
-            var topBtn = $('#page-top');
-            topBtn.css('bottom', '-100px');
-            var showFlag = false;
-            //スクロールが100に達したらボタン表示
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 200) {
-                    if (showFlag == false) {
-                        showFlag = true;
-                        topBtn.stop().animate({
-                            'bottom': '80px'
-                        }, 200);
-                    }
-                } else {
-                    if (showFlag) {
-                        showFlag = false;
-                        topBtn.stop().animate({
-                            'bottom': '-100px'
-                        }, 200);
-                    }
-                }
-            });
-            //スクロールしてトップ
-            topBtn.click(function () {
-                $('body,html').animate({
-                    scrollTop: 0
-                }, 500);
-                return false;
-            });
-        });
+     $(function(){var o=!1,t=$("#page-top");t.css("bottom","-100px");o=!1;$(window).scroll(function(){200<$(this).scrollTop()?0==o&&(o=!0,t.stop().animate({bottom:"80px"},200)):o&&(o=!1,t.stop().animate({bottom:"-100px"},200))}),t.click(function(){return $("body,html").animate({scrollTop:0},500),!1})});
 
-        $(function () {
-            var s = $(".js-modal__btn"),
-                n = $(".js-modal__btn--close"),
-                e = $(".js-modal__btn--close--fix"),
-                o = $(".js-modal__bg"),
-                t = $(".js-modal__main");
-            s.
-            on("click", function (s) {
-                $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-            }), n.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), e.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), t.
-            on("click", function (s) {
-                s.stopPropagation()
-            }), o.
-            on("click", function () {
-                $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-            })
-        });
-    </script>
+     $(function () {
+         var s = $(".js-modal__btn"),
+             n = $(".js-modal__btn--close"),
+             e = $(".js-modal__btn--close--fix"),
+             o = $(".js-modal__bg"),
+             t = $(".js-modal__main");
+         s.
+         on("click", function (s) {
+             $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
+         }), n.
+         on("click", function (s) {
+             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+         }), e.
+         on("click", function (s) {
+             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+         }), t.
+         on("click", function (s) {
+             s.stopPropagation()
+         }), o.
+         on("click", function () {
+             $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
+         })
+     });
+ </script>
 
 </body>
 </html>

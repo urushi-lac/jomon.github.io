@@ -35,7 +35,7 @@
     <link rel="apple-touch-icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/apple-touch-icon-precomposed.png" />
 
     <style>
-        
+
     </style>
 
 </head>
@@ -97,8 +97,8 @@
             <h6></h6>
             <div class="photo">
                 <s2><img src="https://urushi-lac.github.io/jomon.github.io/images/eco/top-2020.webp" alt="登録証" /></s2>
-                <s4><a href="https://edu.env.go.jp/counsel/list/detail.php?id=1998203001&sort=new&p=1&d[n]=%E6%B8%A1%E8%BE%BA%E3%80%80%E5%8D%9A%E4%B9%8B" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/eco/counselorban.webp" width="145" height="28" alt="環境カウンセラー協議会" /></a></s4>
-                <s3><a href="https://www.env.go.jp/" target="_blank"><img src="https://urushi-lac.github.io/jomon.github.io/images/eco/env_logo2.webp" width="130" height="40" alt="環境省" /></a></s3>
+                <s4><a href="https://edu.env.go.jp/counsel/list/detail.php?id=1998203001&sort=new&p=1&d[n]=%E6%B8%A1%E8%BE%BA%E3%80%80%E5%8D%9A%E4%B9%8B" target="_blank" rel="noopener"><img src="https://urushi-lac.github.io/jomon.github.io/images/eco/counselorban.webp" width="145" height="28" alt="環境カウンセラー協議会" /></a></s4>
+                <s3><a href="https://www.env.go.jp/" target="_blank"rel="noopener"><img src="https://urushi-lac.github.io/jomon.github.io/images/eco/env_logo2.webp" width="130" height="40" alt="環境省" /></a></s3>
             </div>
         </div>
     </section>
@@ -155,7 +155,7 @@
             </div>
             <p>栽培種による植栽地<br />
                 樹皮の感じが今までのものと違う。（写真左）成長が早く、樹液の出かたも多い品種が植林される。固有種とは呼びづらい状況ではある。（写真右）固有種は幹が細い時期でも樹皮がごつい<br /></p>
-            <h6><a href="https://www.eic.or.jp/ecoterm/index.php?act=view&serial=1230l" target="_blank">用語解説&nbsp;種の保存:EICネット</a></h6>
+            <h6><a href="https://www.eic.or.jp/ecoterm/index.php?act=view&serial=1230l" target="_blank"rel="noopener">用語解説&nbsp;種の保存:EICネット</a></h6>
         </div>
     </section>
     <section id="日本最古">
@@ -174,7 +174,7 @@
                 <s2><img src="https://urushi-lac.github.io/jomon.github.io/images/eco/eco-08.webp" alt="漆日本原産論資料" /></s2>
             </div>
             <p>資料制作<br />漆の木は中国原種が世界的な定説ですが、近年の考古学、気候、など様々な角度から、日本原産論も十分に考えられます。反対意見も参考にして資料を制作しています。<br /></p>
-            <h6><a href="https://www.eic.or.jp/ecoterm/?act=view&serial=136" target="_blank">用語解説&nbsp;遺伝子資源:EICネット</a></h6>
+            <h6><a href="https://www.eic.or.jp/ecoterm/?act=view&serial=136" target="_blank"rel="noopener">用語解説&nbsp;遺伝子資源:EICネット</a></h6>
         </div>
     </section>
     <section id="展示">
@@ -245,92 +245,34 @@
 js/jquery-3.6.0.min.js"></script>
 
 <script id=" rendered-js">
-    $(".toggle_switch").on("click", function () {
-        $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-    }),
+    $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),$(function(){$("#toggle").click(function(){return $("#menu").slideToggle(),!1}),$(window).resize(function(){480<$(window).width()?$("#menu").show():$("#menu").hide()})}),$(function(){$(window).width()<480&&$(function(){$("#menu li a").click(function(){$("#menu").hide()})})});
 
-    $(function () {
-        $("#toggle").click(function () {
-            $("#menu").slideToggle();
-            return false;
-        });
-        $(window).resize(function () {
-            var win = $(window).width();
-            var p = 480;
-            if (win > p) {
-                $("#menu").show();
-            } else {
-                $("#menu").hide();
-            }
-        });
-    });
-    /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-    $(function () {
-        var win = $(window).width();
-        var p = 480;
-        if (win < p) $(function () {
-            $("#menu li a").click(function () {
-                $("#menu").hide();
-            });
-        });
-    });
+     $(function(){var o=!1,t=$("#page-top");t.css("bottom","-100px");o=!1;$(window).scroll(function(){200<$(this).scrollTop()?0==o&&(o=!0,t.stop().animate({bottom:"80px"},200)):o&&(o=!1,t.stop().animate({bottom:"-100px"},200))}),t.click(function(){return $("body,html").animate({scrollTop:0},500),!1})});
 
-    $(function () {
-        var showFlag = false;
-        var topBtn = $('#page-top');
-        topBtn.css('bottom', '-100px');
-        var showFlag = false;
-        //スクロールが100に達したらボタン表示
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 200) {
-                if (showFlag == false) {
-                    showFlag = true;
-                    topBtn.stop().animate({
-                        'bottom': '80px'
-                    }, 200);
-                }
-            } else {
-                if (showFlag) {
-                    showFlag = false;
-                    topBtn.stop().animate({
-                        'bottom': '-100px'
-                    }, 200);
-                }
-            }
-        });
-        //スクロールしてトップ
-        topBtn.click(function () {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 500);
-            return false;
-        });
-    });
-
-    $(function () {
-        var s = $(".js-modal__btn"),
-            n = $(".js-modal__btn--close"),
-            e = $(".js-modal__btn--close--fix"),
-            o = $(".js-modal__bg"),
-            t = $(".js-modal__main");
-        s.
-        on("click", function (s) {
-            $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-        }), n.
-        on("click", function (s) {
-            o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-        }), e.
-        on("click", function (s) {
-            o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-        }), t.
-        on("click", function (s) {
-            s.stopPropagation()
-        }), o.
-        on("click", function () {
-            $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-        })
-    });
-</script>
+     $(function () {
+         var s = $(".js-modal__btn"),
+             n = $(".js-modal__btn--close"),
+             e = $(".js-modal__btn--close--fix"),
+             o = $(".js-modal__bg"),
+             t = $(".js-modal__main");
+         s.
+         on("click", function (s) {
+             $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
+         }), n.
+         on("click", function (s) {
+             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+         }), e.
+         on("click", function (s) {
+             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+         }), t.
+         on("click", function (s) {
+             s.stopPropagation()
+         }), o.
+         on("click", function () {
+             $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
+         })
+     });
+ </script>
 
 </body>
 
