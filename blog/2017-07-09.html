@@ -159,7 +159,7 @@
                 </div>
             </div>
             <div class="info-box-dark">
-                <p1>この記事を読んでよりベンガラが好きになった。熱（エネルギー）と水と鉄があれば生命が誕生する可能性があるのでは？&nbsp;動植物以前の生命体で漆の先祖様？、種の起原となる環境は地球上の地下深くにはどこにでも可能性がある。と妄想が膨らむ。<br /><a href="http://www.natureasia.com/ja-jp/nature/highlights/83666" target="_blank"><strong>Link&nbsp;: <u>Nature 543, 7643:2017年3月2日</u></strong></a><br />熱水噴出孔に存在した初期生命。少なくとも37億7000万年前の生命の痕跡と推定されるものが、カナダ・ケベック州北部の碧玉および炭酸塩岩に、赤鉄鉱からなる管状のものも含まれていた.（本文より抜粋）
+                <p1>この記事を読んでよりベンガラが好きになった。熱（エネルギー）と水と鉄があれば生命が誕生する可能性があるのでは？&nbsp;動植物以前の生命体で漆の先祖様？、種の起原となる環境は地球上の地下深くにはどこにでも可能性がある。と妄想が膨らむ。<br /><a href="http://www.natureasia.com/ja-jp/nature/highlights/83666" target="_blank"rel="noopener"><strong>Link&nbsp;: <u>Nature 543, 7643:2017年3月2日</u></strong></a><br />熱水噴出孔に存在した初期生命。少なくとも37億7000万年前の生命の痕跡と推定されるものが、カナダ・ケベック州北部の碧玉および炭酸塩岩に、赤鉄鉱からなる管状のものも含まれていた.（本文より抜粋）
                 </p1>
             </div>
         </div>
@@ -346,92 +346,34 @@
 js/jquery-3.6.0.min.js"></script>
 
 <script id=" rendered-js">
-    $(".toggle_switch").on("click", function () {
-        $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-    }),
+    $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),$(function(){$("#toggle").click(function(){return $("#menu").slideToggle(),!1}),$(window).resize(function(){480<$(window).width()?$("#menu").show():$("#menu").hide()})}),$(function(){$(window).width()<480&&$(function(){$("#menu li a").click(function(){$("#menu").hide()})})});
 
-    $(function () {
-        $("#toggle").click(function () {
-            $("#menu").slideToggle();
-            return false;
-        });
-        $(window).resize(function () {
-            var win = $(window).width();
-            var p = 480;
-            if (win > p) {
-                $("#menu").show();
-            } else {
-                $("#menu").hide();
-            }
-        });
-    });
-    /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-    $(function () {
-        var win = $(window).width();
-        var p = 480;
-        if (win < p) $(function () {
-            $("#menu li a").click(function () {
-                $("#menu").hide();
-            });
-        });
-    });
+     $(function(){var o=!1,t=$("#page-top");t.css("bottom","-100px");o=!1;$(window).scroll(function(){200<$(this).scrollTop()?0==o&&(o=!0,t.stop().animate({bottom:"80px"},200)):o&&(o=!1,t.stop().animate({bottom:"-100px"},200))}),t.click(function(){return $("body,html").animate({scrollTop:0},500),!1})});
 
-    $(function () {
-        var showFlag = false;
-        var topBtn = $('#page-top');
-        topBtn.css('bottom', '-100px');
-        var showFlag = false;
-        //スクロールが100に達したらボタン表示
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 200) {
-                if (showFlag == false) {
-                    showFlag = true;
-                    topBtn.stop().animate({
-                        'bottom': '80px'
-                    }, 200);
-                }
-            } else {
-                if (showFlag) {
-                    showFlag = false;
-                    topBtn.stop().animate({
-                        'bottom': '-100px'
-                    }, 200);
-                }
-            }
-        });
-        //スクロールしてトップ
-        topBtn.click(function () {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 500);
-            return false;
-        });
-    });
-
-    $(function () {
-        var s = $(".js-modal__btn"),
-            n = $(".js-modal__btn--close"),
-            e = $(".js-modal__btn--close--fix"),
-            o = $(".js-modal__bg"),
-            t = $(".js-modal__main");
-        s.
-        on("click", function (s) {
-            $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-        }), n.
-        on("click", function (s) {
-            o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-        }), e.
-        on("click", function (s) {
-            o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-        }), t.
-        on("click", function (s) {
-            s.stopPropagation()
-        }), o.
-        on("click", function () {
-            $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-        })
-    });
-</script>
+     $(function () {
+         var s = $(".js-modal__btn"),
+             n = $(".js-modal__btn--close"),
+             e = $(".js-modal__btn--close--fix"),
+             o = $(".js-modal__bg"),
+             t = $(".js-modal__main");
+         s.
+         on("click", function (s) {
+             $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
+         }), n.
+         on("click", function (s) {
+             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+         }), e.
+         on("click", function (s) {
+             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+         }), t.
+         on("click", function (s) {
+             s.stopPropagation()
+         }), o.
+         on("click", function () {
+             $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
+         })
+     });
+ </script>
 
 </body>
 </html>

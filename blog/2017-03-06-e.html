@@ -297,11 +297,11 @@
         <</span> <br>
     </h4>
     <center>
-      <p1><a href="https://blog-tokyo.takashimaya.co.jp/art/post/969" target="_blank">普段使い☆ズボラう・る・しの器 </a><br>
-        <a href="https://blog-tokyo.takashimaya.co.jp/art/post/1033" target="_blank">食べ物好き必見☆うるしのうつわ </a><br>
-        <a href="https://blog-tokyo.takashimaya.co.jp/art/post/1037" target="_blank">ズボラなのに暖かくて素敵☆うるしのうつわ</a><br>
-        <a href="https://blog-tokyo.takashimaya.co.jp/art/post/1114" target="_blank">【予告】漆椀の駆け込み寺！</a> <br>
-        <a href="https://blog-tokyo.takashimaya.co.jp/art/post/1118" target="_blank">漆のあたたかさを感じてください♪</a></p1><br><br>
+      <p1><a href="https://blog-tokyo.takashimaya.co.jp/art/post/969" target="_blank"rel="noopener">普段使い☆ズボラう・る・しの器 </a><br>
+        <a href="https://blog-tokyo.takashimaya.co.jp/art/post/1033" target="_blank"rel="noopener">食べ物好き必見☆うるしのうつわ </a><br>
+        <a href="https://blog-tokyo.takashimaya.co.jp/art/post/1037" target="_blank"rel="noopener">ズボラなのに暖かくて素敵☆うるしのうつわ</a><br>
+        <a href="https://blog-tokyo.takashimaya.co.jp/art/post/1114" target="_blank"rel="noopener">【予告】漆椀の駆け込み寺！</a> <br>
+        <a href="https://blog-tokyo.takashimaya.co.jp/art/post/1118" target="_blank"rel="noopener">漆のあたたかさを感じてください♪</a></p1><br><br>
       <h4><span class="pred">></span> UNESCO <span class="pred">
           <</span> <br>
       </h4>
@@ -309,15 +309,15 @@
       <h4><span class="pred">></span> Facebook <span class="pred">
           <</span> <br>
       </h4>
-      <p1><a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank">2012 / 11 / 28 〜 2017 / 04 / 20</a></p1><br>
+      <p1><a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank"rel="noopener">2012 / 11 / 28 〜 2017 / 04 / 20</a></p1><br>
       <h4><span class="pred">></span> Twitter <span class="pred">
           <</span> <br>
       </h4>
-      <p1><a href="https://twitter.com/hiro_w2011" target="_blank">2011 / 05 / 18 〜 2017 / 01 / 28</a></p1><br><br>
+      <p1><a href="https://twitter.com/hiro_w2011" target="_blank"rel="noopener">2011 / 05 / 18 〜 2017 / 01 / 28</a></p1><br><br>
       <h4><span class="pred">></span> Ameba Blog:うるし徒然草 <span class="pred">
           <</span> <br>
       </h4>
-      <p1><a href="https://ameblo.jp/urushi-watanabe/entry-10425393706.html" target="_blank">2010 / 01 / 02 〜 2015 / 02 / 08</a></p1><br><br>
+      <p1><a href="https://ameblo.jp/urushi-watanabe/entry-10425393706.html" target="_blank"rel="noopener">2010 / 01 / 02 〜 2015 / 02 / 08</a></p1><br><br>
       <h4><span class="pred">></span>まいど!n JAPAN</span> <span class="pred">
           <</span> <br />
       </h4>
@@ -327,9 +327,9 @@
         <br>
       </p1>
 
-      <p1><a href="https://urushi-lac.github.io/jomon.github.io/images/blog/2017/0.webp" target="_blank">まさに常識破り&nbsp;浄法寺漆100%使う<br>
+      <p1><a href="https://urushi-lac.github.io/jomon.github.io/images/blog/2017/0.webp" target="_blank"rel="noopener">まさに常識破り&nbsp;浄法寺漆100%使う<br>
           &nbsp;漆芸家&nbsp;渡邊博之</a><br><br><span class="pred">The link has been removed.</span><br><br>
-        <a href="http://madeinjp.jp/archives/1614" target="_blank">japanの漆は日本固有種!&nbsp;<br>国産漆って今どうなってるの？</a></p1>
+        <a href="http://madeinjp.jp/archives/1614" target="_blank"rel="noopener">japanの漆は日本固有種!&nbsp;<br>国産漆って今どうなってるの？</a></p1>
     </center><br><br>
 
   </section>
@@ -382,93 +382,35 @@
   <script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/
 js/jquery-3.6.0.min.js"></script>
 
-  <script id=" rendered-js">
-    $(".toggle_switch").on("click", function () {
-        $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-      }),
+<script id=" rendered-js">
+  $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),$(function(){$("#toggle").click(function(){return $("#menu").slideToggle(),!1}),$(window).resize(function(){480<$(window).width()?$("#menu").show():$("#menu").hide()})}),$(function(){$(window).width()<480&&$(function(){$("#menu li a").click(function(){$("#menu").hide()})})});
 
-      $(function () {
-        $("#toggle").click(function () {
-          $("#menu").slideToggle();
-          return false;
-        });
-        $(window).resize(function () {
-          var win = $(window).width();
-          var p = 480;
-          if (win > p) {
-            $("#menu").show();
-          } else {
-            $("#menu").hide();
-          }
-        });
-      });
-    /* 追記部分(メニューリンクをクリックでメニューを一旦閉じる) */
-    $(function () {
-      var win = $(window).width();
-      var p = 480;
-      if (win < p) $(function () {
-        $("#menu li a").click(function () {
-          $("#menu").hide();
-        });
-      });
-    });
+   $(function(){var o=!1,t=$("#page-top");t.css("bottom","-100px");o=!1;$(window).scroll(function(){200<$(this).scrollTop()?0==o&&(o=!0,t.stop().animate({bottom:"80px"},200)):o&&(o=!1,t.stop().animate({bottom:"-100px"},200))}),t.click(function(){return $("body,html").animate({scrollTop:0},500),!1})});
 
-    $(function () {
-      var showFlag = false;
-      var topBtn = $('#page-top');
-      topBtn.css('bottom', '-100px');
-      var showFlag = false;
-      //スクロールが100に達したらボタン表示
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-          if (showFlag == false) {
-            showFlag = true;
-            topBtn.stop().animate({
-              'bottom': '80px'
-            }, 200);
-          }
-        } else {
-          if (showFlag) {
-            showFlag = false;
-            topBtn.stop().animate({
-              'bottom': '-100px'
-            }, 200);
-          }
-        }
-      });
-      //スクロールしてトップ
-      topBtn.click(function () {
-        $('body,html').animate({
-          scrollTop: 0
-        }, 500);
-        return false;
-      });
-    });
-
-    $(function () {
-      var s = $(".js-modal__btn"),
-        n = $(".js-modal__btn--close"),
-        e = $(".js-modal__btn--close--fix"),
-        o = $(".js-modal__bg"),
-        t = $(".js-modal__main");
-      s.
-      on("click", function (s) {
-        $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-      }), n.
-      on("click", function (s) {
-        o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-      }), e.
-      on("click", function (s) {
-        o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-      }), t.
-      on("click", function (s) {
-        s.stopPropagation()
-      }), o.
-      on("click", function () {
-        $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-      })
-    });
-  </script>
+   $(function () {
+       var s = $(".js-modal__btn"),
+           n = $(".js-modal__btn--close"),
+           e = $(".js-modal__btn--close--fix"),
+           o = $(".js-modal__bg"),
+           t = $(".js-modal__main");
+       s.
+       on("click", function (s) {
+           $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
+       }), n.
+       on("click", function (s) {
+           o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+       }), e.
+       on("click", function (s) {
+           o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+       }), t.
+       on("click", function (s) {
+           s.stopPropagation()
+       }), o.
+       on("click", function () {
+           $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
+       })
+   });
+</script>
 
 
 
