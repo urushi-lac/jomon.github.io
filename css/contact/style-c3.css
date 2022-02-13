@@ -376,7 +376,6 @@ footer b {
         color: #595959;
         ;
         cursor: pointer;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         padding: 10px 10px 0px 10px;
     }
 
