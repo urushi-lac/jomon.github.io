@@ -688,5 +688,6 @@ ul.home_menu li {
 }
 
 #cs #box1 .row .col.col-md-one-half .info-box-right u p a {
-    color: #F00;
+    font-weight: 450;
+    color: #DC143C;
 }

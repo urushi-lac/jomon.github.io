@@ -18,7 +18,7 @@ ul.home_menu {
     font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 ul.home_menu li {
@@ -31,7 +31,7 @@ ul.home_menu a {
     font-size: 100%;
     font-weight: 350;
     color: #595959;
-    float:right;
+    float: right;
 }
 
 .home s a img {
@@ -90,6 +90,7 @@ h1 {
 h2 {
     font-size: 125%;
     font-weight: 480;
+    padding: 5px 0px 5px 10px;
 }
 
 h3 {
@@ -99,6 +100,12 @@ h3 {
     padding: 0px 0px 0px 0px;
     margin: 0;
     text-align: center;
+}
+
+h4 {
+    font-size: 125%;
+    font-weight: 480;
+    padding: 5px 0px 5px 10px;
 }
 
 p {
@@ -261,6 +268,12 @@ footer b {
         font-size: 120%;
     }
 
+    h4 {
+        font-size: 125%;
+        font-weight: 480;
+        padding: 5px 0px 5px 30px;
+    }
+
     p {
         padding: 0px 30px 0px 30px;
     }
@@ -330,12 +343,12 @@ footer b {
         padding: 5px 0px 0px 0px;
     }
 
-ul.home_menu li {
+    ul.home_menu li {
         width: 45%;
         padding: 0px 0px 0px 7px;
     }
 
-  ul.home_menu a {
+    ul.home_menu a {
         padding: 0px 7px 0px 0px;
         color: #595959;
     }
@@ -437,6 +450,12 @@ ul.home_menu li {
         font-size: 110%;
     }
 
+    h4 {
+        font-size: 110%;
+        font-weight: 480;
+        padding: 5px 0px 5px 30px;
+    }
+
     #footer {
         height: 15px;
         margin-top: 0px;
@@ -525,7 +544,7 @@ ul.home_menu li {
         color: #767676;
     }
 
-  .js-modal__btn--close--fix {
+    .js-modal__btn--close--fix {
         width: 30px;
         height: 30px;
         background: #333;
@@ -632,5 +651,6 @@ section {
 }
 
 #cs u a {
-    color: #F00;
+    font-weight: 500;
+    color: #DC143C;
 }

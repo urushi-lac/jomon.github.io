@@ -727,5 +727,6 @@ sup {
 }
 
 #cs u a {
-    color: #F00;
+    font-weight: 450;
+    color: #DC143C;
 }

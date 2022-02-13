@@ -181,6 +181,16 @@ ul.home_menu a {
     line-height: 1.6;
 }
 
+.info-box-right u p {
+    font-weight: 450;
+    color: #DC143C;
+}
+
+.info-box-right u p a{
+    font-weight: 450;
+    color: #DC143C;
+}
+
 .col-md-one-half {
     width: 50%;
     display: inline-block;

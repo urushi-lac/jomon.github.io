@@ -10,6 +10,14 @@
     z-index: 1;
 }
 
+section {
+    background: #FFF;
+    max-width: 1200px;
+    min-height: 440px;
+    text-shadow: none;
+    padding: 300px 0px 0px 0px;
+}
+
 ul.home_menu {
     display: flex;
     width: 100%;
@@ -37,7 +45,6 @@ ul.home_menu a {
     height: auto;
     padding: 20px 0px 0px 0px;
 }
-
 
 #menu {
     width: 100%;
@@ -71,7 +78,6 @@ ul.home_menu a {
 .toggle_wrap {
     display: none;
 }
-
 
 .row1 {
     padding: 200px 0px 50px 0px;
