@@ -130,9 +130,10 @@ h5 {
     text-shadow: none;
 }
 
-#cs p1 {
+#cs p1 a {
     font-size: 120%;
     line-height: 2;
+    text-align: center;
 }
 
 .photo {
@@ -205,7 +206,7 @@ h5 {
     bottom: 0;
     width: 100%;
     height: 30px;
-    font-size: 80％;
+    font-size: 80%;
     text-align: left;
     margin-top: 40px;
     list-style-type: none;
@@ -334,6 +335,7 @@ footer b {
         padding-left: 20px;
         padding-top: 5px;
         text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
     }
 
     .info-box-tan {
@@ -556,44 +558,36 @@ footer b {
     section {
         max-width: 480px;
         min-height: auto;
-        padding: 90px 0px 20px 0px;
+        padding: 120px 0px 20px 0px;
     }
 
-    #home {
-        padding: 0px 0px 0px 0px;
+    ul.home_menu {
+        font-size: 70%;
+        padding: 5px 0px 0px 0px;
     }
 
-    #home b {
-        font-size: 66%;
-        padding: 0px 0px 0px 10px;
+    ul.home_menu li {
+        width: 45%;
+        padding: 0px 0px 0px 7px;
     }
 
-    #home p {
-        font-size: 65%;
-        padding: 0px 10px -30px 0px;
+    ul.home_menu a {
+        padding: 0px 7px 0px 0px;
+        color: #595959;
     }
 
-    #home s img {
+    .home s a img {
         width: 183px;
         height: auto;
         padding: 0px 0px 0px 0px;
     }
 
-    nav {
-        padding: 0px 0px 0px 0px;
+    .toggle_switch {
+        padding: 10px 0px 10px 0px;
     }
 
-    #menu li a {
-        padding: 3px 0px 3px 0px;
-    }
-
-
-    .row1 {
-        padding: 50px 0px 50px 0px;
-    }
-
-    .row2 {
-        padding: 0px 0px 30px 0px;
+    .toggle_contents {
+        padding: 10px 0px 0px 0px;
     }
 
     .photo {
@@ -642,7 +636,7 @@ footer b {
     }
 
     #cs h1 {
-        font-size: 100%;
+        font-size: 120%;
         padding: 10px 0px 10px 10px;
     }
 
@@ -714,8 +708,9 @@ footer b {
     }
 
     #footer {
+        height: 15px;
         margin-top: 0px;
-        padding: 5px 0px 15px 0px;
+        padding: 0px 0px 15px 0px;
     }
 
     footer s1 img {
@@ -730,33 +725,46 @@ footer b {
         display: none;
     }
 
+    p.side_text {
+        color: #595959;
+        display: inline-block;
+        width: 50px;
+        margin-left: 10px;
+        vertical-align: top;
+    }
+
     footer b {
         display: none;
     }
 
     footer b1 {
-        font-size: 7px;
+        font-size: 10px;
         font-weight: 300;
-        color: #999999;
+        color: #595959;
         float: right;
-        padding: 0px 0px 0px 0px;
-        }
-
-    #footer {
-        height: 35px;
         padding: 0px 0px 0px 0px;
     }
 
     #footer-mobile {
         display: block;
-        padding: 0px 10px 0px 10px;
+        padding: 0px 0px 0px 0px;
+        font-size: 70%;
+        font-weight: 300;
+        color: #595959;
     }
 
-    #footer-mobile p {
-        font-size: 100%;
-        font-weight: 700;
-        color: #000000;
-        padding: 0px 0px 0px 0px;
+    .js-modal__btn {
+        color: #595959;
+        cursor: pointer;
+        padding: 10px 10px 0px 10px;
+    }
+
+    .material-icons {
+        font-size: 18px;
+        position: relative;
+        top: -3px;
+        color: #595959;
+        display: inline-block;
     }
 
     .js-modal__bg {
@@ -773,6 +781,7 @@ footer b {
     .js-modal__main {
         width: calc(100%);
         height: 80%;
+        text-align: center;
         padding: 16px 0px 0px 0px;
         bottom: -81%;
         left: 0;
@@ -787,16 +796,12 @@ footer b {
         padding: 0px 15px 0px 15px;
     }
 
-    .js-modal__btn {
-        color: #cccccc;
-        cursor: pointer;
-        padding: 10px 0px 0px 0px;
-    }
-
     .js-modal__btn--close {
-        margin-top: 10px;
+        font-size: 180%;
+        margin-top: 20px;
         text-align: center;
         text-decoration: underline;
+        color: #767676;
     }
 
     .js-modal__btn--close--fix {
@@ -841,14 +846,14 @@ footer b {
 
         100% {
             opacity: 1;
-            transform: translateY(-20%);
+            transform: translateY(-30%);
         }
     }
 
     @keyframes SlideDown {
         0% {
             opacity: 1;
-            transform: translateY(-20%);
+            transform: translateY(-30%);
         }
 
         100% {
@@ -967,11 +972,17 @@ footer b {
 
 
 .pred {
-    color: #8F2E14;
+    color:#006400;
 }
 
     #cs #リンク後 h4 {
-      color: #888;
+      padding: 10px 0px 10px 0px;
+    }
+
+    #cs #リンク後 p1 a{
+      font-size: 90%;
+      padding: 10px 0px 10px 0px;
+      color: #595959;;
     }
 
     .w {
