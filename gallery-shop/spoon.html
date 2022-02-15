@@ -79,43 +79,22 @@
 
         </header>
 
-    <section id="box0">
-    </section>
-
     <section id="box1">
         <div class="row">
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-left">
-                        <div id="container">
-
-                            <div class="slideShow">
-
-                                <div class="mainView">
-                                    <ul>
-                                        <li><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon.webp" alt="匙" /></li>
-                                        <li><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-red.webp" alt="匙朱" /></li>
-                                        <li><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-2008-1.webp" alt="使用済匙" /></li>
-                                        <li><a href="#4"><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-2020.webp" alt="蜂蜜"></a></li>
-                                    </ul>
-                                </div>
-                                <!--/.mainView-->
-
-                                <div class="thumbNail">
-                                    <ul>
-                                        <li><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon.webp" alt="匙" /></li>
-                                        <li><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-red.webp" alt="匙朱" /></li>
-                                        <li><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-2008-1.webp" alt="使用済匙" /></li>
-                                        <li><a href="#4"><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-2020.webp" alt="蜂蜜"></a></li>
-                                    </ul>
-                                </div>
-                                <!--/.thumbNail-->
-
+                        <div id="main" class="wrap">
+                            <div id="mainImg">
+                                <img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon.webp" alt="匙">
                             </div>
-                            <!--/.slideShow-->
-
+                            <ul id="subImg">
+                                <li class="current"><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon.webp" alt="匙"></li>
+                                <li><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-red.webp" alt="匙朱" /></li>
+                                        <li><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-2008-1.webp" alt="使用済匙" /></li>
+                                        <li><a href="#4"><img src="https://urushi-lac.github.io/jomon.github.io/images/gallery/spoon/spoon-2020.webp" alt="蜂蜜"></a></li>
+                            </ul>
                         </div>
-                        <!--/#container-->
                     </div>
                 </div>
 
@@ -128,7 +107,7 @@
                             税込み価格:￥5,500（本体￥5,000）<br />
                          </p>
                          <u><br />
-                             <p>運送費別（ヤマト便料金参照）<a href="http://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html" title="運送費" target="_blank"></a></p>
+                             <p>運送費別（ヤマト便料金参照）<a href="http://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html" title="運送費" target="_blank"rel="noopener"></a></p>
                          </u><br />
                         <p><br />
                             朱（在庫0）縁赤（在庫0）
@@ -193,265 +172,21 @@
 
 <script type="text/javascript" src="https://urushi-lac.github.io/jomon.github.io/js/jquery-3.6.0.min.js"></script>
 
-      <script id=" rendered-js">
-           $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),
-   $(function(){var s=$(".js-modal__btn"),n=$(".js-modal__btn--close"),e=$(".js-modal__btn--close--fix"),o=$(".js-modal__bg"),t=$(".js-modal__main");s.
-   on("click",function(s){$(this).next(o).fadeIn(),$(this).next(o).next(t).removeClass("_slideDown"),$(this).next(o).next(t).addClass("_slideUp")}),n.
-   on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),e.
-   on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),t.
-   on("click",function(s){s.stopPropagation()}),o.
-   on("click",function(){$(this).fadeOut(),$(this).next(t).removeClass("_slideUp"),$(this).next(t).addClass("_slideDown")})});
+<script id=" rendered-js">
+    $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),
 
-      </script>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    $(function(){$("#subImg img").on("click",function(){img=$(this).attr("src"),$("#subImg li").removeClass("current"),$(this).parent().addClass("current"),$("#mainImg img").fadeOut(1e3,function(){$("#mainImg img").attr("src",img).on("load",function(){$(this).fadeIn()})})})});
 
-   <script>
-        $(function() {
-            $(window).load(function() {
-                var setWrap = $('.slideShow'),
-                    setMainView = $('.mainView'),
-                    setThumbNail = $('.thumbNail'),
-                    setMaxWidth = 400,
-                    setMinWidth = 300,
-                    thumbNum = 4,
-                    thumbOpc = 0.5,
-                    fadeTime = 1000,
-                    delayTime = 5000,
-                    sideNavi = 'off', // 'on' or 'off'
-                    autoPlay = 'off'; // 'on' or 'off'
 
-                setWrap.each(function() {
-                    var thisObj = $(this),
-                        childMain = thisObj.find(setMainView),
-                        mainUl = childMain.find('ul'),
-                        mainLi = mainUl.find('li'),
-                        mainLiFst = mainUl.find('li:first'),
-                        childThumb = thisObj.find(setThumbNail),
-                        thumbUl = childThumb.find('ul'),
-                        thumbLi = childThumb.find('li'),
-                        thumbLiFst = childThumb.find('li:first'),
-                        thumbLiLst = childThumb.find('li:last');
 
-                    thisObj.css({
-                        width: setMaxWidth,
-                        display: 'block'
-                    });
+$(function(){var s=$(".js-modal__btn"),n=$(".js-modal__btn--close"),e=$(".js-modal__btn--close--fix"),o=$(".js-modal__bg"),t=$(".js-modal__main");s.
+on("click",function(s){$(this).next(o).fadeIn(),$(this).next(o).next(t).removeClass("_slideDown"),$(this).next(o).next(t).addClass("_slideUp")}),n.
+on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),e.
+on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),t.
+on("click",function(s){s.stopPropagation()}),o.
+on("click",function(){$(this).fadeOut(),$(this).next(t).removeClass("_slideUp"),$(this).next(t).addClass("_slideDown")})});
 
-                    mainLi.each(function(i) {
-                        $(this).attr('class', 'view' + (i + 1).toString()).css({
-                            zIndex: '1',
-                            opacity: '0'
-                        });
-                        mainLiFst.css({
-                            zIndex: '2'
-                        }).stop().animate({
-                            opacity: '1'
-                        }, fadeTime);
-                    });
-
-                    thumbLi.click(function() {
-                        if (autoPlay == 'on') {
-                            clearInterval(setTimer);
-                        }
-
-                        var connectCont = thumbLi.index(this);
-                        var showCont = connectCont + 1;
-                        mainUl.find('.view' + (showCont)).siblings().stop().animate({
-                            opacity: '0'
-                        }, fadeTime, function() {
-                            $(this).css({
-                                zIndex: '1'
-                            });
-                        });
-                        mainUl.find('.view' + (showCont)).stop().animate({
-                            opacity: '1'
-                        }, fadeTime, function() {
-                            $(this).css({
-                                zIndex: '2'
-                            });
-                        });
-
-                        $(this).addClass('active');
-                        $(this).siblings().removeClass('active');
-
-                        if (autoPlay == 'on') {
-                            timer();
-                        }
-
-                    });
-                    thumbLi.css({
-                        opacity: thumbOpc
-                    });
-                    thumbLiFst.addClass('active');
-
-                    // メイン画像をベースにエリアの幅と高さを設定
-                    var mainLiImg = mainLi.find('img'),
-                        baseWidth = mainLiImg.width(),
-                        baseHeight = mainLiImg.height();
-
-                    // レスポンシブ動作メイン
-                    imgSize();
-
-                    function imgSize() {
-                        var windowWidth = parseInt($(window).width());
-                        if (windowWidth >= setMaxWidth) {
-                            thisObj.css({
-                                width: setMaxWidth
-                            });
-                            childMain.css({
-                                width: baseWidth,
-                                height: baseHeight
-                            });
-                            mainUl.css({
-                                width: baseWidth,
-                                height: baseHeight
-                            });
-                            mainLi.css({
-                                width: baseWidth,
-                                height: baseHeight
-                            });
-                            thumbLi.css({
-                                width: ((setMaxWidth) / (thumbNum))
-                            });
-                        } else if (windowWidth < setMaxWidth) {
-                            if (windowWidth >= setMinWidth) {
-                                thisObj.css({
-                                    width: '100%'
-                                });
-                                childMain.css({
-                                    width: '100%'
-                                });
-                                mainUl.css({
-                                    width: '100%'
-                                });
-                                mainLi.css({
-                                    width: '100%'
-                                });
-                            } else if (windowWidth < setMinWidth) {
-                                thisObj.css({
-                                    width: setMinWidth
-                                });
-                                childMain.css({
-                                    width: setMinWidth
-                                });
-                                mainUl.css({
-                                    width: setMinWidth
-                                });
-                                mainLi.css({
-                                    width: setMinWidth
-                                });
-                            }
-                            var reHeight = mainLiImg.height();
-                            childMain.css({
-                                height: reHeight
-                            });
-                            mainUl.css({
-                                height: reHeight
-                            });
-                            mainLi.css({
-                                height: reHeight
-                            });
-
-                            var reWidth = setThumbNail.width();
-                            thumbLi.css({
-                                width: ((reWidth) / (thumbNum))
-                            });
-                        }
-                    }
-                    $(window).resize(function() {
-                        imgSize();
-                    });
-                    imgSize();
-
-                    // サムネイルマウスオーバー
-                    var agent = navigator.userAgent;
-                    if (!(agent.search(/iPhone/) != -1 || agent.search(/iPad/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1)) {
-                        thumbLi.hover(function() {
-                            $(this).stop().animate({
-                                opacity: '1'
-                            }, 200);
-                        }, function() {
-                            $(this).stop().animate({
-                                opacity: thumbOpc
-                            }, 200);
-                        });
-                    }
-
-                    // ボタン移動動作
-                    function switchNext() {
-                        var setActive = thumbUl.find('.active');
-                        setActive.each(function() {
-                            var listLengh = thumbLi.length,
-                                listIndex = thumbLi.index(this),
-                                listCount = listIndex + 1;
-
-                            if (listLengh == listCount) {
-                                thumbLiFst.click();
-                            } else {
-                                $(this).next('li').click();
-                            }
-                        });
-                    }
-
-                    function switchPrev() {
-                        var setActive = thumbUl.find('.active');
-                        setActive.each(function() {
-                            var listLengh = thumbLi.length,
-                                listIndex = thumbLi.index(this),
-                                listCount = listIndex + 1;
-
-                            if (1 == listCount) {
-                                thumbLiLst.click();
-                            } else {
-                                $(this).prev('li').click();
-                            }
-                        });
-                    }
-
-                    // サイドナビボタン（有り無し）
-                    if (sideNavi == 'on') {
-                        childMain.append('<a href="javascript:void(0);" class="btnPrev"></a><a href="javascript:void(0);" class="btnNext"></a>');
-                        var btnPrev = thisObj.find('.btnPrev'),
-                            btnNext = thisObj.find('.btnNext'),
-                            btnPrevNext = thisObj.find('.btnPrev,.btnNext');
-                        if (!(agent.search(/iPhone/) != -1 || agent.search(/iPad/) != -1 || agent.search(/iPod/) != -1 || agent.search(/Android/) != -1)) {
-                            btnPrevNext.css({
-                                opacity: thumbOpc
-                            }).hover(function() {
-                                $(this).stop().animate({
-                                    opacity: '0.9'
-                                }, 200);
-                            }, function() {
-                                $(this).stop().animate({
-                                    opacity: thumbOpc
-                                }, 200);
-                            });
-                        } else {
-                            btnPrevNext.css({
-                                opacity: thumbOpc
-                            });
-                        }
-                        btnPrev.click(function() {
-                            switchPrev();
-                        });
-                        btnNext.click(function() {
-                            switchNext();
-                        });
-                    }
-
-                    // 自動再生（有り無し）
-                    if (autoPlay == 'on') {
-                        function timer() {
-                            setTimer = setInterval(function() {
-                                switchNext();
-                            }, delayTime);
-                        }
-                        timer();
-                    }
-                });
-            });
-        });
-    </script>
+</script>
 
 </body></html>
