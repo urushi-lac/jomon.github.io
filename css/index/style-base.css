@@ -96,7 +96,7 @@ video {
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  font-family:'NotoSansJP''M+PLUS+1',
+  font-family:'NotoSansJP',
     sans-serif;
   color: #000;
 }
@@ -132,7 +132,7 @@ strong {
 }
 
 body {
-  font-family:'NotoSansJP''M+PLUS+1',
+  font-family:'NotoSansJP',
     sans-serif;
   font-weight: 400;
   background-repeat: repeat;
