@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@font-face {
+
+  font-family: "NotoSansJP";
+  src: url("https://urushi-lac.github.io/jomon.github.io/fonts/NotoSansJP-VF.woff") format("woff-variations");
+  font-weight: 100 900;
+}
+
 html,
 body,
 div,
@@ -89,7 +96,7 @@ video {
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  font-family:'M PLUS 1',
+  font-family:'NotoSansJP''M+PLUS+1',
     sans-serif;
   color: #000;
 }
@@ -125,7 +132,7 @@ strong {
 }
 
 body {
-  font-family:'M PLUS 1',
+  font-family:'NotoSansJP''M+PLUS+1',
     sans-serif;
   font-weight: 400;
   background-repeat: repeat;
