@@ -1,100 +1,5 @@
 @charset "utf-8";
 
-
-        /* .slideShow
-------------------------- */
-.slideShow {
-	margin: 0 auto;
-	text-align: left;
-	display: none;
-}
-
-/* .mainView
-------------------------- */
-.slideShow .mainView {
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-}
-.slideShow .mainView ul {
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-}
-.slideShow .mainView ul li {
-	top: 0;
-	left: 0;
-	width: 100%;
-	position: absolute;
-}
-.slideShow .mainView ul li img {
-	width: 100%;
-}
-
-/* .thumbNail
-------------------------- */
-.slideShow .thumbNail {
-	width: 100%;
-	overflow: hidden;
-}
-
-.slideShow .thumbNail ul {
-	width: 110%;
-}
-
-.slideShow .thumbNail ul li {
-	float: left;
-	display: inline;
-	overflow: hidden;
-	cursor: pointer;
-}
-
-.slideShow .thumbNail ul li img {
-	width: 100%;
-}
-
-.slideShow .thumbNail ul li.active {
-	filter: alpha(opacity=100)!important;
-	-moz-opacity: 1!important;
-	opacity: 1!important;
-}
-
-/* sideNavi
-------------------------- */
-.slideShow .mainView .btnPrev,
-.slideShow .mainView .btnNext {
-	top: 0;
-	width: 5%;
-	height: 100%;
-	position: absolute;
-	z-index: 3;
-}
-.slideShow .mainView .btnPrev {
-	left: 0;
-	background: #ccc url(../img/btnPrev.png) no-repeat center center;
-}
-.slideShow .mainView .btnNext {
-	right: 0;
-	background: #ccc url(../img/btnNext.png) no-repeat center center;
-}
-
-
-/* =======================================
-	ClearFixElements
-======================================= */
-.slideShow ul:after {
-	content: ".";
-	height: 0;
-	clear: both;
-	display: block;
-	visibility: hidden;
-}
-
-.slideShow ul {
-	display: inline-block;
-	overflow: hidden;
-}
-
 #cs header {
     border-top: 0px;
     background-color: #fff;
@@ -167,8 +72,8 @@ ul.home_menu a {
     display: none;
 }
 
-#box0  {
-    min-height: 280px;
+#box1  {
+    padding: 280px 0px 0px 0px;
 }
 
 .info-box-left {
@@ -224,6 +129,33 @@ h3 {
 h6 {
     font-size: 85%;
 text-align: left ;
+}
+
+info-box-right u p  {
+    color: #DC143C;
+}
+
+#main {
+    width: 85%;
+    height: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+#mainImg{
+
+    margin-bottom: 5px;
+    height: 100%;
+}
+#subImg{
+    display: flex;
+    justify-content: space-between;
+}
+#subImg li{
+    width: 25%;
+    display: block;
 }
 
 #footer {
@@ -290,8 +222,8 @@ section {
         font-size: 100%;
     }
 
-    #box0  {
-        min-height: 240px;
+    #box1  {
+        padding: 240px 0px 0px 0px;
     }
 
     .info-box-left {
@@ -346,8 +278,8 @@ section {
         padding: 7px 0 7px;
     }
 
-    #box0  {
-        min-height: 160px;
+    #box1  {
+        padding: 160px 0px 0px 0px;
     }
 
     .info-box-left {
@@ -434,8 +366,8 @@ ul.home_menu li {
         display: none;
     }
 
-    #box0  {
-        min-height: 120px;
+    #box1  {
+        padding: 120px 0px 0px 0px;
     }
 
     .info-box-left {
@@ -657,8 +589,4 @@ ul.home_menu li {
         font-size: 95%;
     }
 
-}
-
-#cs #box1 .row .col col-md-one-half .info-box-right u p a {
-    color: #F00;
 }

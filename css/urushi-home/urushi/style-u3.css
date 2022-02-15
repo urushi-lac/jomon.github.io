@@ -143,12 +143,24 @@ colgroup.area2 {
     width: 980px;
 }
 
+colgroup.area2-1 {
+    width: 1200px;
+}
+
 colgroup.area3 {
     width: 450px;
 }
 
+colgroup.area3-1 {
+    width: 800px;
+}
+
 colgroup.area4 {
     width: 400px;
+}
+
+colgroup.area4-1 {
+    width: 300px;
 }
 
 .inner {
