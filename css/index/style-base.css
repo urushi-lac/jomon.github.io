@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: "NotoSansJP";
-  src: url("../fonts/NotoSansJP-VF.woff") format("woff-variations");
-  font-weight: 100 900;
-  }
-
 html,
 body,
 div,
