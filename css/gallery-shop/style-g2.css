@@ -76,6 +76,10 @@ ul.home_menu a {
     padding: 280px 0px 0px 0px;
 }
 
+.gallery{
+    padding: 280px 0px 0px 0px;
+}
+
 .info-box-left {
     padding: 0px 0px 0px 0px;
 }
@@ -94,6 +98,10 @@ ul.home_menu a {
 .col {
     float: left;
     padding: 0px 0px 0px 0px;
+}
+
+.workstop {
+    padding: 250px 0px 0px 0px;
 }
 
 .works {
@@ -115,7 +123,6 @@ ul.home_menu a {
 .works img {
     width: 330px;
 }
-
 .photo s1 img {
     width: 350px;
     height: auto;
@@ -255,8 +262,11 @@ section {
         padding: 50px 0px 0px 0px;
     }
 
-    .works {
+    .workstop {
+        padding: 150px 0px 0px 0px;
+    }
 
+    .works {
         padding: 0px 0px 40px 0px;
     }
 
