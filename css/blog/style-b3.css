@@ -130,9 +130,22 @@ h5 {
     text-shadow: none;
 }
 
+#cs p1 {
+    font-size: 120%;
+    line-height: 2em;
+    text-align: center;
+}
+
+
 #cs p1 a {
     font-size: 120%;
     line-height: 2;
+    text-align: center;
+}
+
+#cs p2 {
+    font-size: 120%;
+    line-height: 2em;
     text-align: center;
 }
 
@@ -274,8 +287,14 @@ footer b {
 
     #cs p1 {
         font-size: 110%;
-        line-height: 1.7;
+        line-height: 1.7em;
     }
+
+    #cs p2 {
+    font-size: 110%;
+    line-height: 1.7em;
+    text-align: center;
+}
 
     .photo {
         padding: 80px 0px 0px 0px;
@@ -349,7 +368,7 @@ footer b {
         height: 380px;
         padding: 50px 20px 0px 0px;
         text-align: left;
-        line-height: 2;
+        line-height: 1.7em;
         left: 493px;
     }
 
@@ -360,7 +379,7 @@ footer b {
     .info-box-dark1 {
         padding: 30px 20px 10px 20px;
         text-align: left;
-        line-height: 2;
+        line-height: 1.7em;
         left: 493px;
     }
 
@@ -452,6 +471,8 @@ footer b {
         line-height: 1.6;
     }
 
+
+
     .photo {
         padding: 50px 0px 0px 0px;
     }
@@ -508,8 +529,8 @@ footer b {
     }
 
     #cs p2 {
-        font-size: 90%;
-        line-height: 1.8;
+        font-size: 110%;
+        line-height: 1.7em;
     }
 
     .col-md-one-half {
@@ -531,7 +552,7 @@ footer b {
         height: auto;
         padding: 350px 10px 0px 10px;
         text-align: left;
-        line-height: 2;
+        line-height: 1.7em;
     }
 
     .info-box-tan1 {
@@ -543,7 +564,7 @@ footer b {
     .info-box-dark1 {
         width: 80%;
         padding: 270px 0px 20px 0px;
-        line-height: 2;
+        line-height: 1.7em;
     }
 
     .col {

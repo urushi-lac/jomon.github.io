@@ -223,12 +223,35 @@ section {
     }
 
     #box1  {
+        width: 1200px;
+    height: auto;
         padding: 240px 0px 0px 0px;
     }
 
     .info-box-left {
         padding: 80px 0px 0px 0px;
     }
+
+#main{
+    width: 380px;
+    height: auto;
+}
+
+#mainImg{
+    width: 100%;
+    margin-bottom: 5px;
+    height: auto;
+}
+#subImg{
+    display: flex;
+    justify-content: space-between;
+}
+#subImg li{
+    width: 25%;
+    display: block;
+}
+
+
 
     .info-box-right {
         padding: 80px 30px 0px 65px;
@@ -386,6 +409,11 @@ ul.home_menu li {
     .col-md-one-half {
         width: 100%;
     }
+
+    #main{
+    width: 100%;
+    height: auto;
+}
 
     h2 {
         font-size: 90%;
