@@ -70,7 +70,7 @@ ul.home_menu a {
 
 #menu li a {
     font-size: 120%;
-    color: #666666;
+    color: #000;
     display: block;
     padding: 10px 0px 10px 0px;
     background-color: #FFF;
@@ -507,11 +507,12 @@ footer b {
     }
 
     h2 {
-        padding: 7px 0px78px 0px;
+        padding: 7px 0px 7px 0px;
     }
 
     h2 a {
         font-size: 80%;
+        color: #767676;
     }
 
     .toggle_switch h3 {
