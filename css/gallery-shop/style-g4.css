@@ -483,8 +483,9 @@ ul.home_menu li {
     .material-icons {
         position: relative;
         top: -6px;
+        display: inline-block;
     }
-    
+
     .js-modal__bg {
         width: 100%;
         height: 100%;
