@@ -25,10 +25,7 @@
   <meta http-equiv="Cache-Control" content="max-age=31536000">
   <title>Urushi report at Hiroyuki Watanabe workroom.|e-top</title>
   <!--* css *-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap">
+  <link href="fonts/NotoSansJP-VF.woff" rel="subresource" class="lazy-css" />
   <link rel="stylesheet" href="css/index/style-base.css" />
   <link rel="stylesheet" href="css/index/style-i5.css" />
   <link rel="shortcut icon" type="image/png" href="images/top/misowanicon.png" />
@@ -104,7 +101,7 @@
       <div id="footer-mobile">
         <div class="js-modal__btn">
           <span class="material-icons">
-            link
+            <img src="images/top/link.png" alt="linkicons"/>
           </span>
           <p class="side_text">S.N.S.</p>
           <b1>Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b1>
@@ -145,6 +142,16 @@
   on("click",function(){$(this).fadeOut(),$(this).next(t).removeClass("_slideUp"),$(this).next(t).addClass("_slideDown")})});
  </script>
 
+<script>
+  (function (window, document) {
+      // .lazy-cssを探します
+      var lazyCss = document.querySelectorAll('.lazy-css');
+      for (var i = 0, l = lazyCss.length; i < l; i++) {
+          // 一つずつ『stylesheet』に変更します
+          lazyCss[i].rel = 'stylesheet';
+      }
+  })(window, document);
+</script>
 
 </body>
 
