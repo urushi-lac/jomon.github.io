@@ -550,12 +550,9 @@ ul.home_menu li {
         padding: 10px 10px 0px 10px;
     }
 
-
     .material-icons {
-        font-size: 18px;
         position: relative;
-        top: -3px;
-        color: #595959;
+        top: -6px;
         display: inline-block;
     }
 

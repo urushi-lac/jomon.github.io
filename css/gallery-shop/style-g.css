@@ -485,10 +485,9 @@ footer b {
     }
 
     .material-icons {
-        font-size: 18px;
         position: relative;
-        top: 5px;
-        color: #999999;
+        top: -6px;
+        display: inline-block;
     }
 
     #footer-mobile {

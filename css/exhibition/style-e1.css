@@ -393,10 +393,8 @@ ul.home_menu li {
     }
 
     .material-icons {
-        font-size: 18px;
         position: relative;
-        top: -3px;
-        color: #595959;
+        top: -6px;
         display: inline-block;
     }
 

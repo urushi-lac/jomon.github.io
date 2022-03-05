@@ -418,12 +418,10 @@ ul.home_menu li {
     }
 
     .material-icons {
-        font-size: 18px;
-        position: relative;
-        top: -3px;
-        color: #595959;
-        display: inline-block;
-    }
+            position: relative;
+            top: -6px;
+            display: inline-block;
+        }
 
     .js-modal__bg {
         width: 100%;
