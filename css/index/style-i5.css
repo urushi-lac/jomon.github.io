@@ -88,15 +88,13 @@ ul.home_menu a {
 }
 
 h2 {
-    font-family:'NotoSansJP',
-    sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 125%;
     font-weight: 400;
 }
 
 h3 {
-    font-family:'NotoSansJP',
-    sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 100%;
     font-weight: 400;
     color: #767676;
@@ -106,8 +104,7 @@ h3 {
 }
 
 h4 {
-    font-family:'NotoSansJP',
-    sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 400%;
     font-weight: 400;
     color: #c3c3c3;
@@ -159,8 +156,7 @@ footer s3 img {
 }
 
 footer b {
-    font-family:'NotoSansJP',
-    sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 95%;
     font-weight: 300;
     color: #595959;
