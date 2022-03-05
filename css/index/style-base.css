@@ -2,6 +2,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap");
 
+/* noto-sans-jp-300 - latin_japanese */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: light;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Noto Sans JP Light'),
+       url('https://urushi-lac.github.io/jomon.github.io/fonts/NotoSansJP-Light.woff2') format('woff2'), /* Super Modern Browsers */
+}
+
 html,
 body,
 div,
