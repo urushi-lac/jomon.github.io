@@ -4,22 +4,29 @@
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# website: https://ogp.me/ns/website#">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
- 
+
   <!--* css *-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="subresource" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" class="lazy-css" />
 
 
   <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap');
+
   </style>
 
 </head>
 
 <body id="cs">
   <h2>google</h2>
-
+  <script>
+    (function (window, document) {
+        // .lazy-cssを探します
+        var lazyCss = document.querySelectorAll('.lazy-css');
+        for (var i = 0, l = lazyCss.length; i < l; i++) {
+            // 一つずつ『stylesheet』に変更します
+            lazyCss[i].rel = 'stylesheet';
+        }
+    })(window, document);
+  </script>
 </body>
 
 </html>
