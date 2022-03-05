@@ -131,8 +131,8 @@ h6 {
 }
 
 #cs p1 {
-    font-size: 120%;
-    line-height: 1.5em;
+    font-size: 100%;
+    line-height: 2em;
 }
 
 .info-box-dark p1 a {
@@ -265,11 +265,6 @@ footer b {
     h2 {
         font-size: 120%;
     }
-
-    #cs p1 {
-    font-size: 110%;
-    line-height: 1.4em;
-}
 
     .photo {
         padding: 80px 0px 0px 0px;
@@ -504,6 +499,7 @@ footer b {
         font-size: 80%;
         padding: 0px 0px 10px 10px;
     }
+
 
     #cs p1 {
         font-size: 90%;
