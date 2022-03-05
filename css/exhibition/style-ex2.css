@@ -16,7 +16,7 @@ ul.home_menu {
     font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 ul.home_menu li {
@@ -29,14 +29,14 @@ ul.home_menu a {
     font-size: 100%;
     font-weight: 350;
     color: #595959;
-    float:right;
+    float: right;
 }
 
-  .home s a img {
+.home s a img {
     width: 306px;
     height: auto;
     padding: 20px 0px 0px 0px;
-  }
+}
 
 #menu {
     width: 100%;
@@ -191,7 +191,7 @@ footer b {
 
     ul.home_menu {
         font-size: 90%;
-      }
+    }
 
     .home s a img {
         width: 245px;
@@ -262,7 +262,7 @@ footer b {
 
     ul.home_menu {
         font-size: 75%;
-      }
+    }
 
     .home s a img {
         width: 214px;
@@ -318,13 +318,13 @@ footer b {
         padding: 5px 0px 0px 0px;
     }
 
-ul.home_menu li {
+    ul.home_menu li {
         width: 45%;
         padding: 0px 0px 0px 7px;
     }
 
 
-  ul.home_menu a {
+    ul.home_menu a {
         padding: 0px 7px 0px 0px;
         color: #595959;
     }
@@ -340,10 +340,10 @@ ul.home_menu li {
         display: block;
     }
 
-   .toggle_switch {
+    .toggle_switch {
         position: relative;
         cursor: pointer;
-       padding: 10px 0px 15px 0px;
+        padding: 10px 0px 15px 0px;
     }
 
     .toggle_switch::after {
@@ -437,6 +437,7 @@ ul.home_menu li {
     }
 
     p.side_text {
+        font-size: 11px;
         color: #595959;
         display: inline-block;
         width: 50px;

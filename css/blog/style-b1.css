@@ -125,8 +125,8 @@ h5 {
 }
 
 h6 {
-    font-size:70%;
-    text-align:left;
+    font-size: 70%;
+    text-align: left;
     font-weight: 350;
 }
 
@@ -545,6 +545,7 @@ footer b {
     }
 
     p.side_text {
+        font-size: 11px;
         color: #595959;
         display: inline-block;
         width: 50px;

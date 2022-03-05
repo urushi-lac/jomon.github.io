@@ -549,6 +549,7 @@ footer b {
     }
 
     p.side_text {
+        font-size: 11px;
         color: #595959;
         display: inline-block;
         width: 50px;
@@ -584,10 +585,8 @@ footer b {
     }
 
     .material-icons {
-        font-size: 18px;
         position: relative;
-        top: -3px;
-        color: #595959;
+        top: -6px;
         display: inline-block;
     }
 

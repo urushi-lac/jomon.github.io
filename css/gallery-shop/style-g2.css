@@ -16,7 +16,7 @@ ul.home_menu {
     font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 ul.home_menu li {
@@ -29,7 +29,7 @@ ul.home_menu a {
     font-size: 100%;
     font-weight: 350;
     color: #595959;
-    float:right;
+    float: right;
 }
 
 .home s a img {
@@ -72,11 +72,11 @@ ul.home_menu a {
     display: none;
 }
 
-#box1{
+#box1 {
     padding: 280px 0px 0px 0px;
 }
 
-.gallery{
+.gallery {
     padding: 280px 0px 0px 0px;
 }
 
@@ -123,6 +123,7 @@ ul.home_menu a {
 .works img {
     width: 330px;
 }
+
 .photo s1 img {
     width: 350px;
     height: auto;
@@ -386,12 +387,12 @@ section {
         padding: 5px 0px 0px 0px;
     }
 
-ul.home_menu li {
+    ul.home_menu li {
         width: 45%;
         padding: 0px 0px 0px 7px;
     }
 
-  ul.home_menu a {
+    ul.home_menu a {
         padding: 0px 7px 0px 0px;
         color: #595959;
     }
@@ -517,6 +518,7 @@ ul.home_menu li {
     }
 
     p.side_text {
+        font-size: 11px;
         color: #595959;
         display: inline-block;
         width: 50px;
@@ -593,7 +595,7 @@ ul.home_menu li {
         color: #767676;
     }
 
-  .js-modal__btn--close--fix {
+    .js-modal__btn--close--fix {
         width: 30px;
         height: 30px;
         background: #333;

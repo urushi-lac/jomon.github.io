@@ -19,7 +19,7 @@ ul.home_menu {
     font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 ul.home_menu li {
@@ -32,7 +32,7 @@ ul.home_menu a {
     font-size: 100%;
     font-weight: 350;
     color: #595959;
-    float:right;
+    float: right;
 }
 
 .home s a img {
@@ -200,7 +200,7 @@ footer b {
     h4 {
         font-size: 380%;
         padding: 90px 0px 0px 0px;
-      }
+    }
 
     .photo s1 img {
         width: auto;
@@ -252,7 +252,7 @@ footer b {
     h4 {
         font-size: 300%;
         padding: 100px 0px 0px 0px;
-      }
+    }
 
 }
 
@@ -344,7 +344,7 @@ footer b {
     h4 {
         font-size: 200%;
         padding: 50px 0px 0px 0px;
-      }
+    }
 
     .photo s1 img {
         width: auto;
@@ -549,7 +549,7 @@ footer b {
     h4 {
         font-size: 200%;
         padding: 30px 0px 0px 0px;
-      }
+    }
 
     .photo s1 img {
         width: auto;

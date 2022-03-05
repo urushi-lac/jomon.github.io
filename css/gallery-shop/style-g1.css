@@ -16,7 +16,7 @@ ul.home_menu {
     font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 ul.home_menu li {
@@ -29,7 +29,7 @@ ul.home_menu a {
     font-size: 100%;
     font-weight: 350;
     color: #595959;
-    float:right;
+    float: right;
 }
 
 .home s a img {
@@ -118,39 +118,39 @@ table {
 
 colgroup.area1 {
     width: 50%;
-  }
+}
 
-  colgroup.area2 {
+colgroup.area2 {
     width: 260px;
-  }
+}
 
-  colgroup.area3 {
-      width: 30px;
-  }
+colgroup.area3 {
+    width: 30px;
+}
 
-  colgroup.area4 {
+colgroup.area4 {
     width: 100%;
-  }
+}
 
-  #hiage a {
-    color:#0060d1;
-  }
+#hiage a {
+    color: #0060d1;
+}
 
-  #box2  a {
-    color:#0060d1;
-  }
+#box2 a {
+    color: #0060d1;
+}
 
-  #box3  a {
-    color:#0060d1;
-  }
+#box3 a {
+    color: #0060d1;
+}
 
-  #footnote ol a{
-    color:#0060d1;
-  }
+#footnote ol a {
+    color: #0060d1;
+}
 
-   .mgr-10{
-      margin-right : 10px;
-  }
+.mgr-10 {
+    margin-right: 10px;
+}
 
 .photo s img {
     padding: 20px 10px 20px 0px;
@@ -419,12 +419,12 @@ footer b {
         padding: 5px 0px 0px 0px;
     }
 
-ul.home_menu li {
+    ul.home_menu li {
         width: 45%;
         padding: 0px 0px 0px 7px;
     }
 
-  ul.home_menu a {
+    ul.home_menu a {
         padding: 0px 7px 0px 0px;
         color: #595959;
     }
@@ -560,6 +560,7 @@ ul.home_menu li {
     }
 
     p.side_text {
+        font-size: 11px;
         color: #595959;
         display: inline-block;
         width: 50px;
@@ -636,7 +637,7 @@ ul.home_menu li {
         color: #767676;
     }
 
-  .js-modal__btn--close--fix {
+    .js-modal__btn--close--fix {
         width: 30px;
         height: 30px;
         background: #333;

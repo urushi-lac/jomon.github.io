@@ -24,7 +24,7 @@ ul.home_menu {
     font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 ul.home_menu li {
@@ -37,7 +37,7 @@ ul.home_menu a {
     font-size: 100%;
     font-weight: 350;
     color: #595959;
-    float:right;
+    float: right;
 }
 
 .home s a img {
@@ -259,7 +259,7 @@ footer b {
 
 @media only screen and (max-width: 2000px) {
 
-  ul.home_menu {
+    ul.home_menu {
         font-size: 90%;
     }
 
@@ -291,10 +291,10 @@ footer b {
     }
 
     #cs p2 {
-    font-size: 110%;
-    line-height: 1.7em;
-    text-align: center;
-}
+        font-size: 110%;
+        line-height: 1.7em;
+        text-align: center;
+    }
 
     .photo {
         padding: 80px 0px 0px 0px;
@@ -395,7 +395,7 @@ footer b {
 }
 
 @media only screen and (max-width: 768px) {
-  ul.home_menu {
+    ul.home_menu {
         font-size: 75%;
     }
 
@@ -746,6 +746,7 @@ footer b {
     }
 
     p.side_text {
+        font-size: 11px;
         color: #595959;
         display: inline-block;
         width: 50px;
@@ -989,19 +990,20 @@ footer b {
 
 
 .pred {
-    color:#006400;
+    color: #006400;
 }
 
-    #cs #リンク後 h4 {
-      padding: 10px 0px 10px 0px;
-    }
+#cs #リンク後 h4 {
+    padding: 10px 0px 10px 0px;
+}
 
-    #cs #リンク後 p1 a{
-      font-size: 90%;
-      padding: 10px 0px 10px 0px;
-      color: #595959;;
-    }
+#cs #リンク後 p1 a {
+    font-size: 90%;
+    padding: 10px 0px 10px 0px;
+    color: #595959;
+    ;
+}
 
-    .w {
-      color: #000;
-    }
+.w {
+    color: #000;
+}
