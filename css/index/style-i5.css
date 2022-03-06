@@ -32,7 +32,6 @@ ul.home_menu a {
     float: right;
     text-decoration-style: solid;
     text-decoration-line: underline;
-    border-bottom: 0.5px solid ;
 }
 
 .home s a img {
@@ -391,7 +390,6 @@ footer b {
         vertical-align: top;
         text-decoration-style: solid;
         text-decoration-line: underline;
-        border-bottom: 0.5px solid ;
     }
 
     footer b {
