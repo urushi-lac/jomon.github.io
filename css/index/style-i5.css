@@ -30,9 +30,9 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
-    text-decoration-style:solid;
+    text-decoration-style: solid;
     text-decoration-line: underline;
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 0.5px;
 }
 
 .home s a img {
@@ -40,7 +40,6 @@ ul.home_menu a {
     height: auto;
     padding: 20px 0px 0px 0px;
 }
-
 
 #menu {
     width: 100%;
@@ -64,7 +63,7 @@ ul.home_menu a {
     padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
-    text-decoration-style:solid;
+    text-decoration-style: solid;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
 }
@@ -103,7 +102,7 @@ h3 {
     padding: 0px 0px 0px 0px;
     margin: 0;
     text-align: center;
-    text-decoration-style:solid;
+    text-decoration-style: solid;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
 }
@@ -128,7 +127,7 @@ h4 {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 20px;
     margin: auto;
     width: 280px;
     height: 240px;
@@ -268,7 +267,6 @@ footer b {
 
 @media only screen and (max-width: 480px) {
 
-
     ul.home_menu {
         font-size: 70%;
         padding: 5px 0px 0px 0px;
@@ -282,6 +280,7 @@ footer b {
     ul.home_menu a {
         padding: 0px 7px 0px 0px;
         color: #595959;
+        text-decoration-thickness: 0.5px;
     }
 
     .home s a img {
@@ -330,12 +329,13 @@ footer b {
     }
 
     #box0 {
-        min-height: 120px;
+        min-height: 80px;
     }
 
     .inner {
         width: 280px;
         height: 100px;
+        bottom: 50px;
     }
 
     h2 {
@@ -392,6 +392,9 @@ footer b {
         width: 50px;
         margin-left: 10px;
         vertical-align: top;
+        text-decoration-style: solid;
+        text-decoration-line: underline;
+        text-decoration-thickness: 0.5px;
     }
 
     footer b {
