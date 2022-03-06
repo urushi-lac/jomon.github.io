@@ -79,6 +79,35 @@ ul.home_menu a {
     border: none;
 }
 
+#menu1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+}
+
+#menu1 li {
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+#menu1 li a {
+    font-size: 120%;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    background-color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu1 li:last-child a {
+    border: none;
+}
+
 .toggle_wrap {
     display: none;
 }
@@ -290,6 +319,10 @@ footer b {
         font-size: 100%;
     }
 
+    #menu1 li a {
+        font-size: 100%;
+    }
+
     #box-space {
         min-height: 200px;
     }
@@ -350,6 +383,14 @@ footer b {
     }
 
     #menu li a {
+        padding: 7px 0 7px;
+    }
+
+    #menu1 li {
+        width: 20%;
+    }
+
+    #menu1 li a {
         padding: 7px 0 7px;
     }
 
@@ -561,7 +602,7 @@ footer b {
         color: #595959;
         display: inline-block;
         width: 50px;
-        margin-left: 10px;
+        margin-left: 5px;
         vertical-align: top;
         text-decoration-style: solid;
         text-decoration-line: underline;
@@ -719,6 +760,10 @@ footer b {
     }
 
     #menu li a {
+        padding: 10px 0px 10px;
+    }
+
+    #menu1 li a {
         padding: 10px 0px 10px;
     }
 
