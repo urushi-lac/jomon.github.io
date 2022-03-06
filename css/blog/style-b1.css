@@ -71,9 +71,6 @@ ul.home_menu a {
     padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-    text-decoration-thickness: 1px;
 }
 
 #menu li:last-child a {

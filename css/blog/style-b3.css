@@ -38,9 +38,6 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-    text-decoration-thickness: 0.5px;
 }
 
 .home s a img {
