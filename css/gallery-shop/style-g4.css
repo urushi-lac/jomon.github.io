@@ -459,6 +459,11 @@ section {
         display: none;
     }
 
+    footer p a img {
+        width: 30px;
+        height: auto;
+    }
+
     p.side_text {
         font-size: 11px;
         color: #595959;
