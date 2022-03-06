@@ -38,6 +38,8 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
 }
 
 .home s a img {
@@ -68,9 +70,6 @@ ul.home_menu a {
     padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-    text-decoration-thickness: 1px;
 }
 
 #menu li:last-child a {
@@ -109,7 +108,6 @@ h3 {
     text-align: center;
     text-decoration-style: solid;
     text-decoration-line: underline;
-    text-decoration-thickness: 1px;
 }
 
 h4 {

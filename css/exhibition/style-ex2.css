@@ -32,7 +32,6 @@ ul.home_menu a {
     float: right;
     text-decoration-style: solid;
     text-decoration-line: underline;
-    text-decoration-thickness: 0.5px;
 }
 
 .home s a img {
@@ -70,7 +69,6 @@ ul.home_menu a {
     text-align: center;
     text-decoration-style: solid;
     text-decoration-line: underline;
-    text-decoration-thickness: 1px;
     ;
 }
 
@@ -102,7 +100,6 @@ h3 {
     text-align: center;
     text-decoration-style: solid;
     text-decoration-line: underline;
-    text-decoration-thickness: 1px;
 }
 
 .inner {
@@ -404,7 +401,6 @@ footer b {
         vertical-align: top;
         text-decoration-style: solid;
         text-decoration-line: underline;
-        text-decoration-thickness: 0.5px;
     }
 
     footer b {
