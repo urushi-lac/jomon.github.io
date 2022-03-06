@@ -115,7 +115,7 @@ h3 {
 
 .container {
     width: 90%;
-    padding: 60px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 /*slick setting*/
@@ -207,51 +207,12 @@ footer b {
         min-height: 240px;
     }
 
-    .inner {
-        width: 480px;
-        height: 480px;
-    }
-
-    .single-item {
-        width: 480px;
-    }
-
-    .container {
-        width: 90%;
-        padding: 60px 0px 0px 0px;
-    }
-
-    /*slick setting*/
-    .row slick-prev:before,
-    .slick-next:before {
-        color: #d8d8d8;
-    }
-
-    .row container {
-        margin: 0 auto;
-        padding: 20px 0px 0px 0px;
-        width: 60%;
-        color: #333;
-        background: white;
-    }
-
-    .row slick-slide {
-        text-align: center;
-        color: white;
-        background: white;
-    }
-
-    row img {
-        width: auto;
-        height: 180px;
-    }
-
     h2 {
         font-size: 120%;
     }
 
     .photo s1 img {
-        width: 480px;
+        width: 520px;
         height: auto;
         padding: 0px 0px 0px 0px;
     }
@@ -286,20 +247,9 @@ footer b {
         padding: 120px 0px 0px 0px;
     }
 
-    .inner {
-        width: 350px;
-        height: 350px;
-        padding: 50px 0px 0px 0px;
-    }
-
-    .single-item {
-        width: 380px;
-        height: 500px;
-        padding: 0px 0px 0px 0px;
-    }
 
     .photo s1 img {
-        width: 380px;
+        width: 520px;
         height: auto;
         padding: 60px 0px 0px 0px;
         text-align: center;
