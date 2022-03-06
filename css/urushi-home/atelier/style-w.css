@@ -43,6 +43,9 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.5px;
 }
 
 
@@ -387,6 +390,9 @@ footer b {
         width: 50px;
         margin-left: 10px;
         vertical-align: top;
+        text-decoration-style: solid;
+        text-decoration-line: underline;
+        text-decoration-thickness: 0.5px;
     }
 
     footer b {
