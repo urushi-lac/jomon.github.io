@@ -103,6 +103,9 @@ h3 {
     padding: 0px 0px 0px 0px;
     margin: 0;
     text-align: center;
+    text-decoration-style:solid;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
 }
 
 h4 {
@@ -113,6 +116,11 @@ h4 {
     padding: 0px 0px 0px 0px;
     position: relative;
     text-align: center;
+}
+
+.inner p1 {
+    font-size: 100%;
+    color: #767676;
 }
 
 .inner {
@@ -191,7 +199,7 @@ footer b {
     }
 
     .inner {
-        width: 180px;
+        width: 280px;
         height: 135px;
     }
 
@@ -326,7 +334,7 @@ footer b {
     }
 
     .inner {
-        width: 200px;
+        width: 280px;
         height: 100px;
     }
 
@@ -346,6 +354,11 @@ footer b {
     h4 {
         font-size: 200%;
         padding: 50px 0px 0px 0px;
+    }
+
+    .inner p1 {
+        font-size: 85%;
+        color: #767676;
     }
 
     .photo s1 img {
