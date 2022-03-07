@@ -83,7 +83,7 @@
       <h1>メールによるご相談とご注文依頼</h1><br>
       <p>
         <u>E-mail<br></p>
-      <h2><a href="mailto:urawa@urushi-watanabe.com"><strong><u>urawa@urushi-watanabe.com</u></strong>&nbsp;<クリック></a></u><br></h2>
+      <p2><a href="mailto:urawa@urushi-watanabe.com"><strong><u>urawa@urushi-watanabe.com</u></strong>&nbsp;<クリック></a></u><br></p2>
       <p>こちらまでご連絡ください<br></p>
 
       <p>&nbsp;</p>
@@ -573,36 +573,23 @@
     });
 
     $(function () {
-      var showFlag = false;
-      var topBtn = $('#page-top');
-      topBtn.css('bottom', '-100px');
-      var showFlag = false;
-      //スクロールが100に達したらボタン表示
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-          if (showFlag == false) {
-            showFlag = true;
-            topBtn.stop().animate({
-              'bottom': '80px'
-            }, 200);
-          }
-        } else {
-          if (showFlag) {
-            showFlag = false;
-            topBtn.stop().animate({
-              'bottom': '-100px'
-            }, 200);
-          }
-        }
-      });
-      //スクロールしてトップ
-      topBtn.click(function () {
-        $('body,html').animate({
-          scrollTop: 0
-        }, 500);
-        return false;
-      });
-    });
+            var o = !1,
+                t = $("#page-top");
+            t.css("bottom", "-100px");
+            o = !1;
+            $(window).scroll(function () {
+                200 < $(this).scrollTop() ? 0 == o && (o = !0, t.stop().animate({
+                    bottom: "80px"
+                }, 200)) : o && (o = !1, t.stop().animate({
+                    bottom: "-100px"
+                }, 200))
+            }), t.click(function () {
+                return $("body,html").animate({
+                    scrollTop: 0
+                }, 500), !1
+            })
+        });
+
 
     $(".toggle_switch").on("click", function () {
         $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
