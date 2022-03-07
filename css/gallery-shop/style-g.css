@@ -90,7 +90,7 @@ h1 {
 
 h2 {
     font-size: 125%;
-    font-weight: 480;
+    font-weight: 400;
     padding: 5px 0px 5px 10px;
 }
 
@@ -115,6 +115,12 @@ p {
     font-size: 100%;
     line-height: 140%;
     padding: 0px 0px 0px 10px;
+}
+
+p2 {
+    font-size: 100%;
+    font-weight: 700;
+    padding: 5px 0px 5px 30px;
 }
 
 table {
@@ -169,30 +175,6 @@ ul.view_menu a {
 
 ul.view_menu li img {
     width: 98%;
-}
-
-#page-top {
-    position: fixed;
-    bottom: 80px;
-    right: 10px;
-    font-size: 77%;
-}
-
-#page-top a {
-    background: rgba(220, 220, 220, 0.6);
-    text-decoration: none;
-    color: #666;
-    font-weight: 300;
-    width: 50px;
-    padding: 20px 0;
-    text-align: center;
-    display: block;
-    border-radius: 25px;
-}
-
-#page-top a:hover {
-    text-decoration: none;
-    background: rgba(150, 150, 150, 0.4);
 }
 
 #footer {
@@ -459,6 +441,10 @@ footer b {
         padding: 5px 0px 5px 30px;
     }
 
+    #cs p1 {
+        line-height: 2em;
+    }
+
     #footer {
         height: 15px;
         margin-top: 0px;
@@ -477,16 +463,29 @@ footer b {
         display: none;
     }
 
+    p.side_text {
+        font-size: 11px;
+        color: #595959;
+        display: inline-block;
+        width: 50px;
+        margin-left: 5px;
+        line-height: 1em;
+        padding: 0px 0px 0px 0px;
+        vertical-align: top;
+        text-decoration-style: solid;
+        text-decoration-line: underline;
+    }
+
     footer b {
         display: none;
     }
 
     footer b1 {
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 300;
         color: #595959;
         float: right;
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .material-icons {
@@ -497,8 +496,8 @@ footer b {
 
     #footer-mobile {
         display: block;
-        padding: 0px 10px 0px 10px;
-        font-size: 11px;
+        padding: 0px 0px 0px 0px;
+        font-size: 70%;
         font-weight: 300;
         color: #595959;
     }
@@ -651,6 +650,31 @@ section {
     padding: 10px 0px 15px 0px;
     background: #FFF;
 }
+
+#page-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 77%;
+}
+
+#page-top a {
+    background: rgba(220, 220, 220, 0.6);
+    text-decoration: none;
+    font-weight: 300;
+    color: #666;
+    width: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+}
+
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(150, 150, 150, 0.4);
+}
+
 
 #cs u a {
     font-weight: 500;
