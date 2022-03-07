@@ -250,10 +250,10 @@
             $("#toggle").click(function () {
                 return $("#menu").slideToggle(), !1
             }), $(window).resize(function () {
-                480 < $(window).width() ? $("#menu").show() : $("#menu").hide()
+                768 < $(window).width() ? $("#menu").show() : $("#menu").hide()
             })
         }), $(function () {
-            $(window).width() < 480 && $(function () {
+            $(window).width() < 768 && $(function () {
                 $("#menu li a").click(function () {
                     $("#menu").hide()
                 })
