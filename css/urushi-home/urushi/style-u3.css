@@ -41,12 +41,6 @@ ul.home_menu a {
     padding: 20px 0px 0px 0px;
 }
 
-.home s1 img {
-    width: 80px;
-    height: auto;
-    padding: 0px 0px 0px 0px;
-}
-
 #menu {
     width: 100%;
     max-width: 1200px;
@@ -149,13 +143,17 @@ h3 {
     text-decoration-line: underline;
 }
 
-
 h4 {
     font-size: 110%;
     line-height: 140%;
     color: #000;
     text-align: left;
     padding: 20px 0px 20px 20px;
+}
+
+#cs p1 {
+    font-size: 100%;
+    line-height: 2em;
 }
 
 table {
@@ -306,12 +304,6 @@ footer b {
         padding: 15px 0px 0px 0px;
     }
 
-    .home s1 img {
-        width: 70px;
-        height: auto;
-        padding: 10px 0px 10px 0px;
-    }
-
     #menu li a {
         font-size: 100%;
     }
@@ -366,13 +358,6 @@ footer b {
         width: 214px;
         height: auto;
         padding: 10px 0px 0px 0px;
-    }
-
-    .home s1 img {
-        width: 50px;
-        height: auto;
-        padding: 10px 20px 0px 20px;
-        text-align: center;
     }
 
     #menu li {
@@ -472,10 +457,6 @@ footer b {
         padding: 0px 0px 0px 0px;
     }
 
-    .home s1 img {
-        padding: 0px 0px 0px 0px;
-    }
-
     .toggle_wrap {
         display: block;
     }
@@ -483,7 +464,7 @@ footer b {
     .toggle_switch {
         position: relative;
         cursor: pointer;
-        padding: 0px 0px 5px 0px;
+        padding: 10px 0px 15px 0px;
     }
 
     .toggle_switch::after {
@@ -508,7 +489,7 @@ footer b {
     .toggle_contents {
         display: none;
         text-align: center;
-        padding: 5px 0px 0px 0px;
+        padding: 2px 0px 0px 0px;
     }
 
     #menu-box {
@@ -551,7 +532,7 @@ footer b {
 
     h2 {
         font-size: 90%;
-        padding: 15px 0px 15px 0px;
+        padding: 17px 0px 17px 0px;
     }
 
     h2 a {
@@ -794,4 +775,28 @@ section {
     text-shadow: none;
     padding: 10px 0px 15px 0px;
     background: #FFF;
+}
+
+#page-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 77%;
+}
+
+#page-top a {
+    background: rgba(220, 220, 220, 0.6);
+    text-decoration: none;
+    font-weight: 300;
+    color: #666;
+    width: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+}
+
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(150, 150, 150, 0.4);
 }
