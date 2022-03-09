@@ -33,6 +33,304 @@
 
     <style>
 
+@media only screen and (max-width: 480px) {
+
+section {
+    max-width: 480px;
+    min-height: 60px;
+    padding: 20px 0px 20px 0px;
+}
+
+ul.home_menu {
+    font-size: 70%;
+    padding: 5px 0px 0px 0px;
+}
+
+ul.home_menu li {
+    width: 45%;
+    padding: 0px 0px 0px 7px;
+}
+
+ul.home_menu a {
+    padding: 0px 7px 0px 0px;
+    color: #595959;
+}
+
+.home s a img {
+    width: 183px;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.toggle_wrap {
+    display: block;
+}
+
+.toggle_switch {
+    padding: 10px 0px 10px 0px;
+}
+
+.toggle_switch::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 11px;
+    background: no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    transition: transform .2s;
+}
+
+.toggle_switch.open::after {
+    transform: rotateZ(180deg);
+    top: 46%;
+}
+
+.toggle_contents {
+    padding: 20px 0px 0px 0px;
+}
+
+#menu-box1 {
+    display: none;
+}
+
+.photo {
+    padding: 0px 0px 0px 0px;
+}
+
+.photo s3 img {
+    width: 80px;
+}
+
+#cs h1 {
+    font-size: 120%;
+    padding: 10px 0px 10px 10px;
+}
+
+h2 {
+    font-size: 75%;
+    color: #767676;
+    padding: 12px 0px 12px 0px;
+}
+
+h2 a {
+    font-size: 75%;
+}
+
+.toggle_switch h3 {
+    font-size: 110%;
+}
+
+h5 {
+    font-size: 80%;
+    padding: 120px 0px 0px 0px;
+}
+
+h6 {
+    font-size: 80%;
+}
+
+p {
+    font-size: 90%;
+}
+
+#cs p1 {
+    font-size: 90%;
+    line-height: 1.8em;
+}
+
+.col-md-one-half {
+    width: 100%;
+}
+
+.info-box-tan {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+.info-box-dark {
+    width: 80%;
+    height: auto;
+    padding: 360px 0px 20px 0px;
+    line-height: 1.2;
+}
+
+.col {
+    padding: 0px 0px 0px 0px;
+}
+
+#footer {
+    height: 15px;
+    margin-top: 0px;
+    padding: 0px 0px 15px 0px;
+}
+
+footer s1 img {
+    display: none;
+}
+
+footer s2 img {
+    display: none;
+}
+
+footer s3 img {
+    display: none;
+}
+
+p.side_text {
+    font-size: 11px;
+    color: #595959;
+    display: inline-block;
+    width: 50px;
+    margin-left: 5px;
+    line-height: 1em;
+    padding: 0px 0px 0px 0px;
+    vertical-align: top;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+}
+
+footer b {
+    display: none;
+}
+
+footer b1 {
+    font-size: 10px;
+    font-weight: 300;
+    color: #595959;
+    float: right;
+    padding: 0px 0px 0px 0px;
+}
+
+#footer-mobile {
+    display: block;
+    padding: 0px 0px 0px 0px;
+    font-size: 70%;
+    font-weight: 300;
+    color: #595959;
+}
+
+.js-modal__btn {
+    color: #595959;
+    ;
+    cursor: pointer;
+    padding: 10px 10px 0px 10px;
+}
+
+.material-icons {
+    position: relative;
+    top: -6px;
+    display: inline-block;
+}
+
+.js-modal__bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+
+.js-modal__main {
+    width: calc(100%);
+    height: 80%;
+    text-align: center;
+    padding: 16px 0px 0px 0px;
+    bottom: -81%;
+    left: 0;
+    background: #fff;
+    border-radius: 4px 4px 0 0;
+    position: fixed;
+    z-index: 11;
+    opacity: 0;
+}
+
+.js-modal__main a {
+    padding: 0px 15px 0px 15px;
+}
+
+.js-modal__btn--close {
+    font-size: 180%;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: #767676;
+}
+
+.js-modal__btn--close--fix {
+    width: 30px;
+    height: 30px;
+    background: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    right: 5px;
+    z-index: 101;
+    cursor: pointer;
+}
+
+.js-modal__btn--close--fix:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-right: 3px solid #cccccc;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 12px;
+    left: -3px;
+}
+
+.js-modal__btn--close--fix:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-right: 3px solid #cccccc;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -2px;
+    left: -3px;
+}
+
+@keyframes SlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-1%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-30%);
+    }
+}
+
+@keyframes SlideDown {
+    0% {
+        opacity: 1;
+        transform: translateY(-30%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-1%);
+    }
+}
+
+.js-modal__main._slideUp {
+    animation: SlideUp .5s ease-in-out forwards;
+}
+
+.js-modal__main._slideDown {
+    animation: SlideDown .5s ease-in-out forwards;
+}
+
+}
+
     </style>
 
 </head>
@@ -47,23 +345,16 @@
             <s><a href="https://urushi-lac.github.io/jomon.github.io/index.html">
                     <center><img src="../images/top/top.svg" alt="typography-yumi watanabe" /></center>
                 </a></s>
-            <center>
-                <s1><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/outlines.html"><img src="../images/urushi/wan.svg" alt="urushi home-button" /></a></s1>
-            </center>
         </div>
+
         <nav id="menu-box">
             <h2>
                 <ul id="menu" class="">
-                    <li><a href="#平面">作業台</a></li>
-                    <li><a href="#椀">乾漆椀</a></li>
-                    <li><a href="#大麻">荒麻皮</a></li>
-                    <li><a href="#大麻皮粉">刻苧</a></li>
-                    <li><a href="#麻布">麻種別</a></li>
-                    <li><a href="#生漆">漆</a></li>
-                    <li><a href="#輪島蒔地">下地</a></li>
-                    <li><a href="#塗り">造形</a></li>
-                    <li><a href="#普段使い">扱い方</a></li>
-                    <li><a href="#おわん">値段</a></li>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/atelier.html">Atelier</a></li>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/works.html">Works</a></li>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/profile.html">Profile</a></li>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/eco.html">Eco</a></li>
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/jomon-urishi-preservation-group.html">Jomon-Urushi</a></li>
                 </ul>
             </h2>
         </nav>
@@ -73,24 +364,36 @@
                 <h3>Menu</h3>
             </div>
             <div class="toggle_contents">
-                <h2><a href="#平面">作業台</a></h2>
-                <h2><a href="#椀">乾漆椀</a></h2>
-                <h2><a href="#大麻">荒麻皮</a></h2>
-                <h2><a href="#大麻皮粉">刻苧</a></h2>
-                <h2><a href="#麻布">麻種別</a></h2>
-                <h2><a href="#生漆">漆</a></h2>
-                <h2><a href="#輪島蒔地">下地</a></h2>
-                <h2><a href="#塗り">造形</a></h2>
-                <h2><a href="#普段使い">扱い方</a></h2>
-                <h2><a href="#おわん">値段</a></h2>
+                <h2><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/atelier.html">Atelier</a></h2>
+                <h2><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/works.html">Works</a></h2>
+                <h2><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/profile.html">Profile</a></h2>
+                <h2><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/eco.html">Eco</a></h2>
+                <h2><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/jomon-urishi-preservation-group.html">Jomon-Urushi</a></h2>
             </div>
         </div>
+
+        <nav id="menu-box1">
+            <h4>
+                <ul id="menu1" class=""><hr>
+                    <li><a href="#平面">作業台</a></li>
+                    <li><a href="#椀">乾漆椀</a></li>
+                    <li><a href="#大麻">荒麻皮</a></li>
+                    <li><a href="#大麻皮粉">刻苧</a></li>
+                    <li><a href="#麻布">麻種別</a></li>
+                    <li><a href="#生漆">漆</a></li>
+                    <li><a href="#輪島蒔地">下地</a></li>
+                    <li><a href="#塗り">造形</a></li>
+                    <li><a href="#普段使い">扱い方</a></li>
+                    <li><a href="#おわん">値段</a></li><hr>
+                </ul>
+            </h4>
+        </nav>
 
     </header>
 
     <section id="平面">
         <div class="row1">
-            <h6></h6>
+            <h5></h5>
             <div class="photo">
                 <s2><img src="../images/atelier/urushi-workroom-12.webp" alt="palette" /></s2>
             </div>
