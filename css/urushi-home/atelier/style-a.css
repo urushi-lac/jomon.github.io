@@ -492,6 +492,8 @@ footer b {
     }
 
     .toggle_switch {
+        position: relative;
+        cursor: pointer;
         padding: 10px 0px 15px 0px;
     }
 
@@ -515,6 +517,7 @@ footer b {
     }
 
     .toggle_contents {
+        display: none;
         text-align: center;
         padding: 20px 0px 0px 0px;
     }
