@@ -26,74 +26,85 @@
   <title>渡辺博之漆部屋便り|Blogうるし徒然草</title>
   <!--* css *-->
   <link rel="subresource" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" class="lazy-css" />
-    <link rel="stylesheet" href="../css/index/style-base.css">
+  <link rel="stylesheet" href="../css/index/style-base.css">
   <link rel="stylesheet" href="../css/blog/style-b1.css">
   <link rel="shortcut icon" type="image/svg" href="../images/top/misowanicon.svg" />
   <link rel="apple-touch-icon" href="../images/top/apple-touch-icon-precomposed.png" />
 
   <style type="text/css">
-.photo {
-  width: 800px;
-    height: auto;
-    padding: 0px 0px 0px 0px;
+
+.col {
+    padding: 0px 20px 0px 20px;
 }
 
-.photo s img {
-  width: 800px;
-    height: auto;
-    padding: 30px 0px 0px 0px;
-}
+    .photo {
+      width: 800px;
+      height: auto;
+      padding: 0px 0px 0px 0px;
+    }
+
+    .photo s img {
+      width: 800px;
+      height: auto;
+      padding: 30px 0px 0px 0px;
+    }
+
   </style>
+
 </head>
+
 <body id="cs">
   <header>
     <div class="home">
       <ul class="home_menu">
-          <li>Since1987</li>
-          <li><a href="https://urushi-lac.github.io/jomon.github.io/blog/2017-1h-e.html">/ English</a></li>
+        <li>Since1987</li>
+        <li><a href="https://urushi-lac.github.io/jomon.github.io/blog/2009.html">/ English</a></li>
       </ul>
       <s><a href="https://urushi-lac.github.io/jomon.github.io/index.html">
-              <center><img src="../images/top/top.svg" alt="typography-yumi watanabe" /></center>
-          </a></s>
-  </div>
-
-  <nav id="menu-box">
-    <h2>
-      <ul id="menu" class="">
-        <li><a href="../blog/blog.html"> Newest</a></li>
-        <li><a href="../blog/2022.html">2022</a></li>
-        <li><a href="../blog/2021.html">2021</a></li>
-        <li><a href="../blog/2020.html">2020</a></li>
-        <li><a href="../blog/archives.html">Archives</a> </li>
-      </ul>
-    </h2>
-  </nav>
-
-  <div class="toggle_wrap">
-    <div class="toggle_switch">
-      <h3>Menu</h3>
+          <center><img src="../images/top/top.svg" alt="typography-yumi watanabe" /></center>
+        </a></s>
     </div>
-    <div class="toggle_contents">
+
+    <nav id="menu-box">
+      <h2>
+        <ul id="menu" class="">
+          <li><a href="../blog/blog.html"> Newest</a></li>
+          <li><a href="../blog/2022.html">2022</a></li>
+          <li><a href="../blog/2021.html">2021</a></li>
+          <li><a href="../blog/2020.html">2020</a></li>
+          <li><a href="../blog/archives.html">Archives</a> </li>
+        </ul>
+      </h2>
+    </nav>
+
+    <div class="toggle_wrap">
+      <div class="toggle_switch">
+        <h3>Menu</h3>
+      </div>
+      <div class="toggle_contents">
         <h2><a href="../blog/blog.html"> Newest</a></h2>
         <h2><a href="../blog/2022.html">2022</a></h2>
         <h2><a href="../blog/2021.html">2021</a></h2>
         <h2><a href="../blog/2020.html">2020</a></h2>
         <h2><a href="../blog/archives.html">Archives</a></h2>
+      </div>
     </div>
-  </div>
-
-
 
   </header>
 
-  <section id="名言">
-
-        <div class="photo">
-          <p1>現在「東京日本橋高島屋Blogアッと@ART」は、終了していますが画像を保存していました。
-          </p1>
-                  <center><s><img src="../images/blog/takashimaya.webp" alt="Alberto Giacometti" /></s></center>
+  <section id="@ART">
+    <div class="row">
+      <div class="photo">
+        <div class="col">
+          <p1>現在「東京日本橋高島屋Blogアッと@ART」は、終了しています。資料として残っている画像です。<br />
+            The 'Tokyo Nihonbashi Takashimaya Blog at @ART' is currently closed. This is the images that remain as documentation.</p1>
         </div>
-</section>
+        <div class=" col-md-one-half">
+          <s><img src="../images/blog/takashimaya.webp" alt="@ART" /></s>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <p1 id="page-top"><a href="#wrap">TOP</a></p1>
 
@@ -127,58 +138,88 @@
     </div>
   </footer>
 
-<script>
+  <script>
     window.console = window.console || function (t) {};
-</script>
+  </script>
 
-<script>
+  <script>
     if (document.location.search.match(/type=embed/gi)) {
-        window.parent.postMessage("resize", "*");
+      window.parent.postMessage("resize", "*");
     }
-</script>
+  </script>
 
-<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
 
-<script id=" rendered-js">
-    $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),$(function(){$("#toggle").click(function(){return $("#menu").slideToggle(),!1}),$(window).resize(function(){480<$(window).width()?$("#menu").show():$("#menu").hide()})}),$(function(){$(window).width()<480&&$(function(){$("#menu li a").click(function(){$("#menu").hide()})})});
+  <script id=" rendered-js">
+    $(".toggle_switch").on("click", function () {
+      $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
+    }), $(function () {
+      $("#toggle").click(function () {
+        return $("#menu").slideToggle(), !1
+      }), $(window).resize(function () {
+        480 < $(window).width() ? $("#menu").show() : $("#menu").hide()
+      })
+    }), $(function () {
+      $(window).width() < 480 && $(function () {
+        $("#menu li a").click(function () {
+          $("#menu").hide()
+        })
+      })
+    });
 
-     $(function(){var o=!1,t=$("#page-top");t.css("bottom","-100px");o=!1;$(window).scroll(function(){200<$(this).scrollTop()?0==o&&(o=!0,t.stop().animate({bottom:"80px"},200)):o&&(o=!1,t.stop().animate({bottom:"-100px"},200))}),t.click(function(){return $("body,html").animate({scrollTop:0},500),!1})});
+    $(function () {
+      var o = !1,
+        t = $("#page-top");
+      t.css("bottom", "-100px");
+      o = !1;
+      $(window).scroll(function () {
+        200 < $(this).scrollTop() ? 0 == o && (o = !0, t.stop().animate({
+          bottom: "80px"
+        }, 200)) : o && (o = !1, t.stop().animate({
+          bottom: "-100px"
+        }, 200))
+      }), t.click(function () {
+        return $("body,html").animate({
+          scrollTop: 0
+        }, 500), !1
+      })
+    });
 
-     $(function () {
-         var s = $(".js-modal__btn"),
-             n = $(".js-modal__btn--close"),
-             e = $(".js-modal__btn--close--fix"),
-             o = $(".js-modal__bg"),
-             t = $(".js-modal__main");
-         s.
-         on("click", function (s) {
-             $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-         }), n.
-         on("click", function (s) {
-             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-         }), e.
-         on("click", function (s) {
-             o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-         }), t.
-         on("click", function (s) {
-             s.stopPropagation()
-         }), o.
-         on("click", function () {
-             $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-         })
-     });
- </script>
+    $(function () {
+      var s = $(".js-modal__btn"),
+        n = $(".js-modal__btn--close"),
+        e = $(".js-modal__btn--close--fix"),
+        o = $(".js-modal__bg"),
+        t = $(".js-modal__main");
+      s.
+      on("click", function (s) {
+        $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
+      }), n.
+      on("click", function (s) {
+        o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+      }), e.
+      on("click", function (s) {
+        o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+      }), t.
+      on("click", function (s) {
+        s.stopPropagation()
+      }), o.
+      on("click", function () {
+        $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
+      })
+    });
+  </script>
 
-<script>
-  (function (window, document) {
+  <script>
+    (function (window, document) {
       // .lazy-cssを探します
       var lazyCss = document.querySelectorAll('.lazy-css');
       for (var i = 0, l = lazyCss.length; i < l; i++) {
-          // 一つずつ『stylesheet』に変更します
-          lazyCss[i].rel = 'stylesheet';
+        // 一つずつ『stylesheet』に変更します
+        lazyCss[i].rel = 'stylesheet';
       }
-  })(window, document);
-</script>
+    })(window, document);
+  </script>
 
 </body>
 </html>
