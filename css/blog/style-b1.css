@@ -15,13 +15,13 @@ section {
     max-width: 1200px;
     min-height: 440px;
     text-shadow: none;
-    padding: 300px 0px 0px 0px;
+    padding: 280px 0px 240px 0px;
 }
 
 ul.home_menu {
     display: flex;
     width: 100%;
-    font-weight: 350;
+    font-weight: 300;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
     flex-direction: row;
@@ -35,7 +35,7 @@ ul.home_menu li {
 ul.home_menu a {
     display: block;
     font-size: 100%;
-    font-weight: 350;
+    font-weight: 300;
     color: #595959;
     float: right;
     text-decoration-style: solid;
@@ -58,7 +58,7 @@ ul.home_menu a {
 #menu li {
     display: block;
     float: left;
-    width: 10%;
+    width: 20%;
     margin: 0;
     padding: 0;
     color: #000;
@@ -66,18 +66,65 @@ ul.home_menu a {
 
 #menu li a {
     font-size: 120%;
+    color: #000;
     display: block;
     padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
 }
 
 #menu li:last-child a {
     border: none;
 }
 
+#menu1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0px 0px 0px;
+}
+
+#menu-box1 li {
+    font-size: 90%;
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    color: #000;
+}
+
+#menu1 li {
+    font-size: 90%;
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    color: #000;
+}
+
+#menu1 li a {
+    font-size: 140%;
+    color: #000;
+    display: block;
+    padding: 5px 0px 10px 0px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+#menu1 li:last-child a {
+    border: none;
+}
+
 .toggle_wrap {
     display: none;
+}
+
+.row {
+    padding: 10px 0px 0px 0px;
 }
 
 h1 {
@@ -97,7 +144,7 @@ h1 {
 }
 
 #cs h2 {
-    font-weight: 480;
+    font-weight: 400;
     font-size: 125%;
 }
 
@@ -110,6 +157,15 @@ h3 {
     text-align: center;
     text-decoration-style: solid;
     text-decoration-line: underline;
+}
+
+h4 {
+    font-size: 100%;
+    font-weight: 300;
+    color: #767676;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    text-align: center;
 }
 
 h5 {
@@ -130,32 +186,75 @@ h5 {
 h6 {
     font-size: 70%;
     text-align: left;
-    font-weight: 350;
+    font-weight: 300;
 }
 
 #cs p1 {
-    font-size: 100%;
+    font-size: 110%;
     line-height: 2em;
 }
 
+
+
+#cs p2 {
+    font-size: 120%;
+    line-height: 2em;
+    text-align: center;
+}
+
+#cs p3 a{
+    font-size: 100%;
+    color: #DC143C;
+    float: right;
+    padding: 30px 0px 0px 0px;
+}
+
+.info-box-dark p3 a {
+    font-weight: 300;
+    font-size: 70%;
+    float: right;
+    color: #005698;
+    padding: 10px 0px 0px 0px;
+}
+
+.mgr-20{
+    margin-right : 20px;
+}
+
+.mgr-50{
+    margin-right : 50px;
+}
+
 .info-box-dark p1 a {
-    color: #DC143C
+    color: #DC143C;
 }
 
 .photo {
-    padding: 100px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+}
+
+.photo s1 img {
+    width: 400px;
+    height: auto;
+    padding: 20px 0px 20px 0px;
 }
 
 .photo s2 img {
     width: 100%;
     height: auto;
-    padding: 20px 0px 20px 0px;
+    padding: 35px 0px 35px 0px;
 }
 
 .photo s3 img {
     width: auto;
     height: 400px;
     padding: 20px 20px 20px 0px;
+}
+
+.link {
+    font-size: 100%;
+    line-height: 2em;
+    padding: 30px 20px 0px 50px;
 }
 
 .info-box-tan {
@@ -165,10 +264,21 @@ h6 {
     padding: 20px 0px 20px 0px;
 }
 
+.info-box-tan1 {
+    padding: 0px 0px 0px;
+}
+
 .info-box-dark {
     height: 440px;
     padding: 40px 20px 0px 20px;
     text-align: left;
+    left: 493px;
+}
+
+.info-box-dark1 {
+    padding: 30px 20px 10px 20px;
+    text-align: left;
+    line-height: 2;
     left: 493px;
 }
 
@@ -249,16 +359,27 @@ footer b {
         padding: 20px 0px 10px 0px;
     }
 
+    #menu1 {
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+        padding: 20px 0px 10px 0px;
+    }
+
     #menu li {
         display: block;
         float: left;
-        width: 10%;
+        width: 20%;
         margin: 0;
         padding: 0;
     }
 
     #menu li a {
-        font-size: 100%;
+        font-size: 110%;
+    }
+
+    #menu1 {
+        padding: 50px 0px 0px 0px;
     }
 
     h1 {
@@ -269,14 +390,52 @@ footer b {
         font-size: 120%;
     }
 
+    #cs p1 {
+        font-size: 105%;
+        line-height: 1.5em;
+    }
+
     .photo {
         padding: 80px 0px 0px 0px;
+    }
+
+    .photo s1 img {
+        width: 230px;
+        height: auto;
+        padding: 35px 20px 20px 20px;
+    }
+
+    .photo s2 img {
+        width: 100%;
+        height: auto;
+        padding: 35px 0px 35px 0px;
     }
 
     .photo s3 img {
         width: auto;
         height: 350px;
         padding: 35px 20px 20px 20px;
+    }
+
+    .photo s4 img {
+
+        padding: 35px 20px 20px 20px;
+    }
+
+    .photo s5 img {
+        width: auto;
+        height: 230px;
+        padding: 35px 0px 35px 0px;
+    }
+
+    .side {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .link {
+        font-size: 100%;
+        line-height: 2em;
+        padding: 30px 20px 0px 50px;
     }
 
     .info-box-tan {
@@ -292,6 +451,17 @@ footer b {
         text-align: left;
         left: 493px;
         line-height: 1.4em;
+    }
+
+    .info-box-tan1 {
+        padding: 0px 0px 0px;
+    }
+
+    .info-box-dark1 {
+        padding: 30px 20px 10px 20px;
+        text-align: left;
+        line-height: 1.7em;
+        left: 493px;
     }
 
     .col-md-one-half {
@@ -314,7 +484,7 @@ footer b {
     section {
         max-width: 768px;
         min-height: 480px;
-        padding: 150px 0px 0px 0px;
+        padding: 240px 0px 150px 0px;
     }
 
     ul.home_menu {
@@ -327,6 +497,173 @@ footer b {
         padding: 10px 0px 0px 0px;
     }
 
+    #menu {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #menu1 {
+        padding: 20px 0px 0px 0px;
+    }
+
+    h1 {
+        font-size: 150%;
+        padding: 15px 10px 15px 20px;
+    }
+
+    h2 {
+        font-size: 110%;
+        padding: 15px 0px 15px 0px;
+    }
+
+    h2 a {
+        font-weight: 400;
+        font-size: 90%;
+        color: #767676;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+    h4 {
+        font-size: 90%;
+    }
+
+    h5 {
+        padding: 0px 0px 10px 20px;
+    }
+
+    #cs p1 {
+        font-size: 100%;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #cs p2 {
+        font-size: 110%;
+        line-height: 1.7em;
+    }
+
+
+    .photo {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .photo s1 img {
+        width: 250px;
+        height: auto;
+        padding: 30px 0px 10px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .photo s2 img {
+        width: 100%;
+        height: auto;
+        padding: 30px 0px 20px 0px;
+    }
+
+    .photo s3 img {
+        width: auto;
+        height: 350px;
+        padding: 30px 0px 50px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .photo s5 img {
+        width: 100%;
+        height: auto;
+        padding: 35px 0px 20px 0px;
+    }
+
+    .side {
+        width: 80%;
+        line-height: 30px;
+        /*画像の高さ÷テキストの行数*/
+    }
+
+    .side p1 {
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        /*画像の高さ÷テキストの行数*/
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+
+    .col-md-one-half {
+        width: 100%;
+    }
+
+    .info-box-tan {
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark {
+        width: 80%;
+        height: auto;
+        padding: 350px 10px 0px 10px;
+        text-align: left;
+        line-height: 2;
+    }
+
+    .info-box-tan1 {
+        text-align: center;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .info-box-dark1 {
+        width: 80%;
+        padding: 270px 0px 20px 0px;
+        line-height: 1.7em;
+    }
+
+    .col {
+
+        padding: 0px 0px 0px 0px;
+    }
+
+    footer b {
+        font-size: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    section {
+        max-width: 480px;
+        min-height: 60px;
+        padding: 120px 0px 0px 0px;
+    }
+
+    ul.home_menu {
+        font-size: 70%;
+        padding: 5px 0px 0px 0px;
+    }
+
+    ul.home_menu li {
+        width: 45%;
+        padding: 0px 0px 0px 7px;
+    }
+
+    ul.home_menu a {
+        padding: 0px 7px 0px 0px;
+        color: #595959;
+    }
+
+    .home s a img {
+        width: 183px;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
     .toggle_wrap {
         display: block;
     }
@@ -334,7 +671,7 @@ footer b {
     .toggle_switch {
         position: relative;
         cursor: pointer;
-        padding: 20px 0px 20px 0px;
+        padding: 10px 0px 10px 0px;
     }
 
     .toggle_switch::after {
@@ -362,123 +699,67 @@ footer b {
         padding: 20px 0px 0px 0px;
     }
 
+    .mgr-30{
+        color: #767676;
+        margin-right : 30px;
+    }
+
+    .mgr-20{
+        color: #767676;
+        margin-right : 20px;
+    }
+
     #menu-box {
         display: none;
     }
 
-    h1 {
-        font-size: 150%;
-        padding: 15px 10px 15px 20px;
-
-    }
-
-    h2 {
-        padding: 15px 0px 15px 0px;
-    }
-
-    h2 a {
-        font-weight: 400;
-        font-size: 90%;
-        color: #767676;
-    }
-
-    h3 {
-        font-size: 150%;
-    }
-
-    h5 {
-        padding: 0px 0px 10px 20px;
-    }
-
-    #cs p1 {
-        line-height: 2em;
+    #menu1 {
+        display: none;
     }
 
     .photo {
-        padding: 50px 0px 0px 0px;
-    }
-
-    .photo s3 img {
-        width: auto;
-        height: 350px;
-        padding: 30px 0px 50px 0px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto
-    }
-
-    .col-md-one-half {
-        width: 100%;
-    }
-
-    .info-box-tan {
-        width: 100%;
-        height: auto;
         padding: 0px 0px 0px 0px;
     }
 
-    .info-box-dark {
+    .photo s1 img {
         width: 80%;
         height: auto;
-        padding: 350px 10px 0px 10px;
-        text-align: left;
-        line-height: 2;
+        padding: 20px 0px 20px 0px;
     }
 
-    .col {
-
-        padding: 0px 0px 0px 0px;
-    }
-
-}
-
-@media only screen and (max-width: 480px) {
-
-    section {
-        max-width: 480px;
-        padding: 120px 0px 20px 0px;
-    }
-
-    ul.home_menu {
-        font-size: 70%;
-        padding: 5px 0px 0px 0px;
-    }
-
-    ul.home_menu li {
-        width: 45%;
-        padding: 0px 0px 0px 7px;
-    }
-
-    ul.home_menu a {
-        padding: 0px 7px 0px 0px;
-        color: #595959;
-    }
-
-    .home s a img {
-        width: 183px;
+    .photo s2 img {
+        width: 100%;
         height: auto;
-        padding: 0px 0px 0px 0px;
-    }
-
-    .toggle_switch {
-        padding: 10px 0px 10px 0px;
-    }
-
-    .toggle_contents {
-        padding: 10px 0px 0px 0px;
-    }
-
-    .photo {
-        padding: 0px 0px 0px 0px;
+        padding: 20px 0px 5px 0px;
     }
 
     .photo s3 img {
-        width: 100%;
-        height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
         padding: 35px 0px 35px 0px;
+    }
+
+    .photo s5 img {
+        width: 90%;
+        height: auto;
+        padding: 35px 0px 35px 0px;
+    }
+
+    .side p1 {
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        /*画像の高さ÷テキストの行数*/
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+    }
+
+    .side {
+        width: 85%;
+        line-height: 30px;
+        /*画像の高さ÷テキストの行数*/
     }
 
     #cs h1 {
@@ -487,7 +768,7 @@ footer b {
     }
 
     h2 {
-        padding: 7px 0px 7px 0px;
+        padding: 15px 0px 15px 0px;
     }
 
     h2 a {
@@ -495,7 +776,7 @@ footer b {
     }
 
     .toggle_switch h3 {
-        font-size: 140%;
+        font-size: 110%;
     }
 
     h5 {
@@ -503,10 +784,40 @@ footer b {
         padding: 0px 0px 10px 10px;
     }
 
+    #cs h6 {
+        font-size: 75%;
+    }
+
+    .side  {
+        font-size: 90%;
+        line-height: 1.8em;
+        padding: 0px 20px 0px 20px;
+    }
 
     #cs p1 {
         font-size: 90%;
-        line-height: 1.8em;
+        line-height: 1.5;
+    }
+
+    #cs p2 {
+        font-size: 100%;
+        line-height: 1.5;
+    }
+
+    #cs p3 a{
+        font-size: 90%;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .info-box-dark p3 a {
+        line-height: 1.2;
+        padding: 10px 0px 20px 0px;
+    }
+
+    .link {
+        font-size: 100%;
+        line-height: 3em;
+        padding: 10px 20px 0px 10px;
     }
 
     .col-md-one-half {
@@ -519,10 +830,21 @@ footer b {
     }
 
     .info-box-dark {
-        width: 80%;
+        width: 90%;
         height: auto;
         padding: 360px 0px 20px 0px;
         line-height: 1.2;
+    }
+
+    .info-box-tan1 {
+        width: 90%;
+        padding: 100px 0px 0px 0px;
+    }
+
+    .info-box-dark1 {
+        width: 85%;
+        padding: 0px 0px 20px 0px;
+        line-height: 2;
     }
 
     .col {

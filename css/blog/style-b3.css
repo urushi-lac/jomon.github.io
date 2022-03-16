@@ -15,7 +15,7 @@ section {
     max-width: 1200px;
     min-height: 440px;
     text-shadow: none;
-    padding: 300px 0px 0px 0px;
+    padding: 280px 0px 240px 0px;
 }
 
 ul.home_menu {
@@ -48,6 +48,7 @@ ul.home_menu a {
     padding: 20px 0px 0px 0px;
 }
 
+
 #menu {
     width: 100%;
     max-width: 1200px;
@@ -58,7 +59,7 @@ ul.home_menu a {
 #menu li {
     display: block;
     float: left;
-    width: 10%;
+    width: 20%;
     margin: 0;
     padding: 0;
     color: #000;
@@ -66,22 +67,61 @@ ul.home_menu a {
 
 #menu li a {
     font-size: 120%;
+    color: #000;
     display: block;
     padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
 }
 
 #menu li:last-child a {
     border: none;
 }
 
-.toggle_wrap {
-    display: none;
+#menu1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0px 0px 0px;
 }
 
-.row1 {
-    padding: 200px 0px 50px 0px;
+#menu-box1 li {
+    font-size: 90%;
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    color: #000;
+}
+
+#menu1 li {
+    font-size: 90%;
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    color: #000;
+}
+
+#menu1 li a {
+    font-size: 140%;
+    color: #000;
+    display: block;
+    padding: 5px 0px 10px 0px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+#menu1 li:last-child a {
+    border: none;
+}
+
+.toggle_wrap {
+    display: none;
 }
 
 h1 {
@@ -112,11 +152,11 @@ h3 {
 
 h4 {
     font-size: 100%;
-    font-weight: 400;
-    background-color: #FFF;
-    color: #000;
-    text-align: center;
+    font-weight: 300;
+    color: #767676;
+    padding: 0px 0px 0px 0px;
     margin: 0;
+    text-align: center;
 }
 
 h5 {
@@ -262,6 +302,12 @@ footer b {
 
 @media only screen and (max-width: 2000px) {
 
+    section {
+        max-width: 980px;
+        min-height: 300px;
+        padding: 320px 0px 0px 0px;
+    }
+
     ul.home_menu {
         font-size: 90%;
     }
@@ -272,12 +318,34 @@ footer b {
         padding: 15px 0px 0px 0px;
     }
 
+    #menu {
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+        padding: 20px 0px 10px 0px;
+    }
+
+    #menu1 {
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+        padding: 20px 0px 10px 0px;
+    }
+
+    #menu li {
+        display: block;
+        float: left;
+        width: 20%;
+        margin: 0;
+        padding: 0;
+    }
+
     #menu li a {
         font-size: 100%;
     }
 
-    .row1 {
-        padding: 180px 0px 50px 0px;
+    #menu1 {
+        padding: 50px 0px 0px 0px;
     }
 
     h1 {
@@ -408,47 +476,12 @@ footer b {
         padding: 10px 0px 0px 0px;
     }
 
-    #menu-box {
-        display: none;
+    #menu {
+        padding: 0px 0px 0px 0px;
     }
 
-    .toggle_wrap {
-        display: block;
-    }
-
-    .toggle_switch {
-        position: relative;
-        cursor: pointer;
-        padding: 10px 0px 15px 0px;
-    }
-
-    .toggle_switch::after {
-        content: "";
-        display: inline-block;
-        width: 18px;
-        height: 11px;
-        background: no-repeat center center;
-        background-size: contain;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 20px;
-        transition: transform .2s;
-    }
-
-    .toggle_switch.open::after {
-        transform: rotateZ(180deg);
-        top: 46%;
-    }
-
-    .toggle_contents {
-        display: none;
-        text-align: center;
+    #menu1 {
         padding: 20px 0px 0px 0px;
-    }
-
-    .row1 {
-        padding: 120px 0px 50px 0px;
     }
 
     h1 {
@@ -457,8 +490,14 @@ footer b {
     }
 
     h2 {
-        font-size: 100%;
+        font-size: 110%;
         padding: 15px 0px 15px 0px;
+    }
+
+    h2 a {
+        font-weight: 400;
+        font-size: 90%;
+        color: #767676;
     }
 
     h3 {
@@ -473,8 +512,6 @@ footer b {
         font-size: 110%;
         line-height: 1.6;
     }
-
-
 
     .photo {
         padding: 50px 0px 0px 0px;
@@ -677,7 +714,6 @@ footer b {
 
     #cs h6 {
         font-size: 75%;
-
     }
 
     #cs p1 {
