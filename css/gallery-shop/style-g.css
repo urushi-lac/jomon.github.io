@@ -120,6 +120,7 @@ p {
 p2 {
     font-size: 100%;
     font-weight: 700;
+    line-height: 2em;
     padding: 5px 0px 5px 30px;
 }
 
@@ -675,8 +676,12 @@ section {
     background: rgba(150, 150, 150, 0.4);
 }
 
+span {
+    margin-right : 10px;
+  }
 
 #cs u a {
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 110%;
     color: #DC143C;
 }
