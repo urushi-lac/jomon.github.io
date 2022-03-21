@@ -491,9 +491,7 @@ footer b {
     }
 
     .toggle_switch {
-        position: relative;
-        cursor: pointer;
-        padding: 10px 0px 15px 0px;
+        padding: 10px 0px 10px 0px;
     }
 
     .toggle_switch::after {
@@ -516,13 +514,7 @@ footer b {
     }
 
     .toggle_contents {
-        display: none;
-        text-align: center;
         padding: 20px 0px 0px 0px;
-    }
-
-    #menu-box {
-        display: none;
     }
 
     #menu-box1 {
@@ -543,12 +535,13 @@ footer b {
     }
 
     h2 {
-        font-size: 90%;
-        padding: 15px 0px 15px 0px;
+        font-size: 75%;
+        color: #767676;
+        padding: 12px 0px 12px 0px;
     }
 
     h2 a {
-        font-size: 80%;
+        font-size: 75%;
     }
 
     .toggle_switch h3 {
@@ -760,7 +753,7 @@ footer b {
         animation: SlideDown .5s ease-in-out forwards;
     }
 
-}
+    }
 
 @media only screen and (max-width: 320px) {
 
