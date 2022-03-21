@@ -33,304 +33,6 @@
 
     <style>
 
-@media only screen and (max-width: 480px) {
-
-section {
-    max-width: 480px;
-    min-height: 60px;
-    padding: 20px 0px 20px 0px;
-}
-
-ul.home_menu {
-    font-size: 70%;
-    padding: 5px 0px 0px 0px;
-}
-
-ul.home_menu li {
-    width: 45%;
-    padding: 0px 0px 0px 7px;
-}
-
-ul.home_menu a {
-    padding: 0px 7px 0px 0px;
-    color: #595959;
-}
-
-.home s a img {
-    width: 183px;
-    height: auto;
-    padding: 0px 0px 0px 0px;
-}
-
-.toggle_wrap {
-    display: block;
-}
-
-.toggle_switch {
-    padding: 10px 0px 10px 0px;
-}
-
-.toggle_switch::after {
-    content: "";
-    display: inline-block;
-    width: 18px;
-    height: 11px;
-    background: no-repeat center center;
-    background-size: contain;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 20px;
-    transition: transform .2s;
-}
-
-.toggle_switch.open::after {
-    transform: rotateZ(180deg);
-    top: 46%;
-}
-
-.toggle_contents {
-    padding: 20px 0px 0px 0px;
-}
-
-#menu-box1 {
-    display: none;
-}
-
-.photo {
-    padding: 0px 0px 0px 0px;
-}
-
-.photo s3 img {
-    width: 80px;
-}
-
-#cs h1 {
-    font-size: 120%;
-    padding: 10px 0px 10px 10px;
-}
-
-h2 {
-    font-size: 75%;
-    color: #767676;
-    padding: 12px 0px 12px 0px;
-}
-
-h2 a {
-    font-size: 75%;
-}
-
-.toggle_switch h3 {
-    font-size: 110%;
-}
-
-h5 {
-    font-size: 80%;
-    padding: 120px 0px 0px 0px;
-}
-
-h6 {
-    font-size: 80%;
-}
-
-p {
-    font-size: 90%;
-}
-
-#cs p1 {
-    font-size: 90%;
-    line-height: 1.8em;
-}
-
-.col-md-one-half {
-    width: 100%;
-}
-
-.info-box-tan {
-    width: 100%;
-    padding: 0px 0px 0px 0px;
-}
-
-.info-box-dark {
-    width: 80%;
-    height: auto;
-    padding: 360px 0px 20px 0px;
-    line-height: 1.2;
-}
-
-.col {
-    padding: 0px 0px 0px 0px;
-}
-
-#footer {
-    height: 15px;
-    margin-top: 0px;
-    padding: 0px 0px 15px 0px;
-}
-
-footer s1 img {
-    display: none;
-}
-
-footer s2 img {
-    display: none;
-}
-
-footer s3 img {
-    display: none;
-}
-
-p.side_text {
-    font-size: 11px;
-    color: #595959;
-    display: inline-block;
-    width: 50px;
-    margin-left: 5px;
-    line-height: 1em;
-    padding: 0px 0px 0px 0px;
-    vertical-align: top;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-}
-
-footer b {
-    display: none;
-}
-
-footer b1 {
-    font-size: 10px;
-    font-weight: 300;
-    color: #595959;
-    float: right;
-    padding: 0px 0px 0px 0px;
-}
-
-#footer-mobile {
-    display: block;
-    padding: 0px 0px 0px 0px;
-    font-size: 70%;
-    font-weight: 300;
-    color: #595959;
-}
-
-.js-modal__btn {
-    color: #595959;
-    ;
-    cursor: pointer;
-    padding: 10px 10px 0px 10px;
-}
-
-.material-icons {
-    position: relative;
-    top: -6px;
-    display: inline-block;
-}
-
-.js-modal__bg {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    display: none;
-}
-
-.js-modal__main {
-    width: calc(100%);
-    height: 80%;
-    text-align: center;
-    padding: 16px 0px 0px 0px;
-    bottom: -81%;
-    left: 0;
-    background: #fff;
-    border-radius: 4px 4px 0 0;
-    position: fixed;
-    z-index: 11;
-    opacity: 0;
-}
-
-.js-modal__main a {
-    padding: 0px 15px 0px 15px;
-}
-
-.js-modal__btn--close {
-    font-size: 180%;
-    margin-top: 20px;
-    text-align: center;
-    text-decoration: underline;
-    color: #767676;
-}
-
-.js-modal__btn--close--fix {
-    width: 30px;
-    height: 30px;
-    background: #333;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    right: 5px;
-    z-index: 101;
-    cursor: pointer;
-}
-
-.js-modal__btn--close--fix:before {
-    content: "";
-    width: 20px;
-    height: 20px;
-    border-right: 3px solid #cccccc;
-    transform: rotate(-45deg);
-    position: absolute;
-    top: 12px;
-    left: -3px;
-}
-
-.js-modal__btn--close--fix:after {
-    content: "";
-    width: 20px;
-    height: 20px;
-    border-right: 3px solid #cccccc;
-    transform: rotate(45deg);
-    position: absolute;
-    top: -2px;
-    left: -3px;
-}
-
-@keyframes SlideUp {
-    0% {
-        opacity: 0;
-        transform: translateY(-1%);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(-30%);
-    }
-}
-
-@keyframes SlideDown {
-    0% {
-        opacity: 1;
-        transform: translateY(-30%);
-    }
-
-    100% {
-        opacity: 0;
-        transform: translateY(-1%);
-    }
-}
-
-.js-modal__main._slideUp {
-    animation: SlideUp .5s ease-in-out forwards;
-}
-
-.js-modal__main._slideDown {
-    animation: SlideDown .5s ease-in-out forwards;
-}
-
-}
-
     </style>
 
 </head>
@@ -343,7 +45,7 @@ footer b1 {
                 <li><a href="https://urushi-lac.github.io/jomon.github.io/urushi-home/e-atelier.html">/ English</a></li>
             </ul>
             <s><a href="https://urushi-lac.github.io/jomon.github.io/index.html">
-                    <center><img src="../images/top/top.svg" alt="typography-yumi watanabe" /></center>
+                    <center><img src="../images/top/top.svg"width="308px" height="55px"alt="typography-yumi watanabe"></center>
                 </a></s>
         </div>
 
@@ -395,7 +97,7 @@ footer b1 {
         <div class="row1">
             <h5></h5>
             <div class="photo">
-                <s2><img src="../images/atelier/urushi-workroom-12.webp" alt="palette" /></s2>
+                <s2><img src="../images/atelier/urushi-workroom-12.webp" width="163" height="63" alt="palette" /></s2>
             </div>
         </div>
     </section>
@@ -403,7 +105,7 @@ footer b1 {
         <div class="row1">
             <h1>乾漆椀</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/asa/00.webp" alt="あらそわん" /></s2>
+                <s2><img src="../images/atelier/asa/00.webp" width="163" height="63" alt="あらそわん" /></s2>
             </div>
             <p>多くの年数をかけて成長する樹木ではなく、1年草の麻を使って胎を作る技法の椀<br />
                 あらそわん&nbsp;直径124㎜&nbsp;高さ64㎜&nbsp;浄法寺漆&nbsp;大麻:大分県日田市大山地区 </p>
@@ -413,7 +115,7 @@ footer b1 {
         <div class="row1">
             <h1>荒麻皮（あらそ）</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/asa/1.webp" alt="文化庁選定保存技術" /></s2>
+                <s2><img src="../images/atelier/asa/1.webp" width="163" height="63" alt="文化庁選定保存技術" /></s2>
             </div>
             <p>約1万年も前から利用されてきた大麻。ほぐして繊維を取り出し、糸や布にしていきます。<br />
                 日本の大麻取締法は、大麻を「大麻草（カンナビス・サティバ・エル）及びその製品をいう。ただし、大麻草の成熟した茎及びその製品（樹脂を除く）並びに大麻草の種子及びその製品を除く。」と規定している（同法1条）。
@@ -425,7 +127,7 @@ footer b1 {
         <div class="row1">
             <h1>刻苧</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/asa/6.webp" alt="刻苧漆" /></s2>
+                <s2><img src="../images/atelier/asa/6.webp" width="163" height="63" alt="刻苧漆" /></s2>
             </div>
             <p>茎から皮をはがした後に残った芯:麻幹（おがら）の粉末。
             </p>
@@ -435,7 +137,7 @@ footer b1 {
         <div class="row1">
             <h1>麻種別</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/urushi-workroom-05.webp" alt="麻布" /></s2>
+                <s2><img src="../images/atelier/urushi-workroom-05.webp" width="163" height="63" alt="麻布" /></s2>
             </div>
             <p>麻には、大麻の他に亜麻（リネン）や苧麻（カラムシ）、黄麻（ジュート）、マニラ麻、サイザル麻などと呼ばれている種類がある。<br />
                 現在麻として流通しているものは大麻は含まれていない。
@@ -449,7 +151,7 @@ footer b1 {
         <div class="row1">
             <h1>生漆</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/urushi-workroom-03.webp" alt="生漆" /></s2>
+                <s2><img src="../images/atelier/urushi-workroom-03.webp" width="163" height="63" alt="生漆" /></s2>
             </div>
             <p>
                 今までに使った浄法寺漆。弟子もいなく一人で使った量です。<br />
@@ -461,7 +163,7 @@ footer b1 {
         <div class="row1">
             <h1>下地</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/urushi-workroom-04-01.webp" alt="下地比較" /></s2>
+                <s2><img src="../images/atelier/urushi-workroom-04-01.webp" width="163" height="63" alt="下地比較" /></s2>
 
             </div>
             <p>同じように使った場合の違い。輪島式では麻布が出てきて水を吸い込む様になり剥がれていく（左）布が無いのは1年位で木地がみえる（中央）作家独自の下地法で制作した場合、6年くらい使っていてもまだ木地は見えない（右）<br />京都山科砥の粉は、学生時代水研ぎをして溶けていくのを体験して下地肌では使っていない。</p>
@@ -475,7 +177,7 @@ footer b1 {
         <div class="row1">
             <h1>造形</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/urushi-workroom-07.webp" alt="漆塗り" /></s2>
+                <s2><img src="../images/atelier/urushi-workroom-07.webp" width="163" height="63" alt="漆塗り" /></s2>
             </div>
             <p>手で形作りをしたり、塗ったりいろんな技法を使いながら完成させます。</p>
         </div>
@@ -484,7 +186,7 @@ footer b1 {
         <div class="row1">
             <h1>扱い方</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/urushi-workroom-06.webp" alt="iphone" /></s2>
+                <s2><img src="../images/atelier/urushi-workroom-06.webp" width="163" height="63" alt="iphone" /></s2>
             </div>
             <p>私の漆器の扱い方。会場で動画も見れるようにしています。</p>
         </div>
@@ -494,7 +196,7 @@ footer b1 {
         <div class="row1">
             <h1>値段</h1>
             <div class="photo">
-                <s2><img src="../images/atelier/urushi-workroom-10.webp" alt="イラストyumi" /></s2>
+                <s2><img src="../images/atelier/urushi-workroom-10.webp" width="163" height="63" alt="イラストyumi" /></s2>
             </div>
             <p>赤ちゃんの頃から使えるお椀<br />洗いものが上手な方のお椀<br />お椀も仕立ての違いでいろいろあります。<br />今でも1995年の値段設定と変らずにしています。</p>
         </div>
@@ -515,7 +217,7 @@ footer b1 {
             <div id="footer-mobile">
                 <div class="js-modal__btn">
                     <span class="material-icons">
-                        <img src="../images/top/link.svg" alt="linkicons" />
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#767676"><path d="M0 0h24v24H0V0z" fill="#ffffff"/><path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"/></svg>
                     </span>
                     <p class="side_text">S.N.S.</p>
                     <b1>Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b1>
@@ -523,10 +225,10 @@ footer b1 {
                 <div class="js-modal__bg"></div>
                 <div class="js-modal__main">
                     <p>
-                        <a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer" aria-label="amebloblog"><img src="../images/top/a.svg" alt="amebloimage" width="30" height="auto" border="0" padding="0px 0px 0px 20px" /></a>
-                        <a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer" aria-label="twitter"><img src="../images/top/Twitter.svg" alt="twitterlogo" width="30" height="auto" border="0" /></a>
-                        <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer" aria-label="facebook"><img src="../images/top/facebook.svg" alt="facebooklogo" width="30" height="auto" border="0" /></a>
-                        <a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="../images/top/glyph-logo_May2016.svg" alt="instaimage" width="30" height="auto" border="0" /></a>
+                        <a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer" aria-label="amebloblog"><img src="../images/top/a.svg" alt="amebloimage" width="30px" height="30px" border="0" padding="0px 0px 0px 20px" /></a>
+                        <a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer" aria-label="twitter"><img src="../images/top/Twitter.svg" alt="twitterlogo" width="30" height="30" border="0" /></a>
+                        <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer" aria-label="facebook"><img src="../images/top/facebook.svg" alt="facebooklogo" width="30" height="30" border="0" /></a>
+                        <a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="../images/top/glyph-logo_May2016.svg" alt="instaimage" width="30" height="30" border="0" /></a>
                     </p>
                     <p class=" js-modal__btn--close">✕</p>
                 </div>
