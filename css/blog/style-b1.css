@@ -204,9 +204,9 @@ h6 {
 
 #cs p3 a{
     font-size: 100%;
-    color: #B60000;
     float: right;
     padding: 30px 0px 0px 0px;
+    text-decoration-line: underline;
 }
 
 .info-box-dark p3 a {
@@ -226,7 +226,7 @@ h6 {
 }
 
 .info-box-dark p1 a {
-    color: #B60000;
+    text-decoration-line: underline;
 }
 
 .photo {
