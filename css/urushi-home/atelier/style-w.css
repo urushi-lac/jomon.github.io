@@ -92,6 +92,11 @@ table {
     padding: 120px 0px 50px 0px;
 }
 
+.photo s img {
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     font-weight: 650;
     font-size: 200%;
