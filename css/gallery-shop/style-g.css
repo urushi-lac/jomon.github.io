@@ -446,6 +446,10 @@ footer b {
         line-height: 2em;
     }
 
+    p2 {
+        font-size: 95%;
+    }
+
     #footer {
         height: 15px;
         margin-top: 0px;
