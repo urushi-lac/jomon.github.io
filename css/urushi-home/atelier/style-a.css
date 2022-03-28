@@ -135,7 +135,7 @@ h1 {
 h3 {
     font-size: 100%;
     font-weight: 400;
-    color: #767676;
+    color: #595959;
     padding: 0px 0px 0px 0px;
     margin: 0;
     text-align: center;
@@ -491,6 +491,8 @@ footer b {
     }
 
     .toggle_switch {
+        position: relative;
+        cursor: pointer;
         padding: 10px 0px 10px 0px;
     }
 
@@ -514,7 +516,13 @@ footer b {
     }
 
     .toggle_contents {
+        display: none;
+        text-align: center;
         padding: 20px 0px 0px 0px;
+    }
+
+    #menu-box {
+        display: none;
     }
 
     #menu-box1 {

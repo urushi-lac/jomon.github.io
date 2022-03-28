@@ -91,12 +91,12 @@ ul.home_menu a {
 
 .info-box-right u p {
     font-weight: 450;
-    color: #DC143C;
+    color: #AE0F30;
 }
 
 .info-box-right u p a {
     font-weight: 450;
-    color: #DC143C;
+    color: #AE0F30;
 }
 
 .col-md-one-half {
@@ -123,7 +123,7 @@ h2 {
 h3 {
     font-size: 100%;
     font-weight: 400;
-    color: #767676;
+    color: #595959;
     padding: 0px 0px 0px 0px;
     margin: 0;
     text-align: center;
@@ -137,7 +137,7 @@ h6 {
 }
 
 info-box-right u p {
-    color: #DC143C;
+    color: #AE0F30;
 }
 
 #main {
