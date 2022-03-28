@@ -191,32 +191,7 @@
     <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
 
     <script id=" rendered-js">
-        $(".toggle_switch").on("click", function () {
-                $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-            }),
-            $(function () {
-                var s = $(".js-modal__btn"),
-                    n = $(".js-modal__btn--close"),
-                    e = $(".js-modal__btn--close--fix"),
-                    o = $(".js-modal__bg"),
-                    t = $(".js-modal__main");
-                s.
-                on("click", function (s) {
-                    $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-                }), n.
-                on("click", function (s) {
-                    o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-                }), e.
-                on("click", function (s) {
-                    o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-                }), t.
-                on("click", function (s) {
-                    s.stopPropagation()
-                }), o.
-                on("click", function () {
-                    $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-                })
-            });
+         $(".toggle_switch").on("click",function(){$(this).toggleClass("open"),$(this).next(".toggle_contents").slideToggle()}),$(function(){var s=$(".js-modal__btn"),n=$(".js-modal__btn--close"),e=$(".js-modal__btn--close--fix"),o=$(".js-modal__bg"),t=$(".js-modal__main");s.on("click",function(s){$(this).next(o).fadeIn(),$(this).next(o).next(t).removeClass("_slideDown"),$(this).next(o).next(t).addClass("_slideUp")}),n.on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),e.on("click",function(s){o.fadeOut(),t.removeClass("_slideUp"),t.addClass("_slideDown")}),t.on("click",function(s){s.stopPropagation()}),o.on("click",function(){$(this).fadeOut(),$(this).next(t).removeClass("_slideUp"),$(this).next(t).addClass("_slideDown")})});
     </script>
 
     <script type="text/javascript" src="../js/slick.min.js"></script>
