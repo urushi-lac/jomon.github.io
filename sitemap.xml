@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
--<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-
+-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- created with free sitemap generation system www.sitemapxml.jp -->
 -<url>
-
 <loc>https://urushi-watanabe.com/</loc>
-
-<lastmod>2022-03-28T23:37:25+00:00</lastmod>
-
-<priority>1.00</priority>
-
+<priority>1.0</priority>
+<lastmod>2022-03-29T12:58:30+09:00</lastmod>
+<changefreq>always</changefreq>
 </url>
-
-
 -<url>
-
 <loc>https://urushi-watanabe.com/index-e.html</loc>
-
-<lastmod>2022-03-28T23:37:25+00:00</lastmod>
-
-<priority>0.80</priority>
-
+<priority>0.8</priority>
+<lastmod>2022-03-29T12:58:30+09:00</lastmod>
+<changefreq>always</changefreq>
 </url>
-
-
-
 </urlset>
