@@ -25,6 +25,18 @@
 <priority>0.80</priority>
 
 </url>
+  
+  
+  -<url>
+
+<loc>https://urushi-watanabe.com/index.html</loc>
+
+<lastmod>2022-03-28T23:37:25+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
 
 
 </urlset>
