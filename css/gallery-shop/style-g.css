@@ -161,6 +161,7 @@ ul.view_menu {
 
 ul.view_menu li {
     width: 25%;
+    height: auto;
 }
 
 ul.view_menu a {
