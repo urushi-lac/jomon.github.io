@@ -3,7 +3,7 @@
 
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="主夫（漆芸家）の視点で漆にまつわる日々の生活のよしなし事を徒然なるままに書きます。">
   <meta name="keywords" content="漆,家事,洗い物,台所,漆器,修理,手入れ,扱い,blog,ブログ">
   <meta property="og:title" content="渡辺博之漆部屋便り|Blogうるし徒然草" />
@@ -57,6 +57,7 @@
     }
 
     @media only screen and (max-width: 488px) {
+
       .photo {
       width: 320px;
     }
@@ -65,6 +66,9 @@
       width: 320px;
     }
     }
+
+
+
   </style>
 
 </head>
@@ -157,88 +161,21 @@
     </div>
 </footer>
 
-  <script>
-    window.console = window.console || function (t) {};
-  </script>
+<script src="../js/jquery-3.6.0.min.js"></script>
 
-  <script>
-    if (document.location.search.match(/type=embed/gi)) {
-      window.parent.postMessage("resize", "*");
-    }
-  </script>
+<script src="../js/rendered-js"></script>
 
-  <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/scroll-js"></script>
 
-  <script id=" rendered-js">
-    $(".toggle_switch").on("click", function () {
-      $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-    }), $(function () {
-      $("#toggle").click(function () {
-        return $("#menu").slideToggle(), !1
-      }), $(window).resize(function () {
-        480 < $(window).width() ? $("#menu").show() : $("#menu").hide()
-      })
-    }), $(function () {
-      $(window).width() < 480 && $(function () {
-        $("#menu li a").click(function () {
-          $("#menu").hide()
-        })
-      })
-    });
-
-    $(function () {
-      var o = !1,
-        t = $("#page-top");
-      t.css("bottom", "-100px");
-      o = !1;
-      $(window).scroll(function () {
-        200 < $(this).scrollTop() ? 0 == o && (o = !0, t.stop().animate({
-          bottom: "80px"
-        }, 200)) : o && (o = !1, t.stop().animate({
-          bottom: "-100px"
-        }, 200))
-      }), t.click(function () {
-        return $("body,html").animate({
-          scrollTop: 0
-        }, 500), !1
-      })
-    });
-
-    $(function () {
-      var s = $(".js-modal__btn"),
-        n = $(".js-modal__btn--close"),
-        e = $(".js-modal__btn--close--fix"),
-        o = $(".js-modal__bg"),
-        t = $(".js-modal__main");
-      s.
-      on("click", function (s) {
-        $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-      }), n.
-      on("click", function (s) {
-        o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-      }), e.
-      on("click", function (s) {
-        o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-      }), t.
-      on("click", function (s) {
-        s.stopPropagation()
-      }), o.
-      on("click", function () {
-        $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-      })
-    });
-  </script>
-
-  <script>
-    (function (window, document) {
-      // .lazy-cssを探します
-      var lazyCss = document.querySelectorAll('.lazy-css');
-      for (var i = 0, l = lazyCss.length; i < l; i++) {
-        // 一つずつ『stylesheet』に変更します
-        lazyCss[i].rel = 'stylesheet';
-      }
-    })(window, document);
-  </script>
+<noscript>
+  For full functionality of this site it is necessary to enable JavaScript.
+  Here are the <a href="https://www.enable-javascript.com/">
+  instructions how to enable JavaScript in your web browser</a>.
+このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+<a href="https://www.enable-javascript.com/ja/">
+あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+を参照してください。
+</noscript>
 
 </body>
 </html>
