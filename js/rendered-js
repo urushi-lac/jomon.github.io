@@ -1,0 +1,43 @@
+'use strict';
+
+window.console = window.console || function (t) {};
+
+if (document.location.search.match(/type=embed/gi)) {
+  window.parent.postMessage("resize", "*");
+}
+
+$(".toggle_switch").on("click", function () {
+  $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
+}),
+$(function () {
+  var s = $(".js-modal__btn"),
+    n = $(".js-modal__btn--close"),
+    e = $(".js-modal__btn--close--fix"),
+    o = $(".js-modal__bg"),
+    t = $(".js-modal__main");
+  s.
+  on("click", function (s) {
+    $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
+  }), n.
+  on("click", function (s) {
+    o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+  }), e.
+  on("click", function (s) {
+    o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
+  }), t.
+  on("click", function (s) {
+    s.stopPropagation()
+  }), o.
+  on("click", function () {
+    $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
+  })
+});
+
+(function (window, document) {
+  // .lazy-cssを探します
+  var lazyCss = document.querySelectorAll('.lazy-css');
+  for (var i = 0, l = lazyCss.length; i < l; i++) {
+      // 一つずつ『stylesheet』に変更します
+      lazyCss[i].rel = 'stylesheet';
+  }
+})(window, document);

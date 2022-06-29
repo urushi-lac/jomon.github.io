@@ -1,0 +1,5 @@
+'use strict';
+
+$(function(){$("#toggle").click(function(){return $("#menu").slideToggle(),!1}),$(window).resize(function(){480<$(window).width()?$("#menu").show():$("#menu").hide()})}),$(function(){$(window).width()<480&&$(function(){$("#menu li a").click(function(){$("#menu").hide()})})});
+
+$(function(){var o=!1,t=$("#page-top");t.css("bottom","-100px");o=!1;$(window).scroll(function(){200<$(this).scrollTop()?0==o&&(o=!0,t.stop().animate({bottom:"80px"},200)):o&&(o=!1,t.stop().animate({bottom:"-100px"},200))}),t.click(function(){return $("body,html").animate({scrollTop:0},500),!1})});
