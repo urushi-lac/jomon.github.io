@@ -128,6 +128,7 @@ ul.home_menu a {
 }
 
 h1 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
     font-size: 200%;
     line-height: 120%;
@@ -144,11 +145,13 @@ h1 {
 }
 
 #cs h2 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
     font-size: 125%;
 }
 
 h3 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 100%;
     font-weight: 400;
     color: #595959;
@@ -160,6 +163,7 @@ h3 {
 }
 
 h4 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 100%;
     font-weight: 300;
     color: #767676;
@@ -169,6 +173,7 @@ h4 {
 }
 
 h5 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
     font-size: 90%;
     line-height: 120%;
@@ -184,6 +189,7 @@ h5 {
 }
 
 h6 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 70%;
     text-align: left;
     font-weight: 300;
