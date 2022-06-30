@@ -1,0 +1,13 @@
+'use strict';
+
+$(document).ready(function () {
+    $(".single-item").slick({
+        accessibility: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        fade: true,
+        fadeSpeed: 4000,
+        cssEase: 'linear'
+    });
+});

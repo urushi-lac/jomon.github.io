@@ -1,0 +1,11 @@
+'use strict';
+
+$(function () {
+  $("#subImg img").on("click", function () {
+      img = $(this).attr("src"), $("#subImg li").removeClass("current"), $(this).parent().addClass("current"), $("#mainImg img").fadeOut(1e3, function () {
+          $("#mainImg img").attr("src", img).on("load", function () {
+              $(this).fadeIn()
+          })
+      })
+  })
+});
