@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-    <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="漆芸家渡邊博之の作品をオンラインで販売|Category-ぐいのみ" />
     <meta name="keywords" content="ギフト,お祝い,プレゼント,オンラインストア,通信販売,ネットショップ,グイ吞み">
     <meta property="og:title" content="渡辺博之漆部屋便り|Gallery shop ぐいのみ" />
@@ -161,69 +161,18 @@
         </div>
     </footer>
 
-    <script>
-        window.console = window.console || function (t) {};
-    </script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
 
-    <script>
-        if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage("resize", "*");
-        }
-    </script>
+    <script src="../js/rendered-js"></script>
 
-    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/screen-js"></script>
 
-    <script id=" rendered-js">
-        $(".toggle_switch").on("click", function () {
-                $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-            }),
-
-
-            $(function () {
-                $("#subImg img").on("click", function () {
-                    img = $(this).attr("src"), $("#subImg li").removeClass("current"), $(this).parent().addClass("current"), $("#mainImg img").fadeOut(1e3, function () {
-                        $("#mainImg img").attr("src", img).on("load", function () {
-                            $(this).fadeIn()
-                        })
-                    })
-                })
-            });
-
-        $(function () {
-            var s = $(".js-modal__btn"),
-                n = $(".js-modal__btn--close"),
-                e = $(".js-modal__btn--close--fix"),
-                o = $(".js-modal__bg"),
-                t = $(".js-modal__main");
-            s.
-            on("click", function (s) {
-                $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-            }), n.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), e.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), t.
-            on("click", function (s) {
-                s.stopPropagation()
-            }), o.
-            on("click", function () {
-                $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-            })
-        });
-    </script>
-
-<script>
-    (function (window, document) {
-        // .lazy-cssを探します
-        var lazyCss = document.querySelectorAll('.lazy-css');
-        for (var i = 0, l = lazyCss.length; i < l; i++) {
-            // 一つずつ『stylesheet』に変更します
-            lazyCss[i].rel = 'stylesheet';
-        }
-    })(window, document);
-  </script>
+    <noscript>
+        このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+        <a href="https://www.enablejavascript.io/jp">
+            あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+        を参照してください。
+    </noscript>
 
 </body>
 
