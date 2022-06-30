@@ -3,7 +3,7 @@
 
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="主夫（漆芸家）の視点で漆にまつわる日々の生活のよしなし事を徒然なるままに書きます。">
     <meta name="keywords" content="漆,家事,洗い物,台所,漆器,修理,手入れ,扱い,blog,ブログ">
     <meta property="og:title" content="渡辺博之漆部屋便り|Blogうるし徒然草" />
@@ -96,8 +96,8 @@
                     漆で生活に必要なものを自由に作れるというのは幸せなのかもしれない。
                     <br />
                     <a href="https://www.deepl.com/translator">Deepl translator&nbsp;<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px" fill="#000000">
-                        <path d="M0 0h24v24H0V0z" fill="#ffffff" />
-                        <path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z" /></svg></a>
+                            <path d="M0 0h24v24H0V0z" fill="#ffffff" />
+                            <path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z" /></svg></a>
                 </p1>
                 <br />
 
@@ -143,70 +143,19 @@
         </div>
     </footer>
 
-    <script>
-        window.console = window.console || function (t) {};
-    </script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
 
-    <script>
-        if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage("resize", "*");
-        }
-    </script>
+    <script src="../js/rendered-js"></script>
 
-    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/scroll-js"></script>
 
-    <script id=" rendered-js">
-        $(".toggle_switch").on("click", function () {
-            $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-        }), $(function () {
-            $("#toggle").click(function () {
-                return $("#menu").slideToggle(), !1
-            }), $(window).resize(function () {
-                480 < $(window).width() ? $("#menu").show() : $("#menu").hide()
-            })
-        }), $(function () {
-            $(window).width() < 480 && $(function () {
-                $("#menu li a").click(function () {
-                    $("#menu").hide()
-                })
-            })
-        });
-
-        $(function () {
-            var s = $(".js-modal__btn"),
-                n = $(".js-modal__btn--close"),
-                e = $(".js-modal__btn--close--fix"),
-                o = $(".js-modal__bg"),
-                t = $(".js-modal__main");
-            s.
-            on("click", function (s) {
-                $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-            }), n.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), e.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), t.
-            on("click", function (s) {
-                s.stopPropagation()
-            }), o.
-            on("click", function () {
-                $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-            })
-        });
-    </script>
-
-    <script>
-        (function (window, document) {
-            // .lazy-cssを探します
-            var lazyCss = document.querySelectorAll('.lazy-css');
-            for (var i = 0, l = lazyCss.length; i < l; i++) {
-                // 一つずつ『stylesheet』に変更します
-                lazyCss[i].rel = 'stylesheet';
-            }
-        })(window, document);
-    </script>
+    <noscript>
+        このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+        <a href="https://www.enablejavascript.io/jp">
+            あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+        を参照してください。
+    </noscript>
 
 </body>
+
 </html>

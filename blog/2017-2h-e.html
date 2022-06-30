@@ -3,7 +3,7 @@
 
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="I write about various things in my daily life related to lacquer from the viewpoint of a house husband (lacquer artist).">
     <meta name="keywords" content="lacquer,housework,washing,kitchen,lacquerware,repair,care,handling,blog,">
     <meta property="og:title" content="Urushi report at Hiroyuki Watanabe workroom.|Urushi-Essays in Idleness" />
@@ -287,9 +287,9 @@
                 <p1>
                     I like bengal more after reading this article. Isn't it possible that with heat (energy), water and iron, life could be born?　Isn't that the ancestor of lacquer, a life form before plants and animals? There is a possibility that the environment that is the origin of species can be found anywhere deep underground on the earth. My imagination is soaring.<br />
                     <a href="http://www.natureasia.com/ja-jp/nature/highlights/83666" target="_blank" rel="noopener"><strong>Link : <u>Nature 543, 7643: March 2, 2017</u></strong><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.7057 13.7071L17.9986 7.41421V11H19.9986V4H12.9986V6H16.5844L10.2915 12.2929L11.7057 13.7071Z" fill="black" />
-                        <path d="M19.0015 18V14H17.0015V18H6.00146V7H10.0015V5H6.00146C4.8969 5 4.00146 5.89543 4.00146 7V18C4.00146 19.1046 4.8969 20 6.00146 20H17.0015C18.106 20 19.0015 19.1046 19.0015 18Z" fill="black" />
-                    </svg></a><br />
+                            <path d="M11.7057 13.7071L17.9986 7.41421V11H19.9986V4H12.9986V6H16.5844L10.2915 12.2929L11.7057 13.7071Z" fill="black" />
+                            <path d="M19.0015 18V14H17.0015V18H6.00146V7H10.0015V5H6.00146C4.8969 5 4.00146 5.89543 4.00146 7V18C4.00146 19.1046 4.8969 20 6.00146 20H17.0015C18.106 20 19.0015 19.1046 19.0015 18Z" fill="black" />
+                        </svg></a><br />
                     Early life in hydrothermal vents. Presumed signs of life at least 3.77 billion years ago were found in jasper and carbonate rocks in northern Quebec, Canada, including tubular material made of red iron ore. (Excerpt from the text)
                 </p1>
             </div>
@@ -444,88 +444,18 @@
         </div>
     </footer>
 
-    <script>
-        window.console = window.console || function (t) {};
-    </script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
 
-    <script>
-        if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage("resize", "*");
-        }
-    </script>
+    <script src="../js/rendered-js"></script>
 
-    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/scroll-js"></script>
 
-    <script id=" rendered-js">
-        $(".toggle_switch").on("click", function () {
-            $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-        }), $(function () {
-            $("#toggle").click(function () {
-                return $("#menu").slideToggle(), !1
-            }), $(window).resize(function () {
-                480 < $(window).width() ? $("#menu").show() : $("#menu").hide()
-            })
-        }), $(function () {
-            $(window).width() < 480 && $(function () {
-                $("#menu li a").click(function () {
-                    $("#menu").hide()
-                })
-            })
-        });
-
-        $(function () {
-            var o = !1,
-                t = $("#page-top");
-            t.css("bottom", "-100px");
-            o = !1;
-            $(window).scroll(function () {
-                200 < $(this).scrollTop() ? 0 == o && (o = !0, t.stop().animate({
-                    bottom: "80px"
-                }, 200)) : o && (o = !1, t.stop().animate({
-                    bottom: "-100px"
-                }, 200))
-            }), t.click(function () {
-                return $("body,html").animate({
-                    scrollTop: 0
-                }, 500), !1
-            })
-        });
-
-        $(function () {
-            var s = $(".js-modal__btn"),
-                n = $(".js-modal__btn--close"),
-                e = $(".js-modal__btn--close--fix"),
-                o = $(".js-modal__bg"),
-                t = $(".js-modal__main");
-            s.
-            on("click", function (s) {
-                $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-            }), n.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), e.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), t.
-            on("click", function (s) {
-                s.stopPropagation()
-            }), o.
-            on("click", function () {
-                $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-            })
-        });
-    </script>
-
-    <script>
-        (function (window, document) {
-            // .lazy-cssを探します
-            var lazyCss = document.querySelectorAll('.lazy-css');
-            for (var i = 0, l = lazyCss.length; i < l; i++) {
-                // 一つずつ『stylesheet』に変更します
-                lazyCss[i].rel = 'stylesheet';
-            }
-        })(window, document);
-    </script>
+    <noscript>
+        For full functionality of this site it is necessary to enable JavaScript.
+        Here are the <a href="https://www.enablejavascript.io/en">
+            instructions how to enable JavaScript in your web browser</a>.
+    </noscript>
 
 </body>
+
 </html>

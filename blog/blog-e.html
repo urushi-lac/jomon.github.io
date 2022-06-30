@@ -3,7 +3,7 @@
 
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="I write about various things in my daily life related to lacquer from the viewpoint of a house husband (lacquer artist).">
     <meta name="keywords" content="lacquer,housework,washing,kitchen,lacquerware,repair,care,handling,blog,">
     <meta property="og:title" content="Urushi report at Hiroyuki Watanabe workroom.|Urushi-Essays in Idleness" />
@@ -91,14 +91,14 @@
             <div class="info-box-dark">
                 <p1>
                     The momentum of a nation: the 'clouds on the hill' model of technology : by Taizo Yakushiji, NTT Publishing.<br />
-                    In this book,it describes the process of manufacturing artillery shells at the time. To take an extract: "A layer of Japanese paper is pasted around a brass mould, the paper is allowed to dry, and then the cylinder of the paper is pulled out.  The cylinder of the washi paper paint japanese lacquer . After all that work, the tube is filled with Shimose powder."
+                    In this book,it describes the process of manufacturing artillery shells at the time. To take an extract: "A layer of Japanese paper is pasted around a brass mould, the paper is allowed to dry, and then the cylinder of the paper is pulled out. The cylinder of the washi paper paint japanese lacquer . After all that work, the tube is filled with Shimose powder."
                     <br />
                     I had heard from my lacquer department teacher that lacquer techniques were a state secret before the war, and I wondered if this was what he meant. A while ago, I did something like the picture at hemp of Hita City, Oita Prefecture Japan. Using basically the same materials and techniques as the lacquer excavated from Hokkaido 9,000 years ago, and made a prototype as one of the variations. I am not good at it, so I didn't have enough skill to mass produce it in a short time, so it ended up as a prototype. I was surprised that it was used for bombs.<br />
                     Perhaps it is a blessing that we can freely make the things we need in our daily life with lacquer.
                     <br />
                     <a href="https://www.deepl.com/translator">Deepl translator&nbsp;<svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px" fill="#000000">
-                        <path d="M0 0h24v24H0V0z" fill="#ffffff" />
-                        <path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z" /></svg></a>
+                            <path d="M0 0h24v24H0V0z" fill="#ffffff" />
+                            <path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z" /></svg></a>
                 </p1>
                 <br />
 
@@ -146,88 +146,17 @@
         </div>
     </footer>
 
-    <script>
-        window.console = window.console || function (t) {};
-    </script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
 
-    <script>
-        if (document.location.search.match(/type=embed/gi)) {
-            window.parent.postMessage("resize", "*");
-        }
-    </script>
+    <script src="../js/rendered-js"></script>
 
-    <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/scroll-js"></script>
 
-    <script id=" rendered-js">
-        $(".toggle_switch").on("click", function () {
-            $(this).toggleClass("open"), $(this).next(".toggle_contents").slideToggle()
-        }), $(function () {
-            $("#toggle").click(function () {
-                return $("#menu").slideToggle(), !1
-            }), $(window).resize(function () {
-                480 < $(window).width() ? $("#menu").show() : $("#menu").hide()
-            })
-        }), $(function () {
-            $(window).width() < 480 && $(function () {
-                $("#menu li a").click(function () {
-                    $("#menu").hide()
-                })
-            })
-        });
-
-        $(function () {
-            var o = !1,
-                t = $("#page-top");
-            t.css("bottom", "-100px");
-            o = !1;
-            $(window).scroll(function () {
-                200 < $(this).scrollTop() ? 0 == o && (o = !0, t.stop().animate({
-                    bottom: "80px"
-                }, 200)) : o && (o = !1, t.stop().animate({
-                    bottom: "-100px"
-                }, 200))
-            }), t.click(function () {
-                return $("body,html").animate({
-                    scrollTop: 0
-                }, 500), !1
-            })
-        });
-
-        $(function () {
-            var s = $(".js-modal__btn"),
-                n = $(".js-modal__btn--close"),
-                e = $(".js-modal__btn--close--fix"),
-                o = $(".js-modal__bg"),
-                t = $(".js-modal__main");
-            s.
-            on("click", function (s) {
-                $(this).next(o).fadeIn(), $(this).next(o).next(t).removeClass("_slideDown"), $(this).next(o).next(t).addClass("_slideUp")
-            }), n.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), e.
-            on("click", function (s) {
-                o.fadeOut(), t.removeClass("_slideUp"), t.addClass("_slideDown")
-            }), t.
-            on("click", function (s) {
-                s.stopPropagation()
-            }), o.
-            on("click", function () {
-                $(this).fadeOut(), $(this).next(t).removeClass("_slideUp"), $(this).next(t).addClass("_slideDown")
-            })
-        });
-    </script>
-
-    <script>
-        (function (window, document) {
-            // .lazy-cssを探します
-            var lazyCss = document.querySelectorAll('.lazy-css');
-            for (var i = 0, l = lazyCss.length; i < l; i++) {
-                // 一つずつ『stylesheet』に変更します
-                lazyCss[i].rel = 'stylesheet';
-            }
-        })(window, document);
-    </script>
+    <noscript>
+        For full functionality of this site it is necessary to enable JavaScript.
+        Here are the <a href="https://www.enablejavascript.io/en">
+            instructions how to enable JavaScript in your web browser</a>.
+    </noscript>
 
 </body>
 
