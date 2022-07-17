@@ -296,6 +296,11 @@ footer b {
         right: 20px;
     }
 
+    .yamato img {
+        width: 400px;
+        height: auto;
+    }
+
     h1 {
         font-size: 150%;
         padding: 15px 10px 15px 10px;
@@ -416,7 +421,10 @@ footer b {
 
     ul.view_menu {
         font-size: 60%;
+    }
 
+    .yamato img {
+        width: 100%;
     }
 
     h1 {
