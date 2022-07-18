@@ -140,11 +140,14 @@ table {
     overflow: hidden;
     padding-bottom: 300px;
     position: relative;
+    left: 0;
+    top: 0;
 }
 
-.gmap iframe {
-    position: absolute;
-    left: 0;
+.map_canvas {
+    position: left;
+
+    
     top: 0;
     height: 300px;
     width: 400px;
