@@ -1,5 +1,8 @@
 'use strict';
 
 document.cookie = ' <img src="https://business.kuronekoyamato.co.jp/service/lineup/payment/logo/images/web_pay_card.gif"> ; SameSite=none; Secure';
+document.cookie = ' web_pay_card.gif ; SameSite=none; Secure';
+
+
     let e = document.getElementById('yamato');
     e.insertAdjacentHTML('afterend', '<a>' + document.cookie + '</a>');
