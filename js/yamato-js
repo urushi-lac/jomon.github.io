@@ -2,8 +2,7 @@
 
 document.cookie = ' <img src="https://business.kuronekoyamato.co.jp/service/lineup/payment/logo/images/web_pay_card.gif"> ; SameSite=none; Secure';
 document.cookie = ' KURONEKO_MEMBERS_TRANSITION_TYPE ; SameSite=none; Secure';
-document.cookie = ' krt.vis ; SameSite=none; Secure';
+document.cookie = ' urushi-watanabe.com=.kuronekoyamato.co.jp; krt.vis ; SameSite=none; Secure';
 document.cookie = ' 1653204191835 ; SameSite=none; Secure';
     let e = document.getElementById('yamato');
     e.insertAdjacentHTML('afterend', '<a>' + document.cookie + '</a>');
-
