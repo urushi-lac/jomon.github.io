@@ -52,8 +52,8 @@
         <nav id="menu-box">
             <h2>
                 <ul id="menu" class="">
+                    <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/top.html">Shop</a></li>
                     <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/owan.html">おわん</a></li>
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/guinomi.html">ぐいのみ</a></li>
                     <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/baby-bowl.html">赤ちゃんわん</a></li>
                     <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/pictuer-book.html">えほん</a></li>
                     <li><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/others.html">いろいろ</a></li>
@@ -66,8 +66,8 @@
                 <h3>Menu</h3>
             </div>
             <div class="toggle_contents">
+                <h2><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/top.html">Shop</a></h2>
                 <h2><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/owan.html">おわん</a></h2>
-                <h2><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/guinomi.html">ぐいのみ</a></h2>
                 <h2><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/baby-bowl.html">赤ちゃんわん</a></h2>
                 <h2><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/pictuer-book.html">えほん</a></h2>
                 <h2><a href="https://urushi-lac.github.io/jomon.github.io/gallery-shop/others.html">いろいろ</a></h2>
@@ -164,7 +164,24 @@
 
     <script src="../js/rendered-js"></script>
 
-    <script src="../js/screen-js"></script>
+    <script>
+        $(function () {
+            $('#subImg img').on('click', function () {
+
+                img = $(this).attr('src');
+
+                $('#subImg li').removeClass('current');
+                $(this).parent().addClass('current');
+
+                $('#mainImg img').fadeOut(600, function () {
+                    $('#mainImg img').attr('src', img).on('load', function () {
+                        $(this).fadeIn();
+                    })
+                })
+            });
+        });
+    </script>
+
 
     <noscript>
         このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。

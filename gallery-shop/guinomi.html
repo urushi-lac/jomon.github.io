@@ -33,7 +33,6 @@
     <style>
 
     </style>
-
 </head>
 <body id="cs">
     <header>
@@ -74,59 +73,71 @@
 
     </header>
 
+
+
     <section id="box1">
+
+
+
         <div class="row">
             <div class="photo">
                 <div class="col col-md-one-half">
                     <div class="info-box-left">
                         <div id="main" class="wrap">
                             <div id="mainImg">
-                                <img src="../images/gallery/guinomi/1.jpg" width="105" height="105" alt="guinomiimage">
+                                <img src="../images/gallery/guinomi/1.webp" width="105" height="105" alt="guinomiimage">
                             </div>
                             <ul id="subImg">
-                                <li class="current"><img src="../images/gallery/guinomi/1.jpg" width="105" height="105" alt="red"></li>
-                                <li><img src="../images/gallery/guinomi/2.jpg" width="105" height="105" alt="redline"></li>
-                                <li><img src="../images/gallery/guinomi/3.jpg" width="105" height="105" alt="Bengala color"></li>
-                                <li><img src="../images/gallery/guinomi/4.jpg" width="105" height="105" alt="Amber"></li>
+                                <li class="current"><img src="../images/gallery/guinomi/1.webp" width="105" height="105" alt="red"></li>
+                                <li><img src="../images/gallery/guinomi/2.webp" width="105" height="105" alt="redline"></li>
+                                <li><img src="../images/gallery/guinomi/3.webp" width="105" height="105" alt="Bengala color"></li>
+                                <li><img src="../images/gallery/guinomi/4.webp" width="105" height="105" alt="Amber"></li>
                             </ul>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col col-md-one-half">
-                    <div class="info-box-right">
+            <div class="col col-md-one-half">
+                <div class="info-box-right">
 
-                        <p>グイ吞み<br />
-                            税込み価格:一客&nbsp;￥5,500（本体￥5,000）<br /></p>
-                        <u><br /><p>申し訳ありません。現在,在庫準備中です。</p> </u><br />
-                        <!--*<u>
+                    <p>グイ吞み<br />
+                        税込み価格:一客&nbsp;￥5,500（本体￥5,000）<br /></p>
+                    <u><br />
+                        <p>申し訳ありません。現在,在庫準備中です。</p>
+                    </u><br />
+                    <!--*<u>
                             <p>運送費別（ヤマト便料金参照）<a href="http://www.kuronekoyamato.co.jp/ytc/search/estimate/ichiran.html" title="運送費" target="_blank" rel="noopener"></a></p>
                         </u>
                         <p><br />
                             朱（在庫0）縁赤（在庫0）
                         </p>
                         <p>弁柄（在庫0）朱溜（在庫0）<br />*-->
-                            直径6,5cm 高さ4,5cm<br />
-                            脱活乾漆（麻） <br />
-                            浄法寺盛漆100%<br />
-                            桐箱無し<br /><br />
-                        </p>
-                        <div>
-                            <h6>購入の際の注意点</h6>
-                            <p>色が、お客様のPCモニターにより多少の色の相違があります。又作品は手作りです。表面のテクスチェアにも多少の相違がありますので予めご承知ください。<br />
-                                お客様の多少の時間差で売り切れになってしまう場合もありますのであらかじめご了承ください。</p>
-                            <p>&nbsp;</p>
-                            <u>
-                                <p><a href="rule.htm"> 申し込み</a></p>
-                            </u>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                        </div>
+                    直径6,5cm 高さ4,5cm<br />
+                    脱活乾漆（麻） <br />
+                    浄法寺盛漆100%<br />
+                    桐箱無し<br /><br />
+                    </p>
+                    <div>
+                        <h6>購入の際の注意点</h6>
+                        <p>色が、お客様のPCモニターにより多少の色の相違があります。又作品は手作りです。表面のテクスチェアにも多少の相違がありますので予めご承知ください。<br />
+                            お客様の多少の時間差で売り切れになってしまう場合もありますのであらかじめご了承ください。</p>
+                        <p>&nbsp;</p>
+                        <u>
+                            <p><a href="rule.htm"> 申し込み</a></p>
+                        </u>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
+
+
+
+
 
     <footer>
         <div id="footer">
@@ -165,7 +176,23 @@
 
     <script src="../js/rendered-js"></script>
 
-    <script src="../js/screen-js"></script>
+    <script>
+        $(function () {
+            $('#subImg img').on('click', function () {
+
+                img = $(this).attr('src');
+
+                $('#subImg li').removeClass('current');
+                $(this).parent().addClass('current');
+
+                $('#mainImg img').fadeOut(600, function () {
+                    $('#mainImg img').attr('src', img).on('load', function () {
+                        $(this).fadeIn();
+                    })
+                })
+            });
+        });
+    </script>
 
     <noscript>
         このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
