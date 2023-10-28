@@ -268,7 +268,7 @@ footer b {
     display: none;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 3200px) {
 
     section {
         max-width: 980px;
