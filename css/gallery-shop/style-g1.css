@@ -44,7 +44,7 @@ ul.home_menu a {
 #menu {
     width: 61.8%;
     margin: 0 auto;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #menu li {
@@ -164,7 +164,7 @@ colgroup.area4 {
 .photo s1 img {
     width: 100%;
     height: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 50px 0px 20px 0px;
 }
 
 .photo s2 img {
@@ -266,19 +266,19 @@ h6 {
 }
 
 footer s1 img {
-    width: 1.8%;
+    width: 1.5%;
     height: auto;
     padding: 0px 0px 0px 10px;
 }
 
 footer s2 img {
-    width: 1.8%;
+    width: 1.5%;
     height: auto;
     padding: 0px 5px 0px 5px;
 }
 
 footer s3 img {
-    width: 1.8%;
+    width: 1.5%;
     height: auto;
     padding: 0px 5px 0px 5px;
 }
