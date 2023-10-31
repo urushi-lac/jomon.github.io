@@ -6,7 +6,7 @@
     width: 100%;
     position: fixed;
     margin-bottom: 0px;
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     z-index: 1;
 }
 
@@ -30,21 +30,21 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
+    padding: 10px 20px 0px 0px;
     text-decoration-style: solid;
     text-decoration-line: underline;
 }
 
 .home s a img {
-    width: 306px;
+    width: 40%;
     height: auto;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #menu {
-    width: 100%;
-    max-width: 1200px;
+    width: 61.8%;
     margin: 0 auto;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 #menu li {
@@ -59,7 +59,7 @@ ul.home_menu a {
 #menu li a {
     font-size: 120%;
     display: block;
-    padding: 10px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
     text-decoration-style: solid;
@@ -75,10 +75,10 @@ ul.home_menu a {
 }
 
 section {
-    max-width: 1200px;
-    text-shadow: none;
-    padding: 50px 0px 0px 0px;
     background: #FFF;
+    width: 61.8%;
+    text-shadow: none;
+    padding: 60px 0px 0px 0px;
 }
 
 .section ol,
@@ -156,7 +156,6 @@ colgroup.area4 {
 }
 
 .photo s img {
-
         width: 100%;
         height: auto;
 
@@ -165,7 +164,7 @@ colgroup.area4 {
 .photo s1 img {
     width: 100%;
     height: auto;
-    padding: 160px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .photo s2 img {
@@ -196,7 +195,7 @@ bold1 {
 
 h1 {
     font-weight: 700;
-    font-size: 200%;
+    font-size: 160%;
     line-height: 120%;
     background-color: #f3f3f3;
     background-repeat: no-repeat;
@@ -204,14 +203,13 @@ h1 {
     position: relative;
     text-shadow: none;
     color: #111;
-    padding: 20px 0px 10px 20px;
+    padding: 10px 0px 10px 20px;
     -webkit-box-shadow: none;
-    ;
     box-shadow: 0px 0px 0px 0px #FFF;
 }
 
 h2 {
-    font-size: 125%;
+    font-size: 100%;
     font-weight: 480;
 }
 
@@ -258,31 +256,31 @@ h6 {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 40px;
     font-size: 80%;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 50px;
     list-style-type: none;
-    padding: 15px 10px 0px 10px;
-    background-color: #FFF;
+    padding: 0px 10px 0px 10px;
+    background-color: transparent
 }
 
 footer s1 img {
-    width: 30px;
+    width: 1.8%;
     height: auto;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 10px;
 }
 
 footer s2 img {
-    width: 30px;
+    width: 1.8%;
     height: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
 }
 
 footer s3 img {
-    width: 30px;
+    width: 1.8%;
     height: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
 }
 
 footer b {
@@ -297,48 +295,33 @@ footer b {
     display: none;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 1200px) {
 
-    section {
-        max-width: 980px;
-        padding: 0px 0px 20px 0px;
+
+
+    footer s1 img {
+        width: 2%;
+        padding: 10px 5px 0px 5px;
     }
 
-    ul.home_menu {
-        font-size: 90%;
+    footer s2 img {
+        width: 2%;
+        padding: 10px 5px 0px 5px;
     }
 
-    .home s a img {
-        width: 245px;
-        height: auto;
-        padding: 15px 0px 0px 0px;
+    footer s3 img {
+        width: 2%;
+        padding: 10px 5px 0px 5px;
     }
 
-    #menu li a {
-        font-size: 100%;
-    }
-
-    h1 {
-        font-size: 180%;
-    }
-
-    h2 {
-        font-size: 120%;
-    }
-
-    h6 {
-        font-size: 85%;
-    }
-
-    .photo s1 img {
-        width: 100%;
-        height: auto;
-        padding: 150px 0px 20px 0px;
+    footer b {
+        font-size: 70%;
+        padding: 15px 20px 0px 0px;
     }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 840px) {
 
     #cs header {
         padding: 10px 0px 0px 0px;
@@ -412,6 +395,34 @@ footer b {
         line-height: 1.4em;
         padding: 10px 0px 0px 0px;
     }
+
+    #footer {
+        background-color:  #FFF;
+    }
+
+    footer s1 img {
+        width: 30px;
+        height: auto;
+        padding: 10px 0px 0px 20px;
+    }
+
+    footer s2 img {
+        width: 30px;
+        height: auto;
+        padding: 10px 10px 0px 10px;
+    }
+
+    footer s3 img {
+        width: 30px;
+        height: auto;
+        padding: 10px 10px 0px 10px;
+    }
+
+    footer b {
+        font-size: 70%;
+        padding: 15px 20px 0px 0px;
+    }
+
 
 }
 

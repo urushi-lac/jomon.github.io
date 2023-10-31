@@ -1,13 +1,12 @@
 @charset "utf-8";
 
-
 #cs header {
     border-top: 0px;
     background-color: #fff;
     width: 100%;
     position: fixed;
     margin-bottom: 0px;
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     z-index: 1;
 }
 
@@ -31,21 +30,21 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
+    padding: 10px 20px 0px 0px;
     text-decoration-style: solid;
     text-decoration-line: underline;
 }
 
 .home s a img {
-    width: 306px;
+    width: 40%;
     height: auto;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #menu {
-    width: 100%;
-    max-width: 1200px;
+    width: 61.8%;
     margin: 0 auto;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 #menu li {
@@ -60,7 +59,7 @@ ul.home_menu a {
 #menu li a {
     font-size: 120%;
     display: block;
-    padding: 10px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
     text-decoration-style: solid;
@@ -72,16 +71,15 @@ ul.home_menu a {
 }
 
 #menu1 {
-    width: 100%;
-    max-width: 1200px;
+    width: 61.8%;
     margin: 0 auto;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #menu1 li {
     display: block;
     float: left;
-    width: 20%;
+    width: 10%;
     margin: 0;
     padding: 0;
     color: #000;
@@ -89,8 +87,9 @@ ul.home_menu a {
 
 #menu1 li a {
     font-size: 120%;
+    color: #000;
     display: block;
-    padding: 10px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
     text-decoration: none;
@@ -105,7 +104,7 @@ ul.home_menu a {
 }
 
 #box0 {
-    min-height: 280px;
+    min-height: 80px;
 }
 
 .photo s1 img {
@@ -117,18 +116,22 @@ ul.home_menu a {
 }
 
 h1 {
-    font-weight: 650;
-    font-size: 180%;
+    font-weight: 700;
+    font-size: 160%;
     line-height: 120%;
     background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    position: relative;
+    text-shadow: none;
     color: #111;
-    padding: 20px 0px 20px 20px;
-    -webkit-box-shadow: 0 0px 0px none;
-    box-shadow: 0 0px 0px none;
+    padding: 10px 0px 10px 20px;
+    -webkit-box-shadow: none;
+    box-shadow: 0px 0px 0px 0px #FFF;
 }
 
 h2 {
-    font-size: 125%;
+    font-size: 100%;
     font-weight: 480;
 }
 
@@ -158,8 +161,8 @@ h4 {
 
 table {
     text-align: left;
-    font-size: 110%;
-    line-height: 200%;
+    font-size: 100%;
+    line-height: 1.5em;
     margin-left: 0px;
     margin-right: auto;
     border-collapse: separate;
@@ -253,31 +256,31 @@ colgroup.area4-1 {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 40px;
     font-size: 80%;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 50px;
     list-style-type: none;
-    padding: 10px 10px 15px 10px;
-    background-color: #FFF;
+    padding: 0px 10px 0px 10px;
+    background-color: transparent
 }
 
 footer s1 img {
-    width: 30px;
+    width: 1.5%;
     height: auto;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 10px;
 }
 
 footer s2 img {
-    width: 30px;
+    width: 1.5%;
     height: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
 }
 
 footer s3 img {
-    width: 30px;
+    width: 1.5%;
     height: auto;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
 }
 
 footer b {
@@ -292,63 +295,28 @@ footer b {
     display: none;
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 1200px) {
 
-    ul.home_menu {
-        font-size: 90%;
+    footer s1 img {
+        width: 1.8%;
     }
 
-    .home s a img {
-        width: 245px;
-        height: auto;
-        padding: 15px 0px 0px 0px;
+    footer s2 img {
+        width: 1.8%;
     }
 
-    #menu li a {
-        font-size: 100%;
-    }
-
-    #menu1 li a {
-        font-size: 100%;
-    }
-
-    #box-space {
-        min-height: 200px;
-    }
-
-    #box0 {
-        min-height: 240px;
-    }
-
-    .inner {
-        width: 240px;
-        height: 350px;
-    }
-
-    h1 {
-        font-size: 180%;
-    }
-
-    h2 {
-        font-size: 125%;
-    }
-
-    p {
-        padding: 0px 30px 0px 30px;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 350px;
+    footer s3 img {
+        width: 1.8%;
     }
 
     footer b {
-        font-size: 80%;
+        font-size: 70%;
+        padding: 0px 20px 0px 0px;
     }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 840px) {
 
     ul.home_menu {
         font-size: 75%;
@@ -770,8 +738,7 @@ footer b {
 }
 
 section {
-    max-width: 1200px;
-    min-height: 100px;
+    width: 61.8%;
     text-shadow: none;
     padding: 10px 0px 15px 0px;
     background: #FFF;
