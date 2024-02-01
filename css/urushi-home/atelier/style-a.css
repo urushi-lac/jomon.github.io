@@ -7,7 +7,7 @@
     position: fixed;
     margin-bottom: 0px;
     z-index: 1;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 ul.home_menu {
@@ -15,13 +15,14 @@ ul.home_menu {
     width: 100%;
     font-weight: 350;
     list-style-type: none;
-    padding: 10px 0px 0px 10px;
+    padding: 10px 0px 0px 0px;
     flex-direction: row;
 }
 
 ul.home_menu li {
     width: 47%;
     color: #595959;
+    padding: 0px 10px 0px 10px;
 }
 
 ul.home_menu a {
@@ -30,15 +31,15 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
-    padding: 10px 20px 0px 0px;
+    padding: 0px 0px 0px 0px;
     text-decoration-style: solid;
     text-decoration-line: underline;
 }
 
 .home s a img {
-    width: 40%;
+    width: 306px;
     height: auto;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 #menu {
@@ -227,34 +228,35 @@ p {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 40px;
+    height: 30px;
     font-size: 80%;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 40px;
     list-style-type: none;
-    padding: 0px 10px 0px 10px;
-    background-color: transparent
+    padding: 10px 10px 15px 10px;
+    background-color: #FFF;
 }
 
 footer s1 img {
-    width: 1.5%;
+    width: 30px;
     height: auto;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
 }
 
 footer s2 img {
-    width: 1.5%;
+    width: 30px;
     height: auto;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
 }
 
 footer s3 img {
-    width: 1.5%;
+    width: 30px;
     height: auto;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
 }
 
 footer b {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 95%;
     font-weight: 300;
     color: #595959;
@@ -269,25 +271,70 @@ footer b {
 
 @media only screen and (max-width: 1200px) {
 
+    #cs header {
+        padding: 0px 0px 0px 0px;
+    }
+
+    ul.home_menu {
+        font-size: 100%;
+    }
+
+    ul.home_menu li {
+        width: 47%;
+        color: #595959;
+    }
+
+    ul.home_menu a {
+        padding: 10px 20px 0px 0px;
+    }
+
+    .home s a img {
+        width: 40%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #menu {
+        width: 61.8%;
+        padding: 0px 0px 10px 0px;
+    }
+
+    #menu li a {
+        color: #000;
+        padding: 0px 0px 10px 0px;
+    }
+
+    #cs h2 {
+        font-size: 100%;
+    }
+
+    #footer {
+        height: 40px;
+        margin-top: 50px;
+        padding: 0px 10px 0px 10px;
+        background-color: transparent
+    }
 
     footer s1 img {
         width: 1.8%;
+        padding: 0px 0px 0px 10px;
     }
 
     footer s2 img {
         width: 1.8%;
+        padding: 0px 5px 0px 5px;
     }
 
     footer s3 img {
         width: 1.8%;
+        padding: 0px 5px 0px 5px;
     }
 
     footer b {
         font-size: 70%;
-        padding: 0px 20px 0px 0px;
+        padding: 10px 20px 0px 0px;
     }
 
-}
+    }
 
 @media only screen and (max-width: 840px) {
 
