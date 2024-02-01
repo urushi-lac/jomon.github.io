@@ -182,7 +182,7 @@ footer b {
     }
 
     ul.home_menu {
-        font-size: 100%;
+        font-size: 80%;
     }
 
     ul.home_menu li {
@@ -191,7 +191,7 @@ footer b {
     }
 
     ul.home_menu a {
-        padding: 10px 20px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .home s a img {
