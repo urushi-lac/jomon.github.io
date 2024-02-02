@@ -43,9 +43,10 @@ ul.home_menu a {
 }
 
 #menu {
-    width: 61.8%;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0px 0px 10px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 #menu li {
@@ -61,7 +62,7 @@ ul.home_menu a {
     font-size: 120%;
     color: #000;
     display: block;
-    padding: 0px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
     text-decoration-style: solid;
@@ -73,7 +74,8 @@ ul.home_menu a {
 }
 
 #menu1 {
-    width: 61.8%;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 0px 0px 0px 0px;
 }
@@ -106,9 +108,10 @@ ul.home_menu a {
 
 section {
     background: #FFF;
+    max-width: 1200px;
     width: 61.8%;
     text-shadow: none;
-    padding: 150px 0px 0px 0px;
+    padding: 200px 0px 0px 0px;
 }
 
 h1 {
@@ -128,7 +131,7 @@ h1 {
 
 #cs h2 {
     font-weight: 400;
-    font-size: 100%;
+    font-size: 125%;
 }
 
 h3 {
@@ -190,7 +193,7 @@ p {
 .photo s2 img {
     width: 100%;
     height: auto;
-    padding: 0px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .photo s3 img {
@@ -276,7 +279,7 @@ footer b {
     }
 
     ul.home_menu {
-        font-size: 80%;
+        font-size: 100%;
     }
 
     ul.home_menu li {
@@ -289,13 +292,13 @@ footer b {
     }
 
     .home s a img {
-        width: 40%;
+        width: 50%;
         padding: 0px 0px 0px 0px;
     }
 
     #menu {
-        width: 61.8%;
-        padding: 0px 0px 10px 0px;
+        width: 90%;
+        padding: 5px 0px 10px 0px;
     }
 
     #menu li a {
@@ -303,8 +306,31 @@ footer b {
         padding: 0px 0px 10px 0px;
     }
 
+    #menu1 {
+
+        width: 90%;
+    }
+
+    #menu1 li a {
+        padding: 0px 0px 5px 0px;
+    }
+
+    section {
+        width: 61.8%;
+        padding: 160px 0px 0px 0px;
+    }
+
     #cs h2 {
         font-size: 100%;
+    }
+
+    h4 {
+        font-size: 80%;
+    }
+
+    .photo s1 img {
+        width: 80%;
+        padding: 60px 0px 0px 0px;
     }
 
     #footer {
@@ -315,52 +341,46 @@ footer b {
     }
 
     footer s1 img {
-        width: 1.8%;
-        padding: 0px 0px 0px 10px;
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 0px 50px 10px;
     }
 
     footer s2 img {
-        width: 1.8%;
-        padding: 0px 5px 0px 5px;
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 5px 50px 5px;
     }
 
     footer s3 img {
-        width: 1.8%;
-        padding: 0px 5px 0px 5px;
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 5px 50px 5px;
     }
 
     footer b {
-        font-size: 70%;
+        font-size: 100%;
         padding: 10px 20px 0px 0px;
     }
 
     }
 
-@media only screen and (max-width: 840px) {
-
-    #cs header {
-        padding: 10px 0px 0px 0px;
-    }
-
-    section {
-        max-width: 768px;
-        min-height: 520px;
-        width: 100%;
-        padding: 320px 0px 150px 0px;
-    }
+@media only screen and (max-width: 835px) {
 
     ul.home_menu {
-        font-size: 75%;
+        font-size: 70%;
     }
 
     .home s a img {
-        width: 214px;
-        height: auto;
-        padding: 10px 0px 0px 0px;
+        width: 60%;
     }
 
     #menu {
         width: 100%;
+    }
+
+    #menu li a {
+        font-size: 100%;
     }
 
     #menu1 {
@@ -368,9 +388,15 @@ footer b {
         padding: 50px 0px 0px 0px;
     }
 
+    section {
+        max-width: 835px;
+        min-height: 300px;
+        padding: 150px 0px 10px 0px;
+    }
+
     h1 {
-        font-size: 150%;
-        padding: 15px 10px 15px 20px;
+        font-size: 120%;
+        padding: 10px 20px 10px 10px;
     }
 
     h2 {
@@ -393,12 +419,17 @@ footer b {
     }
 
     h5 {
-        padding: 0px 0px 0px 0px;
+        padding: 15px 0px 0px 0px;
+    }
+
+    h6 {
+        font-size: 70%;
+        padding: 10px 20px 0px 0px;
     }
 
     p {
-        font-size: 100%;
-        line-height: 1.5em;
+        font-size: 90%;
+        line-height: 1.2em;
     }
 
     #cs p1 {
@@ -406,7 +437,17 @@ footer b {
     }
 
     .photo {
-        padding: 50px 0px 0px 0px;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .photo s1 img {
+        width: 100%;
+        height: auto;
+        padding: 40px 0px 30px 0px;
+    }
+
+    .photo s2 img {
+        padding: 0px 0px 0px 0px;
     }
 
     .col-md-one-half {
@@ -437,56 +478,50 @@ footer b {
     }
 
     footer s1 img {
-        width: 30px;
-        height: auto;
-        padding: 0px 0px 0px 20px;
-    }
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 0px 0px 3px;
+      }
 
-    footer s2 img {
-        width: 30px;
-        height: auto;
-        padding: 0px 10px 0px 10px;
-    }
+      footer s2 img {
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 3px 0px 0px;
+      }
 
-    footer s3 img {
-        width: 30px;
-        height: auto;
-        padding: 0px 10px 0px 10px;
-    }
+      footer s3 img {
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 3px 0px 3px;
+      }
 
-    footer b {
+      footer b {
         font-size: 70%;
-    }
+        padding: 10px 20px 0px 0px;
+      }
 
 }
 
 @media only screen and (max-width: 480px) {
 
-    section {
-        max-width: 480px;
-        min-height: 60px;
-        padding: 20px 0px 20px 0px;
-    }
-
     ul.home_menu {
         font-size: 70%;
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 10px;
     }
 
     ul.home_menu li {
-        width: 45%;
-        padding: 0px 0px 0px 7px;
+        width: 100%;
+        padding: 0px 10px 0px 0px;
     }
 
     ul.home_menu a {
-        padding: 0px 7px 0px 0px;
+        padding: 0px 10px 0px 0px;
         color: #595959;
     }
 
     .home s a img {
-        width: 183px;
-        height: auto;
-        padding: 0px 0px 0px 0px;
+        width: 80%;
+        padding: 10px 0px 0px 0px;
     }
 
     .toggle_wrap {
@@ -532,8 +567,26 @@ footer b {
         display: none;
     }
 
+    section {
+        max-width: 480px;
+        min-height: 60px;
+        padding: 0px 0px 0px 0px;
+    }
+
     .photo {
         padding: 0px 0px 0px 0px;
+    }
+
+    .photo s1 img {
+        width: 50%;
+        height: auto;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .photo s2 img {
+        width: 100%;
+        height: auto;
+        padding: 10px 0px 10px 0px;
     }
 
     .photo s3 img {
@@ -541,7 +594,7 @@ footer b {
     }
 
     #cs h1 {
-        font-size: 120%;
+        font-size: 100%;
         padding: 10px 0px 10px 10px;
     }
 
@@ -560,16 +613,18 @@ footer b {
     }
 
     h5 {
-        font-size: 80%;
-        padding: 120px 0px 0px 0px;
+        padding: 80px 0px 0px 0px;
     }
 
     h6 {
-        font-size: 80%;
+        font-size: 70%;
+                padding: 0px 10px 10px 0px;
     }
 
     p {
-        font-size: 90%;
+        font-size: 80%;
+        line-height: 1.2em;
+        padding: 0px 0px 10px 0px;
     }
 
     #cs p1 {
@@ -601,6 +656,7 @@ footer b {
         height: 15px;
         margin-top: 0px;
         padding: 0px 0px 15px 0px;
+        background-color: #FFF;
     }
 
     footer s1 img {
@@ -637,7 +693,7 @@ footer b {
         font-weight: 300;
         color: #595959;
         float: right;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 10px 0px 0px;
     }
 
     #footer-mobile {
