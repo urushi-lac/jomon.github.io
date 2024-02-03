@@ -105,12 +105,14 @@ ul.home_menu a {
     display: none;
 }
 
+
+
 section {
     max-width: 1200px;
 }
 
 #box0 {
-    min-height: 80px;
+    min-height: 150px;
 }
 
 .photo s1 img {
@@ -345,6 +347,17 @@ footer b {
         padding: 0px 0px 10px 0px;
       }
 
+      #box0 {
+        min-height: 80px;
+    }
+
+    section {
+    width: 61.8%;
+    text-shadow: none;
+    padding: 10px 0px 15px 0px;
+    background: #FFF;
+}
+
       .inner {
     top: 0px;
     left: 0px;
@@ -364,6 +377,22 @@ footer b {
       #cs h2 {
         font-size: 100%;
       }
+
+      colgroup.area3 {
+    width: 350px;
+}
+
+colgroup.area3-1 {
+    width: 400px;
+}
+
+colgroup.area4 {
+    width: 400px;
+}
+
+colgroup.area4-1 {
+    width: 300px;
+}
 
       #footer {
         height: 40px;
@@ -431,11 +460,16 @@ footer b {
     }
 
     #box0 {
-        min-height: 160px;
+        min-height: 80px;
     }
 
     #box-space {
         min-height: 150px;
+    }
+
+    section {
+        width: 90%;
+        padding: 10px 0px 10px 0px;
     }
 
     #page-top {
@@ -487,6 +521,30 @@ footer b {
         padding: 10px 10px 0px 10px;
     }
 
+    colgroup.area3 {
+    width: 300px;
+}
+
+colgroup.area3-1 {
+    width: 800px;
+}
+
+colgroup.area4 {
+    width: 400px;
+}
+
+colgroup.area4-1 {
+    width: 300px;
+}
+
+#footer {
+    height: 25px;
+        margin-top: 50px;
+        padding: 10px 10px 0px 10px;
+    background-color:  #FFF;
+
+}
+
     footer s1 img {
         max-width: 20px;
         width: 3.5%;
@@ -507,6 +565,7 @@ footer b {
 
     footer b {
         font-size: 70%;
+        padding: 0px 20px 0px 0px;
     }
 
 }
@@ -572,12 +631,15 @@ footer b {
         display: none;
     }
 
-    #box0 {
-        min-height: 30px;
+    section {
+        width: 90%;
+        min-height: 60px;
+        padding: 0px 0px 0px 0px;
     }
 
     #box0 {
-        min-height: 120px;
+        width: 100%;
+        min-height: 100px;
     }
 
     #box-space {
@@ -595,6 +657,22 @@ footer b {
         border-spacing: 3px;
         padding: 10px 10px 0px 10px;
     }
+
+    colgroup.area3 {
+    width: 250px;
+}
+
+colgroup.area3-1 {
+    width: 80px;
+}
+
+colgroup.area4 {
+    width: 100px;
+}
+
+colgroup.area4-1 {
+    width: 30px;
+}
 
     h1 {
         font-size: 100%;
@@ -642,6 +720,7 @@ footer b {
         height: 15px;
         margin-top: 0px;
         padding: 0px 0px 15px 0px;
+        background-color: #FFF;
     }
 
     footer s1 img {
@@ -850,12 +929,7 @@ footer b {
 
 }
 
-section {
-    width: 61.8%;
-    text-shadow: none;
-    padding: 10px 0px 15px 0px;
-    background: #FFF;
-}
+
 
 #page-top {
     position: fixed;

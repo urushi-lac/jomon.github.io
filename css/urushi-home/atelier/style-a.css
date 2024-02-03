@@ -334,7 +334,7 @@ footer b {
     }
 
     #footer {
-        height: 40px;
+        height: 25px;
         margin-top: 50px;
         padding: 0px 10px 0px 10px;
         background-color: transparent
@@ -385,13 +385,20 @@ footer b {
 
     #menu1 {
         width: 100%;
-        padding: 50px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     section {
-        max-width: 835px;
-        min-height: 300px;
-        padding: 150px 0px 10px 0px;
+        width: 90%;
+        padding: 10px 0px 10px 0px;
+    }
+
+    #box0 {
+        min-height: 100px;
+    }
+
+     #box11 {
+        height: 20px;
     }
 
     h1 {
@@ -415,7 +422,7 @@ footer b {
     }
 
     h4 {
-        font-size: 100%;
+        font-size: 80%;
     }
 
     h5 {
@@ -475,6 +482,7 @@ footer b {
 
     #footer {
         background-color:  #FFF;
+        padding: 10px 0px 0px 10px;
     }
 
     footer s1 img {
@@ -497,7 +505,7 @@ footer b {
 
       footer b {
         font-size: 70%;
-        padding: 10px 20px 0px 0px;
+        padding: 0px 20px 0px 0px;
       }
 
 }
@@ -567,8 +575,12 @@ footer b {
         display: none;
     }
 
+    #box0 {
+        min-height: 10px;
+    }
+
     section {
-        max-width: 480px;
+        width: 90%;
         min-height: 60px;
         padding: 0px 0px 0px 0px;
     }
