@@ -31,6 +31,7 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
+    padding: 0px 0px 0px 0px;
     text-decoration-style: solid;
     text-decoration-line: underline;
 }
