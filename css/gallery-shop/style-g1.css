@@ -168,7 +168,7 @@ colgroup.area4 {
 .photo s1 img {
     width: 100%;
     height: auto;
-    padding: 40px 0px 10px 0px;
+    padding: 10px 0px 20px 0px;
 }
 
 .photo s2 img {
@@ -213,9 +213,8 @@ h1 {
 }
 
 h2 {
-    font-size: 90%;
-    font-weight: 700;
-    padding: 10px 0px 0px 0px;
+    font-size: 125%;
+    font-weight: 400;
 }
 
 h3 {
@@ -338,6 +337,15 @@ footer b {
     section {
         width: 61.8%;
         padding: 10px 0px 10px 0px;
+    }
+
+    #cs h2 {
+        font-size: 100%;
+    }
+
+    .photo s1 img {
+        width: 100%;
+        padding: 100px 0px 20px 0px;
     }
 
     #footer {
