@@ -6,8 +6,8 @@
     width: 100%;
     position: fixed;
     margin-bottom: 0px;
-    padding: 10px 0px 0px 0px;
     z-index: 1;
+    padding: 10px 0px 0px 0px;
 }
 
 ul.home_menu {
@@ -22,6 +22,7 @@ ul.home_menu {
 ul.home_menu li {
     width: 47%;
     color: #595959;
+    padding: 0px 10px 0px 10px;
 }
 
 ul.home_menu a {
@@ -30,6 +31,7 @@ ul.home_menu a {
     font-weight: 350;
     color: #595959;
     float: right;
+    padding: 0px 0px 0px 0px;
     text-decoration-style: solid;
     text-decoration-line: underline;
 }
@@ -39,7 +41,6 @@ ul.home_menu a {
     height: auto;
     padding: 20px 0px 0px 0px;
 }
-
 
 #menu {
     width: 100%;
@@ -59,6 +60,7 @@ ul.home_menu a {
 
 #menu li a {
     font-size: 120%;
+    color: #000;
     display: block;
     padding: 10px 0px 10px 0px;
     background-color: #FFF;
@@ -194,6 +196,7 @@ footer s3 img {
 }
 
 footer b {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 95%;
     font-weight: 300;
     color: #595959;
@@ -206,29 +209,50 @@ footer b {
 }
 
 section {
-    max-width: 980px;
-    height: auto;
+    background: #FFF;
+    max-width: 1200px;
+    width: 61.8%;
+    text-shadow: none;
+    padding: 200px 0px 0px 0px;
 }
 
 @media only screen and (max-width: 2000px) {
 
-    section {
-        max-width: 980px;
-        padding: 0px 0px 20px 0px;
+    #cs header {
+        padding: 0px 0px 0px 0px;
     }
 
     ul.home_menu {
-        font-size: 90%;
+        font-size: 100%;
+    }
+
+    ul.home_menu li {
+        width: 47%;
+        color: #595959;
+    }
+
+    ul.home_menu a {
+        padding: 0px 0px 0px 0px;
     }
 
     .home s a img {
-        width: 245px;
-        height: auto;
-        padding: 15px 0px 0px 0px;
+        width: 50%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #menu {
+        width: 90%;
+        padding: 5px 0px 10px 0px;
     }
 
     #menu li a {
-        font-size: 100%;
+        color: #000;
+        padding: 0px 0px 10px 0px;
+    }
+
+    section {
+        width: 61.8%;
+        padding: 10px 0px 10px 0px;
     }
 
     #box1 {
@@ -302,31 +326,60 @@ section {
         font-size: 120%;
     }
 
-    section {
-        max-width: 100%;
-        height: auto;
+    #footer {
+        height: 25px;
+        margin-top: 50px;
+        padding: 0px 10px 10px 10px;
+        background-color: transparent
     }
+
+    footer s1 img {
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 0px 50px 10px;
+    }
+
+    footer s2 img {
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 5px 50px 5px;
+    }
+
+    footer s3 img {
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 5px 50px 5px;
+    }
+
+    footer b {
+        font-size: 100%;
+        padding: 10px 20px 0px 0px;
+    }
+
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 835px) {
 
     ul.home_menu {
-        font-size: 75%;
+        font-size: 70%;
     }
 
     .home s a img {
-        width: 214px;
-        height: auto;
-        padding: 10px 0px 0px 0px;
+        width: 60%;
     }
 
-    #menu li {
-        width: 20%;
+    #menu {
+        width: 100%;
     }
 
     #menu li a {
-        padding: 7px 0 7px;
+        font-size: 100%;
+    }
+
+    section {
+        width: 90%;
+        padding: 10px 0px 10px 0px;
     }
 
     #box1 {
@@ -383,29 +436,56 @@ section {
         font-size: 110%;
     }
 
+    #footer {
+        background-color:  #FFF;
+        padding: 10px 0px 0px 10px;
+    }
+
+    footer s1 img {
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 0px 0px 3px;
+      }
+
+      footer s2 img {
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 3px 0px 0px;
+      }
+
+      footer s3 img {
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 3px 0px 3px;
+      }
+
+      footer b {
+        font-size: 70%;
+        padding: 0px 20px 0px 0px;
+      }
+
 }
 
 @media only screen and (max-width: 480px) {
 
     ul.home_menu {
         font-size: 70%;
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 10px;
     }
 
     ul.home_menu li {
-        width: 45%;
-        padding: 0px 0px 0px 7px;
+        width: 100%;
+        padding: 0px 10px 0px 0px;
     }
 
     ul.home_menu a {
-        padding: 0px 7px 0px 0px;
+        padding: 0px 10px 0px 0px;
         color: #595959;
     }
 
     .home s a img {
-        width: 183px;
-        height: auto;
-        padding: 0px 0px 0px 0px;
+        width: 95%;
+        padding: 10px 0px 0px 0px;
     }
 
     .toggle_wrap {
