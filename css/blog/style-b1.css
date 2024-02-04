@@ -6,22 +6,14 @@
     width: 100%;
     position: fixed;
     margin-bottom: 0px;
-    padding: 10px 0px 0px 0px;
     z-index: 1;
-}
-
-section {
-    background: #FFF;
-    max-width: 1200px;
-    min-height: 440px;
-    text-shadow: none;
-    padding: 280px 0px 280px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 ul.home_menu {
     display: flex;
     width: 100%;
-    font-weight: 300;
+    font-weight: 350;
     list-style-type: none;
     padding: 10px 0px 0px 0px;
     flex-direction: row;
@@ -30,14 +22,16 @@ ul.home_menu {
 ul.home_menu li {
     width: 47%;
     color: #595959;
+    padding: 0px 10px 0px 10px;
 }
 
 ul.home_menu a {
     display: block;
     font-size: 100%;
-    font-weight: 300;
+    font-weight: 350;
     color: #595959;
     float: right;
+    padding: 0px 0px 0px 0px;
     text-decoration-style: solid;
     text-decoration-line: underline;
 }
@@ -80,37 +74,26 @@ ul.home_menu a {
 }
 
 #menu1 {
-    width: 100%;
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    padding: 60px 0px 0px 0px;
-}
-
-#menu-box1 li {
-    font-size: 90%;
-    display: block;
-    float: left;
-    width: 10%;
-    margin: 0;
     padding: 0px 0px 0px 0px;
-    color: #000;
 }
 
 #menu1 li {
-    font-size: 90%;
     display: block;
     float: left;
     width: 10%;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 0;
     color: #000;
 }
 
 #menu1 li a {
-    font-size: 140%;
+    font-size: 120%;
     color: #000;
     display: block;
-    padding: 5px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
     background-color: #FFF;
     text-align: center;
 }
@@ -119,18 +102,39 @@ ul.home_menu a {
     border: none;
 }
 
+#menu-box1 li {
+    font-size: 120%;
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    color: #000;
+}
+
 .toggle_wrap {
     display: none;
 }
 
-.row {
-    padding: 10px 0px 0px 0px;
+section {
+    background: #FFF;
+    max-width: 1200px;
+    width: 61.8%;
+    text-shadow: none;
+    padding: 300px 0px 0px 0px;
+}
+
+.space {
+    padding: 100px 0px 0px 0px;
+}
+
+.space1 {
+    padding: 150px 0px 0px 0px;
 }
 
 h1 {
-    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 700;
-    font-size: 200%;
+    font-size: 180%;
     line-height: 120%;
     background-color: #f3f3f3;
     background-repeat: no-repeat;
@@ -138,20 +142,17 @@ h1 {
     position: relative;
     text-shadow: none;
     color: #111;
-    padding: 20px 0px 10px 20px;
+    padding: 10px 0px 10px 20px;
     -webkit-box-shadow: none;
-    ;
     box-shadow: 0px 0px 0px 0px #FFF;
 }
 
 #cs h2 {
-    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 400;
     font-size: 125%;
 }
 
 h3 {
-    font-family: 'Noto Sans JP', sans-serif;
     font-size: 100%;
     font-weight: 400;
     color: #595959;
@@ -163,8 +164,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 100%;
+    font-size: 90%;
     font-weight: 300;
     color: #767676;
     padding: 0px 0px 0px 0px;
@@ -175,13 +175,13 @@ h4 {
 h5 {
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 90%;
-    line-height: 120%;
+    font-size: 80%;
+    line-height: 100%;
     background-color: #f3f3f3;
     background-repeat: no-repeat;
     background-position: left 0px center;
     color: #000000;
-    padding: 0px 0px 10px 20px;
+    padding: 0px 0px 5px 20px;
     -webkit-box-shadow: 0 5px 5px #FFF;
     box-shadow: 0 2px 2px #FFF;
     -webkit-text-shadow: none;
@@ -196,15 +196,13 @@ h6 {
 }
 
 #cs p1 {
-    font-size: 110%;
-    line-height: 2em;
+    font-size: 120%;
+    line-height: 1.5em;
 }
-
-
 
 #cs p2 {
     font-size: 120%;
-    line-height: 2em;
+    line-height: 1.5em;
     text-align: center;
 }
 
@@ -236,25 +234,25 @@ h6 {
 }
 
 .photo {
-    padding: 50px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 .photo s1 img {
-    width: 400px;
+    width: 100%;
     height: auto;
-    padding: 20px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 .photo s2 img {
     width: 100%;
     height: auto;
-    padding: 35px 0px 35px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 .photo s3 img {
-    width: auto;
-    height: 400px;
-    padding: 20px 20px 20px 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 0px 0px;
 }
 
 .link {
@@ -263,11 +261,15 @@ h6 {
     padding: 30px 20px 0px 50px;
 }
 
+.row {
+    padding: 0px 0px 0px 0px;
+}
+
 .info-box-tan {
     width: 440px;
-    height: 440px;
+    height: auto;
     float: left;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 20px 20px 0px;
 }
 
 .info-box-tan1 {
@@ -275,8 +277,8 @@ h6 {
 }
 
 .info-box-dark {
-    height: 440px;
-    padding: 40px 20px 0px 20px;
+    height: auto;
+    padding: 20px 20px 40px 20px;
     text-align: left;
     left: 493px;
 }
@@ -301,12 +303,12 @@ h6 {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 30px;
     font-size: 80%;
     text-align: left;
     margin-top: 40px;
     list-style-type: none;
-    padding: 15px 10px 0px 10px;
+    padding: 10px 10px 15px 10px;
     background-color: #FFF;
 }
 
@@ -329,6 +331,7 @@ footer s3 img {
 }
 
 footer b {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 95%;
     font-weight: 300;
     color: #595959;
@@ -342,178 +345,183 @@ footer b {
 
 @media only screen and (max-width: 2000px) {
 
-    section {
-        max-width: 980px;
-        min-height: 300px;
-        padding: 260px 0px 150px 0px;
+    #cs header {
+        padding: 0px 0px 0px 0px;
     }
 
     ul.home_menu {
-        font-size: 90%;
+        font-size: 100%;
+    }
+
+    ul.home_menu li {
+        width: 47%;
+        color: #595959;
+    }
+
+    ul.home_menu a {
+        padding: 0px 0px 0px 0px;
     }
 
     .home s a img {
-        width: 245px;
-        height: auto;
-        padding: 15px 0px 0px 0px;
+        width: 50%;
+        padding: 0px 0px 0px 0px;
     }
 
     #menu {
-        width: 100%;
-        max-width: 980px;
-        margin: auto;
-        padding: 20px 0px 10px 0px;
-    }
-
-    #menu1 {
-        width: 100%;
-        max-width: 980px;
-        margin: auto;
-        padding: 20px 0px 10px 0px;
-    }
-
-    #menu li {
-        display: block;
-        float: left;
-        width: 20%;
-        margin: 0;
-        padding: 0;
+        width: 90%;
+        padding: 5px 0px 10px 0px;
     }
 
     #menu li a {
-        font-size: 110%;
+        color: #000;
+        padding: 0px 0px 10px 0px;
     }
 
     #menu1 {
-        padding: 50px 0px 0px 0px;
+        width: 90%;
+    }
+
+    #menu1 li a {
+        padding: 0px 0px 5px 0px;
+    }
+
+    #menu-box1 li {
+    font-size: 100%;
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    color: #000;
+}
+
+    #space {
+        min-height: 80px;
+    }
+
+    #space1 {
+        min-height: 150px;
+    }
+
+    section {
+        width: 80%;
+
+        padding: 150px 0px 50px 0px;
     }
 
     h1 {
-        font-size: 180%;
-    }
+    font-size: 140%;
+    line-height: 120%;
+    padding: 10px 0px 10px 20px;
+}
 
-    h2 {
-        font-size: 120%;
-    }
-
-    #cs p1 {
-        font-size: 105%;
-        line-height: 1.5em;
-    }
-
-    .photo {
-        padding: 80px 0px 0px 0px;
-    }
-
-    .photo s1 img {
-        width: 230px;
-        height: auto;
-        padding: 35px 20px 20px 20px;
-    }
-
-    .photo s2 img {
-        width: 100%;
-        height: auto;
-        padding: 35px 0px 35px 0px;
-    }
-
-    .photo s3 img {
-        width: auto;
-        height: 350px;
-        padding: 35px 20px 20px 20px;
-    }
-
-    .photo s4 img {
-
-        padding: 35px 20px 20px 20px;
-    }
-
-    .photo s5 img {
-        width: auto;
-        height: 230px;
-        padding: 35px 0px 35px 0px;
-    }
-
-    .side {
-        padding: 20px 20px 20px 20px;
-    }
-
-    .link {
+#cs h2 {
         font-size: 100%;
-        line-height: 2em;
-        padding: 30px 20px 0px 50px;
     }
 
-    .info-box-tan {
-        width: 380px;
-        height: 380px;
-        float: left;
-        padding: 20px 20px 20px 0px;
+    h4 {
+        font-size: 80%;
+        padding: 0px 0px 0px 0px;
     }
 
-    .info-box-dark {
-        height: 380px;
-        padding: 50px 20px 0px 0px;
-        text-align: left;
-        left: 493px;
-        line-height: 1.4em;
-    }
+#cs p1 {
+    font-size: 100%;
+    line-height: 1.5em;
+}
 
-    .info-box-tan1 {
-        padding: 0px 0px 0px;
-    }
-
-    .info-box-dark1 {
-        padding: 30px 20px 10px 20px;
-        text-align: left;
-        line-height: 1.7em;
-        left: 493px;
+.photo s3 img {
+    width: 90%;
     }
 
     .col-md-one-half {
-        display: inline-block;
+    display: inline-block;
+    width: 40%;
+    padding: 0px 20px 0px 0px;
+
+}
+
+.info-box-tan {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 20px 0px;
+}
+
+.info-box-dark {
+    height: auto;
+    padding: 10px 0px 40px 0px;
+    text-align: left;
+    left: 493px;
+}
+
+    #footer {
+        height: 25px;
+        margin-top: 50px;
+        padding: 10px 10px 10px 10px;
+        background-color:  #FFF;
     }
 
-    .col {
-        float: left;
-        padding: 0px 0px 0px;
+    footer s1 img {
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 0px 50px 10px;
+    }
+
+    footer s2 img {
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 5px 50px 5px;
+    }
+
+    footer s3 img {
+        max-width: 30px;
+        width: 2.5%;
+        padding: 0px 5px 50px 5px;
+    }
+
+    footer b {
+        font-size: 100%;
+        padding: 10px 20px 0px 0px;
     }
 
 }
 
-@media only screen and (max-width: 768px) {
-
-    #cs header {
-        padding: 10px 0px 0px 0px;
-    }
-
-    section {
-        max-width: 768px;
-        min-height: 480px;
-        padding: 240px 0px 150px 0px;
-    }
+@media only screen and (max-width: 840px) {
 
     ul.home_menu {
-        font-size: 75%;
+        font-size: 70%;
     }
 
     .home s a img {
-        width: 214px;
-        height: auto;
-        padding: 10px 0px 0px 0px;
+        width: 60%;
     }
 
     #menu {
-        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    #menu li a {
+        font-size: 100%;
     }
 
     #menu1 {
-        padding: 20px 0px 0px 0px;
+        width: 100%;
+        padding: 16px 0px 0px 0px;
     }
 
+    section {
+        width: 90%;
+        padding: 160px 0px 10px 0px;
+    }
+
+    #menu-box1 li {
+    font-size: 90%;
+    line-height: 1em;
+    padding: 10px 0px 0px 0px;
+}
+
     h1 {
-        font-size: 150%;
-        padding: 15px 10px 15px 20px;
+        font-size: 120%;
+        padding: 10px 20px 10px 20px;
     }
 
     h2 {
@@ -532,16 +540,22 @@ footer b {
     }
 
     h4 {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     h5 {
         padding: 0px 0px 10px 20px;
     }
 
+    p {
+        font-size: 90%;
+        line-height: 1em;
+    }
+
     #cs p1 {
-        font-size: 100%;
-        padding: 20px 0px 0px 0px;
+        font-size: 90%;
+        padding: 0px 0px 25px 0px;
+        line-height: 1.2em;
     }
 
     #cs p2 {
@@ -549,9 +563,8 @@ footer b {
         line-height: 1.7em;
     }
 
-
     .photo {
-        padding: 50px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
 
     .photo s1 img {
@@ -566,13 +579,13 @@ footer b {
     .photo s2 img {
         width: 100%;
         height: auto;
-        padding: 30px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .photo s3 img {
         width: auto;
         height: 350px;
-        padding: 30px 0px 50px 0px;
+        padding: 0px 0px 10px 0px;
         display: block;
         margin-left: auto;
         margin-right: auto
@@ -607,15 +620,15 @@ footer b {
     .info-box-tan {
         width: 100%;
         height: auto;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 10px 0px;
     }
 
     .info-box-dark {
-        width: 80%;
+        width: 90%;
         height: auto;
-        padding: 350px 10px 0px 10px;
+        padding: 100px 10px 30px 10px;
         text-align: left;
-        line-height: 2;
+        line-height: 1.5em;
     }
 
     .info-box-tan1 {
@@ -631,43 +644,59 @@ footer b {
     }
 
     .col {
-
         padding: 0px 0px 0px 0px;
     }
 
-    footer b {
-        font-size: 70%;
+    #footer {
+        background-color:  #FFF;
+        padding: 10px 0px 0px 10px;
     }
+
+    footer s1 img {
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 0px 0px 3px;
+      }
+
+      footer s2 img {
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 3px 0px 0px;
+      }
+
+      footer s3 img {
+        max-width: 20px;
+        width: 3.5%;
+        padding: 0px 3px 0px 3px;
+      }
+
+      footer b {
+        font-size: 70%;
+        padding: 0px 20px 0px 0px;
+      }
 
 }
 
 @media only screen and (max-width: 480px) {
 
-    section {
-        max-width: 480px;
-        min-height: 60px;
-        padding: 120px 0px 50px 0px;
-    }
-
     ul.home_menu {
         font-size: 70%;
-        padding: 5px 0px 0px 0px;
+        padding: 10px 0px 0px 10px;
     }
 
     ul.home_menu li {
-        width: 45%;
-        padding: 0px 0px 0px 7px;
+        width: 100%;
+        padding: 0px 10px 0px 0px;
     }
 
     ul.home_menu a {
-        padding: 0px 7px 0px 0px;
+        padding: 0px 10px 0px 0px;
         color: #595959;
     }
 
     .home s a img {
-        width: 183px;
-        height: auto;
-        padding: 0px 0px 0px 0px;
+        width: 95%;
+        padding: 10px 0px 0px 0px;
     }
 
     .toggle_wrap {
@@ -703,6 +732,12 @@ footer b {
         display: none;
         text-align: center;
         padding: 20px 0px 0px 0px;
+    }
+
+    section {
+        width: 90%;
+        min-height: 60px;
+        padding: 0px 0px 0px 0px;
     }
 
     .mgr-30{
@@ -743,7 +778,7 @@ footer b {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        padding: 35px 0px 35px 0px;
+        padding: 10px 0px 10px 0px;
     }
 
     .photo s5 img {
@@ -769,16 +804,19 @@ footer b {
     }
 
     #cs h1 {
-        font-size: 120%;
-        padding: 10px 0px 10px 10px;
+        font-size: 100%;
+        padding: 10px 0px 5px 10px;
     }
 
     h2 {
+        font-size: 100%;
+        color: #767676;
+        padding: 12px 0px 12px 0px;
         padding: 15px 0px 15px 0px;
     }
 
     h2 a {
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .toggle_switch h3 {
@@ -786,8 +824,8 @@ footer b {
     }
 
     h5 {
-        font-size: 80%;
-        padding: 0px 0px 10px 10px;
+        font-size: 70%;
+        padding: 0px 10px 10px 10px;
     }
 
     #cs h6 {
@@ -811,7 +849,7 @@ footer b {
     }
 
     #cs p3 a{
-        font-size: 90%;
+        font-size: 75%;
         padding: 0px 20px 0px 0px;
     }
 
@@ -838,7 +876,7 @@ footer b {
     .info-box-dark {
         width: 90%;
         height: auto;
-        padding: 360px 0px 20px 0px;
+        padding: 360px 0px 30px 0px;
         line-height: 1.2;
     }
 

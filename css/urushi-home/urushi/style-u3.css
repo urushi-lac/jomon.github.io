@@ -125,7 +125,7 @@ section {
 
 h1 {
     font-weight: 700;
-    font-size: 160%;
+    font-size: 180%;
     line-height: 120%;
     background-color: #f3f3f3;
     background-repeat: no-repeat;
@@ -694,6 +694,7 @@ colgroup.area4-1 {
     }
 
     h2 a {
+        font-size: 100%;
         color: #767676;
     }
 
