@@ -299,7 +299,7 @@ footer b {
     }
 
     h2 {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     h4 {
@@ -398,7 +398,7 @@ footer b {
     }
 
     h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     h3 {
@@ -557,6 +557,7 @@ footer b {
     }
 
     h2 a {
+        font-size: 100%;
         color: #767676;
     }
 

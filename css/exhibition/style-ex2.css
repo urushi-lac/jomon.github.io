@@ -90,7 +90,7 @@ section {
 }
 
 h2 {
-    font-weight: 480;
+    font-weight: 400;
     font-size: 125%;
 }
 
@@ -248,7 +248,7 @@ footer b {
 
 
     h2 {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     .photo s1 img {
@@ -330,7 +330,7 @@ footer b {
     }
 
     h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     #footer {
@@ -454,6 +454,7 @@ footer b {
     }
 
     h2 a {
+        font-size: 100%;
         color: #767676;
     }
 

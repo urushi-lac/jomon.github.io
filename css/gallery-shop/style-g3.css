@@ -97,7 +97,7 @@ ul.home_menu a {
 h2 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 125%;
-    font-weight: 480;
+    font-weight: 400;
 }
 
 h3 {
@@ -228,7 +228,7 @@ footer b {
     }
 
     h2 {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     h5 {
@@ -303,7 +303,7 @@ footer b {
     }
 
     h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     h4 {
@@ -418,6 +418,7 @@ footer b {
     }
 
     h2 a {
+        font-size: 100%;
         color: #767676;
     }
 

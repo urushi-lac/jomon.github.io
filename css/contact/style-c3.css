@@ -52,7 +52,7 @@ ul.home_menu a {
 #menu li {
     display: block;
     float: left;
-    width: 25%;
+    width: 20%;
     margin: 0;
     padding: 0;
     color: #000;
@@ -96,7 +96,7 @@ h1 {
 
 h2 {
     font-size: 125%;
-    font-weight: 480;
+    font-weight: 400;
 }
 
 h3 {
@@ -211,7 +211,7 @@ footer b {
     }
 
     h2 {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     #footer {
@@ -274,7 +274,7 @@ footer b {
     }
 
     h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     h4 {
@@ -388,6 +388,7 @@ footer b {
     }
 
     h2 a {
+        font-size: 100%;
         color: #767676;
     }
 
