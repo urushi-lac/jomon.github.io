@@ -120,8 +120,9 @@ section {
     background: #FFF;
     max-width: 1200px;
     width: 61.8%;
+    height: 100%;
     text-shadow: none;
-    padding: 300px 0px 0px 0px;
+    padding: 250px 0px 0px 0px;
 }
 
 .space {
@@ -129,7 +130,7 @@ section {
 }
 
 .space1 {
-    padding: 150px 0px 0px 0px;
+    padding: 250px 0px 0px 0px;
 }
 
 h1 {
@@ -234,23 +235,23 @@ h6 {
 }
 
 .photo {
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
-.photo s1 img {
-    width: 100%;
+.photo1 s1 img {
+    width: 80%;
     height: auto;
-    padding: 0px 0px 20px 0px;
-}
+    padding: 20px 0px 0px 0px;
+    }
 
 .photo s2 img {
     width: 100%;
     height: auto;
-    padding: 0px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .photo s3 img {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 0px 20px 0px 0px;
 }
@@ -262,6 +263,22 @@ h6 {
 }
 
 .row {
+    height: 210px;
+    padding: 0px 0px 0px 0px;
+}
+
+.row1 {
+    height: 450px;
+    padding: 0px 0px 0px 0px;
+}
+
+.row2 {
+    height: 650px;
+    padding: 0px 0px 0px 0px;
+}
+
+.row3 {
+    height: 1200px;
     padding: 0px 0px 0px 0px;
 }
 
@@ -277,6 +294,7 @@ h6 {
 }
 
 .info-box-dark {
+    width: 100%;
     height: auto;
     padding: 20px 20px 40px 20px;
     text-align: left;
@@ -288,6 +306,22 @@ h6 {
     text-align: left;
     line-height: 2;
     left: 493px;
+}
+
+.info-box-tan2 {
+    width: 80%;
+    height: auto;
+    text-align: left;
+    left: 493px;
+    padding: 20px 20px 40px 20px;
+}
+
+.info-box-dark2 {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    left: 493px;
+    padding: 20px 20px 40px 20px;
 }
 
 .col-md-one-half {
@@ -395,6 +429,37 @@ footer b {
     color: #000;
 }
 
+section {
+    max-width: 1200px;
+    width: 90%;
+    height: 100%;
+        padding: 140px 0px 0px 0px;
+}
+
+.row {
+    width: 100%;
+        height: 300px;
+        padding: 0px 0px 0px 0px;
+}
+
+.row1 {
+    width: 100%;
+    height: 420px;
+    padding: 0px 0px 0px 0px;
+}
+
+.row2 {
+    width: 100%;
+    height: 600px;
+    padding: 0px 0px 0px 0px;
+}
+
+.row3 {
+    width: 100%;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
+}
+
     #space {
         min-height: 0px;
     }
@@ -403,10 +468,7 @@ footer b {
         min-height: 150px;
     }
 
-    section {
-        width: 70%;
-        padding: 150px 0px 50px 0px;
-    }
+
 
     h1 {
     font-size: 140%;
@@ -428,28 +490,59 @@ footer b {
     line-height: 1.5em;
 }
 
+.photo1 s1 img {
+    width: 80%;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+    }
+
 .photo s3 img {
-    width: 90%;
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 0px 0px;
     }
 
     .col-md-one-half {
+        width:80%;
+    height: auto;
     display: inline-block;
     width: 40%;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 0px;
 
 }
 
 .info-box-tan {
-    width: 100%;
+    width:80%;
     height: auto;
-    padding: 10px 0px 20px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .info-box-dark {
+    width:100%;
     height: auto;
     padding: 10px 0px 40px 0px;
     text-align: left;
     left: 493px;
+}
+
+.info-box-tan1 {
+    width: 80%;
+    height: auto;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+
+.info-box-tan2 {
+    width: 75%;
+    padding: 10px 0px 20px 0px;
+}
+
+.info-box-dark2 {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    left: 493px;
+    padding: 20px 20px 40px 20px;
 }
 
     #footer {
@@ -512,6 +605,29 @@ footer b {
         padding: 160px 0px 10px 0px;
     }
 
+    .row {
+        height: 500px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .row1 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .row2 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .row3 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
     #menu-box1 li {
     font-size: 90%;
     line-height: 1em;
@@ -553,7 +669,7 @@ footer b {
 
     #cs p1 {
         font-size: 90%;
-        padding: 0px 0px 25px 0px;
+        padding: 0px 0px 0px 0px;
         line-height: 1.2em;
     }
 
@@ -566,10 +682,14 @@ footer b {
         padding: 20px 0px 0px 0px;
     }
 
-    .photo s1 img {
-        width: 250px;
+    .photo1 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .photo1 s1 img {
+        width: 350px;
         height: auto;
-        padding: 30px 0px 10px 0px;
+        padding: 0px 0px 10px 0px;
         display: block;
         margin-left: auto;
         margin-right: auto
@@ -612,6 +732,8 @@ footer b {
         padding-top: 50px;
     }
 
+
+
     .col-md-one-half {
         width: 100%;
     }
@@ -625,7 +747,7 @@ footer b {
     .info-box-dark {
         width: 90%;
         height: auto;
-        padding: 100px 10px 30px 10px;
+        padding: 100px 10px 0px 10px;
         text-align: left;
         line-height: 1.5em;
     }
@@ -638,8 +760,21 @@ footer b {
 
     .info-box-dark1 {
         width: 80%;
-        padding: 270px 0px 20px 0px;
+        padding: 270px 0px 0px 0px;
         line-height: 1.7em;
+    }
+
+    .info-box-tan2 {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .info-box-dark2 {
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+        line-height: 1.5em;
     }
 
     .col {
@@ -735,8 +870,32 @@ footer b {
 
     section {
         width: 90%;
-        min-height: 60px;
+        height: 100%;
+        padding: 120px 0px 0px 0px;
+    }
+
+    .row {
+        width: 100%;
+        height: 100%;
+            padding: 0px 0px 0px 0px;
+    }
+
+    .row1 {
+        width: 100%;
+        height: 100%;
         padding: 0px 0px 0px 0px;
+    }
+
+    .row2 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .row3 {
+        width: 100%;
+            height: 100%;
+            padding: 0px 0px 0px 0px;
     }
 
     .mgr-30{
@@ -849,7 +1008,7 @@ footer b {
 
     #cs p3 a{
         font-size: 75%;
-        padding: 0px 20px 0px 0px;
+        padding: 0px 20px 20px 0px;
     }
 
     .info-box-dark p3 a {
@@ -861,6 +1020,12 @@ footer b {
         font-size: 100%;
         line-height: 3em;
         padding: 10px 20px 0px 10px;
+    }
+
+    .row3 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 0px 0px 0px;
     }
 
     .col-md-one-half {
@@ -888,6 +1053,11 @@ footer b {
         width: 85%;
         padding: 0px 0px 20px 0px;
         line-height: 2;
+    }
+
+    .info-box-tan2 {
+        width: 100%;
+        padding: 30px 0px 0px 0px;
     }
 
     .col {
