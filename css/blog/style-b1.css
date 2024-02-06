@@ -898,6 +898,10 @@ section {
             padding: 0px 0px 0px 0px;
     }
 
+    .mgr-50{
+        margin-right : 15px;
+    }
+
     .mgr-30{
         color: #767676;
         margin-right : 30px;
@@ -998,7 +1002,7 @@ section {
 
     #cs p1 {
         font-size: 90%;
-        line-height: 1.5;
+        line-height: 2;
     }
 
     #cs p2 {
