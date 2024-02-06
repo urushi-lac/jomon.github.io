@@ -233,28 +233,31 @@ footer b {
 
     section {
 
-        padding: 120px 0px 10px 0px;
+        padding: 80px 0px 10px 0px;
     }
+
+
 
     .single-item {
         width: 520px;
-        height: 550px;
+        height: 510px;
     }
 
     .container {
-        width: 90%;
+        width: 100%;
+         height: auto;
         padding: 0px 0px 0px 0px;
+    }
+
+    .photo s1 img {
+        width: 450px;
+        height: auto;
+        padding: 30px 0px 0px 0px;
     }
 
 
     h2 {
         font-size: 100%;
-    }
-
-    .photo s1 img {
-        width: 520px;
-        height: auto;
-        padding: 0px 0px 0px 0px;
     }
 
     #footer {
@@ -448,6 +451,12 @@ footer b {
         padding: 0px 0px 30px 0px;
     }
 
+    .photo s1 img {
+        max-width: 280px;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
     h2 {
         font-size: 90%;
         padding: 15px 0px 15px 0px;
@@ -462,11 +471,7 @@ footer b {
         font-size: 110%;
     }
 
-    .photo s1 img {
-        max-width: 280px;
-        height: auto;
-        padding: 0px 0px 0px 0px;
-    }
+
 
     #footer {
         height: 15px;
