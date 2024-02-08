@@ -90,7 +90,7 @@ video {
   margin-right: auto;
   text-decoration: none;
   font-family: 'Noto Sans JP', sans-serif;
-  color: #000;
+  color: #331a1a;
 }
 
 article,
@@ -114,7 +114,7 @@ a {
   text-shadow: none;
   list-style-type: none;
   text-decoration: none;
-  color: #000;
+  color: #331a1a;
   background: transparent;
 }
 
@@ -128,7 +128,7 @@ body {
   font-weight: 400;
   background-repeat: repeat;
   line-height: 1.2em;
-  color: #000;
+  color: #331a1a;
   -webkit-text-shadow: 0 1px 0 #FFF;
   text-shadow: 01px 0 #FFF;
   line-height: 1;
