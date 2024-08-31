@@ -6,8 +6,8 @@
     width: 100%;
     position: fixed;
     margin-bottom: 0px;
-    padding: 10px 0px 0px 0px;
     z-index: 1;
+    padding: 10px 0px 0px 0px;
 }
 
 ul.home_menu {
@@ -41,6 +41,7 @@ ul.home_menu a {
     height: auto;
     padding: 20px 0px 0px 0px;
 }
+
 
 #menu {
     width: 100%;
