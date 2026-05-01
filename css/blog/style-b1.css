@@ -214,6 +214,10 @@ h6 {
     text-decoration-line: underline;
 }
 
+#cs p4 {
+    font-size: 120%;
+}
+
 .info-box-dark p3 a {
     font-weight: 300;
     font-size: 70%;
