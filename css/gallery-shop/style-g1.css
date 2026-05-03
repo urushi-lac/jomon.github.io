@@ -248,6 +248,11 @@ h6 {
     line-height: 1.3em;
 }
 
+#cs p3 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
 #footnote ol {
     padding: 10px 15px 0px 15px;
 }
