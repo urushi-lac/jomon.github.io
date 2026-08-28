@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer-when-downgrade">
   <meta name="description" content="お手入れの楽な丈夫なお椀を、作家(渡邊博之)だけで一貫制作しております。このサイトでいろいろな情報をお届けいたします。">
+
+  <!-- OGP -->
   <meta property="og:title" content="渡辺博之漆部屋便り | TOP" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://urushi-lac.github.io/jomon.github.io/index.html" />
@@ -15,26 +17,40 @@
   <meta property="og:description" content="お手入れの楽な丈夫なお椀を、作家(渡邊博之)だけで一貫制作しております。このサイトでいろいろな情報をお届けいたします。" />
   <meta property="og:site_name" content="渡辺博之漆部屋便り" />
   <meta property="fb:app_id" content="676328152572088" />
+
+  <!-- X「Twitter] -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@hiro_w2011">
   <meta name="twitter:creator" content="@hiro_w2011">
+
+  <!-- CSP -->
   <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://apis.google.com https://www.googletagmanager.com 'unsafe-inline'; connect-src 'self' https://www.google-analytics.com https://fonts.gstatic.com;">
   <meta http-equiv="Cache-Control" content="no-cache">
+
   <title>渡辺博之漆部屋便り | TOP</title>
+
+  <!-- canonicalURL -->
   <link rel="canonical" href="https://urushi-watanabe.com/">
+
+  <!-- manifest -->
+  <link rel="manifest" href="https://urushi-lac.github.io/jomon.github.io/manifest.json">
+  <meta name="theme-color" content="#ffffff">
+  <!-- iOS -->
+  <meta name="theme-color" content="#ffffff">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" class="lazy-css" media="print" onload="this.media='all'">
 
   <script>
-  window.addEventListener('load', function() {
-    var lazyCssList = document.querySelectorAll('.lazy-css');
-    lazyCssList.forEach(function(styleSheet) {
-      if (styleSheet.dataset.href) {
-        styleSheet.href = styleSheet.dataset.href;
-      }
+    window.addEventListener('load', function () {
+      var lazyCssList = document.querySelectorAll('.lazy-css');
+      lazyCssList.forEach(function (styleSheet) {
+        if (styleSheet.dataset.href) {
+          styleSheet.href = styleSheet.dataset.href;
+        }
+      });
     });
-  });
   </script>
 
   <!-- CSS -->
@@ -44,14 +60,19 @@
   <!-- icon -->
   <link rel="icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/favicon.ico" sizes="any">
   <link rel="icon" type="image/svg+xml" href="https://urushi-lac.github.io/jomon.github.io/images/top/misowan.svg">
+  <!-- iPhonehome -->
   <link rel="apple-touch-icon" href="https://urushi-lac.github.io/jomon.github.io/images/top/apple-touch-icon-precomposed.png">
-  <link rel="icon" type="image/png" href="https://urushi-lac.github.io/jomon.github.io/images/top/misosoup.png" sizes="200x200">
+  <!-- Androidhome -->
+  <link rel="icon" type="image/png" href="https://urushi-lac.github.io/jomon.github.io/images/top/misosoup-icon.png" sizes="192x192">
 
   <!-- Google Analytics (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBN8YVHS9D"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-JBN8YVHS9D');
