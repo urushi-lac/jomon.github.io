@@ -1,0 +1,15 @@
+{
+  "name": "渡辺博之漆部屋便り",
+  "short_name": "漆部屋便り",
+  "start_url": "https://urushi-lac.github.io/jomon.github.io/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://urushi-lac.github.io/jomon.github.io/images/top/wan.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
