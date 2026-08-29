@@ -33,7 +33,7 @@
   <link rel="canonical" href="https://urushi-watanabe.com/">
 
   <!-- manifest -->
-<link rel="manifest" href="https://urushi-watanabe.com/manifest.json">
+  <link rel="manifest" href="https://urushi-watanabe.com/manifest.json">
   <meta name="theme-color" content="#ffffff">
   <!-- iOS -->
   <meta name="theme-color" content="#ffffff">
@@ -107,20 +107,23 @@
 
 <body id="cs">
 
-    <!-- ローディング画面 -->
+  <!-- ローディング画面 -->
   <div id="loading-screen">
-<img src="https://urushi-watanabe.com/images/top/wan.png" alt="読み込み中">
+    <div class="photo">
+      <s1><img src="https://urushi-watanabe.com/images/top/wan.png" alt="読み込み中"></s1>
+      </center>
+    </div>
   </div>
 
   <script>
-  window.addEventListener('load', () => {
-    const loadingScreen = document.getElementById('loading-screen');
-    loadingScreen.classList.add('fade-out');
-    setTimeout(() => {
-      loadingScreen.style.display = 'none';
-    }, 5000);
-  });
-</script>
+    window.addEventListener('load', () => {
+      const loadingScreen = document.getElementById('loading-screen');
+      loadingScreen.classList.add('fade-out');
+      setTimeout(() => {
+        loadingScreen.style.display = 'none';
+      }, 5000);
+    });
+  </script>
 
   <header>
     <div class="home">
