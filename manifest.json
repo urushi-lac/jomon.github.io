@@ -11,10 +11,5 @@
     "sizes": "512x512",
     "type": "image/png"
   },
-  {
-    "src": "https://urushi-watanabe.com/images/top/misosoup.png",
-    "sizes": "192x192",
-    "type": "image/png"
-  }
 ]
 }
