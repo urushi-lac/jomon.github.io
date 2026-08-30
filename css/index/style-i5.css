@@ -99,7 +99,6 @@ ul.home_menu a {
     width: 280px;
     height: auto;
     padding: 30px 0px 0px 0px;
-
 }
 
 /* フェードアウト用 */
@@ -107,6 +106,7 @@ ul.home_menu a {
     opacity: 0;
     pointer-events: none;
 }
+
 
 .photo s1 img {
     width: 280px;
@@ -238,10 +238,9 @@ footer b {
         padding: 0px 0px 10px 0px;
     }
 
-    #loading-screen img {
-        width: 80%;
-        padding: 60px 0px 0px 0px;
-    }
+     #loading-screen img {
+        width: 224px;
+        padding: 45px 0px 0px 0px;
 
     .photo s1 img {
         width: 80%;
@@ -316,7 +315,7 @@ footer b {
     #loading-screen img {
         width: 160px;
         height: auto;
-        padding: 40px 0px 30px 0px;
+        padding: 80px 0px 20px 0px;
     }
 
     .inner {
@@ -429,9 +428,9 @@ footer b {
     }
 
     #loading-screen img {
-        width: 50%;
+       width: 140px;   /* 50% → 固定140pxに変更 */
         height: auto;
-        padding: 0px 0px 10px 0px;
+        padding: 0px 0px 35px 0px;
     }
 
     .inner {
@@ -654,7 +653,8 @@ footer b {
 
     #loading-screen img {
         width: auto;
-        height: 100px;
+        height: 100px;  /* すでに固定なのでそのまま */
+        padding: 0px 0px 25px 0px;
     }
 
     .inner {
