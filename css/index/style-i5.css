@@ -467,6 +467,11 @@ footer b {
         padding: 50px 0px 0px 0px;
     }
 
+    h5 {
+        font-size: 80%;
+        padding: 0px 0px 0px 0px;
+    }
+
     .inner p1 {
         font-size: 85%;
         color: #767676;
