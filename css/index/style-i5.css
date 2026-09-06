@@ -144,6 +144,16 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: 	#330000;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    text-align: center;
+}
+
 .inner p1 {
     font-size: 100%;
     color: #767676;
