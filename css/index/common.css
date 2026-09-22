@@ -21,7 +21,7 @@ ul.home_menu {
     list-style-type: none;
     padding: 10px 0px 0px 0px;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
 }
 
 ul.home_menu li {
