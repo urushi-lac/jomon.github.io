@@ -46,6 +46,13 @@ ul.home_menu a {
     padding: 20px 0px 0px 0px;
 }
 
+/* メニュー用のフォントと文字サイズ */
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 125%;
+    font-weight: 400;
+}
+
 #menu {
     width: 100%;
     max-width: 1200px;
@@ -182,6 +189,11 @@ footer b {
         padding: 0px 0px 0px 0px;
     }
 
+        #cs h2 {
+        font-size: 100%;
+    }
+}
+
     #menu {
         width: 90%;
         padding: 5px 0px 10px 0px;
@@ -242,6 +254,11 @@ footer b {
         height: auto;
         padding: 10px 0px 0px 0px;
     }
+
+        h2 {
+        font-size: 110%;
+    }
+}
 
     #menu {
         width: 100%;
@@ -308,6 +325,17 @@ footer b {
         width: 95%;
         padding: 10px 0px 0px 0px;
     }
+
+        h2 {
+        font-size: 90%;
+        padding: 15px 0px 15px 0px;
+    }
+
+    h2 a {
+        font-size: 100%;
+        color: #767676;
+    }
+}
 
     .toggle_wrap {
         display: block;
@@ -509,6 +537,11 @@ footer b {
         height: auto;
         padding: 5px 0px 0px 0px;
     }
+
+        h2 {
+        font-size: 85%;
+    }
+}
 
     .toggle_switch {
         padding: 5px 0px 10px 0px;
