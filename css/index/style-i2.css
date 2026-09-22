@@ -7,28 +7,31 @@
     font-weight: 300;
     font-display: swap;
     src: local('Noto Sans JP Light'),
-         url('https://urushi-lac.github.io/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-300.woff2') format('woff2'), /* Super Modern Browsers */
-  }
+        url('https://urushi-watanabe.com/fonts/noto-sans-jp-v28-latin_japanese-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+}
 
-   /* noto-sans-jp-regular - latin_japanese */
-   @font-face {
+/* noto-sans-jp-regular - latin_japanese */
+@font-face {
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: local('Noto Sans JP Regular'),
-         url('https://urushi-lac.github.io/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-regular.woff2') format('woff2'), /* Super Modern Browsers */
-  }
+        url('https://urushi-watanabe.com/fonts/noto-sans-jp-v28-latin_japanese-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+}
 
-  /* noto-sans-jp-700 - latin_japanese */
-  @font-face {
+/* noto-sans-jp-700 - latin_japanese */
+@font-face {
     font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 700;
     font-display: swap;
     src: local('Noto Sans JP Bold'),
-         url('https://urushi-lac.github.io/jomon.github.io/fonts/noto-sans-jp-v28-latin_japanese-700.woff2') format('woff2'), /* Super Modern Browsers */
-  }
+        url('https://urushi-watanabe.com/fonts/noto-sans-jp-v28-latin_japanese-700.woff2') format('woff2'),
+        /* Super Modern Browsers */
+}
 
 .clearfix:after {
     content: ".";
@@ -138,19 +141,19 @@ h6 {
 }
 
 #cs p1 {
-	font-family: 'Noto Sans JP', sans-serif;
-	font-size: 100%;
-	font-weight: 400;
-	color:#000;
-	padding: 0px 0px 0px 0px;
-	line-height:1.5em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #000;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.5em;
 }
 
 #cs p2 {
-	font-family: 'Noto Sans JP', sans-serif;
-	font-size: 110%;
-	font-weight: 400;
-	color:#000;
-	padding: 50px 0px 0px 0px;
-	line-height:2;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 110%;
+    font-weight: 400;
+    color: #000;
+    padding: 50px 0px 0px 0px;
+    line-height: 2;
 }

@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+/* ===================================================
+   Header (共通ヘッダー)
+=================================================== */
 #cs header {
     border-top: 0px;
     background-color: #fff;
@@ -10,6 +13,7 @@
     z-index: 1;
     padding: 10px 0px 0px 0px;
 }
+
 ul.home_menu {
     display: flex;
     width: 100%;
@@ -41,7 +45,6 @@ ul.home_menu a {
     height: auto;
     padding: 20px 0px 0px 0px;
 }
-
 
 #menu {
     width: 100%;
@@ -77,10 +80,9 @@ ul.home_menu a {
     display: none;
 }
 
-#box0 {
-    min-height: 280px;
-}
-
+/* ===================================================
+   Loading Screen (ローディング画面)
+=================================================== */
 #loading-screen {
     position: fixed;
     top: 0;
@@ -101,75 +103,14 @@ ul.home_menu a {
     padding: 30px 0px 0px 0px;
 }
 
-/* フェードアウト用 */
 #loading-screen.fade-out {
     opacity: 0;
     pointer-events: none;
 }
 
-
-.photo s1 img {
-    width: 280px;
-    height: auto;
-    padding: 30px 0px 0px 0px;
-    text-align: center;
-    position: relative;
-}
-
-h2 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 125%;
-    font-weight: 400;
-}
-
-h3 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 100%;
-    font-weight: 400;
-    color: #595959;
-    padding: 0px 0px 0px 0px;
-    margin: 0;
-    text-align: center;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-}
-
-h4 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 400%;
-    font-weight: 400;
-    color: #c3c3c3;
-    padding: 0px 0px 0px 0px;
-    position: relative;
-    text-align: center;
-}
-
-h5 {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 100%;
-    font-weight: 400;
-    color: 	#330000;
-    padding: 0px 0px 0px 0px;
-    position: relative;
-    text-align: center;
-}
-
-.inner p1 {
-    font-size: 100%;
-    color: #767676;
-}
-
-.inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    margin: auto;
-    width: 280px;
-    height: 240px;
-}
-
+/* ===================================================
+   Footer (共通フッター)
+=================================================== */
 #footer {
     position: fixed;
     bottom: 0;
@@ -214,8 +155,10 @@ footer b {
     display: none;
 }
 
+/* ===================================================
+   Responsive (max-width: 2000px)
+=================================================== */
 @media only screen and (max-width: 2000px) {
-
     #cs header {
         padding: 0px 0px 0px 0px;
     }
@@ -234,7 +177,8 @@ footer b {
     }
 
     .home s a img {
-        width: 50%;
+         width: 306px;
+        height: auto;
         padding: 0px 0px 0px 0px;
     }
 
@@ -248,24 +192,17 @@ footer b {
         padding: 0px 0px 10px 0px;
     }
 
-     #loading-screen img {
+    #loading-screen img {
         width: 280px;
+        height: auto;
         padding: 30px 0px 0px 0px;
-
-    .photo s1 img {
-        width: 80%;
-        padding: 60px 0px 0px 0px;
-    }
-
-    #cs h2 {
-        font-size: 100%;
     }
 
     #footer {
         height: 40px;
         margin-top: 50px;
         padding: 0px 10px 0px 10px;
-        background-color: transparent
+        background-color: transparent;
     }
 
     footer s1 img {
@@ -290,11 +227,12 @@ footer b {
         font-size: 100%;
         padding: 10px 20px 0px 0px;
     }
-
 }
 
+/* ===================================================
+   Responsive (max-width: 835px)
+=================================================== */
 @media only screen and (max-width: 835px) {
-
     ul.home_menu {
         font-size: 70%;
     }
@@ -318,34 +256,10 @@ footer b {
         padding: 7px 0 7px;
     }
 
-    #box0 {
-        min-height: 160px;
-    }
-
     #loading-screen img {
         width: 160px;
         height: auto;
         padding: 80px 0px 20px 0px;
-    }
-
-    .inner {
-        width: 160px;
-        height: 135px;
-    }
-
-    .photo s1 img {
-        width: 100%;
-        height: auto;
-        padding: 40px 0px 30px 0px;
-    }
-
-    h2 {
-        font-size: 110%;
-    }
-
-    h4 {
-        font-size: 300%;
-        padding: 100px 0px 0px 0px;
     }
 
     footer s1 img {
@@ -369,11 +283,12 @@ footer b {
     footer b {
         font-size: 70%;
     }
-
 }
 
+/* ===================================================
+   Responsive (max-width: 480px)
+=================================================== */
 @media only screen and (max-width: 480px) {
-
     ul.home_menu {
         font-size: 70%;
         padding: 10px 0px 0px 10px;
@@ -423,6 +338,10 @@ footer b {
         top: 46%;
     }
 
+    .toggle_switch h3 {
+        font-size: 110%;
+    }
+
     .toggle_contents {
         display: none;
         text-align: center;
@@ -433,54 +352,10 @@ footer b {
         display: none;
     }
 
-    #box0 {
-        min-height: 80px;
-    }
-
     #loading-screen img {
-       width: 140px;   /* 50% → 固定140pxに変更 */
+        width: 140px;
         height: auto;
         padding: 0px 0px 35px 0px;
-    }
-
-    .inner {
-        width: 280px;
-        height: 100px;
-        bottom: 50px;
-    }
-
-    h2 {
-        font-size: 90%;
-        padding: 15px 0px 15px 0px;
-    }
-
-    h2 a {
-        color: #767676;
-    }
-
-    .toggle_switch h3 {
-        font-size: 110%;
-    }
-
-    h4 {
-        font-size: 200%;
-        padding: 50px 0px 0px 0px;
-    }
-
-    h5 {
-        font-size: 80%;
-        padding: 0px 0px 0px 0px;
-    }
-
-    .inner p1 {
-        font-size: 85%;
-        color: #767676;
-    }
-
-    .photo s1 img {
-        width: 50%;
-        height: auto;
-        padding: 0px 0px 10px 0px;
     }
 
     #footer {
@@ -489,15 +364,10 @@ footer b {
         padding: 0px 0px 15px 0px;
     }
 
-    footer s1 img {
-        display: none;
-    }
-
-    footer s2 img {
-        display: none;
-    }
-
-    footer s3 img {
+    footer s1 img,
+    footer s2 img,
+    footer s3 img,
+    footer b {
         display: none;
     }
 
@@ -510,10 +380,6 @@ footer b {
         vertical-align: top;
         text-decoration-style: solid;
         text-decoration-line: underline;
-    }
-
-    footer b {
-        display: none;
     }
 
     footer b1 {
@@ -534,7 +400,6 @@ footer b {
 
     .js-modal__btn {
         color: #595959;
-        ;
         cursor: pointer;
         padding: 10px 10px 0px 10px;
     }
@@ -617,27 +482,13 @@ footer b {
     }
 
     @keyframes SlideUp {
-        0% {
-            opacity: 0;
-            transform: translateY(-1%);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateY(-30%);
-        }
+        0% { opacity: 0; transform: translateY(-1%); }
+        100% { opacity: 1; transform: translateY(-30%); }
     }
 
     @keyframes SlideDown {
-        0% {
-            opacity: 1;
-            transform: translateY(-30%);
-        }
-
-        100% {
-            opacity: 0;
-            transform: translateY(-1%);
-        }
+        0% { opacity: 1; transform: translateY(-30%); }
+        100% { opacity: 0; transform: translateY(-1%); }
     }
 
     .js-modal__main._slideUp {
@@ -647,11 +498,12 @@ footer b {
     .js-modal__main._slideDown {
         animation: SlideDown .5s ease-in-out forwards;
     }
-
 }
 
+/* ===================================================
+   Responsive (max-width: 320px)
+=================================================== */
 @media only screen and (max-width: 320px) {
-
     .home s a img {
         width: 153px;
         height: auto;
@@ -668,31 +520,7 @@ footer b {
 
     #loading-screen img {
         width: auto;
-        height: 100px;  /* すでに固定なのでそのまま */
+        height: 100px;
         padding: 0px 0px 25px 0px;
     }
-
-    .inner {
-        width: 280px;
-        height: 75px;
-    }
-
-    h2 {
-        font-size: 85%;
-    }
-
-    h3 {
-        font-size: 95%;
-    }
-
-    h4 {
-        font-size: 200%;
-        padding: 30px 0px 0px 0px;
-    }
-
-    .photo s1 img {
-        width: auto;
-        height: 100px;
-    }
-
 }
