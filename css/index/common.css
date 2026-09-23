@@ -3,6 +3,10 @@
 /* ===================================================
    Header (共通ヘッダー)
 =================================================== */
+html {
+    scrollbar-gutter: stable;
+}
+
 #cs header {
     border-top: 0px;
     background-color: #fff;
@@ -349,11 +353,15 @@ footer b {
         padding: 10px 10px 0px 10px;   /* 左右をまったく同じ余白（15px）にする */
     }
 
-    ul.home_menu li {
-        width: auto;
-        flex: 0 0 auto;
+     ul.home_menu li {
+        width: 75px;        /* 左右をまったく同じ幅にする */
+        flex: 0 0 75px;     /* 伸縮させない */
         padding: 0;
         line-height: 1.2;
+    }
+
+    ul.home_menu li:last-child {
+        text-align: right;  /* 右側の言語リンクを右端に寄せる */
     }
 
     ul.home_menu a {
@@ -368,6 +376,7 @@ footer b {
         width: auto;
         text-align: center;
     }
+
 
     .home s a img {
         width: 80%;
