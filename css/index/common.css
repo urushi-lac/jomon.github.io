@@ -65,6 +65,18 @@ h2 {
     padding: 0;
 }
 
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    color: #595959;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration-line: underline;
+}
+
 #menu-box {
     display: block;
 }
@@ -265,6 +277,11 @@ footer b {
         font-size: 70%;
     }
 
+    .home s {
+        flex: 1 1 auto;
+        width: auto;
+    }
+
     .home s a img {
         width: 60%;
         height: auto;
@@ -321,24 +338,42 @@ footer b {
    Responsive (max-width: 480px)
 =================================================== */
 @media only screen and (max-width: 480px) {
-    ul.home_menu {
+       ul.home_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: nowrap;
         font-size: 70%;
-        padding: 10px 0px 0px 10px;
+        width: 100%;
+        box-sizing: border-box;        /* 画面外へのはみ出しを防止 */
+        padding: 10px 10px 0px 10px;   /* 左右をまったく同じ余白（15px）にする */
     }
 
     ul.home_menu li {
-        width: 100%;
-        padding: 0px 10px 0px 0px;
+        width: auto;
+        flex: 0 0 auto;
+        padding: 0;
+        line-height: 1.2;
     }
 
     ul.home_menu a {
-        padding: 0px 10px 0px 0px;
+        padding: 0;
+        line-height: 1.2;
         color: #595959;
+        float: none;
+    }
+
+    .home s {
+        flex: 1 1 auto;
+        width: auto;
+        text-align: center;
     }
 
     .home s a img {
-        width: 95%;
-        padding: 10px 0px 0px 0px;
+        width: 80%;
+        max-width: 100%;
+        height: auto;
+        padding: 0px 0px 0px 0px;
     }
 
     .toggle_wrap {
@@ -349,6 +384,12 @@ footer b {
         position: relative;
         cursor: pointer;
         padding: 10px 0px 15px 0px;
+        text-align: center; /* 念のためここにも中央揃えを追加 */
+    }
+
+    .toggle_switch h3 {
+        font-size: 110%;
+        text-align: center; /* 確実に中央揃えにする */
     }
 
     .toggle_switch::after {
@@ -524,13 +565,27 @@ footer b {
     }
 
     @keyframes SlideUp {
-        0% { opacity: 0; transform: translateY(-1%); }
-        100% { opacity: 1; transform: translateY(-30%); }
+        0% {
+            opacity: 0;
+            transform: translateY(-1%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(-30%);
+        }
     }
 
     @keyframes SlideDown {
-        0% { opacity: 1; transform: translateY(-30%); }
-        100% { opacity: 0; transform: translateY(-1%); }
+        0% {
+            opacity: 1;
+            transform: translateY(-30%);
+        }
+
+        100% {
+            opacity: 0;
+            transform: translateY(-1%);
+        }
     }
 
     .js-modal__main._slideUp {
