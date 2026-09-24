@@ -230,6 +230,10 @@ p {
         padding: 10px 0px 10px 0px;
     }
 
+        section:first-of-type {
+        padding-top: 130px;
+    }
+
     #menu1 {
         width: 100%;
         padding: 10px 0px 0px 0px;
@@ -320,6 +324,10 @@ p {
         width: 90%;
         min-height: 60px;
         padding: 0px;
+    }
+
+        section:first-of-type {
+        padding-top: 80px;
     }
 
     #cs h1 {

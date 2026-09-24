@@ -1,15 +1,16 @@
 @charset "utf-8";
 
 /* ===================================================
-   Works Detail Content (作品詳細ページ専用スタイル)
+   Arasowan Content (あらそわん解説ページ専用スタイル)
 =================================================== */
 
 /* レイアウト・セクション */
 section {
-    max-width: 1200px;
-    text-shadow: none;
-    padding: 50px 0px 0px 0px;
     background: #FFF;
+    max-width: 1200px;
+    width: 61.8%;
+    text-shadow: none;
+    padding: 200px 0px 0px 0px;
 }
 
 #space {
@@ -17,7 +18,16 @@ section {
 }
 
 .name {
-    padding: 30px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.mgr-10 {
+    margin-right: 10px;
+}
+
+/* パソコンでは改行させない */
+.sp-br {
+    display: none;
 }
 
 /* リスト設定 */
@@ -27,7 +37,10 @@ ul {
     padding: 0px 20px 0px 40px;
 }
 
+/* 脚注（PC表示: 80%） */
 #footnote ol {
+    font-size: 80%;
+    line-height: 1.6;
     padding: 10px 15px 0px 15px;
 }
 
@@ -39,8 +52,8 @@ ul {
     justify-content: space-evenly;
 }
 
-.flex > * {
-    width: 23%;
+.flex>* {
+    width: 30%;
     height: auto;
     background: #fff;
     font-size: 100%;
@@ -48,7 +61,7 @@ ul {
     border: 1px solid #fff;
 }
 
-/* 漆産地テーブル */
+/* テーブル設定 */
 table {
     margin-left: 0px;
     margin-right: auto;
@@ -57,22 +70,62 @@ table {
     padding: 0px 0px 0px 20px;
 }
 
-/* 写真・画像 */
-.photo s5 img {
-    width: 100%;
-    height: auto;
-    padding: 120px 0px 50px 0px;
+colgroup.area1 {
+    width: 50%;
 }
 
-.photo s img {
+colgroup.area2 {
+    width: 260px;
+}
+
+colgroup.area3 {
+    width: 30px;
+}
+
+colgroup.area4 {
+    width: 100%;
+}
+
+/* 写真・画像 */
+/* 写真・画像（本文 #arasowan の中だけに限定してフッターへの誤爆を防ぐ） */
+#arasowan s img {
     width: 100%;
     height: auto;
+}
+
+#arasowan s1 img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 20px 0px;
+}
+
+/* 蜂の巣(7.jpg)・文化庁(2.jpg)を本文内だけで大きく表示 */
+#arasowan s2 img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 20px 0px;
+    display: block;
+}
+
+/* 製作工程(3.jpg)・見本(5.jpg)を本文内だけで綺麗に2枚横並びにする */
+#arasowan s3 img {
+    width: 48%;
+    height: auto;
+    padding: 10px 0px 15px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#arasowan s4 img {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
 }
 
 /* 見出し・テキスト */
 h1 {
-    font-weight: 650;
-    font-size: 200%;
+    font-weight: 700;
+    font-size: 160%;
     line-height: 120%;
     background-color: #f3f3f3;
     background-repeat: no-repeat;
@@ -80,14 +133,14 @@ h1 {
     position: relative;
     text-shadow: none;
     color: #111;
-    padding: 20px 0px 20px 20px;
+    padding: 10px 0px 10px 20px;
     box-shadow: none;
 }
 
 h6 {
     font-weight: 300;
     font-size: 90%;
-    line-height: 2;
+    line-height: 1em;
     color: #000;
     margin: 0;
     text-align: left;
@@ -106,18 +159,36 @@ bold1 {
     font-weight: 700;
     font-size: 160%;
     line-height: 1em;
-    padding: 0px 0px 10px 20px;
+    padding: 0px 0px 0px 20px;
     display: inline-block;
 }
 
 #cs p1 {
     font-size: 100%;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 #cs p2 {
     font-size: 100%;
     line-height: 1.3em;
+}
+
+#cs p3 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* リンク色設定 */
+#hiage a,
+#box2 a,
+#box3 a,
+#footnote ol a {
+    color: #0060d1;
+}
+
+#cs u a {
+    font-weight: 450;
+    color: #AE0F30;
 }
 
 sup {
@@ -129,8 +200,8 @@ sup {
 /* ページトップへ戻るボタン */
 #page-top {
     position: fixed;
-    bottom: 100px;
-    right: 10px;
+    bottom: 10px;
+    right: 20px;
     font-size: 77%;
     z-index: 100;
 }
@@ -138,8 +209,8 @@ sup {
 #page-top a {
     background: rgba(220, 220, 220, 0.6);
     text-decoration: none;
-    font-weight: 300;
     color: #666;
+    font-weight: 300;
     width: 50px;
     padding: 20px 0;
     text-align: center;
@@ -157,22 +228,13 @@ sup {
 =================================================== */
 @media only screen and (max-width: 2000px) {
     section {
-        max-width: 980px;
-        padding: 0px 0px 20px 0px;
+        width: 61.8%;
+        padding: 10px 0px 10px 0px;
     }
 
-    h1 {
-        font-size: 180%;
-    }
-
-    h6 {
-        font-size: 85%;
-    }
-
-    .photo s5 img {
+    .photo s1 img {
         width: 100%;
-        height: auto;
-        padding: 150px 0px 20px 0px;
+        padding: 100px 0px 20px 0px;
     }
 }
 
@@ -181,19 +243,20 @@ sup {
 =================================================== */
 @media only screen and (max-width: 835px) {
     section {
-        padding: 20px 0px 0px 0px;
+        width: 90%;
+        padding: 10px 0px 10px 0px;
     }
 
     .name {
         padding: 20px 0px 10px 0px;
     }
 
-    .photo s5 img {
+    .photo s1 img {
         padding: 100px 0px 20px 0px;
     }
 
     h1 {
-        font-size: 160%;
+        font-size: 150%;
         padding: 15px 10px 15px 10px;
     }
 
@@ -229,8 +292,11 @@ sup {
 =================================================== */
 @media only screen and (max-width: 480px) {
     section {
-        max-width: 480px;
         padding: 0px 0px 20px 0px;
+    }
+
+    .sp-br {
+        display: block;
     }
 
     table {
@@ -238,12 +304,12 @@ sup {
         padding: 0px 0px 0px 20px;
     }
 
-    .photo s5 img {
+    .photo s1 img {
         padding: 100px 0px 20px 0px;
     }
 
     h1 {
-        font-size: 130%;
+        font-size: 100%;
         padding: 10px 0px 10px 10px;
     }
 
@@ -274,24 +340,28 @@ sup {
         line-height: 1.4em;
     }
 
+    #cs u a {
+        font-size: 90%;
+        color: #F00;
+    }
+
     #space {
         min-height: 20px;
     }
 
+    /* 脚注セクションのスマホ最適化（余白と70%サイズ） */
     #footnote {
-         font-size: 90%;
-        padding: 0px 10px 20px 10px;
+        padding: 0px 15px 20px 15px;
     }
 
     #footnote bold {
-         font-size: 85%;
+        font-size: 85%;
         padding: 0px 0px 0px 5px;
     }
 
-    /* 左余白を広げて番号（1. 2.）と文字を綺麗に収める */
     #footnote ol {
-                font-size: 70%;
+        font-size: 70%;
         line-height: 1.5;
-        padding: 5px 0px 0px 15px;
+        padding: 5px 10px 0px 25px;
     }
 }
