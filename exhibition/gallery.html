@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head prefix="og: http://ogp.me/ns#">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer-when-downgrade">
-    <meta name="description" content="ギャラリーでの展覧会情報">
-    <meta name="keywords" content="渡邊博之,展覧会,漆,美術工芸サロン,画廊,Gallery,ギャラリー">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="description" content="ギャラリーでの展覧会情報">
+  <meta name="keywords" content="渡邊博之,展覧会,漆,美術工芸サロン,画廊,Gallery,ギャラリー">
 
-    <meta property="og:title" content="渡辺博之漆部屋便り|Gallery-Exhibition" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://urushi-lac.github.io/jomon.github.io/exhibition/gallery.html" />
-    <meta property="og:image" content="https://urushi-lac.github.io/jomon.github.io/images/exhibition/e-2-og.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:description" content="ギャラリーでの展覧会情報" />
-    <meta property="og:site_name" content="渡辺博之漆部屋便り" />
-    <meta property="fb:app_id" content="676328152572088" />
+  <!-- OGP -->
+  <meta property="og:title" content="渡辺博之漆部屋便り | Gallery-Exhibition" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://urushi-watanabe.com/exhibition/gallery.html" />
+  <meta property="og:image" content="https://urushi-watanabe.com/images/exhibition/e-2-og.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:description" content="ギャラリーでの展覧会情報" />
+  <meta property="og:site_name" content="渡辺博之漆部屋便り" />
+  <meta property="fb:app_id" content="676328152572088" />
 
-      <!-- X「Twitter] -->
+  <!-- X（旧Twitter） -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@hiro_w2011">
   <meta name="twitter:creator" content="@hiro_w2011">
@@ -27,12 +28,12 @@
   <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://apis.google.com https://www.googletagmanager.com 'unsafe-inline'; connect-src 'self' https://www.google-analytics.com https://fonts.gstatic.com;">
   <meta http-equiv="Cache-Control" content="no-cache">
 
-  <title>渡辺博之漆部屋便り|Exhibition-gallery</title>
+  <title>渡辺博之漆部屋便り | Exhibition-gallery</title>
 
   <!-- canonicalURL -->
-    <link rel=”canonical” href="https://urushi-lac.github.io/jomon.github.io/exhibition/gallery.html">
+  <link rel="canonical" href="https://urushi-watanabe.com/exhibition/gallery.html">
 
-  <!-- iOS -->
+  <!-- テーマカラー -->
   <meta name="theme-color" content="#ffffff">
 
   <!-- Google Fonts -->
@@ -51,176 +52,856 @@
     });
   </script>
 
-<!-- CSS -->
-    <link rel="stylesheet" href="/css/index/style-base.css">
-    <link rel="stylesheet" href="/css/exhibition/style-ex2.css" />
-    <link rel="stylesheet" type="text/css" href="/css/exhibition/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="/css/exhibition/e-1.css" />
-    <link rel="stylesheet" type="text/css" href="/css/exhibition/e-2.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/index/style-base.css">
+  <link rel="stylesheet" href="/css/index/common.css">
+  <link rel="stylesheet" href="/css/exhibition/style-ex2.css">
+  <link rel="stylesheet" type="text/css" href="/css/exhibition/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="/css/exhibition/e-1.css">
+  <link rel="stylesheet" type="text/css" href="/css/exhibition/e-2.css">@charset "utf-8";
 
-<!-- icon -->
-<link rel="icon" href="/images/top/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="/images/top/misowan.svg">
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
-<!-- iPhoneホーム画面用アイコン -->
-<link rel="apple-touch-icon" href="/images/top/apple-touch-icon-precomposed.png">
+        /* CSS Document */
 
-<!-- Androidホーム画面用アイコン -->
-<link rel="icon" type="image/png" href="/images/top/paper-wasp.png" sizes="192x192">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBN8YVHS9D"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
+        #cs header {
+            border-top: 0px;
+            background-color: #fff;
+            width: 100%;
+            position: fixed;
+            padding: 10px 0px 0px 0px;
+            z-index: 1;
         }
-        gtag('js', new Date());
 
-        gtag('config', 'G-JBN8YVHS9D');
-    </script>
-    <style>
+        #cs home {
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-    </style>
+        #home b {
+            font-size: 100%;
+            font-weight: 300;
+            color: #535353;
+            padding: 0px 0px 0px 20px;
+        }
 
+        #home p {
+            font-size: 100%;
+            font-weight: 300;
+            float: right;
+            padding: 0px 20px 0px 0px;
+        }
+
+        #cs header a {
+            color: #666666;
+        }
+
+        #home s img {
+            width: 306px;
+            height: auto;
+            padding: 30px 0px 0px 0px;
+        }
+
+        nav {
+            margin-bottom: 5px;
+            background: #FFF;
+            padding: 45px 0px 0px 0px;
+            position: relative;
+        }
+
+        #menu {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0px 0px 0px 0px;
+        }
+
+        #menu li {
+            display: block;
+            float: left;
+            width: 25%;
+            margin: 0;
+            padding: 0;
+            color: #000;
+        }
+
+        #menu li a {
+            font-size: 120%;
+            display: block;
+            padding: 10px 0px 10px 0px;
+            background-color: #FFF;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        #menu li:last-child a {
+            border: none;
+        }
+
+        #menu li a:hover {
+            background: #FFF;
+            font-size: 100%;
+            color: #999;
+        }
+
+        #toggle {
+            display: none;
+        }
+
+        #box0 {
+            min-height: 280px;
+        }
+
+        .photo s1 img {
+            width: 520px;
+            height: auto;
+            padding: 0px 0px 0px 0px;
+        }
+
+        h2 {
+            font-size: 120%;
+        }
+
+        .inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 580px;
+            height: 580px;
+            padding: 100px 0px 0px 0px;
+        }
+
+        .single-item {
+            width: 520px;
+            height: 550px;
+        }
+
+        .container {
+            width: 90%;
+            padding: 60px 0px 0px 0px;
+        }
+
+        /*slick setting*/
+        .row slick-prev:before,
+        .slick-next:before {
+            color: #d8d8d8;
+        }
+
+        .row container {
+            margin: 0 auto;
+            padding: 0px 0px 0px 0px;
+            width: 60%;
+            color: #333;
+            background: #FFF;
+        }
+
+        .row slick-slide {
+            text-align: center;
+            color: white;
+            background: white;
+        }
+
+        row img {
+            width: auto;
+            height: 180px;
+        }
+
+        #footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 30px;
+            font-size: 80％;
+            text-align: left;
+            margin-top: 40px;
+            list-style-type: none;
+            padding: 10px 10px 15px 10px;
+            background-color: #FFF;
+        }
+
+        footer s1 img {
+            width: 30px;
+            height: auto;
+            padding: 0px 0px 0px 20px;
+        }
+
+        footer s2 img {
+            width: 30px;
+            height: auto;
+            padding: 0px 10px 0px 10px;
+        }
+
+        footer s3 img {
+            width: 30px;
+            height: auto;
+            padding: 0px 10px 0px 10px;
+        }
+
+        footer b {
+            font-size: 90%;
+            font-weight: 300;
+            color: #999999;
+            float: right;
+            padding: 0px 30px 0px 0px;
+        }
+
+        #footer-mobile {
+            display: none;
+        }
+
+        @media only screen and (max-width: 2000px) {
+
+            #home {
+                padding: 0px 10px 20px 10px;
+            }
+
+            #home b {
+                font-size: 90%;
+                padding: 0px 0px 0px 10px;
+            }
+
+            #home p {
+                font-size: 90%;
+                padding: 0px 10px 0px 0px;
+            }
+
+            #home s img {
+                width: 245px;
+                height: auto;
+                padding: 10px 0px 25px 0px;
+            }
+
+            nav {
+                padding: 20px 0px 0px 0px;
+            }
+
+            #menu li a {
+                font-size: 100%;
+            }
+
+            #box0 {
+                min-height: 240px;
+            }
+
+            .inner {
+                width: 480px;
+                height: 480px;
+            }
+
+            .single-item {
+                width: 480px;
+            }
+
+            .container {
+                width: 90%;
+                padding: 60px 0px 0px 0px;
+            }
+
+            /*slick setting*/
+            .row slick-prev:before,
+            .slick-next:before {
+                color: #d8d8d8;
+            }
+
+            .row container {
+                margin: 0 auto;
+                padding: 20px 0px 0px 0px;
+                width: 60%;
+                color: #333;
+                background: white;
+            }
+
+            .row slick-slide {
+                text-align: center;
+                color: white;
+                background: white;
+            }
+
+            row img {
+                width: auto;
+                height: 180px;
+            }
+
+            h2 {
+                font-size: 115%;
+            }
+
+            p1 {
+                font-size: 100%;
+                font-weight: 400;
+                line-height: 2em;
+                padding: 20px 0px 0px 0px;
+            }
+
+            .photo s1 img {
+                width: 480px;
+                height: auto;
+                padding: 0px 0px 0px 0px;
+            }
+
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            #home {
+                padding: 0px 0px 0px 0px;
+            }
+
+            #home b {
+                font-size: 75%;
+                padding: 0px 0px 0px 10px;
+            }
+
+            #home p {
+                font-size: 75%;
+                padding: 0px 10px 0px 0px;
+            }
+
+            #home s img {
+                width: 214px;
+                height: auto;
+                padding: 10px 0px 20px 0px;
+            }
+
+            nav {
+                padding: 0px 0px 0px 0px;
+            }
+
+            #menu li {
+                width: 25%;
+            }
+
+            #menu li a {
+                padding: 40px 0 40px;
+            }
+
+            #box0 {
+                min-height: 160px;
+            }
+
+            #box1 {
+                padding: 120px 0px 0px 0px;
+            }
+
+            .inner {
+                width: 350px;
+                height: 350px;
+                padding: 50px 0px 0px 0px;
+            }
+
+            .single-item {
+                width: 380px;
+                height: 500px;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .photo s1 img {
+                width: 380px;
+                height: auto;
+                padding: 60px 0px 0px 0px;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 100%;
+            }
+
+            p1 {
+                font-size: 80%;
+                font-weight: 400;
+                line-height: 2em;
+            }
+
+        }
+
+        @media only screen and (max-width: 480px) {
+
+            #home {
+                padding: 0px 0px 0px 0px;
+            }
+
+            #home b {
+                font-size: 66%;
+                padding: 0px 0px 0px 10px;
+            }
+
+            #home p {
+                font-size: 65%;
+                padding: 0px 10px -30px 0px;
+            }
+
+            #home s img {
+                width: 183px;
+                height: auto;
+                padding: 0px 0px 0px 0px;
+            }
+
+            nav {
+                padding: 0px 0px 0px 0px;
+            }
+
+            #menu {
+                display: none;
+            }
+
+            #menu li {
+                width: 100%;
+            }
+
+            #menu li a {
+                padding: 12px 0px 12px;
+            }
+
+            #toggle {
+                display: block;
+                position: relative;
+                width: 100%;
+                background: #FFF;
+            }
+
+            #toggle a {
+                padding: 0px 0 10px;
+                font-weight: 400;
+                font-size: 110%;
+            }
+
+            #toggle:before {
+                display: block;
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                width: 30px;
+                height: 30px;
+                margin-top: -15px;
+                background: #FFF;
+            }
+
+            #toggle a:before,
+            #toggle a:after {
+                display: block;
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                width: 30px;
+                height: 6px;
+                background: #FFF;
+            }
+
+            #toggle a:before {
+                margin-top: -9px;
+            }
+
+            #toggle a:after {
+                margin-top: 3px;
+            }
+
+            #box0 {
+                min-height: 120px;
+            }
+
+            #box1 {
+                padding: 0px 0px 0px 0px;
+            }
+
+            .inner {
+                width: 280px;
+                height: 280px;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .container {
+                padding: 10px 0px 0px 0px;
+            }
+
+            .single-item {
+                width: 280px;
+                height: 310px;
+                padding: 0px 0px 30px 0px;
+            }
+
+            h2 {
+                font-size: 90%;
+            }
+
+            h3 {
+                font-size: 100%;
+            }
+
+            p1 {
+                font-size: 80%;
+                font-weight: 400;
+                line-height: 1.8em;
+            }
+
+            .photo s1 img {
+                max-width: 280px;
+                height: auto;
+                padding: 0px 0px 0px 0px;
+            }
+
+            #footer {
+                margin-top: 0px;
+                padding: 5px 0px 15px 0px;
+            }
+
+            footer s1 img {
+                display: none;
+            }
+
+            footer s2 img {
+                display: none;
+            }
+
+            footer s3 img {
+                display: none;
+            }
+
+            footer b {
+                display: none;
+            }
+
+            footer b1 {
+                font-size: 7px;
+                font-weight: 300;
+                color: #999999;
+                float: right;
+                padding: 0px 0px 0px 0px;
+                }
+
+            #footer {
+                height: 35px;
+                padding: 0px 0px 0px 0px;
+            }
+
+            #footer-mobile {
+                display: block;
+                padding: 0px 10px 0px 10px;
+            }
+
+            #footer-mobile p {
+                font-size: 100%;
+                font-weight: 700;
+                color: #bbb;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .js-modal__bg {
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.1);
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 10;
+                display: none;
+            }
+
+            .js-modal__main {
+                width: calc(100%);
+                height: 80%;
+                padding: 16px 0px 0px 0px;
+                bottom: -81%;
+                left: 0;
+                background: #fff;
+                border-radius: 4px 4px 0 0;
+                position: fixed;
+                z-index: 11;
+                opacity: 0;
+            }
+
+            .js-modal__main a {
+                padding: 0px 15px 0px 15px;
+            }
+
+            .js-modal__btn {
+                color: #cccccc;
+                cursor: pointer;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                padding: 10px 0px 0px 0px;
+
+            }
+
+            .js-modal__btn--close {
+                margin-top: 10px;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            .js-modal__btn--close--fix {
+                width: 30px;
+                height: 30px;
+                background: #333;
+                border-radius: 50%;
+                position: absolute;
+                top: -50px;
+                right: 5px;
+                z-index: 101;
+                cursor: pointer;
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            }
+
+            .js-modal__btn--close--fix:before {
+                content: "";
+                width: 20px;
+                height: 20px;
+                border-right: 3px solid #cccccc;
+                transform: rotate(-45deg);
+                position: absolute;
+                top: 12px;
+                left: -3px;
+            }
+
+            .js-modal__btn--close--fix:after {
+                content: "";
+                width: 20px;
+                height: 20px;
+                border-right: 3px solid #cccccc;
+                transform: rotate(45deg);
+                position: absolute;
+                top: -2px;
+                left: -3px;
+            }
+
+            @keyframes SlideUp {
+                0% {
+                    opacity: 0;
+                    transform: translateY(-1%);
+                }
+
+                100% {
+                    opacity: 1;
+                    transform: translateY(-20%);
+                }
+            }
+
+            @keyframes SlideDown {
+                0% {
+                    opacity: 1;
+                    transform: translateY(-20%);
+                }
+
+                100% {
+                    opacity: 0;
+                    transform: translateY(-1%);
+                }
+            }
+
+            .js-modal__main._slideUp {
+                animation: SlideUp .5s ease-in-out forwards;
+            }
+
+            .js-modal__main._slideDown {
+                animation: SlideDown .5s ease-in-out forwards;
+            }
+        }
+
+        @media only screen and (max-width: 320px) {
+
+            #home s img {
+                width: 153px;
+                height: auto;
+                padding: 5px 0px 0px 0px;
+            }
+
+            #menu li a {
+                padding: 10px 0px 10px;
+            }
+
+            .inner {
+                width: 220px;
+                height: 220px;
+            }
+
+            .single-item {
+                width: 220px;
+                height: 250px;
+            }
+
+            h2 {
+                font-size: 85%;
+            }
+
+            h3 {
+                font-size: 95%;
+            }
+
+            p1 {
+                font-size: 75%;
+                font-weight: 400;
+                line-height: 1.5em;
+            }
+
+            .photo s1 img {
+                max-width: 220px;
+                height: auto;
+                padding: 0px 0px 0px 0px;
+            }
+
+        }
+
+  <!-- icon -->
+  <link rel="icon" href="/images/top/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/images/top/misowan.svg">
+
+  <!-- iPhoneホーム画面用アイコン -->
+  <link rel="apple-touch-icon" href="/images/top/apple-touch-icon-precomposed.png">
+
+  <!-- Androidホーム画面用アイコン -->
+  <link rel="icon" type="image/png" href="/images/top/paper-wasp.png" sizes="192x192">
+
+  <!-- Google Analytics (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBN8YVHS9D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-JBN8YVHS9D');
+  </script>
 </head>
 
 <body id="cs">
+  <!-- ヘッダー -->
+  <header>
+    <div class="home">
+      <ul class="home_menu">
+        <li>Since1987</li>
+        <s>
+          <a href="/">
+            <img src="/images/top/top.svg" width="308" height="55" alt="typography-yumi watanabe" style="display: block; margin: 0 auto;">
+          </a>
+        </s>
+        <li><a href="https://urushi-watanabe.com/exhibition/gallery-e.html">/ English</a></li>
+      </ul>
+    </div>
 
-    <header>
-        <div class="home">
-            <ul class="home_menu">
-                <li>Since1987</li>
-                <s><a href="/">
-                        <img src="https://urushi-lac.github.io/jomon.github.io/images/top/top.svg" width="308" height="55" alt="typography-yumi watanabe" style="display: block; margin: 0 auto;">
-                    </a></s>
-                <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/gallery-e.html">/ English</a></li>
-            </ul>
-        </div>
+    <nav id="menu-box">
+      <h2>
+        <ul id="menu">
+          <li><a href="https://urushi-watanabe.com/exhibition/schedule.html">Gallery top</a></li>
+          <li><a href="https://urushi-watanabe.com/exhibition/this-year.html">This Year</a></li>
+          <li><a href="https://urushi-watanabe.com/exhibition/takashimaya.html">Takashimaya</a></li>
+          <li><a href="https://urushi-watanabe.com/exhibition/Kawatoku.html">Kawatoku</a></li>
+        </ul>
+      </h2>
+    </nav>
 
-        <nav id="menu-box">
-            <h2>
-                <ul id="menu" class="">
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/schedule.html">Gallery top</a></li>
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/this-year.html">This Year</a></li>
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/takashimaya.html">Takashimaya</a></li>
-                    <li><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/Kawatoku.html">Kawatoku</a></li>
-                </ul>
-            </h2>
-        </nav>
+    <!-- モバイル用トグルメニュー -->
+    <div class="toggle_wrap">
+      <div class="toggle_switch">
+        <h3>Menu</h3>
+      </div>
+      <div class="toggle_contents">
+        <h2><a href="https://urushi-watanabe.com/exhibition/schedule.html">Gallery top</a></h2>
+        <h2><a href="https://urushi-watanabe.com/exhibition/this-year.html">This Year</a></h2>
+        <h2><a href="https://urushi-watanabe.com/exhibition/takashimaya.html">Takashimaya</a></h2>
+        <h2><a href="https://urushi-watanabe.com/exhibition/Kawatoku.html">Kawatoku</a></h2>
+      </div>
+    </div>
+  </header>
 
-        <div class="toggle_wrap">
-            <div class="toggle_switch">
-                <h3>Menu</h3>
+  <!-- メインコンテンツ（スライダー） -->
+  <section id="box1">
+    <div class="row">
+      <div class="photo">
+        <div class="container">
+          <div class="single-item">
+            <div>
+              <s1><img src="/images/exhibition/e-4.jpg" width="280" height="280" alt="東京アメリカンクラブ* デザイン-渡辺由美*写真-博之" /></s1>
             </div>
-            <div class="toggle_contents">
-                <h2><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/schedule.html">Gallery top</a></h2>
-                <h2><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/this-year.html">This Year</a></h2>
-                <h2><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/takashimaya.html">Takashimaya</a></h2>
-                <h2><a href="https://urushi-lac.github.io/jomon.github.io/exhibition/Kawatoku.html">Kawatoku</a>
-                </h2>
+            <div>
+              <s1><img src="/images/exhibition/seibu.jpg" width="280" height="280" alt="製作 池袋西武" /></s1>
             </div>
-        </div>
-    </header>
-
-    <section id="box1">
-        <div class="row">
-            <div class="photo">
-                <div class='container'>
-                    <div class='single-item'>
-                        <div>
-                            <s1><img src="../images/exhibition/e-4.jpg" width="280" height="280" alt="東京アメリカンクラブ* デザイン-渡辺由美*写真-博之" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/seibu.jpg" width="280" height="280" alt="製作 池袋西武" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/mitukosi2.jpg" width="280" height="280" alt="製作 新宿三越" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/mitukosi3.jpg" width="280" height="280" alt="製作 日本橋三越 イラスト-渡辺由美" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/mitukosi1.jpg" width="280" height="280" alt=デザイン-渡辺由美*写真-博之" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/takashimaya-kyoto1.jpg" width="280" height="280" alt="デザイン-渡辺由美*推薦文瀬戸内寂聴" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/takashimaya-kyoto2.jpg" width="280" height="280" alt="デザイン-渡辺由美*推薦文瀬戸内寂聴" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/e-2.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/e-6.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/e-9.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/e-11.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
-                        </div>
-                        <div>
-                            <s1><img src="../images/exhibition/e-14.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
-                        </div>
-                    </div>
-                </div>
+            <div>
+              <s1><img src="/images/exhibition/mitukosi2.jpg" width="280" height="280" alt="製作 新宿三越" /></s1>
             </div>
-        </div>
-    </section>
-
-    <footer>
-        <div id="footer">
-            <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer" aria-label="amebloblog"><img src="../images/top/a.svg" width="30" height="30" alt="amebloimage" /></a></s2>
-            <s3><a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer" aria-label="twitter"><img src="../images/top/Twitter.svg" alt="twitterlogo" width="30" height="30" border="0" /></a></s3>
-            <s3> <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer" aria-label="facebook"><img src="../images/top/facebook.svg" alt="facebooklogo" width="30" height="30" border="0" /></a></s3>
-            <s3><a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="../images/top/glyph-logo_May2016.svg" width="30" height="30" alt="instaimage" width="30" height="auto" border="0" /></a></s3>
-            <s3><a href="https://www.instagram.com/hiro_w2010/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="../images/top/glyph-logo_May2016.svg" alt="instaimage" width="30" height="30" border="0" /></a></s3>
-            <b>Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b>
-
-            <div id="footer-mobile">
-                <div class="js-modal__btn">
-                    <span class="material-icons">
-                        <svg width="18" height="18" viewBox="0 0 24 18" fill="#767676" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11.7057 13.7071L17.9986 7.41421V11H19.9986V4H12.9986V6H16.5844L10.2915 12.2929L11.7057 13.7071Z" fill="#767676" />
-                            <path d="M19.0015 18V14H17.0015V18H6.00146V7H10.0015V5H6.00146C4.8969 5 4.00146 5.89543 4.00146 7V18C4.00146 19.1046 4.8969 20 6.00146 20H17.0015C18.106 20 19.0015 19.1046 19.0015 18Z" fill="#767676" />
-                        </svg>
-                    </span>
-                    <p class="side_text">S.N.S.</p>
-                    <b1>Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b1>
-                </div>
-                <div class="js-modal__bg"></div>
-                <div class="js-modal__main">
-                    <p>
-                        <a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer" aria-label="amebloblog"><img src="../images/top/a.svg" alt="amebloimage" width="30" height="30" border="0" padding="0px 0px 0px 20px" /></a>
-                        <a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer" aria-label="twitter"><img src="../images/top/Twitter.svg" alt="twitterlogo" width="30" height="30" border="0" /></a>
-                        <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer" aria-label="facebook"><img src="../images/top/facebook.svg" alt="facebooklogo" width="30" height="30" border="0" /></a>
-                        <a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="../images/top/glyph-logo_May2016.svg" alt="instaimage" width="30" height="30" border="0" /></a>
-                        <a href="https://www.instagram.com/hiro_w2010/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="../images/top/glyph-logo_May2016.svg" alt="instaimage" width="30" height="30" border="0" /></a>
-                    </p>
-                    <p class=" js-modal__btn--close">✕</p>
-                </div>
+            <div>
+              <s1><img src="/images/exhibition/mitukosi3.jpg" width="280" height="280" alt="製作 日本橋三越 イラスト-渡辺由美" /></s1>
             </div>
+            <div>
+              <s1><img src="/images/exhibition/mitukosi1.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
+            </div>
+            <div>
+              <s1><img src="/images/exhibition/takashimaya-kyoto1.jpg" width="280" height="280" alt="デザイン-渡辺由美*推薦文瀬戸内寂聴" /></s1>
+            </div>
+            <div>
+              <s1><img src="/images/exhibition/takashimaya-kyoto2.jpg" width="280" height="280" alt="デザイン-渡辺由美*推薦文瀬戸内寂聴" /></s1>
+            </div>
+            <div>
+              <s1><img src="/images/exhibition/e-2.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
+            </div>
+            <div>
+              <s1><img src="/images/exhibition/e-6.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
+            </div>
+            <div>
+              <s1><img src="/images/exhibition/e-9.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
+            </div>
+            <div>
+              <s1><img src="/images/exhibition/e-11.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
+            </div>
+            <div>
+              <s1><img src="/images/exhibition/e-14.jpg" width="280" height="280" alt="デザイン-渡辺由美*写真-博之" /></s1>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    <script src="../js/jquery-3.6.0.min.js"></script>
+  <!-- フッター -->
+  <footer>
+    <div id="footer">
+      <s2><a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer" aria-label="amebloblog"><img src="/images/top/a.svg" width="30" height="30" alt="amebloimage" /></a></s2>
+      <s3><a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer" aria-label="twitter"><img src="/images/top/Twitter.svg" width="30" height="30" alt="twitterlogo" /></a></s3>
+      <s3><a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer" aria-label="facebook"><img src="/images/top/facebook.svg" width="30" height="30" alt="facebooklogo" /></a></s3>
+      <s3><a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="/images/top/glyph-logo_May2016.svg" width="30" height="30" alt="instaimage" /></a></s3>
+      <s3><a href="https://www.instagram.com/hiro_w2010/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="/images/top/glyph-logo_May2016.svg" width="30" height="30" alt="instaimage" /></a></s3>
+      <b>Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b>
 
-    <script src="../js/rendered-js"></script>
+      <!-- モバイル用SNSポップアップ -->
+      <div id="footer-mobile">
+        <div class="js-modal__btn">
+          <span class="material-icons">
+            <svg width="18" height="18" viewBox="0 0 24 18" fill="#767676" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.7057 13.7071L17.9986 7.41421V11H19.9986V4H12.9986V6H16.5844L10.2915 12.2929L11.7057 13.7071Z" fill="#767676" />
+              <path d="M19.0015 18V14H17.0015V18H6.00146V7H10.0015V5H6.00146C4.8969 5 4.00146 5.89543 4.00146 7V18C4.00146 19.1046 4.8969 20 6.00146 20H17.0015C18.106 20 19.0015 19.1046 19.0015 18Z" fill="#767676" />
+            </svg>
+          </span>
+          <p class="side_text">S.N.S.</p>
+          <b1>Ⓒ 2000 Hiroyuku - Yumi Watanabe.</b1>
+        </div>
+        <div class="js-modal__bg"></div>
+        <div class="js-modal__main">
+          <p>
+            <a href="https://ameblo.jp/urushi-watanabe/" target="_blank" rel="noopener noreferrer" aria-label="amebloblog"><img src="/images/top/a.svg" width="30" height="30" alt="amebloimage" /></a>
+            <a href="https://twitter.com/hiro_w2011" target="_blank" rel="noopener noreferrer" aria-label="twitter"><img src="/images/top/Twitter.svg" width="30" height="30" alt="twitterlogo" /></a>
+            <a href="https://www.facebook.com/%E6%B8%A1%E9%82%8A%E5%8D%9A%E4%B9%8B-402724739763525/" target="_blank" rel="noopener noreferrer" aria-label="facebook"><img src="/images/top/facebook.svg" width="30" height="30" alt="facebooklogo" /></a>
+            <a href="https://www.instagram.com/yumi_turezurelife/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="/images/top/glyph-logo_May2016.svg" width="30" height="30" alt="instaimage" /></a>
+            <a href="https://www.instagram.com/hiro_w2010/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><img src="/images/top/glyph-logo_May2016.svg" width="30" height="30" alt="instaimage" /></a>
+          </p>
+          <p class="js-modal__btn--close">✕</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="../js/slick.min.js"></script>
+  <!-- JavaScript（ルートパス /js/... で統一） -->
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/rendered-js"></script>
+  <script src="/js/slick.min.js"></script>
+  <script src="/js/slick-js"></script>
 
-    <script src="../js/slick-js"></script>
-
-    <noscript>
-        このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
-        <a href="https://www.enablejavascript.io/jp">
-            あなたのWebブラウザーでJavaScriptを有効にする方法</a>
-        を参照してください。
-    </noscript>
-
+  <noscript>
+    このWebサイトの全ての機能を利用するためにはJavaScriptを有効にする必要があります。
+    <a href="https://www.enablejavascript.io/jp">あなたのWebブラウザーでJavaScriptを有効にする方法</a>
+    を参照してください。
+  </noscript>
 </body>
 
 </html>
