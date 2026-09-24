@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* ===================================================
-   Kawatoku Content (ギャラリーカワトク専用スタイル)
+   Exhibition Slider Content (スライダー専用スタイル)
 =================================================== */
 
 /* メニュー4項目を均等に25%ずつ配置 */
@@ -11,86 +11,155 @@
 
 /* レイアウト・枠組み */
 section {
-    padding: 280px 0px 10px 0px;
+    margin: 0 auto;
 }
 
-.inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 580px;
-    height: 580px;
-    padding: 100px 0px 0px 0px;
+/* ★ヘッダーとフッターの間の「完全な上下中央」に配置する魔法の設定 */
+#box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 上下中央揃え */
+    align-items: center;     /* 左右中央揃え */
+    min-height: 100vh;       /* 画面全体の高さ */
+    min-height: 100dvh;      /* スマホの動的アドレスバーにも完全対応 */
+    padding-top: 120px;      /* 固定ヘッダーの高さ分 */
+    padding-bottom: 60px;    /* 固定フッターの高さ分 */
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
 }
 
-/* スライダー設定（Slick） */
+.row {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* スライダー設定（Slick）：枠を画面中央に配置 */
 .container {
-    width: 90%;
-    padding: 40px 0px 0px 0px;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 0px;            /* 余分な上余白をゼロにして中心を合わせる */
+    position: relative;
 }
 
 .single-item {
-    width: 520px;
-    height: 550px;
+    width: 100%;
+    max-width: 520px;
+    height: auto !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+/* スライド内の画像を中央揃え */
+.single-item .slick-slide {
+    text-align: center;
 }
 
 .photo s1 img {
-    width: 520px;
+    width: 100%;
+    max-width: 520px;
     height: auto;
-    padding: 0px;
-}
-
-/* slick setting */
-.row .slick-prev:before,
-.row .slick-next:before {
-    color: #d8d8d8;
-}
-
-.row .container {
+    display: block;
     margin: 0 auto;
     padding: 0px;
-    width: 60%;
-    color: #333;
-    background: #FFF;
 }
 
-.row .slick-slide {
-    text-align: center;
-    color: white;
-    background: white;
+/* ===================================================
+   矢印（< >）を画像の上下ど真ん中に配置
+=================================================== */
+.slick-prev,
+.slick-next {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 10 !important;
+    width: 30px !important;
+    height: 30px !important;
+    cursor: pointer;
 }
 
-.row img {
-    width: auto;
-    height: 180px;
+.slick-prev {
+    left: -35px !important;
+}
+
+.slick-next {
+    right: -35px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 24px !important;
+    color: #999 !important;
+    opacity: 0.75 !important;
+}
+
+/* ===================================================
+   黒い点（ドット）を画像直下の中央に配置
+=================================================== */
+.slick-dots {
+    position: relative !important;
+    bottom: auto !important;
+    margin: 20px auto 0 auto !important;
+    padding: 0 !important;
+    padding-left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    list-style: none !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.slick-dots li {
+    display: inline-block !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 4px !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    display: block !important;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 0 !important;
+}
+
+.slick-dots li button:before {
+    font-size: 8px !important;
+    line-height: 16px !important;
+    width: 16px !important;
+    height: 16px !important;
+    text-align: center !important;
+    color: #333 !important;
+    opacity: 0.25 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0.85 !important;
+    color: #000 !important;
 }
 
 /* ===================================================
    Responsive (max-width: 2000px)
 =================================================== */
 @media only screen and (max-width: 2000px) {
-    section {
-        padding: 80px 0px 10px 0px;
-    }
-
+    .container,
     .single-item {
-        width: 520px;
-        height: 510px;
-    }
-
-    .container {
-        width: 100%;
-        height: auto;
-        padding: 0px;
+        max-width: 480px;
     }
 
     .photo s1 img {
-        width: 450px;
-        height: auto;
-        padding: 30px 0px 0px 0px;
+        max-width: 480px;
     }
 }
 
@@ -98,65 +167,85 @@ section {
    Responsive (max-width: 835px)
 =================================================== */
 @media only screen and (max-width: 835px) {
-    /* タブレット画面でもメニューを25%ずつ均等にする */
     #menu li {
         width: 25%;
     }
 
     #box1 {
-        padding: 120px 0px 0px 0px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
+    .container,
     .single-item {
-        width: 450px;
-        height: 500px;
-    }
-
-    .container {
-        width: 100%;
-        padding: 0px;
+        max-width: 400px;
     }
 
     .photo s1 img {
-        width: 400px;
-        height: auto;
-        padding: 60px 0px 0px 0px;
-        text-align: center;
+        max-width: 400px;
     }
 }
 
 /* ===================================================
-   Responsive (max-width: 480px)
+   Responsive (max-width: 480px) スマホ専用
 =================================================== */
 @media only screen and (max-width: 480px) {
     #box0 {
-        min-height: 120px;
+        display: none;       /* 不要な余白を消去 */
     }
 
+    /* スマホ画面でもヘッダーとフッターの完全な上下中央に配置 */
     #box1 {
-        padding: 0px;
-    }
-
-    .inner {
-        width: 280px;
-        height: 280px;
-        padding: 0px;
+        min-height: 100vh;
+        min-height: 100dvh;
+        padding-top: 80px;   /* スマホヘッダーの高さ分 */
+        padding-bottom: 50px;/* スマホフッターの高さ分 */
     }
 
     .container {
-        padding: 200px 0px 0px 0px;
+        width: 100% !important;
+        max-width: 280px !important;
+        margin: 0 auto !important;
+        padding: 0px !important;
     }
 
     .single-item {
-        width: 280px;
-        height: 310px;
-        padding: 0px 0px 30px 0px;
+        width: 100% !important;
+        max-width: 280px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
     }
 
     .photo s1 img {
-        max-width: 280px;
-        height: auto;
-        padding: 0px;
+        width: 100% !important;
+        max-width: 280px !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+
+    .slick-prev {
+        left: -30px !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+
+    .slick-next {
+        right: -30px !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+
+    .slick-dots {
+        margin: 15px auto 0 auto !important;
+        max-width: 280px !important;
+    }
+
+    .slick-dots li {
+        width: 16px !important;
+        height: 16px !important;
+        margin: 0 3px !important;
     }
 }
 
@@ -164,19 +253,24 @@ section {
    Responsive (max-width: 320px)
 =================================================== */
 @media only screen and (max-width: 320px) {
-    .inner {
-        width: 220px;
-        height: 220px;
-    }
-
+    .container,
     .single-item {
-        width: 220px;
-        height: 250px;
+        max-width: 220px !important;
     }
 
     .photo s1 img {
-        max-width: 220px;
-        height: auto;
-        padding: 0px;
+        max-width: 220px !important;
+    }
+
+    .slick-prev {
+        left: -20px !important;
+    }
+
+    .slick-next {
+        right: -20px !important;
+    }
+
+    .slick-dots {
+        max-width: 220px !important;
     }
 }
