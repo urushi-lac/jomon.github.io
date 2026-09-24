@@ -1,123 +1,16 @@
 @charset "utf-8";
 
-#cs header {
-    border-top: 0px;
-    background-color: #fff;
-    width: 100%;
-    position: fixed;
-    margin-bottom: 0px;
-    z-index: 1;
-    padding: 10px 0px 0px 0px;
-}
+/* ===================================================
+   Exhibition Content (展覧会ページ専用スタイル)
+=================================================== */
 
-ul.home_menu {
-    display: flex;
-    width: 100%;
-    font-weight: 350;
-    list-style-type: none;
-    padding: 10px 0px 0px 0px;
-    flex-direction: row;
-}
-
-ul.home_menu li {
-    width: 47%;
-    color: #595959;
-    padding: 0px 10px 0px 10px;
-}
-
-ul.home_menu a {
-    display: block;
-    font-size: 100%;
-    font-weight: 350;
-    color: #595959;
-    float: right;
-    padding: 0px 0px 0px 0px;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-}
-
-.home s a img {
-    width: 306px;
-    height: auto;
-    padding: 20px 0px 0px 0px;
-}
-
-#menu {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0px 0px 0px;
-}
-
+/* レイアウト・枠組み */
 #menu li {
-    display: block;
-    float: left;
     width: 25%;
-    margin: 0;
-    padding: 0;
-    color: #000;
-}
-
-#menu li a {
-    font-size: 120%;
-    color: #000;
-    display: block;
-    padding: 10px 0px 10px 0px;
-    background-color: #FFF;
-    text-align: center;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-}
-
-#menu li:last-child a {
-    border: none;
-}
-
-.toggle_wrap {
-    display: none;
 }
 
 #box0 {
     min-height: 280px;
-}
-
-h1 {
-    font-weight: 700;
-    font-size: 180%;
-    line-height: 120%;
-    background-color: #f3f3f3;
-    background-repeat: no-repeat;
-    background-position: left 0px center;
-    position: relative;
-    text-shadow: none;
-    color: #111;
-    padding: 10px 0px 10px 10px;
-    -webkit-box-shadow: none;
-    box-shadow: 0px 0px 0px 0px #FFF;
-}
-
-h2 {
-    font-size: 125%;
-    font-weight: 400;
-}
-
-h3 {
-    font-size: 100%;
-    font-weight: 400;
-    color: #595959;
-    padding: 0px 0px 0px 0px;
-    margin: 0;
-    text-align: center;
-    text-decoration-style: solid;
-    text-decoration-line: underline;
-}
-
-#cs h4 {
-    font-size: 110%;
-    font-weight: 400;
-    text-align: left;
-    line-height: 2;
-    padding: 20px 10px 50px 10px;
 }
 
 .inner {
@@ -131,84 +24,34 @@ h3 {
     height: 450px;
 }
 
-#footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-    font-size: 80%;
+/* 百貨店名・見出し */
+h1 {
+    font-weight: 700;
+    font-size: 180%;
+    line-height: 120%;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: left 0px center;
+    position: relative;
+    text-shadow: none;
+    color: #111;
+    padding: 10px 0px 10px 10px;
+    box-shadow: none;
+}
+
+/* 開催日程・場所案内テキスト */
+#cs h4 {
+    font-size: 110%;
+    font-weight: 400;
     text-align: left;
-    margin-top: 40px;
-    list-style-type: none;
-    padding: 10px 10px 15px 10px;
-    background-color: #FFF;
+    line-height: 2;
+    padding: 20px 10px 50px 10px;
 }
 
-footer s1 img {
-    width: 30px;
-    height: auto;
-    padding: 0px 0px 0px 20px;
-}
-
-footer s2 img {
-    width: 30px;
-    height: auto;
-    padding: 0px 10px 0px 10px;
-}
-
-footer s3 img {
-    width: 30px;
-    height: auto;
-    padding: 0px 10px 0px 10px;
-}
-
-footer b {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 95%;
-    font-weight: 300;
-    color: #595959;
-    float: right;
-    padding: 10px 30px 0px 0px;
-}
-
-#footer-mobile {
-    display: none;
-}
-
+/* ===================================================
+   Responsive (max-width: 2000px)
+=================================================== */
 @media only screen and (max-width: 2000px) {
-
-    #cs header {
-        padding: 0px 0px 0px 0px;
-    }
-
-    ul.home_menu {
-        font-size: 100%;
-    }
-
-    ul.home_menu li {
-        width: 47%;
-        color: #595959;
-    }
-
-    ul.home_menu a {
-        padding: 0px 0px 0px 0px;
-    }
-
-    .home s a img {
-        width: 50%;
-        padding: 0px 0px 0px 0px;
-    }
-
-    #menu {
-        width: 90%;
-        padding: 5px 0px 10px 0px;
-    }
-
-    #menu li a {
-        color: #000;
-        padding: 0px 0px 10px 0px;
-    }
-
     #box0 {
         min-height: 240px;
     }
@@ -223,63 +66,19 @@ footer b {
         padding: 10px 0px 10px 20px;
     }
 
-    h2 {
-        font-size: 100%;
-    }
-
     #cs h4 {
         font-size: 100%;
         padding: 20px 10px 20px 10px;
     }
-
-    #footer {
-        height: 25px;
-        margin-top: 50px;
-        padding: 0px 10px 10px 10px;
-        background-color: transparent
-    }
-
-    footer s1 img {
-        max-width: 30px;
-        width: 2.5%;
-        padding: 0px 0px 50px 10px;
-    }
-
-    footer s2 img {
-        max-width: 30px;
-        width: 2.5%;
-        padding: 0px 5px 50px 5px;
-    }
-
-    footer s3 img {
-        max-width: 30px;
-        width: 2.5%;
-        padding: 0px 5px 50px 5px;
-    }
-
-    footer b {
-        font-size: 100%;
-        padding: 10px 20px 0px 0px;
-    }
-
 }
 
+/* ===================================================
+   Responsive (max-width: 835px)
+=================================================== */
 @media only screen and (max-width: 835px) {
 
-    ul.home_menu {
-        font-size: 70%;
-    }
-
-    .home s a img {
-        width: 60%;
-    }
-
-    #menu {
-        width: 100%;
-    }
-
-    #menu li a {
-        font-size: 100%;
+    #menu li {
+        width: 25%;
     }
 
     #box0 {
@@ -295,106 +94,15 @@ footer b {
         font-size: 120%;
     }
 
-    h2 {
-        font-size: 100%;
-    }
-
     #cs h4 {
         font-size: 90%;
     }
-
-    #footer {
-        background-color:  #FFF;
-        padding: 10px 0px 0px 10px;
-    }
-
-    footer s1 img {
-        max-width: 20px;
-        width: 3.5%;
-        padding: 0px 0px 0px 3px;
-      }
-
-      footer s2 img {
-        max-width: 20px;
-        width: 3.5%;
-        padding: 0px 3px 0px 0px;
-      }
-
-      footer s3 img {
-        max-width: 20px;
-        width: 3.5%;
-        padding: 0px 3px 0px 3px;
-      }
-
-      footer b {
-        font-size: 70%;
-        padding: 0px 20px 0px 0px;
-      }
-
-
 }
 
+/* ===================================================
+   Responsive (max-width: 480px)
+=================================================== */
 @media only screen and (max-width: 480px) {
-
-    ul.home_menu {
-        font-size: 70%;
-        padding: 10px 0px 0px 10px;
-    }
-
-    ul.home_menu li {
-        width: 100%;
-        padding: 0px 10px 0px 0px;
-    }
-
-    ul.home_menu a {
-        padding: 0px 10px 0px 0px;
-        color: #595959;
-    }
-
-    .home s a img {
-        width: 95%;
-        padding: 10px 0px 0px 0px;
-    }
-
-    .toggle_wrap {
-        display: block;
-    }
-
-    .toggle_switch {
-        position: relative;
-        cursor: pointer;
-        padding: 10px 0px 15px 0px;
-    }
-
-    .toggle_switch::after {
-        content: "";
-        display: inline-block;
-        width: 18px;
-        height: 11px;
-        background: no-repeat center center;
-        background-size: contain;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 20px;
-        transition: transform .2s;
-    }
-
-    .toggle_switch.open::after {
-        transform: rotateZ(180deg);
-        top: 46%;
-    }
-
-    .toggle_contents {
-        display: none;
-        text-align: center;
-        padding: 20px 0px 0px 0px;
-    }
-
-    #menu-box {
-        display: none;
-    }
-
     #box0 {
         min-height: 120px;
     }
@@ -409,214 +117,9 @@ footer b {
         padding: 5px 10px 5px 10px;
     }
 
-    h2 {
-        font-size: 90%;
-        padding: 15px 0px 15px 0px;
-    }
-
-    h2 a {
-        font-size: 100%;
-        color: #767676;
-    }
-
-    .toggle_switch h3 {
-        font-size: 110%;
-    }
-
     #cs h4 {
         font-size: 70%;
         line-height: 2;
         padding: 10px 10px 10px 10px;
     }
-
-    #footer {
-        height: 15px;
-        margin-top: 0px;
-        padding: 0px 0px 15px 0px;
-    }
-
-    footer s1 img {
-        display: none;
-    }
-
-    footer s2 img {
-        display: none;
-    }
-
-    footer s3 img {
-        display: none;
-    }
-
-    p.side_text {
-        font-size: 11px;
-        color: #595959;
-        display: inline-block;
-        width: 50px;
-        margin-left: 5px;
-        vertical-align: top;
-        text-decoration-style: solid;
-        text-decoration-line: underline;
-    }
-
-    footer b {
-        display: none;
-    }
-
-    footer b1 {
-        font-size: 10px;
-        font-weight: 300;
-        color: #595959;
-        float: right;
-        padding: 0px 0px 0px 0px;
-    }
-
-    #footer-mobile {
-        display: block;
-        padding: 0px 0px 0px 0px;
-        font-size: 70%;
-        font-weight: 300;
-        color: #595959;
-    }
-
-    .js-modal__btn {
-        color: #595959;
-        ;
-        cursor: pointer;
-        padding: 10px 10px 0px 10px;
-    }
-
-    .material-icons {
-        position: relative;
-        top: -6px;
-        display: inline-block;
-    }
-
-    .js-modal__bg {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.1);
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        display: none;
-    }
-
-    .js-modal__main {
-        width: calc(100%);
-        height: 80%;
-        text-align: center;
-        padding: 16px 0px 0px 0px;
-        bottom: -81%;
-        left: 0;
-        background: #fff;
-        border-radius: 4px 4px 0 0;
-        position: fixed;
-        z-index: 11;
-        opacity: 0;
-    }
-
-    .js-modal__main a {
-        padding: 0px 15px 0px 15px;
-    }
-
-    .js-modal__btn--close {
-        font-size: 180%;
-        margin-top: 20px;
-        text-align: center;
-        text-decoration: underline;
-        color: #767676;
-    }
-
-    .js-modal__btn--close--fix {
-        width: 30px;
-        height: 30px;
-        background: #333;
-        border-radius: 50%;
-        position: absolute;
-        top: -50px;
-        right: 5px;
-        z-index: 101;
-        cursor: pointer;
-    }
-
-    .js-modal__btn--close--fix:before {
-        content: "";
-        width: 20px;
-        height: 20px;
-        border-right: 3px solid #cccccc;
-        transform: rotate(-45deg);
-        position: absolute;
-        top: 12px;
-        left: -3px;
-    }
-
-    .js-modal__btn--close--fix:after {
-        content: "";
-        width: 20px;
-        height: 20px;
-        border-right: 3px solid #cccccc;
-        transform: rotate(45deg);
-        position: absolute;
-        top: -2px;
-        left: -3px;
-    }
-
-    @keyframes SlideUp {
-        0% {
-            opacity: 0;
-            transform: translateY(-1%);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateY(-30%);
-        }
-    }
-
-    @keyframes SlideDown {
-        0% {
-            opacity: 1;
-            transform: translateY(-30%);
-        }
-
-        100% {
-            opacity: 0;
-            transform: translateY(-1%);
-        }
-    }
-
-    .js-modal__main._slideUp {
-        animation: SlideUp .5s ease-in-out forwards;
-    }
-
-    .js-modal__main._slideDown {
-        animation: SlideDown .5s ease-in-out forwards;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-
-    .home s a img {
-        width: 153px;
-        height: auto;
-        padding: 5px 0px 0px 0px;
-    }
-
-    .toggle_switch {
-        padding: 5px 0px 10px 0px;
-    }
-
-    #menu li a {
-        padding: 10px 0px 10px;
-    }
-
-    h2 {
-        font-size: 85%;
-    }
-
-    h3 {
-        font-size: 95%;
-    }
-
 }
