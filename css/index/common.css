@@ -323,53 +323,6 @@ footer b {
         display: block;
         margin: 0 auto;
         padding: 10px 0px 0px 0px;
-    }@media only screen and (max-width: 835px) {
-    ul.home_menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        font-size: 70%;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 10px 15px 0px 15px;
-    }
-
-    /* 左右の枠がまったく同じ広さを分け合って対称にする */
-    ul.home_menu li {
-        flex: 1;
-        width: auto;
-        padding: 0;
-    }
-
-    ul.home_menu li:first-child {
-        text-align: left;
-    }
-
-    ul.home_menu li:last-child {
-        text-align: right;
-    }
-
-    /* ★ロゴの右寄りを解除し、画像の幅（260px）で中央に固定 */
-    .home s {
-        flex: 0 0 260px;
-        width: 260px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .home s a {
-        float: none !important; /* 右に引っ張られる原因を解除 */
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .home s a img {
-        width: 260px;           /* お気に入りの大きさを維持 */
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        padding: 10px 0px 0px 0px;
     }
 
     h2 {
@@ -430,23 +383,18 @@ footer b {
         font-size: 70%;
         width: 100%;
         box-sizing: border-box;
-        /* 画面外へのはみ出しを防止 */
         padding: 10px 10px 0px 10px;
-        /* 左右をまったく同じ余白（15px）にする */
     }
 
     ul.home_menu li {
         width: 75px;
-        /* 左右をまったく同じ幅にする */
         flex: 0 0 75px;
-        /* 伸縮させない */
         padding: 0;
         line-height: 1.2;
     }
 
     ul.home_menu li:last-child {
         text-align: right;
-        /* 右側の言語リンクを右端に寄せる */
     }
 
     ul.home_menu a {
@@ -461,7 +409,6 @@ footer b {
         width: auto;
         text-align: center;
     }
-
 
     .home s a img {
         width: 80%;
@@ -479,13 +426,11 @@ footer b {
         cursor: pointer;
         padding: 10px 0px 15px 0px;
         text-align: center;
-        /* 念のためここにも中央揃えを追加 */
     }
 
     .toggle_switch h3 {
         font-size: 110%;
         text-align: center;
-        /* 確実に中央揃えにする */
     }
 
     .toggle_switch::after {
@@ -505,10 +450,6 @@ footer b {
     .toggle_switch.open::after {
         transform: rotateZ(180deg);
         top: 46%;
-    }
-
-    .toggle_switch h3 {
-        font-size: 110%;
     }
 
     .toggle_contents {

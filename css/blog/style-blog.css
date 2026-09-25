@@ -1,0 +1,949 @@
+@charset "utf-8";
+
+/* ===================================================
+   Blog Content (ブログ記事専用スタイル)
+=================================================== */
+
+/* レイアウト・セクション */
+  #cs #war-is-over {
+        padding-top: 250px !important; /* ※隠れ具合に応じて 120px〜150px で微調整してください */
+    }
+
+section {
+    background: #FFF;
+    max-width: 1100px;
+    width: 80%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* 上下中央 */
+    align-items: stretch;
+    /* ★横幅いっぱいにピシーッと広げる */
+    margin: 0 auto;
+    /* 左右中央 */
+    padding-top: 40px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+}
+
+.space {
+    padding: 100px 0px 0px 0px;
+}
+
+.space1 {
+    padding: 250px 0px 0px 0px;
+}
+
+#space {
+    min-height: 50px;
+}
+
+#space1 {
+    min-height: 150px;
+}
+
+/* サブメニュー（menu1: 年代別・アーカイブなど） */
+#menu1 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#menu1 li {
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+#menu1 li a {
+    font-size: 120%;
+    color: #000;
+    display: block;
+    padding: 0px 0px 10px 0px;
+    background-color: #FFF;
+    text-align: center;
+}
+
+#menu1 li:last-child a {
+    border: none;
+}
+
+#menu-box1 li {
+    font-size: 120%;
+    display: block;
+    float: left;
+    width: 10%;
+    margin: 0;
+    padding: 10px 0px 0px 0px;
+    color: #000;
+}
+
+/* 見出し・テキスト */
+h1 {
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 180%;
+    line-height: 1.3;
+    background-color: #f3f3f3;
+    color: #111;
+    padding: 15px 20px 4px 20px;
+    /* 下パディングを狭く */
+    margin: 0 !important;
+    /* ★隙間を完全にゼロにする */
+    box-shadow: none;
+}
+
+.update-time {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    /* 背景色で隙間なくつなげる */
+    margin: 0 0 25px 0 !important;
+    /* 日付の下に本文との余白を確保 */
+    padding: 0;
+}
+
+h4 {
+    font-size: 90%;
+    font-weight: 300;
+    color: #767676;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 80%;
+    line-height: 1.2;
+    background-color: #f3f3f3;
+    color: #555;
+    margin: 0 !important;
+    /* ★隙間を完全にゼロにする */
+    padding: 0px 20px 12px 20px;
+    /* 日付の下端に少し余白をつける */
+    box-shadow: none;
+    text-shadow: none;
+}
+
+h6 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 70%;
+    text-align: left;
+    font-weight: 300;
+}
+
+p {
+    font-size: 90%;
+    line-height: 1.5em;
+    padding: 0px 10px 0px 10px;
+}
+
+#cs p1 {
+    font-size: 120% !important;       /* ★war-is-over2 と同じ 120% に変更 */
+    line-height: 1.7 !important;
+    padding: 0;
+    margin: 0;
+}
+
+#cs p2 {
+    font-size: 120%;
+    line-height: 1.5em;
+     text-align: left !important;
+}
+
+#cs p3 a {
+    font-size: 100%;
+    float: right;
+    padding: 30px 0px 0px 0px;
+    text-decoration-line: underline;
+}
+
+#cs p4 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.mgr-20 {
+    margin-right: 20px;
+}
+
+.mgr-30 {
+    margin-right: 30px;
+}
+
+.mgr-50 {
+    margin-right: 50px;
+}
+
+.link {
+    font-size: 100%;
+    line-height: 2em;
+    padding: 30px 20px 0px 50px;
+}
+
+/* 写真・画像 */
+
+.photo1 s1 img {
+    width: 80%;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+}
+
+.photo s2 img {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.photo s5 img {
+    width: 100%;
+    height: auto;
+}
+
+/* 記事段落・回り込み（side） */
+.side {
+    width: 92%;                         /* ★h1（100%）より少しだけ小さい絶妙な幅（左右に4%ずつのゆとり） */
+    max-width: 100%;
+    margin: 25px auto 0 auto;           /* 左右中央に綺麗に配置 */
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+    text-align: left !important;
+}
+
+.side s2 img {
+    width: 100%;                        /* .sideの幅（92%）いっぱいに広げてテキストと揃える */
+    height: auto;
+    display: block;
+    margin: 0 auto 25px auto;           /* 画像と文章の間に余白 */
+}
+
+.side p2 {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+}
+
+.side p1 {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+/* 記事行・ボックス配置 */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    padding: 25px 0 0 0;
+    margin: 0;
+    gap: 40px;                          /* ★画像とテキストの間に40pxの余白を確実に空ける！ */
+}
+
+/* 左半分：画像エリア */
+.photo {
+    flex: 1;                            /* ★余白を除いた残りの幅をきっかり半分にする */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.photo .col,
+.photo .col-md-one-half,
+.photo .info-box-tan {
+    width: 100% !important;
+    height: auto !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.photo img,
+.photo s3 img,
+.info-box-tan img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+}
+
+/* 右半分：文章エリア */
+.info-box-dark {
+    flex: 1;                            /* ★余白を除いた残りの幅をきっかり半分にする */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    left: auto !important;
+    text-align: left;
+}
+
+#cs p1 {
+    font-size: 100%;
+    line-height: 1.8;
+    padding: 0;
+    margin: 0;
+}
+
+/* 左側の画像ボックス */
+.col-md-one-half,
+.info-box-tan {
+    width: 45%;                         /* 画像側の幅 */
+    height: auto;
+    float: none;                        /* float（回り込み）を完全廃止 */
+    padding: 0;
+}
+
+.row1 {
+    height: 450px;
+    padding: 0px;
+}
+
+.row2 {
+    height: 650px;
+    padding: 0px;
+}
+
+.row3 {
+    height: 1200px;
+    padding: 0px;
+}
+
+.col-md-one-half {
+    display: inline-block;
+}
+
+.col {
+    float: left;
+    padding: 0px;
+}
+
+.info-box-tan1 {
+    padding: 0px;
+}
+
+.info-box-dark1 {
+    padding: 30px 20px 10px 20px;
+    text-align: left;
+    line-height: 2;
+    left: 493px;
+}
+
+.info-box-tan2 {
+    width: 80%;
+    height: auto;
+    text-align: left;
+    left: 493px;
+    padding: 20px 20px 40px 20px;
+}
+
+.info-box-dark2 {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    left: 493px;
+    padding: 20px 20px 40px 20px;
+}
+
+.info-box-dark p3 a {
+    font-weight: 300;
+    font-size: 70%;
+    float: right;
+    color: #005698;
+    padding: 10px 0px 0px 0px;
+}
+
+.info-box-dark p1 a {
+    text-decoration-line: underline;
+    padding: 0px;
+}
+
+/* ページトップへ戻るボタン */
+#page-top {
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    font-size: 77%;
+    z-index: 100;
+}
+
+#page-top a {
+    background: rgba(220, 220, 220, 0.6);
+    text-decoration: none;
+    font-weight: 300;
+    color: #666;
+    width: 50px;
+    padding: 20px 0;
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+}
+
+#page-top a:hover {
+    text-decoration: none;
+    background: rgba(150, 150, 150, 0.4);
+}
+
+/* ===================================================
+   Responsive (max-width: 2000px)
+=================================================== */
+@media only screen and (max-width: 2000px) {
+  #cs #war-is-over {
+        padding-top: 150px !important; /* ※隠れ具合に応じて 120px〜150px で微調整してください */
+    }
+
+    section {
+        max-width: 1100px;
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 60px !important;
+        /* 140pxから60pxに大幅に減らして引き上げる */
+        padding-bottom: 130px !important;
+        /* 下からグッと押し上げる */
+    }
+
+    #menu1 {
+        width: 90%;
+    }
+
+    #menu1 li a {
+        padding: 0px 0px 5px 0px;
+    }
+
+    #menu-box1 li {
+        font-size: 100%;
+        display: block;
+        float: left;
+        width: 10%;
+        margin: 0;
+        padding: 10px 0px 0px 0px;
+        color: #000;
+    }
+
+       .row1 {
+        width: 100%;
+        height: 420px;
+        padding: 0px;
+    }
+
+    .row2 {
+        width: 100%;
+        height: 600px;
+        padding: 0px;
+    }
+
+    .row3 {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #space {
+        min-height: 0px;
+    }
+
+    #space1 {
+        min-height: 150px;
+    }
+
+    h1 {
+        font-size: 140%;
+        line-height: 120%;
+        padding: 10px 0px 10px 20px;
+    }
+
+    h4 {
+        font-size: 80%;
+        padding: 0px;
+    }
+
+    #cs p1,
+    #cs p2 {
+        font-size: 16px !important;    /* ★pxで完全に固定 */
+        line-height: 1.8 !important;
+    }
+
+    .photo1 s1 img {
+        width: 80%;
+        height: auto;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .photo s3 img {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .info-box-tan1 {
+        width: 80%;
+        height: auto;
+        float: left;
+        padding: 20px 20px 20px 0px;
+    }
+
+    .info-box-tan2 {
+        width: 75%;
+        padding: 10px 0px 20px 0px;
+    }
+
+    .info-box-dark2 {
+        width: 100%;
+        height: auto;
+        text-align: left;
+        left: 493px;
+        padding: 20px 20px 40px 20px;
+    }
+}
+
+/* ===================================================
+   Responsive (max-width: 840px)
+=================================================== */
+@media only screen and (max-width: 840px) {
+  #cs #war-is-over,
+    #cs [id="War Is Over"] {
+        display: block !important;          /* ★上下中央揃えを解除して上から配置 */
+        min-height: auto !important;        /* 画面100%の高さ縛りを解除 */
+        padding-top: 150px !important;      /* これで確実に下に下がります */
+    }
+
+        #war-is-over2 .photo,
+    #aikuchi .photo,
+    #genpon .photo {
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+
+    #menu1 {
+        width: 100%;
+        padding: 16px 0px 0px 0px;
+    }
+
+    #menu-box1 li {
+        font-size: 90%;
+        line-height: 1em;
+        padding: 10px 0px 0px 0px;
+    }
+
+    section {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 60px !important;
+        /* 上を詰める */
+        padding-bottom: 120px !important;
+        /* 下から押し上げる */
+        box-sizing: border-box;
+    }
+
+    .row,
+    .row1,
+    .row2,
+    .row3 {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: flex-start !important;
+        width: 100% !important;
+        height: auto !important;
+        padding: 0px !important;
+    }
+
+    h1 {
+        font-size: 120%;
+        padding: 10px 20px 10px 20px;
+    }
+
+    h1,
+    .update-time {
+        width: 100% !important;
+    }
+
+    h4 {
+        font-size: 80%;
+    }
+
+    h5 {
+        padding: 0px 0px 10px 20px;
+    }
+
+    p {
+        font-size: 90%;
+        line-height: 1em;
+    }
+
+    #cs p1,
+    #cs p2 {
+        font-size: 15px !important;    /* ★こちらも同じ18pxで完全に固定 */
+        line-height: 1.8 !important;
+        padding: 0px !important;
+        display: block !important;
+    }
+
+    .photo {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .photo {
+        width: 48% !important;
+        padding: 0px !important;
+        margin: 0 !important;
+    }
+
+    .photo1 s1 img {
+        width: 350px;
+        height: auto;
+        padding: 0px 0px 10px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photo s2 img {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+
+    .photo s3 img,
+    .info-box-tan img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
+        padding: 0px !important;
+    }
+
+    .photo s5 img {
+        width: 100%;
+        height: auto;
+        padding: 35px 0px 20px 0px;
+    }
+
+    .side {
+        width: 92% !important;              /* ★タブレットでもh1より少しだけ小さい絶妙な幅 */
+        max-width: 100% !important;
+        margin: 20px auto 0 auto !important;/* 左右中央に綺麗に配置 */
+        padding: 0 !important;
+        box-sizing: border-box !important;
+        line-height: 1.8;
+        text-align: left !important;
+    }
+
+    .side s2 img {
+        width: 100% !important;             /* .sideの幅（92%）いっぱいに広げてテキストと揃える */
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto 20px auto !important;/* 写真と文章の間の余白 */
+    }
+
+    .side p2 {
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: left !important;
+    }
+
+    .side p1 {
+        display: inline-block;
+        vertical-align: top;
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+
+    .col,
+    .col-md-one-half,
+    .info-box-tan {
+        width: 100% !important;
+        float: none !important;
+        padding: 0px !important;
+        margin: 0 !important;
+    }
+
+    /* 右側の文章エリア（幅48%） */
+    .info-box-dark {
+        width: 48% !important;
+        height: auto !important;
+        float: none !important;
+        padding: 0px !important;
+        margin: 0 !important;
+        left: auto !important;
+        text-align: left !important;
+    }
+
+    .info-box-tan1 {
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .info-box-dark1 {
+        width: 80%;
+        padding: 270px 0px 0px 0px;
+        line-height: 1.7em;
+    }
+
+    .info-box-tan2 {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .info-box-dark2 {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        line-height: 1.5em;
+    }
+
+    #page-top {
+        bottom: 60px;
+        right: 20px;
+    }
+}
+
+/* ===================================================
+   Responsive (max-width: 480px)
+=================================================== */
+@media only screen and (max-width: 480px) {
+
+    #cs #war-is-over {
+        padding-top: 100px !important; /* ※隠れ具合に応じて 120px〜150px で微調整してください */
+    }
+
+    #menu1 {
+        display: none;
+    }
+
+    section {
+        width: 90%;
+        min-height: auto;
+        display: block;
+        /* スマホは自然な縦スクロール */
+        margin: 0 auto;
+        padding: 75px 0px 40px 0px;
+    }
+
+    .row,
+    .row1,
+    .row2,
+    .row3 {
+        display: flex !important;
+        flex-direction: column !important;
+        /* 上下縦並びを強制 */
+        width: 100% !important;
+        height: auto !important;
+        padding: 0px !important;
+        margin: 0 auto !important;
+    }
+
+    .mgr-50 {
+        margin-right: 15px;
+    }
+
+    .mgr-30 {
+        color: #767676;
+        margin-right: 30px;
+    }
+
+    .mgr-20 {
+        color: #767676;
+        margin-right: 20px;
+    }
+
+    /* ★画像の回り込み(float)を解除して中央配置 */
+
+    .info-box-tan1,
+    .info-box-tan2 {
+        float: none !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+
+    .col,
+    .col-md-one-half,
+    .info-box-tan {
+        width: 100% !important;
+        max-width: 100% !important;
+        float: none !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+
+    .photo {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0px !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    .photo s1 img,
+    .photo s2 img,
+    .photo s5 img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
+        padding: 10px 0px !important;
+    }
+
+    .photo s3 img,
+    .info-box-tan img {
+        width: 100% !important;
+        max-width: 320px !important;
+        /* スマホで一番見やすいサイズ */
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto !important;
+        padding: 10px 0 !important;
+    }
+
+     .info-box-dark {
+ font-size: 90%;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 15px auto 0 auto !important;
+        padding: 0px 15px !important;        /* ★見出しと同じ左右15pxの完全均等 */
+        box-sizing: border-box !important;   /* はみ出し防止 */
+        text-align: left !important;
+    }
+
+    .info-box-dark1,
+    .info-box-dark2 {
+        float: none !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 15px auto 0 auto !important;
+        /* 画像のすぐ下に15pxの余白 */
+        padding: 0px 5px !important;
+        /* 360pxを廃止！ */
+        left: auto !important;
+        text-align: left !important;
+    }
+
+    /* 先ほどの3記事（side）も同じ左右15pxに揃える */
+    .side {
+        width: 94% !important;          /* スマホでもh1より少しだけ小さく */
+        margin: 15px auto 0 auto !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+        text-align: left !important;
+    }
+    .side s2 img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        margin: 0 auto 20px auto !important;
+    }
+
+    .side p2 {
+        padding: 0 !important;
+        margin: 0 !important;
+        display: block !important;
+        text-align: left !important;
+    }
+
+    #cs h1 {
+        font-size: 14px !important;
+        line-height: 1.4;
+        padding: 12px 15px 4px 15px !important;
+        margin: 0 !important;
+    }
+
+    .update-time {
+        margin: 0 0 20px 0 !important;
+    }
+
+    h5 {
+        font-size: 70%;
+        padding: 0px 15px 10px 15px !important;
+        margin: 0 !important;
+    }
+
+    #cs h6 {
+        font-size: 75%;
+    }
+
+    #cs p1,
+    #cs p2 {
+        font-size: 13px !important;    /* ★こちらも同じ18pxで完全に固定 */
+        line-height: 1.6 !important;
+        padding: 0px !important;
+                margin: 0 !important;
+        text-align: left !important;
+    }
+
+    #cs p3 a {
+        font-size: 80%;
+        float: right;
+        padding: 10px 10px 20px 0px;
+    }
+
+    #cs p4 {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+    .link {
+        font-size: 100%;
+        line-height: 2em;
+        padding: 10px 0px;
+    }
+
+    #page-top {
+        bottom: 40px;
+        right: 10px;
+    }
+}
+
+/* ===================================================
+   Responsive (max-width: 320px)
+=================================================== */
+@media only screen and (max-width: 320px) {
+    #section {
+        max-width: 320px;
+    }
+
+    .photo s3 img {
+        width: auto;
+        height: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .info-box-tan {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .info-box-dark {
+        width: 90%;
+        height: auto;
+        padding: 300px 10px 0px 10px;
+        line-height: 2;
+    }
+}
