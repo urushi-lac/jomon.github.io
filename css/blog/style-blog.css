@@ -515,11 +515,9 @@ p {
    Responsive (max-width: 840px)
 =================================================== */
 @media only screen and (max-width: 840px) {
-  #cs #war-is-over,
-    #cs [id="War Is Over"] {
-        display: block !important;          /* ★上下中央揃えを解除して上から配置 */
-        min-height: auto !important;        /* 画面100%の高さ縛りを解除 */
-        padding-top: 150px !important;      /* これで確実に下に下がります */
+    /* 年代やID名に関係なく「最初の記事」だけを自動で押し下げる */
+    #cs section:first-of-type {
+        padding-top: 150px !important;
     }
 
         #war-is-over2 .photo,
@@ -723,8 +721,9 @@ p {
 =================================================== */
 @media only screen and (max-width: 480px) {
 
-    #cs #war-is-over {
-        padding-top: 100px !important; /* ※隠れ具合に応じて 120px〜150px で微調整してください */
+    /* 年代やID名に関係なく「最初の記事」だけを自動で押し下げる */
+    #cs section:first-of-type {
+        padding-top: 100px !important; /* スマホのメニュー高さに合わせた余白 */
     }
 
     #menu1 {

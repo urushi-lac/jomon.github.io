@@ -244,9 +244,10 @@ footer b {
 
     #footer {
         height: 40px;
-        margin-top: 50px;
-        padding: 0px 10px 0px 10px;
-        background-color: transparent;
+        margin-top: 0px;
+        padding: 5px 10px 5px 10px;
+        background-color: #ffffff !important; /* ★透明から「白」に変更！★ */
+        z-index: 10;                          /* 本文の上に確実に白背景を重ねる */
     }
 
     footer s1 img {
@@ -348,26 +349,44 @@ footer b {
         padding: 80px 0px 20px 0px;
     }
 
-    footer s1 img {
-        max-width: 20px;
-        width: 3.5%;
-        padding: 0px 0px 0px 3px;
+    #footer {
+        display: flex !important;
+        align-items: center !important;          /* 上下センター揃え */
+        height: 40px !important;
+        padding: 0 20px !important;              /* 左右の余白 */
+        box-sizing: border-box !important;
+        background-color: #ffffff !important;
     }
 
-    footer s2 img {
-        max-width: 20px;
-        width: 3.5%;
-        padding: 0px 3px 0px 0px;
+    /* 右端を邪魔していたスマホ枠を完全に消す */
+    #footer-mobile {
+        display: none !important;
     }
 
+    /* SNSアイコン画像 */
+    footer s1 img,
+    footer s2 img,
     footer s3 img {
-        max-width: 20px;
-        width: 3.5%;
-        padding: 0px 3px 0px 3px;
+        width: 22px !important;
+        height: 22px !important;
+        max-width: 22px !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+        margin-top: 2px !important;
+        padding: 0 5px !important;
     }
 
+    /* ★Hiroyuki文字を確実に一番右端へ配置する */
     footer b {
-        font-size: 70%;
+        position: absolute !important;           /* 絶対配置で確実に右端へ */
+        right: 20px !important;                 /* 右端から20pxの位置 */
+        top: 50% !important;                    /* 上下中央へ */
+        transform: translateY(-50%) !important;  /* ピタッと上下センターに合わせる */
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 11px !important;
+        line-height: 1 !important;
+        color: #595959;
     }
 }
 
@@ -479,55 +498,68 @@ footer b {
     }
 
     #footer {
-        height: 15px;
+        height: auto;
+        min-height: 35px;
         margin-top: 0px;
-        padding: 0px 0px 15px 0px;
+        padding: 8px 0px 12px 0px;
+        background-color: #ffffff !important; /* ★スマホも完全な「白」★ */
+        z-index: 10;
     }
 
+     footer s1,
+    footer s2,
+    footer s3,
     footer s1 img,
     footer s2 img,
     footer s3 img,
-    footer b {
-        display: none;
+    footer b,
+    .material-icons,
+    .material-icons svg {
+        display: none !important; /* ★これでアメブロやTwitter等のアイコン画像が100%完全に消えます！ */
     }
 
+  #footer-mobile {
+        display: block !important;
+        width: 100%;
+        padding: 0;
+    }
+
+        .js-modal__btn {
+        display: flex !important;
+        align-items: center !important;          /* 文字の高さをセンターで一致させる */
+        justify-content: space-between !important;/* 左にS.N.S.、右にHiroyuki文字 */
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 0px !important;
+    }
+
+    .material-icons,
+    .material-icons svg,
+    .js-modal__btn .material-icons,
+    .js-modal__btn svg {
+        display: none !important;       /* ★spanもsvgもまとめて完全に非表示にする！ */
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    /* 「S.N.S.」の文字だけを綺麗に表示 */
     p.side_text {
-        font-size: 11px;
+        font-size: 12px !important;
         color: #595959;
-        display: inline-block;
-        width: 50px;
-        margin-left: 5px;
-        vertical-align: top;
-        text-decoration-style: solid;
-        text-decoration-line: underline;
+        margin: 0 !important;
+        padding: 0 !important;
+        line-height: 1 !important;
+        text-decoration: underline;
     }
 
+    /* 右側のHiroyuki文字 */
     footer b1 {
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
         font-size: 10px;
-        font-weight: 300;
+        line-height: 1 !important;
         color: #595959;
-        float: right;
-        padding: 0px 10px 0px 0px;
-    }
-
-    #footer-mobile {
-        display: block;
-        padding: 0px 0px 0px 0px;
-        font-size: 70%;
-        font-weight: 300;
-        color: #595959;
-    }
-
-    .js-modal__btn {
-        color: #595959;
-        cursor: pointer;
-        padding: 10px 10px 0px 10px;
-    }
-
-    .material-icons {
-        position: relative;
-        top: -6px;
-        display: inline-block;
     }
 
     .js-modal__bg {
