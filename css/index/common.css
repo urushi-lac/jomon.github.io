@@ -140,6 +140,7 @@ h3 {
     width: 280px;
     height: auto;
     padding: 30px 0px 0px 0px;
+      margin-bottom: 60px;
 }
 
 #loading-screen.fade-out {
@@ -347,6 +348,7 @@ footer b {
         width: 160px;
         height: auto;
         padding: 80px 0px 20px 0px;
+         margin-bottom: 100px;
     }
 
     #footer {
@@ -495,6 +497,7 @@ footer b {
         width: 140px;
         height: auto;
         padding: 0px 0px 35px 0px;
+         margin-bottom: 0px;
     }
 
     #footer {
