@@ -1,7 +1,5 @@
 {
-  "liveServer.settings.port": 5501
-}
-
-{
-  "files.eol": "\r\n"
+  "liveServer.settings.port": 5501,
+  "files.eol": "\r\n",
+  "search.useIgnoreFiles": false
 }
