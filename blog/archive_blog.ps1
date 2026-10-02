@@ -1,5 +1,6 @@
 ﻿# ========================================================
-# ブログ・年代別・総合アーカイブ(archives.html) 完全自動同期スクリプト
+# ブログ・年代別・総合アーカイブ 完全自動同期スクリプト
+# （あらゆるID名に完全対応版）
 # ========================================================
 $baseDir = $PSScriptRoot
 $enc = [System.Text.UTF8Encoding]::new($false)
@@ -37,7 +38,7 @@ $script:UpdateMenus = {
     return [regex]::Replace($html, '(?s)<div class="toggle_contents">.*?</div>', $newMobile)
 }
 
-# --- archives.html への追記＆新年度作成関数 ---
+# --- archives.html / archives-e.html への追記＆新年度作成関数 ---
 function Update-Archives([string]$LangSuffix, [string]$year, [string]$fullDate, [string]$sectionId, [string]$title) {
     $arcFileName = if ($LangSuffix -eq "") { "archives.html" } else { "archives$LangSuffix.html" }
     $arcPath     = Join-Path $baseDir $arcFileName
@@ -45,19 +46,16 @@ function Update-Archives([string]$LangSuffix, [string]$year, [string]$fullDate, 
 
     $arcContent = [System.IO.File]::ReadAllText($arcPath, [System.Text.Encoding]::UTF8)
 
-    # 既にこの記事タイトルが存在すれば追加しない
+    # 既にこの記事タイトルが存在すればスキップ
     if ($arcContent.Contains($title)) { return }
 
     $destFileName = "$year$LangSuffix.html"
     $newListItem  = "        <li><a href=`"/blog/$destFileName#$sectionId`"><span class=`"mgr-50`">$fullDate</span>$title</a></li>"
 
-    $sectionTag = "<section id=`"archive-$year`">"
-
     # 新年でまだその年のセクションが存在しない場合、セクション枠を自動作成
-    if (-not $arcContent.Contains($sectionTag)) {
+    if ($arcContent -notmatch "(?i)<section\b[^>]*\bid=[`"']archive-$year[`"']") {
         Write-Host "【総合目録更新】$arcFileName に $year 年のセクションを新規作成します..." -ForegroundColor Yellow
         $prevYear = [string]([int]$year - 1)
-        $prevSectionComment = "<!-- $prevYear年アーカイブ -->"
 
         $newSectionBlock = @"
   <!-- $year年アーカイブ -->
@@ -70,20 +68,17 @@ function Update-Archives([string]$LangSuffix, [string]$year, [string]$fullDate, 
   </section>
 
 "@
-        if ($arcContent.Contains($prevSectionComment)) {
-            # 前年のコメントの直前に新しい年のセクションを挿入
-            $arcContent = $arcContent.Replace($prevSectionComment, "$newSectionBlock  $prevSectionComment")
+        if ($arcContent -match "(?i)<!--\s*$prevYear.*?-->") {
+            $arcContent = [regex]::Replace($arcContent, "(?i)(<!--\s*$prevYear.*?-->)", "$newSectionBlock  `$1", 1)
         } else {
-            # 見つからない場合は </header> の直後に挿入
             $arcContent = [regex]::Replace($arcContent, '(</header>)', "`$1`r`n`r`n$newSectionBlock", 1)
         }
 
-        # メニュー（直近3年）もスライド更新
         $arcContent = & $script:UpdateMenus $arcContent $year $LangSuffix
     }
 
     # 該当年の <ul class="archive-list"> の末尾に記事リンクを追加
-    $pattern = "(?s)(<section id=`"archive-$year`">.*?<ul class=`"archive-list`">)(.*?)(</ul>)"
+    $pattern = "(?si)(<section\b[^>]*\bid=[`"']archive-$year[`"'].*?<ul\b[^>]*class=[`"']archive-list[`"'][^>]*>)(.*?)(</ul>)"
     if ($arcContent -match $pattern) {
         $arcContent = [regex]::Replace($arcContent, $pattern, "`$1`$2$newListItem`r`n      `$3", 1)
         [System.IO.File]::WriteAllText($arcPath, $arcContent, $enc)
@@ -103,20 +98,33 @@ function Sync-Blog([string]$LangSuffix) {
 
     $srcContent = [System.IO.File]::ReadAllText($srcPath, [System.Text.Encoding]::UTF8)
 
-    $sectionRegex = '(?s)<section id="top">.*?</section>'
+    # ★ ID名に依存せず、ページ内の最初の <section>...</section> を最新記事として取得
+    $sectionRegex = '(?si)<section\b[^>]*>.*?</section>'
     $match = [regex]::Match($srcContent, $sectionRegex)
     if (-not $match.Success) {
-        Write-Warning "$srcFileName に <section id=`"top`"> が見つかりませんでした。"
+        Write-Warning "$srcFileName に最新記事セクション（<section>）が見つかりませんでした。"
         return
     }
     $extractedHtml = $match.Value
 
-    $datePattern = '<h5>(\d{4})-(\d{2})-(\d{2})'
+    # 元のIDを取得（例: "old-lacquer-tree" や "top"）
+    $originalId = ""
+    if ($extractedHtml -match '(?i)\bid=["'']([^"'']+)["'']') {
+        $originalId = $matches[1]
+    }
+
+    # 日付判定
+    $datePattern = '<h5>\s*(\d{4})-(\d{2})-(\d{2})'
     if ($extractedHtml -match $datePattern) {
         $year      = $matches[1]
         $fullDate  = "$($matches[1])-$($matches[2])-$($matches[3])"
         $monthDay  = "$($matches[2])-$($matches[3])"
-        $sectionId = "d$($matches[2])$($matches[3])"
+        # 元のIDが "top" や空の場合は日付IDにし、固有IDがあればそのまま使う
+        if ($originalId -eq "top" -or [string]::IsNullOrWhiteSpace($originalId)) {
+            $sectionId = "d$($matches[2])$($matches[3])"
+        } else {
+            $sectionId = $originalId
+        }
     } else {
         Write-Warning "$srcFileName から更新日付（YYYY-MM-DD）が取得できませんでした。"
         return
@@ -151,7 +159,7 @@ function Sync-Blog([string]$LangSuffix) {
 
         $emptyMenus = ('<li><a href="#">-</a></li>`r`n          ' * 10).TrimEnd()
         $tmpl = [regex]::Replace($tmpl, '(?s)<ul id="menu1">.*?</ul>', "<ul id=`"menu1`">`r`n          $emptyMenus`r`n        </ul>")
-        $tmpl = [regex]::Replace($tmpl, '(?s)<section id="d\d{4}">.*?</section>\s*', '')
+        $tmpl = [regex]::Replace($tmpl, '(?si)<section\b[^>]*>.*?</section>\s*', '')
 
         $tmpl = & $script:UpdateMenus $tmpl $year $LangSuffix
         [System.IO.File]::WriteAllText($destPath, $tmpl, $enc)
@@ -166,14 +174,13 @@ function Sync-Blog([string]$LangSuffix) {
     # 重複チェック
     if ($destContent.Contains($title)) {
         Write-Host "・[$srcFileName] 既に最新記事が年別ページにアーカイブ済みです。" -ForegroundColor DarkGray
-        # 年別ページに既にあっても、archives.html に無ければ追加を試みる
         Update-Archives $LangSuffix $year $fullDate $sectionId $title
         return
     }
 
-    # HTML加工
-    $cleanHtml = [regex]::Replace($extractedHtml, '(?s)\s*<p3>\s*<a href="(?:\.\./)?blog/.*?\.html".*?</p3>', '')
-    $cleanHtml = [regex]::Replace($cleanHtml, '<section id="top">', "<section id=`"$sectionId`">")
+    # HTML加工（「過去記事へ」リンク削除 ＆ 適切なIDの付与）
+    $cleanHtml = [regex]::Replace($extractedHtml, '(?si)\s*<p3>\s*<a href="[^"]*".*?</p3>', '')
+    $cleanHtml = [regex]::Replace($cleanHtml, '(?i)<section\b[^>]*>', "<section id=`"$sectionId`">", 1)
 
     # 月別メニュー更新
     $emptyLinkRegex = [regex]'(?i)<li>\s*<a\s+href="#"\s*>\s*-\s*</a>\s*</li>'
@@ -190,9 +197,9 @@ function Sync-Blog([string]$LangSuffix) {
     }
 
     [System.IO.File]::WriteAllText($destPath, $destContent, $enc)
-    Write-Host "✔ [$srcFileName -> $destFileName] 年別ページへ追加完了" -ForegroundColor Green
+    Write-Host "✔ [$srcFileName -> $destFileName] 年別ページへ追加完了 (#$sectionId)" -ForegroundColor Green
 
-    # ★ archives.html にも追加（新年のセクション作成もここで行われます）
+    # archives への追加
     Update-Archives $LangSuffix $year $fullDate $sectionId $title
 }
 
