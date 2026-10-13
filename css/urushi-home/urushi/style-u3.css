@@ -138,6 +138,11 @@ colgroup.area4-1 { width: 300px; }
     width: 100%;
 }
 
+#recommendation,
+#推薦文 {
+    padding-bottom: 120px !important;
+}
+
 /* ページトップへ戻るボタン */
 #page-top {
     position: fixed;
