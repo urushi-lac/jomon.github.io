@@ -143,6 +143,11 @@ colgroup.area4-1 { width: 300px; }
     padding-bottom: 120px !important;
 }
 
+#recommendation,
+section:last-of-type {
+    padding-bottom: 120px !important;
+}
+
 /* ページトップへ戻るボタン */
 #page-top {
     position: fixed;
