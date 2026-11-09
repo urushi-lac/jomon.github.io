@@ -750,3 +750,7 @@ section:has(.archive-list):first-of-type,
 section[id^="archive-"]:first-of-type {
     padding-top: 100px !important;
 }
+
+#archive-past {
+    padding-bottom: 120px !important;
+}
